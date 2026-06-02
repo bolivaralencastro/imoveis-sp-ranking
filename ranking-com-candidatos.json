@@ -1,0 +1,1350 @@
+{
+  "target": {
+    "label": "Av. Brig. Faria Lima, 3732 - Itaim Bibi",
+    "lat": -23.5889959,
+    "lng": -46.6821196
+  },
+  "homes": [
+    {
+      "id": "893893736",
+      "title": "QuintoAndar 893893736",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/893893736/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 7300,
+      "condo": 1560,
+      "iptu": 40,
+      "area": 80,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.88,
+      "lat": -23.5823555,
+      "lng": -46.6773602,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-303.724157287747901Sala.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-881.598365692555102Sala.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-930.48602150044503Sala.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-292.0222601958102504Sala.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-28.1315712940268805Sala.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-984.025941402883206Varanda.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-810.673869766790307Varanda.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-136.0422973572007408Vista.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-684.593544228193109Lavabo.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-294.5064919181483610Quarto1.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-619.183065456207611Quarto1.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893736-320.5721548089479712Quarto1.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel no Itaim Bibi com 2 quartos, varanda e piscina no condomínio."
+    },
+    {
+      "id": "892829983",
+      "title": "QuintoAndar 892829983",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/892829983/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 5400,
+      "condo": 1854,
+      "iptu": 140,
+      "area": 101,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.28,
+      "lat": -23.5820406,
+      "lng": -46.6720599,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-94.30730377832408IMG2280.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-542.3998686633138IMG2283.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-261.42159629387606IMG2282.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-386.27763621252575IMG2281.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-509.6079768462221IMG2285.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-640.8106204231603IMG2284.jpg",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-602.5245952287861IMG2286.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-685.5354612075566IMG2288.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-265.7621277825022IMG2289.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-203.30599421057372IMG2291.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-257.8551912165428IMG2287.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892829983-366.9877630932662IMG2290.jpg",
+          "subtitle": "Vista da Suíte 1",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento no Itaim Bibi: 2 suítes, ideal para você!"
+    },
+    {
+      "id": "895411473",
+      "title": "QuintoAndar 895411473",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/895411473/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 5100,
+      "condo": 1420,
+      "iptu": 350,
+      "area": 75,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.19,
+      "lat": -23.5822539,
+      "lng": -46.6730806,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-929.5180871646005IMG9705136.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-411.67172441646096IMG9704135.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-276.0622544319208IMG9708138.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-630.3390557489489IMG9706137.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-498.8171157657103IMG9711139.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-138.10494759853708IMG9713140.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-381.4079901959242IMG9714141.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-747.5223209884184IMG9715142.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-22.899610313983466IMG9716143.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-711.7921982939117IMG9717144.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-545.2688906987858IMG9718145.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895411473-953.9672090337477IMG9719146.jpg",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel: 2 quartos, 1 suíte, churrasqueira e piscina no condomínio."
+    },
+    {
+      "id": "894458391",
+      "title": "QuintoAndar 894458391",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/894458391/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 5900,
+      "condo": 1290,
+      "iptu": 264,
+      "area": 98,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.36,
+      "lat": -23.5796417,
+      "lng": -46.6735166,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-613.8254625068832IMG5722.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-331.9184935549196IMG5723.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-636.8583901959461IMG5724.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-161.65468253463177IMG5725.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-783.8981122633043IMG5729.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-59.476367527560136IMG5731.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-511.1214721081596IMG5732.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-67.55224679112514IMG5734.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-142.8172322195458IMG5735.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-149.8952754120485IMG5736.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-387.56642641145766IMG5745.jpg",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894458391-857.7358765567967IMG5746.jpg",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "895379553",
+      "title": "QuintoAndar 895379553",
+      "neighborhood": "Vila Olímpia",
+      "url": "https://www.quintoandar.com.br/imovel/895379553/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 6800,
+      "condo": 940,
+      "iptu": 406,
+      "area": 76,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.65,
+      "lat": -23.5939916,
+      "lng": -46.685402,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-779.25554031965294578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-cd1a7064-924d-474c-83c7-55288c3a49e6.jpg",
+          "subtitle": "Foto 01",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-664.40982198232084578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-f640690c-ba27-463c-aa8c-08a9eaee4888.jpg",
+          "subtitle": "Foto 02",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-777.26703278420694578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-8d8ef32e-6dff-4046-a848-fe8ed3076185.jpg",
+          "subtitle": "Foto 09",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-668.46944809942774578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-eb9ee267-690b-4f97-9bbe-04d2d78c9932.jpg",
+          "subtitle": "Foto 10",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-748.00231014807264578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-5cc9d240-93ba-4a44-8f8c-335284e91f4e.jpg",
+          "subtitle": "Foto 05",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-22.7086629485403474578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-1a38d6a9-2645-40fb-9ef2-719595984185.jpg",
+          "subtitle": "Foto 06",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-960.12784590037374578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-de7213f3-562b-4f8f-8087-f77540c9ad50.jpg",
+          "subtitle": "Foto 11",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-486.461999328419154578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-70559c0c-b970-43b4-9ea0-d5a5a1a2472e.jpg",
+          "subtitle": "Foto 12",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-615.37128622376044578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-b278dc11-6020-49b5-9eba-82b44a99ea77.jpg",
+          "subtitle": "Foto 13",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-45.809817120141094578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-759c50e2-c730-43d5-a868-f795ef6aca71.jpg",
+          "subtitle": "Foto 14",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-661.0133161800774578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-19f81e72-75e1-439f-bea8-71d48281f17b.jpg",
+          "subtitle": "Foto 15",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895379553-892.43712324047524578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-56c246ff-1af6-47b1-a072-df3ea2a02f8f.jpg",
+          "subtitle": "Foto 16",
+          "cover": false
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "893343044",
+      "title": "QuintoAndar 893343044",
+      "neighborhood": "Vila Olímpia",
+      "url": "https://www.quintoandar.com.br/imovel/893343044/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 6000,
+      "condo": 1065,
+      "iptu": 185,
+      "area": 75,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.69,
+      "lat": -23.5940331,
+      "lng": -46.6860323,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-746.5198230571556IMGM7010.jpg",
+          "subtitle": "Detalhe Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-206.30192736240693IMGM7011.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-251.55487749973926IMGM7012.jpg",
+          "subtitle": "Varanda Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-824.1463904893254IMGM7013.jpg",
+          "subtitle": "Varanda Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-824.0727186020725IMGM7014.jpg",
+          "subtitle": "Varanda Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-230.5797568757868IMGM7017.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-34.78858015354713IMGM7018.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-557.6519245747963IMGM7019.jpg",
+          "subtitle": "Vista Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-487.5570457353193IMGM7021.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-365.8986807259139IMGM7022.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-799.4678969264479IMGM7023.jpg",
+          "subtitle": "Banheiro Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893343044-949.0908269304666IMGM7024.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento com 3 quartos e varanda."
+    },
+    {
+      "id": "892872718",
+      "title": "3 quartos - Itaim Bibi",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/892872718/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 6000,
+      "condo": 1970,
+      "iptu": 309,
+      "area": 165,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.02,
+      "lat": -23.5813409,
+      "lng": -46.676597,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-383.370012519049820250809134837.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-767.362029909904920250809134907.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-980.466128685477720250809134951.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-951.59642175033220250809134935.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-544.127410633148220250809135103.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-883.900960992349520250809135052.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-70.8597430074869820250809135036.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-878.508933748934520250809135008.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-591.332763247979220250809140923.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-111.1291456676478620250809135022.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-782.969296787826420250809135315.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original892872718-483.4744257881459420250809135323.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Bandeira Paulista."
+    },
+    {
+      "id": "893257062",
+      "title": "3 quartos - Itaim Bibi",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/893257062/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5900,
+      "condo": 1380,
+      "iptu": 353,
+      "area": 90,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 0,
+      "transit": 7,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.67,
+      "lat": -23.5856276,
+      "lng": -46.6875212,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-802.3705789657655IMG2510HDR.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-254.47871604295668IMG2511HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-344.8841922248772IMG2515.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-370.1324737016043IMG2516.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-940.6960827082422IMG2518.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-710.2980176070959IMG2521HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-956.0426955726069IMG2522.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-804.0187625410459IMG2523.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-173.1448686564727IMG2555.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-68.32897953560003IMG2554.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-697.6034224815718IMG2531.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893257062-817.5714787810263IMG2532.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Jacurici."
+    },
+    {
+      "id": "892770496",
+      "title": "2 quartos - Vila Olimpia",
+      "neighborhood": "Vila Olimpia",
+      "url": "https://www.quintoandar.com.br/imovel/892770496/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3300,
+      "condo": 2000,
+      "iptu": 334,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.99,
+      "lat": -23.592835,
+      "lng": -46.673338,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-785.276756482064152331.jpg",
+          "subtitle": "sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-742.98045833228352332.jpg",
+          "subtitle": "sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-569.173651417769552333.jpg",
+          "subtitle": "vista sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-994.913153602072252334.jpg",
+          "subtitle": "banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-106.8680406935166352335.jpg",
+          "subtitle": "quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-973.18926641135952336.jpg",
+          "subtitle": "quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-758.112871204712152338.jpg",
+          "subtitle": "closet 2 quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-681.833022671015152338.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-307.8375142012993752337.jpg",
+          "subtitle": "closet 1 quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-336.625280270314752339.jpg",
+          "subtitle": "quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-361.120755814194523310.jpg",
+          "subtitle": "quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892770496-811.122967640825523311.jpg",
+          "subtitle": "cozinha",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Arminda."
+    },
+    {
+      "id": "894115590",
+      "title": "2 quartos - Vila Olímpia",
+      "neighborhood": "Vila Olímpia",
+      "url": "https://www.quintoandar.com.br/imovel/894115590/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4500,
+      "condo": 1700,
+      "iptu": 317,
+      "area": 78,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.99,
+      "lat": -23.5928354,
+      "lng": -46.6733469,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-686.7073688341429IMG1440.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-109.2487104263532IMG1422.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-808.4119110523925IMG1426.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-353.06298728422956IMG1429.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-499.2778227798076IMG1532.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-393.31596342247IMG1460.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-648.911223186209IMG1439.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-704.2313895733683IMG1435.jpg",
+          "subtitle": "Detalhe",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-494.39075013298515IMG1480.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-868.1592002616943IMG1481.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-14.074923583721088IMG1483.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894115590-944.3225493974146IMG1484.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Arminda."
+    },
+    {
+      "id": "895430845",
+      "title": "2 quartos - Vila Olímpia",
+      "neighborhood": "Vila Olímpia",
+      "url": "https://www.quintoandar.com.br/imovel/895430845/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5300,
+      "condo": 1087,
+      "iptu": 17,
+      "area": 76,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.93,
+      "lat": -23.5878826,
+      "lng": -46.6730942,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-845.3159557984773IMG1495.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-437.36580384422876IMG1496.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-819.1156229458887IMG1497.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-689.253156229677IMG1498.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-243.9787954516307IMG1499.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-41.473961614654IMG1500.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-761.4726602070731IMG1501.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-577.4268465313803IMG1502.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-987.8360259011943IMG1503.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-625.0407835838062IMG1504.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-400.978299707913IMG1505.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895430845-107.73652101701425IMG1506.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Doutor Eduardo de Souza Aranha."
+    },
+    {
+      "id": "895413156",
+      "title": "2 quartos - Itaim Bibi",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/895413156/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6180,
+      "condo": 1564,
+      "iptu": 328,
+      "area": 78,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.75,
+      "lat": -23.5844032,
+      "lng": -46.6767209,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-854.5003397926334IMG99411.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-912.6014764792769IMG99433.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-848.4256553611139IMG99422.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-583.0719026574608IMG99444.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-730.9928045378701IMG99466.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-11.909386117757826IMG99455.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-714.1794573755244IMG99477.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-114.12123502218353IMG99509.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-56.94722958477172IMG995918.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-881.0226169541374IMG995110.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-856.8202550202558IMG995211.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895413156-577.2500161501864IMG995312.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Urussuí."
+    },
+    {
+      "id": "894867826",
+      "title": "2 quartos - Itaim Bibi",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/894867826/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 9500,
+      "condo": 1357,
+      "iptu": 215,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.46,
+      "lat": -23.5867955,
+      "lng": -46.6783338,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-706.9866476783127IMG9773.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-18.783799915053635IMG9771.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-220.82337095616012IMG9775.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-706.0293305002177IMG9774.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-726.1789760202117IMG9781.jpg",
+          "subtitle": "Sala de TV",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-945.5858696261422IMG9782.jpg",
+          "subtitle": "Sala de TV",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-130.0443690670814IMG9784.jpg",
+          "subtitle": "Sala de TV",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-927.3116567932816IMG9786.jpg",
+          "subtitle": "Sala de TV",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-505.0014852585789IMG9776.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-975.7579838086937IMG9777.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-256.8852627466578IMG9778.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894867826-552.5566210437247IMG9779.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Iaiá."
+    },
+    {
+      "id": "895375893",
+      "title": "2 quartos - Vila Olímpia",
+      "neighborhood": "Vila Olímpia",
+      "url": "https://www.quintoandar.com.br/imovel/895375893/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4690,
+      "condo": 1230,
+      "iptu": 125,
+      "area": 65,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.99,
+      "lat": -23.5932206,
+      "lng": -46.6735515,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-419.509335464464MG8750.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-23.698105982787432MG8751.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-257.2486640307281MG8752.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-274.9529540736625MG8753.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-767.0334232738674MG8754.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-445.2609985878815MG8755.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-293.9678231106684MG8756.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-156.93869199061294MG8757.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-515.6494775033052MG8758.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-18.490302854421326MG8759.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-631.8174802058757MG8760.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895375893-299.51778597009746MG8761.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Arminda."
+    },
+    {
+      "id": "895271904",
+      "title": "3 quartos - Itaim Bibi",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/895271904/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 6000,
+      "condo": 1,
+      "iptu": 1,
+      "area": 80,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 0,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.14,
+      "lat": -23.5808607,
+      "lng": -46.6753321,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-466.68851367673017IMG3988.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-887.5549963783494IMG3991.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-451.5999580952056IMG3990.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-528.4711177553284IMG3992.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-208.7947973253902IMG3993.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-829.4873907474192IMG3995.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-116.77843020679512IMG3994.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-166.14504050798206IMG3996.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-104.63777804580332IMG3997.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-866.6319030164208IMG3999.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-139.69871969672243IMG4000.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895271904-820.0224313461069IMG4001.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Pedroso Alvarenga."
+    },
+    {
+      "id": "893342949",
+      "title": "2 quartos - Itaim Bibi",
+      "neighborhood": "Itaim Bibi",
+      "url": "https://www.quintoandar.com.br/imovel/893342949/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6150,
+      "condo": 1204,
+      "iptu": 438,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.07,
+      "lat": -23.5805121,
+      "lng": -46.6772098,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-567.8831385143161IMG7712.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-643.1711324775155IMG7709.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-713.0368485354695IMG7711.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-181.7155765391716IMG7713.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-85.46675293938111IMG7710.jpg",
+          "subtitle": "SalaSala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-170.3055291271359IMG7714.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-231.7212236557431IMG7715.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-726.7868405467332IMG7716.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-379.5219612605628IMG7718.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-882.8539427189212IMG7719.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-607.6501346198286IMG7720.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893342949-471.653004543537IMG7721.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Pesquisa web: Rua Bandeira Paulista."
+    }
+  ],
+  "weights": {
+    "cost": 22,
+    "valuePerSqm": 14,
+    "targetDistance": 22,
+    "area": 8,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "parking": 4,
+    "transit": 8,
+    "safety": 6,
+    "condition": 5,
+    "lightNoise": 2
+  }
+}

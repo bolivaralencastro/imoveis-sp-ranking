@@ -1,0 +1,20 @@
+{
+  "scraped_at": "2026-06-02T21:49:53.572Z",
+  "criteria": {
+    "minBedrooms": 2,
+    "maxRent": 15000,
+    "maxTotalCost": 18000,
+    "minArea": 50,
+    "maxDistanceKm": 3,
+    "allowedNeighborhoods": [
+      "itaim bibi",
+      "vila olímpia",
+      "vila olimpia"
+    ]
+  },
+  "total_candidates_checked": 50,
+  "total_passed": 0,
+  "total_failed": 0,
+  "homes": [],
+  "failed_ids": []
+}

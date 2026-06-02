@@ -1,0 +1,2687 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ranking de Imóveis para Aluguel em São Paulo</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root {
+      --bg: #f4f6f7;
+      --surface: #ffffff;
+      --surface-soft: #eef3f3;
+      --text: #172124;
+      --muted: #66777b;
+      --line: #d8e1e3;
+      --accent: #0f766e;
+      --accent-soft: #dff7ed;
+      --warn: #a15c07;
+      --warn-soft: #fff4d6;
+      --bad: #b42318;
+      --bad-soft: #fee4e2;
+      --shadow: 0 14px 34px rgba(24, 33, 36, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.42;
+      overflow: hidden;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      padding: 8px 12px;
+      font-weight: 650;
+    }
+
+    button:hover {
+      border-color: #9fb1b5;
+    }
+
+    button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    button.ghost {
+      background: transparent;
+    }
+
+    button.danger {
+      color: var(--bad);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fbfcfc;
+      color: var(--text);
+      padding: 8px 10px;
+    }
+
+    label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .app {
+      width: 100vw;
+      height: 100vh;
+      padding: 0;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .icon-button {
+      width: 40px;
+      min-width: 40px;
+      padding: 0;
+      display: inline-grid;
+      place-items: center;
+      font-size: 18px;
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 430px minmax(0, 1fr);
+      height: 100vh;
+      width: 100vw;
+      align-items: stretch;
+    }
+
+    .panel {
+      position: relative;
+      background: var(--surface);
+      border: 0;
+      border-right: 1px solid var(--line);
+      border-radius: 0;
+      box-shadow: none;
+      overflow: hidden;
+    }
+
+    .panel-body {
+      padding: 14px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      background: #fafcfc;
+    }
+
+    .sort-button {
+      flex: 1;
+      min-width: 0;
+      background: #ffffff;
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    .sort-button.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+    }
+
+    .field.compact label {
+      display: none;
+    }
+
+    .rank-list {
+      display: grid;
+      gap: 8px;
+      height: calc(100vh - 63px);
+      overflow: auto;
+      padding: 12px;
+    }
+
+    .home-card {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+      text-align: left;
+      padding: 10px;
+      min-height: 104px;
+    }
+
+    .compare-check {
+      display: grid;
+      place-items: center;
+      align-self: start;
+      width: 24px;
+      height: 24px;
+      margin-top: 4px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    .compare-check input {
+      width: 16px;
+      min-height: 16px;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .home-card:hover,
+    .home-card.active {
+      border-color: var(--accent);
+      background: #f6fbfa;
+    }
+
+    .home-card.active {
+      box-shadow: inset 3px 0 0 var(--accent);
+    }
+
+    .rank-number {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      background: var(--surface-soft);
+      font-weight: 850;
+    }
+
+    .compare-bar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px 12px;
+      border-top: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 -12px 30px rgba(24, 33, 36, 0.08);
+      z-index: 2;
+    }
+
+    .compare-bar.visible {
+      display: flex;
+    }
+
+    .rank-list.has-compare {
+      padding-bottom: 68px;
+    }
+
+    .compare-bar span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .compare-bar button {
+      min-height: 34px;
+      padding: 7px 10px;
+    }
+
+    .card-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .card-title strong {
+      display: block;
+      font-size: 14px;
+      line-height: 1.25;
+    }
+
+    .card-title span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .score {
+      display: inline-flex;
+      min-width: 48px;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 3px 8px;
+      background: var(--accent-soft);
+      color: #067647;
+      font-weight: 850;
+    }
+
+    .score.mid {
+      background: var(--warn-soft);
+      color: var(--warn);
+    }
+
+    .score.low {
+      background: var(--bad-soft);
+      color: var(--bad);
+    }
+
+    .card-facts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .fact {
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid var(--line);
+      padding-left: 8px;
+      min-width: 0;
+    }
+
+    .fact:first-child {
+      border-left: 0;
+      padding-left: 0;
+    }
+
+    .fact strong {
+      display: block;
+      font-size: 13px;
+    }
+
+    .fact span {
+      color: var(--muted);
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .delta-positive {
+      color: var(--bad);
+    }
+
+    .delta-negative {
+      color: var(--accent);
+    }
+
+    .cost-delta {
+      font-size: 10px;
+      font-weight: 750;
+      margin-left: 5px;
+      vertical-align: middle;
+      opacity: 0.85;
+    }
+
+    .detail-list {
+      display: grid;
+      border-top: 1px solid var(--line);
+      margin-top: -1px;
+    }
+
+    .detail-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: baseline;
+      min-height: 36px;
+      padding: 8px 2px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .detail-row span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .detail-row strong {
+      color: var(--text);
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .detail-row.notes {
+      display: block;
+    }
+
+    .detail-row.notes strong {
+      display: block;
+      margin-top: 4px;
+      text-align: left;
+      font-weight: 550;
+      line-height: 1.45;
+    }
+
+    .detail-actions {
+      margin-top: 10px;
+    }
+
+    .detail-actions a {
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 7px;
+      background: var(--accent);
+      color: #ffffff;
+      padding: 7px 10px;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .map-panel {
+      position: relative;
+      min-width: 0;
+      height: 100vh;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+
+    .map-tile-bw {
+      filter: grayscale(1) contrast(1.08) brightness(1.04);
+    }
+
+    .map-toolbar {
+      position: absolute;
+      z-index: 500;
+      top: 12px;
+      right: 12px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .map-pill {
+      min-height: 38px;
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      padding: 8px 12px;
+      box-shadow: var(--shadow);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .pin {
+      width: 28px;
+      height: 28px;
+      border: 2px solid #ffffff;
+      border-radius: 50% 50% 50% 0;
+      background: var(--accent);
+      color: #ffffff;
+      box-shadow: 0 8px 18px rgba(23, 33, 36, 0.26);
+      transform: rotate(-45deg);
+      display: block;
+      position: relative;
+    }
+
+    .pin::after {
+      content: "";
+      position: absolute;
+      inset: 7px;
+      border-radius: 999px;
+      background: #ffffff;
+    }
+
+    .pin.mid {
+      background: var(--warn);
+      border-color: #ffffff;
+    }
+
+    .pin.mid::after {
+      background: #ffffff;
+    }
+
+    .pin.low {
+      background: var(--bad);
+    }
+
+    .pin.target {
+      background: #172124;
+      border-color: #ffffff;
+    }
+
+    .property-tooltip {
+      padding: 0;
+      border: 0;
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+      overflow: hidden;
+    }
+
+    .property-tooltip::before {
+      display: none;
+    }
+
+    .tooltip-card {
+      width: 178px;
+      background: #ffffff;
+    }
+
+    .tooltip-card img {
+      display: block;
+      width: 178px;
+      height: 108px;
+      object-fit: cover;
+    }
+
+    .tooltip-card strong {
+      display: block;
+      padding: 8px 9px 0;
+      color: #111111;
+      font-size: 13px;
+    }
+
+    .tooltip-card span {
+      display: block;
+      padding: 2px 9px 8px;
+      color: #555555;
+      font-size: 12px;
+    }
+
+    .drawer-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 900;
+      background: rgba(23, 33, 36, 0.28);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 160ms ease;
+    }
+
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 901;
+      width: min(460px, 100vw);
+      height: 100vh;
+      background: var(--surface);
+      border-left: 1px solid var(--line);
+      box-shadow: -24px 0 60px rgba(24, 33, 36, 0.18);
+      transform: translateX(100%);
+      transition: transform 180ms ease;
+      overflow: auto;
+    }
+
+    .drawer.open {
+      transform: translateX(0);
+    }
+
+    .drawer-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .drawer-head {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .drawer-head h2 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .compare-dialog {
+      width: min(1120px, calc(100vw - 28px));
+      max-height: calc(100vh - 28px);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0;
+      box-shadow: 0 24px 70px rgba(24, 33, 36, 0.24);
+    }
+
+    .compare-dialog::backdrop {
+      background: rgba(23, 33, 36, 0.34);
+    }
+
+    .compare-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+    }
+
+    .compare-head strong {
+      font-size: 16px;
+    }
+
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(var(--compare-cols, 2), minmax(190px, 1fr));
+      gap: 0;
+      overflow: auto;
+    }
+
+    .compare-card {
+      min-width: 190px;
+      border-right: 1px solid var(--line);
+      background: #ffffff;
+    }
+
+    .compare-card:last-child {
+      border-right: 0;
+    }
+
+    .compare-card img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      display: block;
+      object-fit: cover;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface-soft);
+    }
+
+    .compare-card h3 {
+      margin: 0;
+      padding: 10px 12px;
+      font-size: 14px;
+      line-height: 1.25;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .compare-card .detail-list {
+      padding: 0 12px 12px;
+    }
+
+    .photo-slider {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface-soft);
+      overflow: hidden;
+    }
+
+    .photo-slider img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .photo-empty {
+      height: 100%;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .slider-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 38px;
+      min-width: 38px;
+      height: 38px;
+      padding: 0;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 8px 22px rgba(23, 33, 36, 0.18);
+    }
+
+    .slider-button.prev {
+      left: 10px;
+    }
+
+    .slider-button.next {
+      right: 10px;
+    }
+
+    .photo-count {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      border-radius: 999px;
+      background: rgba(23, 33, 36, 0.78);
+      color: #ffffff;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .hint {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .market-pin {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      background: #ffffff;
+      border: 2px solid #7c3aed;
+      border-radius: 50%;
+      font-size: 15px;
+      box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
+      line-height: 1;
+    }
+
+    #toggleMarkets {
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+      border-radius: 999px;
+      font-size: 18px;
+      width: 40px;
+      min-width: 40px;
+      padding: 0;
+    }
+
+    #toggleMarkets.active {
+      background: #7c3aed;
+      border-color: #7c3aed;
+      color: #ffffff;
+    }
+
+    .empty {
+      padding: 22px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .file-input {
+      display: none;
+    }
+
+    @media (max-width: 900px) {
+      .workspace {
+        grid-template-columns: 1fr;
+        grid-template-rows: 48vh 52vh;
+      }
+
+      .panel {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .map-panel {
+        height: 48vh;
+        order: -1;
+      }
+
+      .rank-list {
+        height: calc(52vh - 63px);
+      }
+
+    }
+
+    @media (max-width: 560px) {
+      .card-facts {
+        grid-template-columns: 1fr;
+      }
+
+      .rank-list {
+        height: calc(52vh - 112px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="workspace">
+      <section class="panel">
+        <div class="filters" id="sortControls">
+          <button class="sort-button active" type="button" data-sort="score">Ranking</button>
+          <button class="sort-button" type="button" data-sort="totalCost">Valor</button>
+          <button class="sort-button" type="button" data-sort="delta">Diferença</button>
+          <button class="sort-button" type="button" data-sort="targetDistanceKm">Distância</button>
+          <button class="sort-button" type="button" data-sort="area">m²</button>
+        </div>
+        <div id="cards" class="rank-list"></div>
+        <div id="compareBar" class="compare-bar">
+          <span id="compareCount">0 selecionados</span>
+          <button id="openCompare" class="primary" type="button">Comparar</button>
+        </div>
+      </section>
+
+      <section class="map-panel">
+        <div id="map"></div>
+        <div class="map-toolbar">
+          <button id="toggleMarkets" class="icon-button" type="button" title="Exibir/esconder mercados">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </button>
+          <span id="mapCount" class="map-pill">0</span>
+        </div>
+      </section>
+
+    </section>
+
+    <div id="drawerBackdrop" class="drawer-backdrop"></div>
+    <aside id="detailDrawer" class="drawer">
+      <div class="drawer-head">
+        <h2 id="detailTitle">Detalhes do imóvel</h2>
+        <button id="closeDrawer" class="icon-button" type="button" title="Fechar">×</button>
+      </div>
+      <div id="detailPanel" class="panel-body"></div>
+    </aside>
+
+    <dialog id="compareDialog" class="compare-dialog">
+      <div class="compare-head">
+        <strong>Comparativo</strong>
+        <button id="closeCompare" class="icon-button" type="button" title="Fechar">×</button>
+      </div>
+      <div id="compareGrid" class="compare-grid"></div>
+    </dialog>
+
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const STORAGE_KEY = "imoveis-sp-ranking-v8-current-cost";
+    const CURRENT_HOME = {
+      monthlyCost: 9019.61,
+      rent: 7000,
+      condo: 1200,
+      amenities: "varanda, 2 quartos, 2 banheiros, piscina, academia, salão de festas, escritório, portaria 24h, estacionamento"
+    };
+
+    const seedHomes = [
+          {
+                "id": "893893736",
+                "title": "QuintoAndar 893893736",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/893893736/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+                "rent": 7300,
+                "condo": 1560,
+                "iptu": 40,
+                "area": 80,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.88,
+                "lat": -23.5823555,
+                "lng": -46.6773602,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-303.724157287747901Sala.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-881.598365692555102Sala.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-930.48602150044503Sala.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-292.0222601958102504Sala.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-28.1315712940268805Sala.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-984.025941402883206Varanda.jpg",
+                            "subtitle": "Varanda",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-810.673869766790307Varanda.jpg",
+                            "subtitle": "Varanda",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-136.0422973572007408Vista.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-684.593544228193109Lavabo.jpg",
+                            "subtitle": "Lavabo",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-294.5064919181483610Quarto1.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-619.183065456207611Quarto1.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893893736-320.5721548089479712Quarto1.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Apartamento para aluguel no Itaim Bibi com 2 quartos, varanda e piscina no condomínio."
+          },
+          {
+                "id": "892829983",
+                "title": "QuintoAndar 892829983",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/892829983/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+                "rent": 5400,
+                "condo": 1854,
+                "iptu": 140,
+                "area": 101,
+                "bedrooms": 2,
+                "bathrooms": 3,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 1.28,
+                "lat": -23.5820406,
+                "lng": -46.6720599,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-94.30730377832408IMG2280.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-542.3998686633138IMG2283.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-261.42159629387606IMG2282.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-386.27763621252575IMG2281.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-509.6079768462221IMG2285.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-640.8106204231603IMG2284.jpg",
+                            "subtitle": "Vista da Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-602.5245952287861IMG2286.jpg",
+                            "subtitle": "Suíte 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-685.5354612075566IMG2288.jpg",
+                            "subtitle": "Suíte 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-265.7621277825022IMG2289.jpg",
+                            "subtitle": "Suíte 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-203.30599421057372IMG2291.jpg",
+                            "subtitle": "Suíte 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-257.8551912165428IMG2287.jpg",
+                            "subtitle": "Suíte 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892829983-366.9877630932662IMG2290.jpg",
+                            "subtitle": "Vista da Suíte 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Alugar apartamento no Itaim Bibi: 2 suítes, ideal para você!"
+          },
+          {
+                "id": "895411473",
+                "title": "QuintoAndar 895411473",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/895411473/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+                "rent": 5100,
+                "condo": 1420,
+                "iptu": 350,
+                "area": 75,
+                "bedrooms": 2,
+                "bathrooms": 3,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 1.19,
+                "lat": -23.5822539,
+                "lng": -46.6730806,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-929.5180871646005IMG9705136.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-411.67172441646096IMG9704135.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-276.0622544319208IMG9708138.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-630.3390557489489IMG9706137.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-498.8171157657103IMG9711139.jpg",
+                            "subtitle": "Sacada",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-138.10494759853708IMG9713140.jpg",
+                            "subtitle": "Sacada",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-381.4079901959242IMG9714141.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-747.5223209884184IMG9715142.jpg",
+                            "subtitle": "Suíte",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-22.899610313983466IMG9716143.jpg",
+                            "subtitle": "Suíte",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-711.7921982939117IMG9717144.jpg",
+                            "subtitle": "Suíte",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-545.2688906987858IMG9718145.jpg",
+                            "subtitle": "Suíte",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895411473-953.9672090337477IMG9719146.jpg",
+                            "subtitle": "Banheiro da Suíte",
+                            "cover": false
+                      }
+                ],
+                "notes": "Apartamento para aluguel: 2 quartos, 1 suíte, churrasqueira e piscina no condomínio."
+          },
+          {
+                "id": "894458391",
+                "title": "QuintoAndar 894458391",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/894458391/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+                "rent": 5900,
+                "condo": 1290,
+                "iptu": 264,
+                "area": 98,
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 1.36,
+                "lat": -23.5796417,
+                "lng": -46.6735166,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-613.8254625068832IMG5722.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-331.9184935549196IMG5723.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-636.8583901959461IMG5724.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-161.65468253463177IMG5725.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-783.8981122633043IMG5729.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-59.476367527560136IMG5731.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-511.1214721081596IMG5732.jpg",
+                            "subtitle": "Suíte ",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-67.55224679112514IMG5734.jpg",
+                            "subtitle": "Suíte ",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-142.8172322195458IMG5735.jpg",
+                            "subtitle": "Suíte ",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-149.8952754120485IMG5736.jpg",
+                            "subtitle": "Suíte ",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-387.56642641145766IMG5745.jpg",
+                            "subtitle": "Banheiro da Suíte",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894458391-857.7358765567967IMG5746.jpg",
+                            "subtitle": "Banheiro da Suíte",
+                            "cover": false
+                      }
+                ],
+                "notes": ""
+          },
+          {
+                "id": "895379553",
+                "title": "QuintoAndar 895379553",
+                "neighborhood": "Vila Olímpia",
+                "url": "https://www.quintoandar.com.br/imovel/895379553/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+                "rent": 6800,
+                "condo": 940,
+                "iptu": 406,
+                "area": 76,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.65,
+                "lat": -23.5939916,
+                "lng": -46.685402,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-779.25554031965294578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-cd1a7064-924d-474c-83c7-55288c3a49e6.jpg",
+                            "subtitle": "Foto 01",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-664.40982198232084578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-f640690c-ba27-463c-aa8c-08a9eaee4888.jpg",
+                            "subtitle": "Foto 02",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-777.26703278420694578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-8d8ef32e-6dff-4046-a848-fe8ed3076185.jpg",
+                            "subtitle": "Foto 09",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-668.46944809942774578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-eb9ee267-690b-4f97-9bbe-04d2d78c9932.jpg",
+                            "subtitle": "Foto 10",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-748.00231014807264578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-5cc9d240-93ba-4a44-8f8c-335284e91f4e.jpg",
+                            "subtitle": "Foto 05",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-22.7086629485403474578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-1a38d6a9-2645-40fb-9ef2-719595984185.jpg",
+                            "subtitle": "Foto 06",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-960.12784590037374578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-de7213f3-562b-4f8f-8087-f77540c9ad50.jpg",
+                            "subtitle": "Foto 11",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-486.461999328419154578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-70559c0c-b970-43b4-9ea0-d5a5a1a2472e.jpg",
+                            "subtitle": "Foto 12",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-615.37128622376044578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-b278dc11-6020-49b5-9eba-82b44a99ea77.jpg",
+                            "subtitle": "Foto 13",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-45.809817120141094578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-759c50e2-c730-43d5-a868-f795ef6aca71.jpg",
+                            "subtitle": "Foto 14",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-661.0133161800774578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-19f81e72-75e1-439f-bea8-71d48281f17b.jpg",
+                            "subtitle": "Foto 15",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895379553-892.43712324047524578dd68-e591-4984-9b61-92c32bab8392-LEAD3P-56c246ff-1af6-47b1-a072-df3ea2a02f8f.jpg",
+                            "subtitle": "Foto 16",
+                            "cover": false
+                      }
+                ],
+                "notes": ""
+          },
+          {
+                "id": "893343044",
+                "title": "QuintoAndar 893343044",
+                "neighborhood": "Vila Olímpia",
+                "url": "https://www.quintoandar.com.br/imovel/893343044/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+                "rent": 6000,
+                "condo": 1065,
+                "iptu": 185,
+                "area": 75,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.69,
+                "lat": -23.5940331,
+                "lng": -46.6860323,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-746.5198230571556IMGM7010.jpg",
+                            "subtitle": "Detalhe Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-206.30192736240693IMGM7011.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-251.55487749973926IMGM7012.jpg",
+                            "subtitle": "Varanda Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-824.1463904893254IMGM7013.jpg",
+                            "subtitle": "Varanda Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-824.0727186020725IMGM7014.jpg",
+                            "subtitle": "Varanda Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-230.5797568757868IMGM7017.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-34.78858015354713IMGM7018.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-557.6519245747963IMGM7019.jpg",
+                            "subtitle": "Vista Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-487.5570457353193IMGM7021.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-365.8986807259139IMGM7022.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-799.4678969264479IMGM7023.jpg",
+                            "subtitle": "Banheiro Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893343044-949.0908269304666IMGM7024.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Alugar apartamento com 3 quartos e varanda."
+          },
+          {
+                "id": "892872718",
+                "title": "3 quartos - Itaim Bibi",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/892872718/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+                "rent": 6000,
+                "condo": 1970,
+                "iptu": 309,
+                "area": 165,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 1.02,
+                "lat": -23.5813409,
+                "lng": -46.676597,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-383.370012519049820250809134837.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-767.362029909904920250809134907.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-980.466128685477720250809134951.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-951.59642175033220250809134935.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-544.127410633148220250809135103.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-883.900960992349520250809135052.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-70.8597430074869820250809135036.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-878.508933748934520250809135008.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-591.332763247979220250809140923.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-111.1291456676478620250809135022.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-782.969296787826420250809135315.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original892872718-483.4744257881459420250809135323.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Bandeira Paulista."
+          },
+          {
+                "id": "893257062",
+                "title": "3 quartos - Itaim Bibi",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/893257062/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+                "rent": 5900,
+                "condo": 1380,
+                "iptu": 353,
+                "area": 90,
+                "bedrooms": 3,
+                "bathrooms": 1,
+                "parking": 0,
+                "transit": 7,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.67,
+                "lat": -23.5856276,
+                "lng": -46.6875212,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-802.3705789657655IMG2510HDR.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-254.47871604295668IMG2511HDR.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-344.8841922248772IMG2515.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-370.1324737016043IMG2516.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-940.6960827082422IMG2518.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-710.2980176070959IMG2521HDR.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-956.0426955726069IMG2522.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-804.0187625410459IMG2523.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-173.1448686564727IMG2555.jpg",
+                            "subtitle": "Lavabo",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-68.32897953560003IMG2554.jpg",
+                            "subtitle": "Lavabo",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-697.6034224815718IMG2531.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893257062-817.5714787810263IMG2532.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Jacurici."
+          },
+          {
+                "id": "892770496",
+                "title": "2 quartos - Vila Olimpia",
+                "neighborhood": "Vila Olimpia",
+                "url": "https://www.quintoandar.com.br/imovel/892770496/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+                "rent": 3300,
+                "condo": 2000,
+                "iptu": 334,
+                "area": 70,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.99,
+                "lat": -23.592835,
+                "lng": -46.673338,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-785.276756482064152331.jpg",
+                            "subtitle": "sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-742.98045833228352332.jpg",
+                            "subtitle": "sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-569.173651417769552333.jpg",
+                            "subtitle": "vista sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-994.913153602072252334.jpg",
+                            "subtitle": "banheiro",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-106.8680406935166352335.jpg",
+                            "subtitle": "quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-973.18926641135952336.jpg",
+                            "subtitle": "quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-758.112871204712152338.jpg",
+                            "subtitle": "closet 2 quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-681.833022671015152338.jpg",
+                            "subtitle": "",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-307.8375142012993752337.jpg",
+                            "subtitle": "closet 1 quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-336.625280270314752339.jpg",
+                            "subtitle": "quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-361.120755814194523310.jpg",
+                            "subtitle": "quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/892770496-811.122967640825523311.jpg",
+                            "subtitle": "cozinha",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Arminda."
+          },
+          {
+                "id": "894115590",
+                "title": "2 quartos - Vila Olímpia",
+                "neighborhood": "Vila Olímpia",
+                "url": "https://www.quintoandar.com.br/imovel/894115590/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+                "rent": 4500,
+                "condo": 1700,
+                "iptu": 317,
+                "area": 78,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.99,
+                "lat": -23.5928354,
+                "lng": -46.6733469,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-686.7073688341429IMG1440.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-109.2487104263532IMG1422.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-808.4119110523925IMG1426.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-353.06298728422956IMG1429.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-499.2778227798076IMG1532.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-393.31596342247IMG1460.jpg",
+                            "subtitle": "Sala de Jantar",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-648.911223186209IMG1439.jpg",
+                            "subtitle": "Sala de Jantar",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-704.2313895733683IMG1435.jpg",
+                            "subtitle": "Detalhe",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-494.39075013298515IMG1480.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-868.1592002616943IMG1481.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-14.074923583721088IMG1483.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/894115590-944.3225493974146IMG1484.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Arminda."
+          },
+          {
+                "id": "895430845",
+                "title": "2 quartos - Vila Olímpia",
+                "neighborhood": "Vila Olímpia",
+                "url": "https://www.quintoandar.com.br/imovel/895430845/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+                "rent": 5300,
+                "condo": 1087,
+                "iptu": 17,
+                "area": 76,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.93,
+                "lat": -23.5878826,
+                "lng": -46.6730942,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-845.3159557984773IMG1495.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-437.36580384422876IMG1496.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-819.1156229458887IMG1497.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-689.253156229677IMG1498.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-243.9787954516307IMG1499.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-41.473961614654IMG1500.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-761.4726602070731IMG1501.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-577.4268465313803IMG1502.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-987.8360259011943IMG1503.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-625.0407835838062IMG1504.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-400.978299707913IMG1505.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895430845-107.73652101701425IMG1506.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Doutor Eduardo de Souza Aranha."
+          },
+          {
+                "id": "895413156",
+                "title": "2 quartos - Itaim Bibi",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/895413156/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+                "rent": 6180,
+                "condo": 1564,
+                "iptu": 328,
+                "area": 78,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.75,
+                "lat": -23.5844032,
+                "lng": -46.6767209,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-854.5003397926334IMG99411.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-912.6014764792769IMG99433.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-848.4256553611139IMG99422.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-583.0719026574608IMG99444.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-730.9928045378701IMG99466.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-11.909386117757826IMG99455.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-714.1794573755244IMG99477.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-114.12123502218353IMG99509.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-56.94722958477172IMG995918.jpg",
+                            "subtitle": "Corredor",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-881.0226169541374IMG995110.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-856.8202550202558IMG995211.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895413156-577.2500161501864IMG995312.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Urussuí."
+          },
+          {
+                "id": "894867826",
+                "title": "2 quartos - Itaim Bibi",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/894867826/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+                "rent": 9500,
+                "condo": 1357,
+                "iptu": 215,
+                "area": 90,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "parking": 2,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.46,
+                "lat": -23.5867955,
+                "lng": -46.6783338,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-706.9866476783127IMG9773.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-18.783799915053635IMG9771.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-220.82337095616012IMG9775.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-706.0293305002177IMG9774.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-726.1789760202117IMG9781.jpg",
+                            "subtitle": "Sala de TV",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-945.5858696261422IMG9782.jpg",
+                            "subtitle": "Sala de TV",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-130.0443690670814IMG9784.jpg",
+                            "subtitle": "Sala de TV",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-927.3116567932816IMG9786.jpg",
+                            "subtitle": "Sala de TV",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-505.0014852585789IMG9776.jpg",
+                            "subtitle": "Varanda",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-975.7579838086937IMG9777.jpg",
+                            "subtitle": "Varanda",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-256.8852627466578IMG9778.jpg",
+                            "subtitle": "Varanda",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original894867826-552.5566210437247IMG9779.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Iaiá."
+          },
+          {
+                "id": "895375893",
+                "title": "2 quartos - Vila Olímpia",
+                "neighborhood": "Vila Olímpia",
+                "url": "https://www.quintoandar.com.br/imovel/895375893/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+                "rent": 4690,
+                "condo": 1230,
+                "iptu": 125,
+                "area": 65,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 0.99,
+                "lat": -23.5932206,
+                "lng": -46.6735515,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-419.509335464464MG8750.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-23.698105982787432MG8751.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-257.2486640307281MG8752.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-274.9529540736625MG8753.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-767.0334232738674MG8754.jpg",
+                            "subtitle": "Sacada",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-445.2609985878815MG8755.jpg",
+                            "subtitle": "Sacada",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-293.9678231106684MG8756.jpg",
+                            "subtitle": "Sacada",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-156.93869199061294MG8757.jpg",
+                            "subtitle": "Banheiro",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-515.6494775033052MG8758.jpg",
+                            "subtitle": "Banheiro",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-18.490302854421326MG8759.jpg",
+                            "subtitle": "Banheiro",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-631.8174802058757MG8760.jpg",
+                            "subtitle": "Banheiro",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895375893-299.51778597009746MG8761.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Arminda."
+          },
+          {
+                "id": "895271904",
+                "title": "3 quartos - Itaim Bibi",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/895271904/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+                "rent": 6000,
+                "condo": 1,
+                "iptu": 1,
+                "area": 80,
+                "bedrooms": 3,
+                "bathrooms": 1,
+                "parking": 0,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 1.14,
+                "lat": -23.5808607,
+                "lng": -46.6753321,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-466.68851367673017IMG3988.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-887.5549963783494IMG3991.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-451.5999580952056IMG3990.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-528.4711177553284IMG3992.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-208.7947973253902IMG3993.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-829.4873907474192IMG3995.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-116.77843020679512IMG3994.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-166.14504050798206IMG3996.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-104.63777804580332IMG3997.jpg",
+                            "subtitle": "Vista",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-866.6319030164208IMG3999.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-139.69871969672243IMG4000.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/original895271904-820.0224313461069IMG4001.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Pedroso Alvarenga."
+          },
+          {
+                "id": "893342949",
+                "title": "2 quartos - Itaim Bibi",
+                "neighborhood": "Itaim Bibi",
+                "url": "https://www.quintoandar.com.br/imovel/893342949/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+                "rent": 6150,
+                "condo": 1204,
+                "iptu": 438,
+                "area": 90,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "parking": 1,
+                "transit": 5,
+                "safety": 5,
+                "condition": 5,
+                "lightNoise": 5,
+                "targetDistanceKm": 1.07,
+                "lat": -23.5805121,
+                "lng": -46.6772098,
+                "photos": [
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-567.8831385143161IMG7712.jpg",
+                            "subtitle": "Sala",
+                            "cover": true
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-643.1711324775155IMG7709.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-713.0368485354695IMG7711.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-181.7155765391716IMG7713.jpg",
+                            "subtitle": "Sala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-85.46675293938111IMG7710.jpg",
+                            "subtitle": "SalaSala",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-170.3055291271359IMG7714.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-231.7212236557431IMG7715.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-726.7868405467332IMG7716.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-379.5219612605628IMG7718.jpg",
+                            "subtitle": "Quarto 1",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-882.8539427189212IMG7719.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-607.6501346198286IMG7720.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      },
+                      {
+                            "url": "https://www.quintoandar.com.br/img/med/893342949-471.653004543537IMG7721.jpg",
+                            "subtitle": "Quarto 2",
+                            "cover": false
+                      }
+                ],
+                "notes": "Pesquisa web: Rua Bandeira Paulista."
+          }
+    ];
+
+    const defaultState = {
+      target: {
+        label: "Av. Brig. Faria Lima, 3732 - Itaim Bibi",
+        lat: -23.5889959,
+        lng: -46.6821196
+      },
+      homes: seedHomes,
+      weights: {
+        cost: 22,
+        valuePerSqm: 0,
+        targetDistance: 22,
+        area: 8,
+        bedrooms: 5,
+        bathrooms: 4,
+        parking: 4,
+        transit: 8,
+        safety: 6,
+        condition: 5,
+        lightNoise: 2
+      }
+    };
+
+    let state = loadState();
+    let selectedId = state.homes[0]?.id || null;
+    let map;
+    let markerLayer;
+    let markersById = {};
+    let marketLayer = null;
+    let marketsVisible = false;
+    let marketsFetched = false;
+    let photoIndexes = {};
+    let sortBy = "score";
+    let selectedCompareIds = [];
+
+    const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+    const number = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 1 });
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        return raw ? JSON.parse(raw) : structuredClone(defaultState);
+      } catch {
+        return structuredClone(defaultState);
+      }
+    }
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function clean(value) {
+      const parsed = Number(value);
+      return Number.isFinite(parsed) ? parsed : 0;
+    }
+
+    function totalCost(home) {
+      return clean(home.rent) + clean(home.condo) + clean(home.iptu);
+    }
+
+    function currentDelta(home) {
+      return totalCost(home) - CURRENT_HOME.monthlyCost;
+    }
+
+    function deltaLabel(home) {
+      const delta = currentDelta(home);
+      if (Math.abs(delta) < 1) return "igual";
+      return `${delta > 0 ? "+" : "-"}${money.format(Math.abs(delta))}`;
+    }
+
+    function deltaClass(home) {
+      const delta = currentDelta(home);
+      if (delta > 0) return "delta-positive";
+      if (delta < 0) return "delta-negative";
+      return "";
+    }
+
+    function valuePerSqm(home) {
+      return clean(home.area) > 0 ? totalCost(home) / clean(home.area) : 0;
+    }
+
+    function normalizeHigher(value, max) {
+      if (!max) return 0.5;
+      return Math.max(0, Math.min(1, value / max));
+    }
+
+    function normalizeLower(value, min, max) {
+      if (!value) return 0.5;
+      if (max === min) return 1;
+      return 1 - ((value - min) / (max - min));
+    }
+
+    function clampScore(value) {
+      return Math.max(0, Math.min(10, clean(value))) / 10;
+    }
+
+    function rankedHomes() {
+      const totals = state.homes.map(totalCost).filter(Boolean);
+      const values = state.homes.map(valuePerSqm).filter(Boolean);
+      const distances = state.homes.map((home) => clean(home.targetDistanceKm)).filter(Boolean);
+      const maxArea = Math.max(0, ...state.homes.map((home) => clean(home.area)));
+      const maxBedrooms = Math.max(0, ...state.homes.map((home) => clean(home.bedrooms)));
+      const maxBathrooms = Math.max(0, ...state.homes.map((home) => clean(home.bathrooms)));
+      const maxParking = Math.max(0, ...state.homes.map((home) => clean(home.parking)));
+      const minTotal = totals.length ? Math.min(...totals) : 0;
+      const maxTotal = totals.length ? Math.max(...totals) : 0;
+      const minValue = values.length ? Math.min(...values) : 0;
+      const maxValue = values.length ? Math.max(...values) : 0;
+      const minDistance = distances.length ? Math.min(...distances) : 0;
+      const maxDistance = distances.length ? Math.max(...distances) : 0;
+
+      return state.homes.map((home) => {
+        const factors = {
+          cost: normalizeLower(totalCost(home), minTotal, maxTotal),
+          valuePerSqm: normalizeLower(valuePerSqm(home), minValue, maxValue),
+          targetDistance: normalizeLower(clean(home.targetDistanceKm), minDistance, maxDistance),
+          area: normalizeHigher(clean(home.area), maxArea),
+          bedrooms: normalizeHigher(clean(home.bedrooms), maxBedrooms),
+          bathrooms: normalizeHigher(clean(home.bathrooms), maxBathrooms),
+          parking: normalizeHigher(clean(home.parking), maxParking),
+          transit: clampScore(home.transit),
+          safety: clampScore(home.safety),
+          condition: clampScore(home.condition),
+          lightNoise: clampScore(home.lightNoise)
+        };
+        const weightSum = Object.values(state.weights).reduce((sum, item) => sum + clean(item), 0) || 1;
+        const score = Object.entries(factors).reduce((sum, [key, value]) => sum + value * clean(state.weights[key]), 0) / weightSum * 100;
+        return { ...home, totalCost: totalCost(home), valuePerSqm: valuePerSqm(home), delta: currentDelta(home), score };
+      }).sort(sortHomes);
+    }
+
+    function sortHomes(a, b) {
+      if (sortBy === "totalCost" || sortBy === "targetDistanceKm" || sortBy === "delta") return a[sortBy] - b[sortBy];
+      return b[sortBy] - a[sortBy];
+    }
+
+    function render() {
+      const homes = rankedHomes();
+      if (!homes.some((home) => home.id === selectedId)) selectedId = homes[0]?.id || state.homes[0]?.id || null;
+      renderCards(homes);
+      renderMap(homes);
+      renderSortControls();
+      renderCompareBar();
+    }
+
+    function renderSortControls() {
+      document.querySelectorAll("[data-sort]").forEach((button) => {
+        button.classList.toggle("active", button.dataset.sort === sortBy);
+      });
+    }
+
+    function renderCards(homes) {
+      const container = document.getElementById("cards");
+      container.innerHTML = "";
+      if (!homes.length) {
+        container.innerHTML = '<div class="empty">Nenhum imóvel encontrado com os filtros atuais.</div>';
+        return;
+      }
+      homes.forEach((home, index) => {
+        const card = document.createElement("button");
+        card.type = "button";
+        card.className = `home-card ${home.id === selectedId ? "active" : ""}`;
+        card.innerHTML = `
+          <label class="compare-check" title="Selecionar para comparar">
+            <input type="checkbox" data-compare-id="${escapeAttr(home.id)}" ${selectedCompareIds.includes(home.id) ? "checked" : ""}>
+          </label>
+          <span>
+            <span class="card-title">
+              <span><strong>${escapeHtml(home.title)}</strong><span>${escapeHtml(home.neighborhood)}</span></span>
+            </span>
+            <span class="card-facts">
+              <span class="fact"><strong>${money.format(home.totalCost)}</strong><span class="${deltaClass(home)}" style="font-size:11px;font-weight:750;">${deltaLabel(home)}</span><span>custo total</span></span>
+              <span class="fact"><strong>${number.format(home.targetDistanceKm)} km</strong><span>até Faria Lima</span></span>
+              <span class="fact"><strong>${home.area} m²</strong><span>área</span></span>
+              <span class="fact"><strong>${home.bedrooms}</strong><span>quartos</span></span>
+            </span>
+          </span>
+        `;
+        card.addEventListener("click", () => {
+          selectedId = home.id;
+          render();
+          openDrawer(home);
+        });
+        card.querySelector(".compare-check").addEventListener("click", (event) => {
+          event.stopPropagation();
+        });
+        card.querySelector("[data-compare-id]").addEventListener("change", (event) => {
+          toggleCompare(home.id, event.target.checked);
+        });
+        card.addEventListener("mouseenter", () => showMarkerPreview(home.id));
+        card.addEventListener("mouseleave", () => hideMarkerPreview(home.id));
+        container.append(card);
+      });
+    }
+
+    function toggleCompare(id, checked) {
+      if (checked) {
+        if (selectedCompareIds.length >= 4) {
+          renderCards(rankedHomes());
+          return;
+        }
+        if (!selectedCompareIds.includes(id)) selectedCompareIds.push(id);
+      } else {
+        selectedCompareIds = selectedCompareIds.filter((item) => item !== id);
+      }
+      renderCompareBar();
+    }
+
+    function renderCompareBar() {
+      const bar = document.getElementById("compareBar");
+      const count = selectedCompareIds.length;
+      document.getElementById("compareCount").textContent = `${count}/4`;
+      document.getElementById("openCompare").disabled = count === 0;
+      bar.classList.toggle("visible", count > 0);
+      document.getElementById("cards").classList.toggle("has-compare", count > 0);
+    }
+
+    function openCompareDialog() {
+      const homes = rankedHomes().filter((home) => selectedCompareIds.includes(home.id));
+      const grid = document.getElementById("compareGrid");
+      grid.style.setProperty("--compare-cols", String(Math.max(homes.length, 1)));
+      grid.innerHTML = homes.map(compareColumn).join("");
+      document.getElementById("compareDialog").showModal();
+    }
+
+    function compareColumn(home) {
+      const photo = home.photos?.[0]?.url || "";
+      return `
+        <article class="compare-card">
+          ${photo ? `<img src="${escapeAttr(photo)}" alt="">` : ""}
+          <h3>${escapeHtml(home.title)}</h3>
+          <div class="detail-list">
+            ${detailRow("Nota", Math.round(home.score))}
+            ${detailRow("Total", money.format(home.totalCost))}
+            ${detailRow("Vs atual", deltaLabel(home), deltaClass(home))}
+            ${detailRow("Distância", `${number.format(home.targetDistanceKm)} km`)}
+            ${detailRow("Área", `${number.format(home.area)} m²`)}
+            ${detailRow("Quartos", home.bedrooms)}
+            ${detailRow("Banheiros", home.bathrooms)}
+            ${detailRow("Vagas", home.parking)}
+            ${detailRow("Bairro", home.neighborhood)}
+            ${detailRow("Aluguel", money.format(home.rent))}
+            ${detailRow("Condomínio", money.format(home.condo))}
+            ${detailRow("IPTU", money.format(home.iptu))}
+          </div>
+        </article>
+      `;
+    }
+
+    function initMap() {
+      if (map || !window.L) return;
+      const target = state.target || defaultState.target;
+      map = L.map("map", { zoomControl: false }).setView([target.lat, target.lng], 14);
+      L.control.zoom({ position: "bottomright" }).addTo(map);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        className: "map-tile-bw",
+        attribution: "&copy; OpenStreetMap"
+      }).addTo(map);
+      markerLayer = L.layerGroup().addTo(map);
+      marketLayer = L.layerGroup();
+    }
+
+    async function fetchAndRenderMarkets() {
+      if (marketsFetched) return;
+      const homes = state.homes || [];
+      const target = state.target || defaultState.target;
+      const lats = homes.filter(h => h.lat).map(h => h.lat).concat(target.lat);
+      const lngs = homes.filter(h => h.lng).map(h => h.lng).concat(target.lng);
+      const pad = 0.018;
+      const minLat = Math.min(...lats) - pad;
+      const maxLat = Math.max(...lats) + pad;
+      const minLng = Math.min(...lngs) - pad;
+      const maxLng = Math.max(...lngs) + pad;
+
+      const query = `[out:json][timeout:25];\n(\n  node["shop"="supermarket"](${minLat},${minLng},${maxLat},${maxLng});\n  node["shop"="convenience"](${minLat},${minLng},${maxLat},${maxLng});\n  node["shop"="grocery"](${minLat},${minLng},${maxLat},${maxLng});\n  way["shop"="supermarket"](${minLat},${minLng},${maxLat},${maxLng});\n  way["shop"="convenience"](${minLat},${minLng},${maxLat},${maxLng});\n)->._;\nout center;`;
+
+      try {
+        const response = await fetch("https://overpass-api.de/api/interpreter", {
+          method: "POST",
+          body: query,
+          headers: { "Content-Type": "text/plain" }
+        });
+        if (!response.ok) throw new Error("Overpass error");
+        const data = await response.json();
+        marketLayer.clearLayers();
+        data.elements.forEach(el => {
+          const lat = el.lat ?? el.center?.lat;
+          const lng = el.lon ?? el.center?.lon;
+          if (!lat || !lng) return;
+          const name = el.tags?.name || "Mercado";
+          const shopType = el.tags?.shop || "";
+          const label = shopType === "supermarket" ? "Supermercado" : shopType === "convenience" ? "Conveniência" : "Mercearia";
+          const marker = L.marker([lat, lng], { icon: marketIcon() });
+          marker.bindTooltip(`<strong>${escapeHtml(name)}</strong><br><span style="color:#888;font-size:11px">${label}</span>`, {
+            direction: "top",
+            offset: [0, -12],
+            opacity: 1
+          });
+          marketLayer.addLayer(marker);
+        });
+        marketsFetched = true;
+      } catch (err) {
+        console.warn("Falha ao buscar mercados:", err);
+      }
+    }
+
+    function marketIcon() {
+      return L.divIcon({
+        className: "",
+        html: `<span class="market-pin"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span>`,
+        iconSize: [30, 30],
+        iconAnchor: [15, 15]
+      });
+    }
+
+    function toggleMarkets() {
+      if (!map) return;
+      marketsVisible = !marketsVisible;
+      const btn = document.getElementById("toggleMarkets");
+      if (marketsVisible) {
+        marketLayer.addTo(map);
+        btn.classList.add("active");
+        fetchAndRenderMarkets();
+      } else {
+        map.removeLayer(marketLayer);
+        btn.classList.remove("active");
+      }
+    }
+
+    function renderMap(homes) {
+      initMap();
+      if (!map || !markerLayer) return;
+      markerLayer.clearLayers();
+      markersById = {};
+      const bounds = [];
+      const target = state.target || defaultState.target;
+      const targetMarker = L.marker([target.lat, target.lng], {
+        icon: markerIcon("target")
+      }).addTo(markerLayer);
+      targetMarker.bindTooltip("Faria Lima 3732", { direction: "top" });
+      bounds.push([target.lat, target.lng]);
+
+      homes.forEach((home, index) => {
+        if (!home.lat || !home.lng) return;
+        const marker = L.marker([home.lat, home.lng], {
+          icon: markerIcon(scoreClass(home.score))
+        }).addTo(markerLayer);
+        marker.bindTooltip(markerTooltip(home), {
+          direction: "top",
+          offset: [0, -18],
+          opacity: 1,
+          className: "property-tooltip"
+        });
+        marker.on("click", () => {
+          selectedId = home.id;
+          renderCards(rankedHomes());
+          openDrawer(home);
+        });
+        markersById[home.id] = marker;
+        bounds.push([home.lat, home.lng]);
+      });
+
+      document.getElementById("mapCount").textContent = String(homes.length);
+      if (bounds.length > 1) map.fitBounds(bounds, { padding: [34, 34], maxZoom: 15 });
+    }
+
+    function markerIcon(className = "") {
+      return L.divIcon({
+        className: "",
+        html: `<span class="pin ${className}"></span>`,
+        iconSize: [28, 28],
+        iconAnchor: [14, 28]
+      });
+    }
+
+    function markerTooltip(home) {
+      const photo = home.photos?.[0]?.url || "";
+      return `
+        <div class="tooltip-card">
+          ${photo ? `<img src="${escapeAttr(photo)}" alt="">` : ""}
+          <strong>${money.format(home.totalCost)}</strong>
+          <span>${escapeHtml(home.neighborhood)} · ${number.format(home.targetDistanceKm)} km</span>
+        </div>
+      `;
+    }
+
+    function showMarkerPreview(id) {
+      const marker = markersById[id];
+      if (!marker) return;
+      marker.setZIndexOffset(1000);
+      marker.openTooltip();
+    }
+
+    function hideMarkerPreview(id) {
+      const marker = markersById[id];
+      if (!marker) return;
+      marker.setZIndexOffset(0);
+      marker.closeTooltip();
+    }
+
+    function openDrawer(home) {
+      renderDetail(home);
+      document.getElementById("drawerBackdrop").classList.add("open");
+      document.getElementById("detailDrawer").classList.add("open");
+    }
+
+    function closeDrawer() {
+      document.getElementById("drawerBackdrop").classList.remove("open");
+      document.getElementById("detailDrawer").classList.remove("open");
+    }
+
+    function renderDetail(selected) {
+      const panel = document.getElementById("detailPanel");
+      if (!selected) {
+        document.getElementById("detailTitle").textContent = "Detalhes do imóvel";
+        panel.innerHTML = "";
+        return;
+      }
+      document.getElementById("detailTitle").textContent = selected.title;
+      const photos = selected.photos || [];
+      const photoIndex = Math.min(photoIndexes[selected.id] || 0, Math.max(photos.length - 1, 0));
+      photoIndexes[selected.id] = photoIndex;
+      panel.innerHTML = `
+        ${renderPhotoSlider(selected, photoIndex)}
+        <div class="detail-list">
+          ${detailRow("Nota", Math.round(selected.score))}
+          <div class="detail-row"><span>Total</span><strong>${escapeHtml(money.format(selected.totalCost))}<small class="cost-delta ${deltaClass(selected)}">${escapeHtml(deltaLabel(selected))}</small></strong></div>
+          ${detailRow("Atual", money.format(CURRENT_HOME.monthlyCost))}
+          ${detailRow("Aluguel", money.format(selected.rent))}
+          ${detailRow("Condomínio", money.format(selected.condo))}
+          ${detailRow("IPTU", money.format(selected.iptu))}
+          ${detailRow("Distância", `${number.format(selected.targetDistanceKm)} km`)}
+          ${detailRow("Bairro", selected.neighborhood)}
+          ${detailRow("Área", `${number.format(selected.area)} m²`)}
+          ${detailRow("Quartos", selected.bedrooms)}
+          ${detailRow("Banheiros", selected.bathrooms)}
+          ${detailRow("Vagas", selected.parking)}
+          ${selected.notes ? detailRow("Notas", selected.notes, "notes") : ""}
+        </div>
+        <div class="detail-actions">
+          <a href="${escapeAttr(selected.url)}" target="_blank" rel="noreferrer">Abrir anúncio no QuintoAndar</a>
+        </div>
+      `;
+      const previous = panel.querySelector("[data-photo-action='prev']");
+      const next = panel.querySelector("[data-photo-action='next']");
+      if (previous) previous.addEventListener("click", () => changePhoto(selected, -1));
+      if (next) next.addEventListener("click", () => changePhoto(selected, 1));
+    }
+
+    function detailRow(label, value, className = "") {
+      const rowClass = className === "notes" ? "notes" : "";
+      const valueClass = className !== "notes" ? className : "";
+      return `<div class="detail-row ${rowClass}"><span>${escapeHtml(label)}</span><strong class="${escapeAttr(valueClass)}">${escapeHtml(value)}</strong></div>`;
+    }
+
+    function renderPhotoSlider(home, photoIndex) {
+      const photos = home.photos || [];
+      if (!photos.length) return "";
+      const photo = photos[photoIndex];
+      return `
+        <div class="photo-slider">
+          <img src="${escapeAttr(photo.url)}" alt="${escapeAttr(photo.subtitle || home.title)}">
+          ${photos.length > 1 ? '<button class="slider-button prev" type="button" data-photo-action="prev" aria-label="Foto anterior">‹</button>' : ""}
+          ${photos.length > 1 ? '<button class="slider-button next" type="button" data-photo-action="next" aria-label="Próxima foto">›</button>' : ""}
+          <span class="photo-count">${photoIndex + 1}/${photos.length}</span>
+        </div>
+      `;
+    }
+
+    function changePhoto(home, direction) {
+      const photos = home.photos || [];
+      if (!photos.length) return;
+      const current = photoIndexes[home.id] || 0;
+      photoIndexes[home.id] = (current + direction + photos.length) % photos.length;
+      renderDetail(home);
+    }
+
+    function scoreClass(score) {
+      if (score >= 70) return "";
+      if (score >= 45) return "mid";
+      return "low";
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      })[char]);
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replaceAll("\n", " ");
+    }
+
+    document.getElementById("toggleMarkets").addEventListener("click", toggleMarkets);
+    document.getElementById("closeDrawer").addEventListener("click", closeDrawer);
+    document.getElementById("drawerBackdrop").addEventListener("click", closeDrawer);
+    document.getElementById("openCompare").addEventListener("click", openCompareDialog);
+    document.getElementById("closeCompare").addEventListener("click", () => document.getElementById("compareDialog").close());
+    document.getElementById("compareDialog").addEventListener("click", (event) => {
+      if (event.target.id === "compareDialog") event.target.close();
+    });
+    document.querySelectorAll("[data-sort]").forEach((button) => {
+      button.addEventListener("click", () => {
+        sortBy = button.dataset.sort;
+        render();
+      });
+    });
+
+    render();
+  </script>
+</body>
+</html>
