@@ -511,6 +511,17 @@
       color: #0f766e;
     }
 
+    .route-badge-item.drive-return {
+      color: #c2620a;
+    }
+
+    .route-badge-dir {
+      font-size: 10px;
+      font-weight: 700;
+      opacity: 0.65;
+      letter-spacing: 0.02em;
+    }
+
     .route-badge-item.walk {
       color: #2563eb;
     }
@@ -2235,6 +2246,68 @@
       }
     };
 
+    const PLACES = {
+      pracaDoPovo: { label: "Praça do Povo", lat: -23.5908, lng: -46.6886 }
+    };
+
+    const MARKETS_DATA = [
+    { name: "Ale", label: "Conveniência", lat: -23.5999776, lng: -46.6943729 },
+    { name: "Americanas Express", label: "Conveniência", lat: -23.6107495, lng: -46.6861843 },
+    { name: "Carrefour", label: "Conveniência", lat: -23.6027153, lng: -46.6714927 },
+    { name: "Carrefour Express", label: "Conveniência", lat: -23.6103465, lng: -46.697333 },
+    { name: "Carrefour Express", label: "Conveniência", lat: -23.6099164, lng: -46.6944194 },
+    { name: "Dia", label: "Supermercado", lat: -23.6044222, lng: -46.6753368 },
+    { name: "Dia", label: "Supermercado", lat: -23.5853031, lng: -46.679712 },
+    { name: "Dia", label: "Supermercado", lat: -23.6065475, lng: -46.6688701 },
+    { name: "Dia", label: "Supermercado", lat: -23.5935883, lng: -46.6736226 },
+    { name: "Dia", label: "Supermercado", lat: -23.609468, lng: -46.7067299 },
+    { name: "Dia Market", label: "Supermercado", lat: -23.6015212, lng: -46.6697799 },
+    { name: "Empório", label: "Supermercado", lat: -23.5957692, lng: -46.6679689 },
+    { name: "Extra Fácil", label: "Supermercado", lat: -23.6136136, lng: -46.6825383 },
+    { name: "Koa Food Market Itaim", label: "Mercearia", lat: -23.5856595, lng: -46.6781066 },
+    { name: "Mambo", label: "Supermercado", lat: -23.5996534, lng: -46.6655579 },
+    { name: "Mercadinho Dalva e Dito", label: "Conveniência", lat: -23.5664697, lng: -46.6668006 },
+    { name: "Mercado Extra", label: "Supermercado", lat: -23.5878833, lng: -46.6761799 },
+    { name: "Mini Extra", label: "Conveniência", lat: -23.6039369, lng: -46.6710807 },
+    { name: "minuto Pão de Açúcar", label: "Conveniência", lat: -23.6075868, lng: -46.6694402 },
+    { name: "Natural da Terra", label: "Supermercado", lat: -23.6144994, lng: -46.6787416 },
+    { name: "Natural da Terra", label: "Supermercado", lat: -23.5920574, lng: -46.6752195 },
+    { name: "Oxxo", label: "Conveniência", lat: -23.58292, lng: -46.675465 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.613501, lng: -46.6780297 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5952938, lng: -46.6685049 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6121789, lng: -46.6840486 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5903887, lng: -46.6739367 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5944758, lng: -46.6843178 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6115802, lng: -46.7014083 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5829455, lng: -46.6705017 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.592569, lng: -46.6771915 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5958191, lng: -46.6768186 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6009017, lng: -46.6786891 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5663884, lng: -46.6648917 },
+    { name: "Pão de Açúcar Minuto", label: "Conveniência", lat: -23.6081833, lng: -46.7077419 },
+    { name: "St Marche", label: "Supermercado", lat: -23.6016028, lng: -46.6737803 },
+    { name: "Super Natural", label: "Supermercado", lat: -23.5662924, lng: -46.6688603 },
+    { name: "Supermercado Ferraz", label: "Supermercado", lat: -23.5850061, lng: -46.6853364 }
+    ];
+
+    function haversineKm(lat1, lng1, lat2, lng2) {
+      const R = 6371;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLng = (lng2 - lng1) * Math.PI / 180;
+      const a = Math.sin(dLat/2) ** 2 + Math.cos(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) * Math.sin(dLng/2) ** 2;
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    function nearestMarket(home) {
+      if (!home.lat || !home.lng) return null;
+      let best = null;
+      for (const m of MARKETS_DATA) {
+        const dist = haversineKm(home.lat, home.lng, m.lat, m.lng);
+        if (!best || dist < best.dist) best = { name: m.name, dist };
+      }
+      return best;
+    }
+
     let state = loadState();
     let selectedId = state.homes[0]?.id || null;
     let map;
@@ -2245,6 +2318,7 @@
     let photoIndexes = {};
     let routeLayerDriving = null;
     let routeLayerWalking = null;
+    let routeLayerDrivingReturn = null;
     let routeCache = {};
     let sortBy = "score";
     let selectedCompareIds = [];
@@ -2478,44 +2552,6 @@
     }
 
     function renderMarkets() {
-      const MARKETS_DATA = [
-    { name: "Ale", label: "Conveniência", lat: -23.5999776, lng: -46.6943729 },
-    { name: "Americanas Express", label: "Conveniência", lat: -23.6107495, lng: -46.6861843 },
-    { name: "Carrefour", label: "Conveniência", lat: -23.6027153, lng: -46.6714927 },
-    { name: "Carrefour Express", label: "Conveniência", lat: -23.6103465, lng: -46.697333 },
-    { name: "Carrefour Express", label: "Conveniência", lat: -23.6099164, lng: -46.6944194 },
-    { name: "Dia", label: "Supermercado", lat: -23.6044222, lng: -46.6753368 },
-    { name: "Dia", label: "Supermercado", lat: -23.5853031, lng: -46.679712 },
-    { name: "Dia", label: "Supermercado", lat: -23.6065475, lng: -46.6688701 },
-    { name: "Dia", label: "Supermercado", lat: -23.5935883, lng: -46.6736226 },
-    { name: "Dia", label: "Supermercado", lat: -23.609468, lng: -46.7067299 },
-    { name: "Dia Market", label: "Supermercado", lat: -23.6015212, lng: -46.6697799 },
-    { name: "Empório", label: "Supermercado", lat: -23.5957692, lng: -46.6679689 },
-    { name: "Extra Fácil", label: "Supermercado", lat: -23.6136136, lng: -46.6825383 },
-    { name: "Koa Food Market Itaim", label: "Mercearia", lat: -23.5856595, lng: -46.6781066 },
-    { name: "Mambo", label: "Supermercado", lat: -23.5996534, lng: -46.6655579 },
-    { name: "Mercadinho Dalva e Dito", label: "Conveniência", lat: -23.5664697, lng: -46.6668006 },
-    { name: "Mercado Extra", label: "Supermercado", lat: -23.5878833, lng: -46.6761799 },
-    { name: "Mini Extra", label: "Conveniência", lat: -23.6039369, lng: -46.6710807 },
-    { name: "minuto Pão de Açúcar", label: "Conveniência", lat: -23.6075868, lng: -46.6694402 },
-    { name: "Natural da Terra", label: "Supermercado", lat: -23.6144994, lng: -46.6787416 },
-    { name: "Natural da Terra", label: "Supermercado", lat: -23.5920574, lng: -46.6752195 },
-    { name: "Oxxo", label: "Conveniência", lat: -23.58292, lng: -46.675465 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.613501, lng: -46.6780297 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5952938, lng: -46.6685049 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6121789, lng: -46.6840486 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5903887, lng: -46.6739367 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5944758, lng: -46.6843178 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6115802, lng: -46.7014083 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5829455, lng: -46.6705017 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.592569, lng: -46.6771915 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5958191, lng: -46.6768186 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6009017, lng: -46.6786891 },
-    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5663884, lng: -46.6648917 },
-    { name: "Pão de Açúcar Minuto", label: "Conveniência", lat: -23.6081833, lng: -46.7077419 },
-    { name: "St Marche", label: "Supermercado", lat: -23.6016028, lng: -46.6737803 },
-    { name: "Super Natural", label: "Supermercado", lat: -23.5662924, lng: -46.6688603 }
-      ];
       marketLayer.clearLayers();
       MARKETS_DATA.forEach(m => {
         const marker = L.marker([m.lat, m.lng], { icon: marketIcon() });
@@ -2629,14 +2665,18 @@
       const footBase = "https://routing.openstreetmap.de/routed-foot/route/v1";
       Promise.allSettled([
         fetch(`${driveBase}/driving/${from};${to}?overview=full&geometries=geojson`).then(r => r.json()),
-        fetch(`${footBase}/foot/${from};${to}?overview=full&geometries=geojson`).then(r => r.json())
-      ]).then(([drivingResult, walkingResult]) => {
-        const result = { driving: null, walking: null };
+        fetch(`${footBase}/foot/${from};${to}?overview=full&geometries=geojson`).then(r => r.json()),
+        fetch(`${driveBase}/driving/${to};${from}?overview=full&geometries=geojson`).then(r => r.json())
+      ]).then(([drivingResult, walkingResult, drivingReturnResult]) => {
+        const result = { driving: null, walking: null, drivingReturn: null };
         if (drivingResult.status === "fulfilled" && drivingResult.value.code === "Ok" && drivingResult.value.routes[0]) {
           result.driving = { coords: drivingResult.value.routes[0].geometry.coordinates, duration: drivingResult.value.routes[0].duration };
         }
         if (walkingResult.status === "fulfilled" && walkingResult.value.code === "Ok" && walkingResult.value.routes[0]) {
           result.walking = { coords: walkingResult.value.routes[0].geometry.coordinates, duration: walkingResult.value.routes[0].duration };
+        }
+        if (drivingReturnResult.status === "fulfilled" && drivingReturnResult.value.code === "Ok" && drivingReturnResult.value.routes[0]) {
+          result.drivingReturn = { coords: drivingReturnResult.value.routes[0].geometry.coordinates, duration: drivingReturnResult.value.routes[0].duration };
         }
         routeCache[cacheKey] = result;
         drawRoutes(result);
@@ -2654,6 +2694,10 @@
         const latlngs = result.walking.coords.map(([lng, lat]) => [lat, lng]);
         routeLayerWalking = L.polyline(latlngs, { color: "#2563eb", weight: 4, opacity: 0.85, dashArray: "8 6" }).addTo(map);
       }
+      if (result.drivingReturn) {
+        const latlngs = result.drivingReturn.coords.map(([lng, lat]) => [lat, lng]);
+        routeLayerDrivingReturn = L.polyline(latlngs, { color: "#c2620a", weight: 5, opacity: 0.75, dashArray: "12 5" }).addTo(map);
+      }
       updateRouteBadge(result);
     }
 
@@ -2669,10 +2713,13 @@
         const m = Math.round(sec / 60);
         return m < 60 ? `${m} min` : `${Math.floor(m / 60)}h ${m % 60 ? m % 60 + "min" : ""}`;
       };
+      const carIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>`;
+      const walkIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4a1 1 0 1 0 2 0 1 1 0 0 0-2 0"/><path d="M7 20l2-8 3 3 2-5 2 10"/><path d="M5 20l2-10 3 3"/></svg>`;
       const parts = [];
-      if (result.driving) parts.push(`<span class="route-badge-item drive"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> ${fmtTime(result.driving.duration)}</span>`);
-      if (result.walking) parts.push(`<span class="route-badge-item walk"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4a1 1 0 1 0 2 0 1 1 0 0 0-2 0"/><path d="M7 20l2-8 3 3 2-5 2 10"/><path d="M5 20l2-10 3 3"/></svg> ${fmtTime(result.walking.duration)}</span>`);
-      badge.innerHTML = `<span class="route-badge-label">Até a meta</span>` + parts.join(`<span class="route-badge-sep">·</span>`);
+      if (result.driving) parts.push(`<span class="route-badge-item drive">${carIcon} <span class="route-badge-dir">im→meta</span> ${fmtTime(result.driving.duration)}</span>`);
+      if (result.drivingReturn) parts.push(`<span class="route-badge-item drive-return">${carIcon} <span class="route-badge-dir">meta→im</span> ${fmtTime(result.drivingReturn.duration)}</span>`);
+      if (result.walking) parts.push(`<span class="route-badge-item walk">${walkIcon} ${fmtTime(result.walking.duration)}</span>`);
+      badge.innerHTML = `<span class="route-badge-label">Percurso</span>` + parts.join(`<span class="route-badge-sep">·</span>`);
       badge.style.display = "flex";
     }
 
@@ -2680,6 +2727,7 @@
       if (!map) return;
       if (routeLayerDriving) { map.removeLayer(routeLayerDriving); routeLayerDriving = null; }
       if (routeLayerWalking) { map.removeLayer(routeLayerWalking); routeLayerWalking = null; }
+      if (routeLayerDrivingReturn) { map.removeLayer(routeLayerDrivingReturn); routeLayerDrivingReturn = null; }
       const badge = document.getElementById("routeInfoBadge");
       if (badge) badge.style.display = "none";
     }
@@ -2715,7 +2763,9 @@
           ${detailRow("Aluguel", money.format(selected.rent))}
           ${detailRow("Condomínio", money.format(selected.condo))}
           ${detailRow("IPTU", money.format(selected.iptu))}
-          ${detailRow("Distância", `${number.format(selected.targetDistanceKm)} km`)}
+          ${detailRow("Distância até meta", `${number.format(selected.targetDistanceKm)} km`)}
+          ${(() => { if (!selected.lat || !selected.lng) return ""; const d = haversineKm(selected.lat, selected.lng, PLACES.pracaDoPovo.lat, PLACES.pracaDoPovo.lng); return detailRow("Praça do Povo", `${number.format(d)} km`); })()}
+          ${(() => { const m = nearestMarket(selected); return m ? detailRow("Mercado mais próx.", `${m.name} · ${number.format(m.dist)} km`) : ""; })()}
           ${detailRow("Bairro", selected.neighborhood)}
           ${detailRow("Área", `${number.format(selected.area)} m²`)}
           ${detailRow("Quartos", selected.bedrooms)}
