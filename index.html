@@ -175,7 +175,7 @@
     .rank-list {
       display: grid;
       gap: 8px;
-      height: calc(100vh - 63px);
+      height: calc(100vh - 84px);
       overflow: auto;
       padding: 12px;
     }
@@ -183,7 +183,7 @@
     .home-card {
       width: 100%;
       display: grid;
-      grid-template-columns: 32px 1fr;
+      grid-template-columns: 56px 1fr;
       gap: 10px;
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -193,24 +193,19 @@
       min-height: 104px;
     }
 
-    .compare-check {
-      display: grid;
-      place-items: center;
-      align-self: start;
-      width: 24px;
-      height: 24px;
-      margin-top: 4px;
-      border: 1px solid var(--line);
+    .card-thumb {
+      width: 56px;
+      height: 56px;
       border-radius: 6px;
-      background: #ffffff;
-      cursor: pointer;
+      object-fit: cover;
+      background: var(--surface-soft);
+      align-self: center;
+      flex-shrink: 0;
     }
 
-    .compare-check input {
-      width: 16px;
-      min-height: 16px;
-      accent-color: var(--accent);
-      cursor: pointer;
+    .home-card.comparing {
+      border-color: var(--accent);
+      box-shadow: inset 0 0 0 2px var(--accent);
     }
 
     .home-card:hover,
@@ -308,34 +303,72 @@
     }
 
     .card-facts {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
-      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      margin-top: 8px;
+      width: 100%;
     }
 
     .fact {
       display: flex;
       flex-direction: column;
-      border-left: 1px solid var(--line);
-      padding-left: 8px;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      flex: 1;
       min-width: 0;
+      border-left: 1px solid var(--line);
     }
 
     .fact:first-child {
       border-left: 0;
-      padding-left: 0;
+    }
+
+    .fact svg {
+      opacity: 0.55;
+      flex-shrink: 0;
     }
 
     .fact strong {
       display: block;
-      font-size: 13px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 1.2;
     }
 
     .fact span {
       color: var(--muted);
-      font-size: 11px;
+      font-size: 10px;
       white-space: nowrap;
+      text-align: center;
+    }
+
+    /* Card tooltip */
+    .card-tooltip {
+      position: fixed;
+      z-index: 9999;
+      pointer-events: none;
+      background: rgba(23, 33, 36, 0.92);
+      color: #ffffff;
+      border-radius: 8px;
+      padding: 9px 12px;
+      font-size: 12px;
+      line-height: 1.6;
+      white-space: nowrap;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      opacity: 0;
+      transition: opacity 100ms ease;
+    }
+
+    .card-tooltip.visible {
+      opacity: 1;
+    }
+
+    .card-tooltip strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 4px;
     }
 
     .delta-positive {
@@ -434,6 +467,54 @@
       gap: 8px;
     }
 
+    .route-info-badge {
+      position: absolute;
+      z-index: 500;
+      bottom: 48px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: none;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      font-size: 13px;
+      font-weight: 750;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    .route-badge-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-right: 2px;
+    }
+
+    .route-badge-sep {
+      color: var(--line);
+      font-size: 16px;
+    }
+
+    .route-badge-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .route-badge-item.drive {
+      color: #0f766e;
+    }
+
+    .route-badge-item.walk {
+      color: #2563eb;
+    }
+
     .map-pill {
       min-height: 38px;
       display: inline-flex;
@@ -487,44 +568,7 @@
       border-color: #ffffff;
     }
 
-    .property-tooltip {
-      padding: 0;
-      border: 0;
-      border-radius: 8px;
-      background: #ffffff;
-      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
-      overflow: hidden;
-    }
 
-    .property-tooltip::before {
-      display: none;
-    }
-
-    .tooltip-card {
-      width: 178px;
-      background: #ffffff;
-    }
-
-    .tooltip-card img {
-      display: block;
-      width: 178px;
-      height: 108px;
-      object-fit: cover;
-    }
-
-    .tooltip-card strong {
-      display: block;
-      padding: 8px 9px 0;
-      color: #111111;
-      font-size: 13px;
-    }
-
-    .tooltip-card span {
-      display: block;
-      padding: 2px 9px 8px;
-      color: #555555;
-      font-size: 12px;
-    }
 
     .drawer-backdrop {
       position: fixed;
@@ -2198,8 +2242,10 @@
     let markersById = {};
     let marketLayer = null;
     let marketsVisible = false;
-    let marketsFetched = false;
     let photoIndexes = {};
+    let routeLayerDriving = null;
+    let routeLayerWalking = null;
+    let routeCache = {};
     let sortBy = "score";
     let selectedCompareIds = [];
 
@@ -2329,36 +2375,35 @@
       homes.forEach((home, index) => {
         const card = document.createElement("button");
         card.type = "button";
-        card.className = `home-card ${home.id === selectedId ? "active" : ""}`;
+        const coverPhoto = home.photos?.find(p => p.cover)?.url || home.photos?.[0]?.url || "";
+        card.className = `home-card ${home.id === selectedId ? "active" : ""} ${selectedCompareIds.includes(home.id) ? "comparing" : ""}`;
+        const iconMoney = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`;
+        const iconDist  = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 1 8 8c0 5.25-8 13-8 13S4 15.25 4 10a8 8 0 0 1 8-8z"/></svg>`;
+        const iconArea  = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>`;
+        const iconBed   = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9V5a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v4"/><path d="M2 9h20v10H2z"/><path d="M7 9V7a2 2 0 0 1 4 0v2"/></svg>`;
         card.innerHTML = `
-          <label class="compare-check" title="Selecionar para comparar">
-            <input type="checkbox" data-compare-id="${escapeAttr(home.id)}" ${selectedCompareIds.includes(home.id) ? "checked" : ""}>
-          </label>
-          <span>
-            <span class="card-title">
-              <span><strong>${escapeHtml(home.title)}</strong><span>${escapeHtml(home.neighborhood)}</span></span>
-            </span>
+          ${coverPhoto ? `<img class="card-thumb" src="${escapeAttr(coverPhoto)}" alt="">` : `<span class="card-thumb"></span>`}
+          <span style="display:flex;flex-direction:column;justify-content:center;min-width:0;flex:1;">
             <span class="card-facts">
-              <span class="fact"><strong>${money.format(home.totalCost)}</strong><span class="${deltaClass(home)}" style="font-size:11px;font-weight:750;">${deltaLabel(home)}</span><span>custo total</span></span>
-              <span class="fact"><strong>${number.format(home.targetDistanceKm)} km</strong><span>até Faria Lima</span></span>
-              <span class="fact"><strong>${home.area} m²</strong><span>área</span></span>
-              <span class="fact"><strong>${home.bedrooms}</strong><span>quartos</span></span>
+              <span class="fact" title="Custo total">${iconMoney}<strong>${money.format(home.totalCost)}</strong><span class="${deltaClass(home)}" style="font-size:10px;font-weight:750;">${deltaLabel(home)}</span></span>
+              <span class="fact" title="Distância até Faria Lima">${iconDist}<strong>${number.format(home.targetDistanceKm)} km</strong></span>
+              <span class="fact" title="Área">${iconArea}<strong>${home.area} m²</strong></span>
+              <span class="fact" title="Quartos">${iconBed}<strong>${home.bedrooms}</strong></span>
             </span>
           </span>
         `;
-        card.addEventListener("click", () => {
+        card.addEventListener("click", (e) => {
+          if (e.shiftKey) {
+            toggleCompare(home.id, !selectedCompareIds.includes(home.id));
+            return;
+          }
           selectedId = home.id;
           render();
           openDrawer(home);
         });
-        card.querySelector(".compare-check").addEventListener("click", (event) => {
-          event.stopPropagation();
-        });
-        card.querySelector("[data-compare-id]").addEventListener("change", (event) => {
-          toggleCompare(home.id, event.target.checked);
-        });
-        card.addEventListener("mouseenter", () => showMarkerPreview(home.id));
-        card.addEventListener("mouseleave", () => hideMarkerPreview(home.id));
+        card.addEventListener("mouseenter", (e) => { showMarkerPreview(home.id); showRoutes(home); showCardTooltip(home, e); });
+        card.addEventListener("mousemove", (e) => { moveCardTooltip(e); });
+        card.addEventListener("mouseleave", () => { hideMarkerPreview(home.id); clearRoutes(); hideCardTooltip(); });
         container.append(card);
       });
     }
@@ -2373,6 +2418,7 @@
       } else {
         selectedCompareIds = selectedCompareIds.filter((item) => item !== id);
       }
+      renderCards(rankedHomes());
       renderCompareBar();
     }
 
@@ -2431,51 +2477,58 @@
       marketLayer = L.layerGroup();
     }
 
-    async function fetchAndRenderMarkets() {
-      if (marketsFetched) return;
-      const homes = state.homes || [];
-      const target = state.target || defaultState.target;
-      const lats = homes.filter(h => h.lat).map(h => h.lat).concat(target.lat);
-      const lngs = homes.filter(h => h.lng).map(h => h.lng).concat(target.lng);
-      const pad = 0.018;
-      const minLat = Math.min(...lats) - pad;
-      const maxLat = Math.max(...lats) + pad;
-      const minLng = Math.min(...lngs) - pad;
-      const maxLng = Math.max(...lngs) + pad;
-
-      const query = `[out:json][timeout:25];\n(\n  node["shop"="supermarket"](${minLat},${minLng},${maxLat},${maxLng});\n  node["shop"="convenience"](${minLat},${minLng},${maxLat},${maxLng});\n  node["shop"="grocery"](${minLat},${minLng},${maxLat},${maxLng});\n  way["shop"="supermarket"](${minLat},${minLng},${maxLat},${maxLng});\n  way["shop"="convenience"](${minLat},${minLng},${maxLat},${maxLng});\n)->._;\nout center;`;
-
-      try {
-        const response = await fetch("https://overpass-api.de/api/interpreter", {
-          method: "POST",
-          body: query,
-          headers: { "Content-Type": "text/plain" }
+    function renderMarkets() {
+      const MARKETS_DATA = [
+    { name: "Ale", label: "Conveniência", lat: -23.5999776, lng: -46.6943729 },
+    { name: "Americanas Express", label: "Conveniência", lat: -23.6107495, lng: -46.6861843 },
+    { name: "Carrefour", label: "Conveniência", lat: -23.6027153, lng: -46.6714927 },
+    { name: "Carrefour Express", label: "Conveniência", lat: -23.6103465, lng: -46.697333 },
+    { name: "Carrefour Express", label: "Conveniência", lat: -23.6099164, lng: -46.6944194 },
+    { name: "Dia", label: "Supermercado", lat: -23.6044222, lng: -46.6753368 },
+    { name: "Dia", label: "Supermercado", lat: -23.5853031, lng: -46.679712 },
+    { name: "Dia", label: "Supermercado", lat: -23.6065475, lng: -46.6688701 },
+    { name: "Dia", label: "Supermercado", lat: -23.5935883, lng: -46.6736226 },
+    { name: "Dia", label: "Supermercado", lat: -23.609468, lng: -46.7067299 },
+    { name: "Dia Market", label: "Supermercado", lat: -23.6015212, lng: -46.6697799 },
+    { name: "Empório", label: "Supermercado", lat: -23.5957692, lng: -46.6679689 },
+    { name: "Extra Fácil", label: "Supermercado", lat: -23.6136136, lng: -46.6825383 },
+    { name: "Koa Food Market Itaim", label: "Mercearia", lat: -23.5856595, lng: -46.6781066 },
+    { name: "Mambo", label: "Supermercado", lat: -23.5996534, lng: -46.6655579 },
+    { name: "Mercadinho Dalva e Dito", label: "Conveniência", lat: -23.5664697, lng: -46.6668006 },
+    { name: "Mercado Extra", label: "Supermercado", lat: -23.5878833, lng: -46.6761799 },
+    { name: "Mini Extra", label: "Conveniência", lat: -23.6039369, lng: -46.6710807 },
+    { name: "minuto Pão de Açúcar", label: "Conveniência", lat: -23.6075868, lng: -46.6694402 },
+    { name: "Natural da Terra", label: "Supermercado", lat: -23.6144994, lng: -46.6787416 },
+    { name: "Natural da Terra", label: "Supermercado", lat: -23.5920574, lng: -46.6752195 },
+    { name: "Oxxo", label: "Conveniência", lat: -23.58292, lng: -46.675465 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.613501, lng: -46.6780297 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5952938, lng: -46.6685049 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6121789, lng: -46.6840486 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5903887, lng: -46.6739367 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5944758, lng: -46.6843178 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6115802, lng: -46.7014083 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5829455, lng: -46.6705017 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.592569, lng: -46.6771915 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5958191, lng: -46.6768186 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.6009017, lng: -46.6786891 },
+    { name: "Pão de Açúcar", label: "Supermercado", lat: -23.5663884, lng: -46.6648917 },
+    { name: "Pão de Açúcar Minuto", label: "Conveniência", lat: -23.6081833, lng: -46.7077419 },
+    { name: "St Marche", label: "Supermercado", lat: -23.6016028, lng: -46.6737803 },
+    { name: "Super Natural", label: "Supermercado", lat: -23.5662924, lng: -46.6688603 }
+      ];
+      marketLayer.clearLayers();
+      MARKETS_DATA.forEach(m => {
+        const marker = L.marker([m.lat, m.lng], { icon: marketIcon() });
+        marker.bindTooltip(`<strong>${escapeHtml(m.name)}</strong><br><span style="color:#888;font-size:11px">${m.label}</span>`, {
+          direction: "top",
+          offset: [0, -12],
+          opacity: 1
         });
-        if (!response.ok) throw new Error("Overpass error");
-        const data = await response.json();
-        marketLayer.clearLayers();
-        data.elements.forEach(el => {
-          const lat = el.lat ?? el.center?.lat;
-          const lng = el.lon ?? el.center?.lon;
-          if (!lat || !lng) return;
-          const name = el.tags?.name || "Mercado";
-          const shopType = el.tags?.shop || "";
-          const label = shopType === "supermarket" ? "Supermercado" : shopType === "convenience" ? "Conveniência" : "Mercearia";
-          const marker = L.marker([lat, lng], { icon: marketIcon() });
-          marker.bindTooltip(`<strong>${escapeHtml(name)}</strong><br><span style="color:#888;font-size:11px">${label}</span>`, {
-            direction: "top",
-            offset: [0, -12],
-            opacity: 1
-          });
-          marketLayer.addLayer(marker);
-        });
-        marketsFetched = true;
-      } catch (err) {
-        console.warn("Falha ao buscar mercados:", err);
-      }
+        marketLayer.addLayer(marker);
+      });
     }
 
-    function marketIcon() {
+        function marketIcon() {
       return L.divIcon({
         className: "",
         html: `<span class="market-pin"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span>`,
@@ -2491,7 +2544,7 @@
       if (marketsVisible) {
         marketLayer.addTo(map);
         btn.classList.add("active");
-        fetchAndRenderMarkets();
+        renderMarkets();
       } else {
         map.removeLayer(marketLayer);
         btn.classList.remove("active");
@@ -2516,12 +2569,6 @@
         const marker = L.marker([home.lat, home.lng], {
           icon: markerIcon(scoreClass(home.score))
         }).addTo(markerLayer);
-        marker.bindTooltip(markerTooltip(home), {
-          direction: "top",
-          offset: [0, -18],
-          opacity: 1,
-          className: "property-tooltip"
-        });
         marker.on("click", () => {
           selectedId = home.id;
           renderCards(rankedHomes());
@@ -2559,14 +2606,82 @@
       const marker = markersById[id];
       if (!marker) return;
       marker.setZIndexOffset(1000);
-      marker.openTooltip();
     }
 
     function hideMarkerPreview(id) {
       const marker = markersById[id];
       if (!marker) return;
       marker.setZIndexOffset(0);
-      marker.closeTooltip();
+    }
+
+    function showRoutes(home) {
+      if (!map || !home.lat || !home.lng) return;
+      clearRoutes();
+      const target = state.target || defaultState.target;
+      const cacheKey = home.id;
+      if (routeCache[cacheKey]) {
+        drawRoutes(routeCache[cacheKey]);
+        return;
+      }
+      const from = `${home.lng},${home.lat}`;
+      const to = `${target.lng},${target.lat}`;
+      const driveBase = "https://router.project-osrm.org/route/v1";
+      const footBase = "https://routing.openstreetmap.de/routed-foot/route/v1";
+      Promise.allSettled([
+        fetch(`${driveBase}/driving/${from};${to}?overview=full&geometries=geojson`).then(r => r.json()),
+        fetch(`${footBase}/foot/${from};${to}?overview=full&geometries=geojson`).then(r => r.json())
+      ]).then(([drivingResult, walkingResult]) => {
+        const result = { driving: null, walking: null };
+        if (drivingResult.status === "fulfilled" && drivingResult.value.code === "Ok" && drivingResult.value.routes[0]) {
+          result.driving = { coords: drivingResult.value.routes[0].geometry.coordinates, duration: drivingResult.value.routes[0].duration };
+        }
+        if (walkingResult.status === "fulfilled" && walkingResult.value.code === "Ok" && walkingResult.value.routes[0]) {
+          result.walking = { coords: walkingResult.value.routes[0].geometry.coordinates, duration: walkingResult.value.routes[0].duration };
+        }
+        routeCache[cacheKey] = result;
+        drawRoutes(result);
+      });
+    }
+
+    function drawRoutes(result) {
+      if (!map) return;
+      clearRoutes();
+      if (result.driving) {
+        const latlngs = result.driving.coords.map(([lng, lat]) => [lat, lng]);
+        routeLayerDriving = L.polyline(latlngs, { color: "#0f766e", weight: 5, opacity: 0.8 }).addTo(map);
+      }
+      if (result.walking) {
+        const latlngs = result.walking.coords.map(([lng, lat]) => [lat, lng]);
+        routeLayerWalking = L.polyline(latlngs, { color: "#2563eb", weight: 4, opacity: 0.85, dashArray: "8 6" }).addTo(map);
+      }
+      updateRouteBadge(result);
+    }
+
+    function updateRouteBadge(result) {
+      let badge = document.getElementById("routeInfoBadge");
+      if (!badge) {
+        badge = document.createElement("div");
+        badge.id = "routeInfoBadge";
+        badge.className = "route-info-badge";
+        document.querySelector(".map-panel").appendChild(badge);
+      }
+      const fmtTime = (sec) => {
+        const m = Math.round(sec / 60);
+        return m < 60 ? `${m} min` : `${Math.floor(m / 60)}h ${m % 60 ? m % 60 + "min" : ""}`;
+      };
+      const parts = [];
+      if (result.driving) parts.push(`<span class="route-badge-item drive"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> ${fmtTime(result.driving.duration)}</span>`);
+      if (result.walking) parts.push(`<span class="route-badge-item walk"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4a1 1 0 1 0 2 0 1 1 0 0 0-2 0"/><path d="M7 20l2-8 3 3 2-5 2 10"/><path d="M5 20l2-10 3 3"/></svg> ${fmtTime(result.walking.duration)}</span>`);
+      badge.innerHTML = `<span class="route-badge-label">Até a meta</span>` + parts.join(`<span class="route-badge-sep">·</span>`);
+      badge.style.display = "flex";
+    }
+
+    function clearRoutes() {
+      if (!map) return;
+      if (routeLayerDriving) { map.removeLayer(routeLayerDriving); routeLayerDriving = null; }
+      if (routeLayerWalking) { map.removeLayer(routeLayerWalking); routeLayerWalking = null; }
+      const badge = document.getElementById("routeInfoBadge");
+      if (badge) badge.style.display = "none";
     }
 
     function openDrawer(home) {
