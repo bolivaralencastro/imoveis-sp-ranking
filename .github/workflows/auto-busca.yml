@@ -1,0 +1,56 @@
+name: 🔍 Auto-busca de Imóveis
+
+on:
+  # Roda a cada 6 horas (meia-noite, 6h, 12h, 18h UTC)
+  schedule:
+    - cron: "0 0,6,12,18 * * *"
+
+  # Permite disparar manualmente pela aba Actions do GitHub
+  workflow_dispatch:
+
+# Permissão para escrever no repositório (push automático)
+permissions:
+  contents: write
+
+jobs:
+  buscar-imoveis:
+    name: Buscar e mesclar novos imóveis
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # ── 1. Clonar repositório ───────────────────────────────────────────────
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # ── 2. Configurar Node.js ───────────────────────────────────────────────
+      - name: Configurar Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # ── 3. Buscar novos candidatos via API do QuintoAndar ──────────────────
+      - name: Buscar novos imóveis (search-new-candidates.js)
+        run: node search-new-candidates.js
+
+      # ── 4. Mesclar candidatos ao ranking e ao index.html ───────────────────
+      - name: Mesclar candidatos ao ranking (merge-candidates.js)
+        run: node merge-candidates.js
+
+      # ── 5. Commitar e publicar se houver mudanças ──────────────────────────
+      - name: Commitar e fazer push das mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ranking-com-candidatos.json new-candidates.json index.html
+          if git diff --staged --quiet; then
+            echo "✅ Nenhuma mudança detectada – ranking já está atualizado."
+          else
+            NOVOS=$(node -e "
+              const d = require('./new-candidates.json');
+              console.log(d.total_passed || 0);
+            ")
+            git commit -m "🏠 auto: +${NOVOS} imóvel(is) novo(s) adicionado(s) [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "🚀 Push realizado com sucesso."
+          fi
