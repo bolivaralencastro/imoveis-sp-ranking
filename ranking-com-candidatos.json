@@ -1752,6 +1752,90 @@
         }
       ],
       "notes": "Apartamento para aluguel com 2 quartos."
+    },
+    {
+      "id": "894435040",
+      "title": "QuintoAndar 894435040",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/894435040/alugar/casa-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 7000,
+      "condo": 0,
+      "iptu": 785,
+      "area": 180,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 2,
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.03,
+      "lat": -23.5981213,
+      "lng": -46.68046,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-282.11266948337254IMG1225.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-973.8076182367545IMG1222.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-282.64202439147965IMG1223.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-446.4661068784329IMG1224.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-457.29873566780145IMG1227.JPG",
+          "subtitle": "Quarto 1 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-454.9605632612722IMG1228.JPG",
+          "subtitle": "Quarto 1 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-329.7666261364034IMG1230.JPG",
+          "subtitle": "Quarto 1 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-774.9003835613835IMG1231.JPG",
+          "subtitle": "Quarto 1 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-164.84196375370232IMG1226.JPG",
+          "subtitle": "Vista do Quarto 1 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-373.86629887604204IMG1233.JPG",
+          "subtitle": "Quarto 2 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-251.751116255305IMG1234.JPG",
+          "subtitle": "Quarto 2 - Superior",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894435040-517.8539837952507IMG1235.JPG",
+          "subtitle": "Quarto 2 - Superior",
+          "cover": false
+        }
+      ],
+      "notes": "Casa com 3 quartos e quintal para alugar na Vila Olímpia. Aproveite seu novo lar nesta excelente localização!"
     }
   ],
   "weights": {
@@ -1767,5 +1851,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-03T16:31:48.002Z"
+  "updated_at": "2026-06-03T20:54:13.911Z"
 }
