@@ -111,12 +111,26 @@
     }
 
     .icon-button {
-      width: 40px;
-      min-width: 40px;
+      width: 32px;
+      min-width: 32px;
+      height: 32px !important;
+      min-height: 32px !important;
       padding: 0;
       display: inline-grid;
       place-items: center;
       font-size: 18px;
+      border-radius: 7px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      text-decoration: none;
+      aspect-ratio: 1;
+    }
+
+    .icon-button:hover {
+      border-color: #9fb1b5;
+      background: var(--surface-soft);
     }
 
     .workspace {
@@ -182,15 +196,15 @@
 
     .home-card {
       width: 100%;
-      display: grid;
-      grid-template-columns: 56px 1fr;
+      display: flex;
+      align-items: center;
       gap: 10px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: #ffffff;
       text-align: left;
       padding: 10px;
-      min-height: 104px;
+      min-height: 76px;
     }
 
     .card-thumb {
@@ -306,7 +320,6 @@
       display: flex;
       align-items: center;
       gap: 0;
-      margin-top: 8px;
       width: 100%;
     }
 
@@ -631,6 +644,15 @@
     .drawer-head h2 {
       margin: 0;
       font-size: 16px;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .drawer-head-actions {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      flex-shrink: 0;
     }
 
     .compare-dialog {
@@ -868,7 +890,10 @@
     <aside id="detailDrawer" class="drawer">
       <div class="drawer-head">
         <h2 id="detailTitle">Detalhes do imóvel</h2>
-        <button id="closeDrawer" class="icon-button" type="button" title="Fechar">×</button>
+        <div class="drawer-head-actions">
+          <a id="drawerExternalLink" class="icon-button" target="_blank" rel="noreferrer" title="Abrir anúncio no QuintoAndar" style="display:none;" aria-label="Abrir anúncio no QuintoAndar"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <button id="closeDrawer" class="icon-button" type="button" title="Fechar">×</button>
+        </div>
       </div>
       <div id="detailPanel" class="panel-body"></div>
     </aside>
@@ -2741,6 +2766,8 @@
     function closeDrawer() {
       document.getElementById("drawerBackdrop").classList.remove("open");
       document.getElementById("detailDrawer").classList.remove("open");
+      const extLink = document.getElementById("drawerExternalLink");
+      if (extLink) extLink.style.display = "none";
     }
 
     function renderDetail(selected) {
@@ -2773,10 +2800,9 @@
           ${detailRow("Vagas", selected.parking)}
           ${selected.notes ? detailRow("Notas", selected.notes, "notes") : ""}
         </div>
-        <div class="detail-actions">
-          <a href="${escapeAttr(selected.url)}" target="_blank" rel="noreferrer">Abrir anúncio no QuintoAndar</a>
-        </div>
       `;
+      const extLink = document.getElementById("drawerExternalLink");
+      if (extLink) { extLink.href = selected.url || "#"; extLink.style.display = selected.url ? "" : "none"; }
       const previous = panel.querySelector("[data-photo-action='prev']");
       const next = panel.querySelector("[data-photo-action='next']");
       if (previous) previous.addEventListener("click", () => changePhoto(selected, -1));
