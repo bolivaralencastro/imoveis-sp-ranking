@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-03T20:54:13.859Z",
+  "scraped_at": "2026-06-04T01:19:43.111Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 15000,
@@ -17,88 +17,88 @@
   "total_failed": 0,
   "homes": [
     {
-      "id": "894435040",
-      "title": "QuintoAndar 894435040",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Casa do Ator",
-      "url": "https://www.quintoandar.com.br/imovel/894435040/alugar/casa-3-quartos-vila-olimpia-sao-paulo",
-      "rent": 7000,
-      "condo": 0,
-      "iptu": 785,
-      "area": 180,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "parking": 2,
+      "id": "895421200",
+      "title": "QuintoAndar 895421200",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Pedroso Alvarenga",
+      "url": "https://www.quintoandar.com.br/imovel/895421200/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 12000,
+      "condo": 1800,
+      "iptu": 209,
+      "area": 105,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 0,
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.03,
-      "lat": -23.5981213,
-      "lng": -46.68046,
+      "targetDistanceKm": 1.37,
+      "lat": -23.5800311,
+      "lng": -46.6729367,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-282.11266948337254IMG1225.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-834.9996896617031IMG0195.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-973.8076182367545IMG1222.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-869.9750839213896IMG0189.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-282.64202439147965IMG1223.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-488.65318583449437IMG0191.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-446.4661068784329IMG1224.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-92.52619493173509IMG0194.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-457.29873566780145IMG1227.JPG",
-          "subtitle": "Quarto 1 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-587.3258809484288IMG0196.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-454.9605632612722IMG1228.JPG",
-          "subtitle": "Quarto 1 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-927.8798641549855IMG0200.jpg",
+          "subtitle": "Lavabo",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-329.7666261364034IMG1230.JPG",
-          "subtitle": "Quarto 1 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-106.98259099711072IMG0201.jpg",
+          "subtitle": "Lavabo",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-774.9003835613835IMG1231.JPG",
-          "subtitle": "Quarto 1 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-66.35997893835699IMG02021.jpg",
+          "subtitle": "Lavabo",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-164.84196375370232IMG1226.JPG",
-          "subtitle": "Vista do Quarto 1 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-224.68718652331754IMG020211.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-373.86629887604204IMG1233.JPG",
-          "subtitle": "Quarto 2 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-242.25302052931187IMG020212.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-251.751116255305IMG1234.JPG",
-          "subtitle": "Quarto 2 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-441.3465194405384IMG020213.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894435040-517.8539837952507IMG1235.JPG",
-          "subtitle": "Quarto 2 - Superior",
+          "url": "https://www.quintoandar.com.br/img/med/original895421200-941.2204708487623IMG020214.jpg",
+          "subtitle": "Quarto",
           "cover": false
         }
       ],
-      "notes": "Casa com 3 quartos e quintal para alugar na Vila Olímpia. Aproveite seu novo lar nesta excelente localização!"
+      "notes": "Apartamento no Itaim Bibi, 2 quartos, aceita pets, para alugar."
     }
   ],
   "failed_ids": []

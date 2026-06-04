@@ -98,6 +98,8 @@ function sleep(ms) {
 
 // ── Coletar IDs já conhecidos ─────────────────────────────────────────────────
 
+const CACHE_FILE = path.join(__dirname, "checked-ids-cache.json");
+
 async function loadKnownIds() {
   const knownIds = new Set();
   const files = [
@@ -111,7 +113,6 @@ async function loadKnownIds() {
     try {
       const raw = await fs.readFile(path.join(__dirname, file), "utf8");
       const data = JSON.parse(raw);
-      // Extrai IDs de todos os arrays de imóveis
       const homes = data.homes || data.scraped || (Array.isArray(data) ? data : []);
       for (const home of homes) {
         if (home.id) knownIds.add(String(home.id));
@@ -125,8 +126,28 @@ async function loadKnownIds() {
     }
   }
 
-  console.log(`📋 IDs já conhecidos: ${knownIds.size}`);
+  // Carrega cache de IDs já verificados (passou ou foi rejeitado)
+  try {
+    const cacheRaw = await fs.readFile(CACHE_FILE, "utf8");
+    const cache = JSON.parse(cacheRaw);
+    for (const id of (cache.checked_ids || [])) knownIds.add(String(id));
+    console.log(`📋 IDs já conhecidos: ${knownIds.size} (inclui ${cache.checked_ids?.length || 0} do cache)`);
+  } catch {
+    console.log(`📋 IDs já conhecidos: ${knownIds.size}`);
+  }
+
   return knownIds;
+}
+
+async function saveCache(checkedIds) {
+  let existing = [];
+  try {
+    const raw = await fs.readFile(CACHE_FILE, "utf8");
+    existing = JSON.parse(raw).checked_ids || [];
+  } catch { /* novo arquivo */ }
+  const merged = [...new Set([...existing, ...checkedIds])];
+  await fs.writeFile(CACHE_FILE, JSON.stringify({ checked_ids: merged, updated_at: new Date().toISOString() }, null, 2));
+  console.log(`💾 Cache atualizado: ${merged.length} IDs registrados`);
 }
 
 // Viewport cobrindo Itaim Bibi + Vila Olímpia com margem
@@ -354,10 +375,14 @@ async function main() {
   const candidateIds = new Set();
 
   // 1. API de coordenadas geográficas (apigw.prod.quintoandar.com.br)
+  const MAX_CANDIDATES = 80; // por run
+  const MAX_PAGES = 5;       // páginas da API por viewport
   console.log("\n🔍 Buscando via API de coordenadas do QuintoAndar...");
   for (const viewport of VIEWPORTS) {
+    if (candidateIds.size >= MAX_CANDIDATES) break;
     console.log(`\n  Área: ${viewport.label}`);
-    for (let page = 0; page <= 0; page++) {
+    for (let page = 0; page < MAX_PAGES; page++) {
+      if (candidateIds.size >= MAX_CANDIDATES) break;
       try {
         const result = await searchViaCoordinatesApi(viewport, page);
         if (!result) {
@@ -369,7 +394,6 @@ async function main() {
           console.log(`  → Sem mais resultados na página ${page}`);
           break;
         }
-        const MAX_CANDIDATES = 50;
         let novos = 0;
         for (const hit of hits) {
           if (candidateIds.size >= MAX_CANDIDATES) break;
@@ -386,9 +410,9 @@ async function main() {
           candidateIds.add(id);
           novos++;
         }
-        console.log(`  ✓ Página ${page}: ${hits.length} imóveis disponíveis → ${novos} pré-selecionados`);
-        break; // uma página é suficiente
-        await sleep(600);
+        console.log(`  ✓ Página ${page}: ${hits.length} imóveis → ${novos} novos pré-selecionados (total: ${candidateIds.size})`);
+        if (hits.length < 30) break; // menos de uma página cheia = acabou
+        await sleep(400);
       } catch (err) {
         console.log(`  ✗ Erro: ${err.message}`);
         break;
@@ -426,12 +450,22 @@ async function main() {
   const failed = [];
   let idx = 0;
 
+  const checkedIds = []; // todos os IDs verificados neste run (para o cache)
+
   for (const id of candidateIds) {
     idx++;
     process.stdout.write(`  [${idx}/${candidateIds.size}] ${id} ... `);
     try {
       await sleep(600 + Math.random() * 600);
       const home = await scrapeProperty(id);
+      checkedIds.push(id);
+
+      if (home.rent === 0) {
+        // CSR: QuintoAndar não fez SSR desta página — dados indisponíveis sem browser
+        process.stdout.write(`⚠ CSR (sem dados no HTML — marcado no cache)\n`);
+        continue;
+      }
+
       const passes = meetssCriteria(home);
       process.stdout.write(
         passes
@@ -442,8 +476,12 @@ async function main() {
     } catch (err) {
       process.stdout.write(`✗ Erro: ${err.message}\n`);
       failed.push(id);
+      checkedIds.push(id); // mesmo falhas entram no cache para não repetir
     }
   }
+
+  // Salvar cache de IDs verificados
+  await saveCache(checkedIds);
 
   // 4. Salvar resultados
   const output = {
