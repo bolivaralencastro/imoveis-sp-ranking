@@ -434,14 +434,16 @@ async function main() {
   const candidateIds = new Set();
 
   // 1. API de coordenadas geográficas (apigw.prod.quintoandar.com.br)
-  const MAX_CANDIDATES = 80; // por run
+  const MAX_CANDIDATES = 120; // por run
+  const MAX_CANDIDATES_PER_VIEWPORT = 30; // evita concentrar tudo no primeiro recorte
   const MAX_PAGES = 5;       // páginas da API por viewport
   console.log("\n🔍 Buscando via API de coordenadas do QuintoAndar...");
   for (const viewport of VIEWPORTS) {
     if (candidateIds.size >= MAX_CANDIDATES) break;
     console.log(`\n  Área: ${viewport.label}`);
+    let viewportCandidates = 0;
     for (let page = 0; page < MAX_PAGES; page++) {
-      if (candidateIds.size >= MAX_CANDIDATES) break;
+      if (candidateIds.size >= MAX_CANDIDATES || viewportCandidates >= MAX_CANDIDATES_PER_VIEWPORT) break;
       try {
         const result = await searchViaCoordinatesApi(viewport, page);
         if (!result) {
@@ -455,7 +457,7 @@ async function main() {
         }
         let novos = 0;
         for (const hit of hits) {
-          if (candidateIds.size >= MAX_CANDIDATES) break;
+          if (candidateIds.size >= MAX_CANDIDATES || viewportCandidates >= MAX_CANDIDATES_PER_VIEWPORT) break;
           const id = String(hit._id || hit._source?.id || "");
           if (!id || knownIds.has(id)) continue;
           // Pré-filtro com dados que já vêm da API
@@ -467,9 +469,10 @@ async function main() {
           if (area > 0 && area < CRITERIA.minArea) continue;
           if (beds > 0 && beds < CRITERIA.minBedrooms) continue;
           candidateIds.add(id);
+          viewportCandidates++;
           novos++;
         }
-        console.log(`  ✓ Página ${page}: ${hits.length} imóveis → ${novos} novos pré-selecionados (total: ${candidateIds.size})`);
+        console.log(`  ✓ Página ${page}: ${hits.length} imóveis → ${novos} novos pré-selecionados (área: ${viewportCandidates}, total: ${candidateIds.size})`);
         if (hits.length < 30) break; // menos de uma página cheia = acabou
         await sleep(400);
       } catch (err) {
