@@ -4,9 +4,9 @@ const path = require("path");
 // ── Configuração ──────────────────────────────────────────────────────────────
 
 const TARGET = {
-  label: "Meta - Av. Paulista, 91 - Bela Vista",
-  lat: -23.561817,
-  lng: -46.6559323
+  label: "Meta - Av. Brig. Faria Lima, 3732 - Itaim Bibi",
+  lat: -23.5889959,
+  lng: -46.6821196
 };
 
 // Critérios de filtragem
@@ -15,7 +15,7 @@ const CRITERIA = {
   maxRent: 9000,        // aluguel máximo R$
   maxTotalCost: 9000,   // aluguel + condomínio + iptu
   minArea: 50,          // m² mínimo
-  maxDistanceKm: 4.5,   // distância máxima do escritório da Meta na Paulista
+  maxDistanceKm: 4.5,   // distância máxima do escritório da Meta na Faria Lima
   allowedNeighborhoods: [
     "itaim bibi",
     "vila olímpia",

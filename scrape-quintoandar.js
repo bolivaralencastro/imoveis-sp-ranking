@@ -2,9 +2,9 @@ const fs = require("fs/promises");
 const path = require("path");
 
 const TARGET = {
-  label: "Meta - Av. Paulista, 91 - Bela Vista",
-  lat: -23.561817,
-  lng: -46.6559323
+  label: "Meta - Av. Brig. Faria Lima, 3732 - Itaim Bibi",
+  lat: -23.5889959,
+  lng: -46.6821196
 };
 
 const URLS = [
