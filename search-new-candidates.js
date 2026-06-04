@@ -70,6 +70,41 @@ function pickFirst(object, keys) {
   return undefined;
 }
 
+function hasYes(items, keys) {
+  if (!Array.isArray(items)) return false;
+  const wanted = new Set(keys);
+  return items.some((item) => wanted.has(item.key) && item.value === "SIM");
+}
+
+function extractFeatures(home) {
+  const amenities = home.amenities || [];
+  const installations = home.installations || [];
+  const comfort = home.comfortCommodities || [];
+  const practicality = home.practicalityCommodities || [];
+  const allHomeItems = [...amenities, ...comfort, ...practicality];
+
+  return {
+    balcony: hasYes(allHomeItems, ["VARANDA"]),
+    gourmetBalcony: hasYes(allHomeItems, ["VARANDA_GOURMET"]),
+    privatePool: hasYes(allHomeItems, ["PISCINA_PRIVATIVA"]),
+    airConditioning: hasYes(allHomeItems, ["AR_CONDICIONADO"]),
+    gasShower: hasYes(allHomeItems, ["CHUVEIRO_A_GAS"]),
+    box: hasYes(allHomeItems, ["BOX"]),
+    bedroomCabinets: hasYes(allHomeItems, ["ARMARIOS_EMBUTIDOS_NO_QUARTO"]),
+    bathroomCabinets: hasYes(allHomeItems, ["ARMARIOS_NOS_BANHEIROS"]),
+    kitchenCabinets: hasYes(allHomeItems, ["ARMARIOS_NA_COZINHA"]),
+    pool: hasYes(installations, ["PISCINA"]),
+    gym: hasYes(installations, ["ACADEMIA"]),
+    partyRoom: hasYes(installations, ["SALAO_DE_FESTAS"]),
+    gameRoom: hasYes(installations, ["SALAO_DE_JOGOS"]),
+    grill: hasYes(installations, ["CHURRASQUEIRA"]),
+    playground: hasYes(installations, ["PLAYGROUND"]),
+    sauna: hasYes(installations, ["SAUNA"]),
+    doorman24h: hasYes(installations, ["PORTARIA_24H"]),
+    accessibleParking: hasYes(installations, ["VAGA_DE_GARAGEM_ACESSIVEL"])
+  };
+}
+
 function distanceKm(a, b) {
   const earthKm = 6371;
   const toRad = (degree) => degree * Math.PI / 180;
@@ -310,6 +345,7 @@ function extractFromNextData(data, fallbackUrl, fallbackId) {
     parking: numberFrom(pickFirst(home, ["parkingSpaces", "parking", "garageSpaces"])),
     acceptsPets: pickFirst(home, ["acceptsPets", "acceptPets", "petsAllowed", "allowsPets"]) ?? null,
     furnished: pickFirst(home, ["hasFurniture", "isFurnished", "furnished", "hasFurnitures"]) ?? null,
+    features: extractFeatures(home),
     transit: 5,
     safety: 5,
     condition: 5,
@@ -343,6 +379,7 @@ function extractFromHtml(html, url, id) {
     parking: 0,
     acceptsPets: null,
     furnished: null,
+    features: {},
     transit: 5,
     safety: 5,
     condition: 5,
