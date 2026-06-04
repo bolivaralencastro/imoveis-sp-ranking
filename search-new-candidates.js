@@ -21,12 +21,7 @@ const CRITERIA = {
     "vila olímpia",
     "vila olimpia",
     "jardim europa",
-    "jardim paulista",
-    "jardim américa",
-    "jardim america",
-    "jardins",
-    "cerqueira césar",
-    "cerqueira cesar"
+    "jardins"
   ] // bairros aceitos
 };
 
@@ -35,9 +30,6 @@ const SEARCH_CONFIGS = [
   { neighborhood: "Itaim Bibi", slug: "itaim-bibi" },
   { neighborhood: "Vila Olímpia", slug: "vila-olimpia" },
   { neighborhood: "Jardim Europa", slug: "jardim-europa" },
-  { neighborhood: "Jardim Paulista", slug: "jardim-paulista" },
-  { neighborhood: "Jardim América", slug: "jardim-america" },
-  { neighborhood: "Cerqueira César", slug: "cerqueira-cesar" },
   { neighborhood: "Jardins", slug: "jardins" },
 ];
 
@@ -220,8 +212,8 @@ const VIEWPORTS = [
     north: -23.545, south: -23.590, east: -46.640, west: -46.690
   },
   {
-    // Jardim Europa + Jardim América
-    label: "Jardim Europa / Jardim América",
+    // Jardim Europa
+    label: "Jardim Europa",
     north: -23.560, south: -23.595, east: -46.665, west: -46.715
   }
 ];
