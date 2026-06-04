@@ -4142,13 +4142,18 @@
     function showMarkerPreview(id) {
       const marker = markersById[id];
       if (!marker) return;
+      Object.entries(markersById).forEach(([markerId, propertyMarker]) => {
+        propertyMarker.setOpacity(markerId === id ? 1 : 0.28);
+        propertyMarker.setZIndexOffset(markerId === id ? 1000 : 0);
+      });
       marker.setZIndexOffset(1000);
     }
 
-    function hideMarkerPreview(id) {
-      const marker = markersById[id];
-      if (!marker) return;
-      marker.setZIndexOffset(0);
+    function hideMarkerPreview() {
+      Object.values(markersById).forEach(marker => {
+        marker.setOpacity(1);
+        marker.setZIndexOffset(0);
+      });
     }
 
     function nearbyTooltip(title, place) {
