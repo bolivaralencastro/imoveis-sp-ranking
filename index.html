@@ -824,6 +824,39 @@
       text-decoration: none;
     }
 
+    .detail-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+      overflow-x: auto;
+    }
+
+    .detail-tab {
+      min-height: 32px;
+      white-space: nowrap;
+      border-radius: 999px;
+      padding: 6px 10px;
+      color: var(--muted);
+      font-size: 12px;
+      flex: 0 0 auto;
+    }
+
+    .detail-tab.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .detail-tab-panel {
+      padding: 0 14px 14px;
+    }
+
+    .detail-tab-panel .detail-list {
+      margin-top: 0;
+    }
+
     .hint {
       margin: 10px 0 0;
       color: var(--muted);
@@ -3135,6 +3168,7 @@
     let sortBy = "score";
     let hideFurnished = false;
     let hideNoPets = false;
+    let detailTab = "summary";
     let selectedCompareIds = [];
 
     const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
@@ -3626,26 +3660,9 @@
       photoIndexes[selected.id] = photoIndex;
       panel.innerHTML = `
         ${renderPhotoSlider(selected, photoIndex)}
-        ${renderStreetView(selected)}
-        <div class="detail-list">
-          ${detailRow("Nota", Math.round(selected.score))}
-          <div class="detail-row"><span>Total</span><strong>${escapeHtml(money.format(selected.totalCost))}<small class="cost-delta ${deltaClass(selected)}">${escapeHtml(deltaLabel(selected))}</small></strong></div>
-          ${detailRow("Atual", money.format(CURRENT_HOME.monthlyCost))}
-          ${detailRow("Aluguel", money.format(selected.rent))}
-          ${detailRow("Condomínio", money.format(selected.condo))}
-          ${detailRow("IPTU", money.format(selected.iptu))}
-          ${detailRow("Distância até meta", `${number.format(selected.targetDistanceKm)} km`)}
-          ${(() => { if (!selected.lat || !selected.lng) return ""; const d = haversineKm(selected.lat, selected.lng, PLACES.pracaDoPovo.lat, PLACES.pracaDoPovo.lng); return detailRow("Praça do Povo", `${number.format(d)} km`); })()}
-          ${(() => { const m = nearestMarket(selected); return m ? detailRow("Mercado mais próx.", `${m.name} · ${number.format(m.dist)} km`) : ""; })()}
-          ${(() => { const gym = nearestGym(selected); return gym ? detailRow("Academia mais próx.", `${gym.name} · ${number.format(gym.dist)} km`) : ""; })()}
-          ${detailRow("Bairro", selected.neighborhood)}
-          ${detailRow("Área", `${number.format(selected.area)} m²`)}
-          ${detailRow("Quartos", selected.bedrooms)}
-          ${detailRow("Banheiros", selected.bathrooms)}
-          ${detailRow("Vagas", selected.parking)}
-          ${detailRow("Mobiliado", booleanLabel(selected.furnished))}
-          ${detailRow("Aceita pet", booleanLabel(selected.acceptsPets))}
-          ${selected.notes ? detailRow("Notas", selected.notes, "notes") : ""}
+        ${renderDetailTabs()}
+        <div class="detail-tab-panel">
+          ${renderDetailTabPanel(selected)}
         </div>
       `;
       const extLink = document.getElementById("drawerExternalLink");
@@ -3654,6 +3671,108 @@
       const next = panel.querySelector("[data-photo-action='next']");
       if (previous) previous.addEventListener("click", () => changePhoto(selected, -1));
       if (next) next.addEventListener("click", () => changePhoto(selected, 1));
+      panel.querySelectorAll("[data-detail-tab]").forEach((button) => {
+        button.addEventListener("click", () => {
+          detailTab = button.dataset.detailTab;
+          renderDetail(selected);
+        });
+      });
+    }
+
+    function renderDetailTabs() {
+      const tabs = [
+        ["summary", "Resumo"],
+        ["decision", "Decisão"],
+        ["property", "Imóvel"],
+        ["condo", "Condomínio"],
+        ["location", "Localização"],
+        ["market", "Mercado"]
+      ];
+      return `
+        <div class="detail-tabs">
+          ${tabs.map(([id, label]) => `<button class="detail-tab ${detailTab === id ? "active" : ""}" type="button" data-detail-tab="${escapeAttr(id)}">${escapeHtml(label)}</button>`).join("")}
+        </div>
+      `;
+    }
+
+    function renderDetailTabPanel(selected) {
+      const currentValuePerSqm = valuePerSqm(selected);
+      const market = nearestMarket(selected);
+      const gym = nearestGym(selected);
+      const pracaDoPovoDistance = selected.lat && selected.lng
+        ? haversineKm(selected.lat, selected.lng, PLACES.pracaDoPovo.lat, PLACES.pracaDoPovo.lng)
+        : null;
+
+      if (detailTab === "decision") {
+        return detailList([
+          detailRow("Aceita pet", booleanLabel(selected.acceptsPets)),
+          detailRow("Mobiliado", booleanLabel(selected.furnished)),
+          detailRow("Vagas", selected.parking),
+          detailRow("Quartos", selected.bedrooms),
+          detailRow("Banheiros", selected.bathrooms),
+          detailRow("Total", money.format(selected.totalCost)),
+          detailRow("Vs atual", deltaLabel(selected), deltaClass(selected))
+        ]);
+      }
+
+      if (detailTab === "property") {
+        return detailList([
+          detailRow("Área", `${number.format(selected.area)} m²`),
+          detailRow("Quartos", selected.bedrooms),
+          detailRow("Banheiros", selected.bathrooms),
+          detailRow("Vagas", selected.parking),
+          detailRow("Bairro", selected.neighborhood),
+          selected.notes ? detailRow("Notas", selected.notes, "notes") : ""
+        ]);
+      }
+
+      if (detailTab === "condo") {
+        return detailList([
+          detailRow("Condomínio", money.format(selected.condo)),
+          detailRow("Vagas", selected.parking),
+          detailRow("Academia próxima", gym ? `${gym.name} · ${number.format(gym.dist)} km` : "Não informado"),
+          detailRow("Mercado próximo", market ? `${market.name} · ${number.format(market.dist)} km` : "Não informado")
+        ]);
+      }
+
+      if (detailTab === "location") {
+        return `
+          ${renderStreetView(selected)}
+          ${detailList([
+            detailRow("Distância até meta", `${number.format(selected.targetDistanceKm)} km`),
+            pracaDoPovoDistance !== null ? detailRow("Praça do Povo", `${number.format(pracaDoPovoDistance)} km`) : "",
+            market ? detailRow("Mercado mais próx.", `${market.name} · ${number.format(market.dist)} km`) : "",
+            gym ? detailRow("Academia mais próx.", `${gym.name} · ${number.format(gym.dist)} km`) : "",
+            detailRow("Bairro", selected.neighborhood)
+          ])}
+        `;
+      }
+
+      if (detailTab === "market") {
+        return detailList([
+          detailRow("Total", money.format(selected.totalCost)),
+          detailRow("R$/m²", money.format(currentValuePerSqm)),
+          detailRow("Vs atual", deltaLabel(selected), deltaClass(selected)),
+          detailRow("Aluguel", money.format(selected.rent)),
+          detailRow("Condomínio", money.format(selected.condo)),
+          detailRow("IPTU", money.format(selected.iptu))
+        ]);
+      }
+
+      return detailList([
+        detailRow("Nota", Math.round(selected.score)),
+        `<div class="detail-row"><span>Total</span><strong>${escapeHtml(money.format(selected.totalCost))}<small class="cost-delta ${deltaClass(selected)}">${escapeHtml(deltaLabel(selected))}</small></strong></div>`,
+        detailRow("R$/m²", money.format(currentValuePerSqm)),
+        detailRow("Distância até meta", `${number.format(selected.targetDistanceKm)} km`),
+        detailRow("Bairro", selected.neighborhood),
+        detailRow("Mobiliado", booleanLabel(selected.furnished)),
+        detailRow("Aceita pet", booleanLabel(selected.acceptsPets)),
+        detailRow("Vagas", selected.parking)
+      ]);
+    }
+
+    function detailList(rows) {
+      return `<div class="detail-list">${rows.filter(Boolean).join("")}</div>`;
     }
 
     function detailRow(label, value, className = "") {
