@@ -99,9 +99,9 @@ async function main() {
     .map((line, i) => (i === 0 ? line : "    " + line)) // preserva indentação de 4 espaços base
     .join("\n");
 
-  const newBlock = `    const seedHomes = ${homesJson}`;
+  const newBlock = `    const seedHomes = ${homesJson};`;
 
-  html = html.slice(0, startIdx) + newBlock + CLOSE_MARKER + html.slice(endIdx + CLOSE_MARKER.length);
+  html = html.slice(0, startIdx) + newBlock + html.slice(endIdx + CLOSE_MARKER.length);
 
   await fs.writeFile(htmlPath, html);
   console.log("✅ index.html atualizado com os novos imóveis no seedHomes");
