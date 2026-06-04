@@ -939,6 +939,14 @@
       box-shadow: 0 4px 14px rgba(8, 145, 178, 0.35);
     }
 
+    .nearby-highlight .market-pin,
+    .nearby-highlight .gym-pin {
+      width: 38px;
+      height: 38px;
+      border-width: 3px;
+      box-shadow: 0 8px 24px rgba(24, 33, 36, 0.26);
+    }
+
     #toggleMarkets,
     #toggleGyms {
       background: rgba(255, 255, 255, 0.94);
@@ -3682,7 +3690,7 @@
       let best = null;
       for (const m of MARKETS_DATA) {
         const dist = haversineKm(home.lat, home.lng, m.lat, m.lng);
-        if (!best || dist < best.dist) best = { name: m.name, dist };
+        if (!best || dist < best.dist) best = { ...m, dist };
       }
       return best;
     }
@@ -3692,7 +3700,7 @@
       let best = null;
       for (const gym of GYMS_DATA) {
         const dist = haversineKm(home.lat, home.lng, gym.lat, gym.lng);
-        if (!best || dist < best.dist) best = { name: gym.name, dist };
+        if (!best || dist < best.dist) best = { ...gym, dist };
       }
       return best;
     }
@@ -3704,6 +3712,7 @@
     let markersById = {};
     let marketLayer = null;
     let gymLayer = null;
+    let nearbyHighlightLayer = null;
     let marketsVisible = false;
     let gymsVisible = false;
     let photoIndexes = {};
@@ -3923,9 +3932,9 @@
           render();
           openDrawer(home);
         });
-        card.addEventListener("mouseenter", (e) => { showMarkerPreview(home.id); showRoutes(home); showCardTooltip(home, e); });
+        card.addEventListener("mouseenter", (e) => { showMarkerPreview(home.id); showNearbyPlaces(home); showRoutes(home); showCardTooltip(home, e); });
         card.addEventListener("mousemove", (e) => { moveCardTooltip(e); });
-        card.addEventListener("mouseleave", () => { hideMarkerPreview(home.id); clearRoutes(); hideCardTooltip(); });
+        card.addEventListener("mouseleave", () => { hideMarkerPreview(home.id); clearNearbyPlaces(); clearRoutes(); hideCardTooltip(); });
         container.append(card);
       });
     }
@@ -4003,6 +4012,7 @@
       markerLayer = L.layerGroup().addTo(map);
       marketLayer = L.layerGroup();
       gymLayer = L.layerGroup();
+      nearbyHighlightLayer = L.layerGroup().addTo(map);
     }
 
     function renderMarkets() {
@@ -4018,12 +4028,12 @@
       });
     }
 
-        function marketIcon() {
+    function marketIcon(highlight = false) {
       return L.divIcon({
-        className: "",
+        className: highlight ? "nearby-highlight" : "",
         html: `<span class="market-pin"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span>`,
-        iconSize: [30, 30],
-        iconAnchor: [15, 15]
+        iconSize: highlight ? [38, 38] : [30, 30],
+        iconAnchor: highlight ? [19, 19] : [15, 15]
       });
     }
 
@@ -4054,12 +4064,12 @@
       });
     }
 
-    function gymIcon() {
+    function gymIcon(highlight = false) {
       return L.divIcon({
-        className: "",
+        className: highlight ? "nearby-highlight" : "",
         html: `<span class="gym-pin"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg></span>`,
-        iconSize: [30, 30],
-        iconAnchor: [15, 15]
+        iconSize: highlight ? [38, 38] : [30, 30],
+        iconAnchor: highlight ? [19, 19] : [15, 15]
       });
     }
 
@@ -4081,6 +4091,7 @@
       initMap();
       if (!map || !markerLayer) return;
       markerLayer.clearLayers();
+      clearNearbyPlaces();
       markersById = {};
       const bounds = [];
       const target = state.target || defaultState.target;
@@ -4138,6 +4149,42 @@
       const marker = markersById[id];
       if (!marker) return;
       marker.setZIndexOffset(0);
+    }
+
+    function nearbyTooltip(title, place) {
+      return `<strong>${escapeHtml(title)}</strong><br><span style="color:#555">${escapeHtml(place.name)}</span><br><span style="color:#888;font-size:11px">${number.format(place.dist)} km</span>`;
+    }
+
+    function showNearbyPlaces(home) {
+      if (!map || !nearbyHighlightLayer || !home.lat || !home.lng) return;
+      clearNearbyPlaces();
+      const market = nearestMarket(home);
+      const gym = nearestGym(home);
+      const highlights = [
+        market && { place: market, title: "Supermercado mais próximo", icon: marketIcon(true) },
+        gym && { place: gym, title: "Academia mais próxima", icon: gymIcon(true) }
+      ].filter(Boolean);
+
+      highlights.forEach(({ place, title, icon }) => {
+        const marker = L.marker([place.lat, place.lng], {
+          icon,
+          zIndexOffset: 1600
+        });
+        marker.bindTooltip(nearbyTooltip(title, place), {
+          direction: "top",
+          offset: [0, -16],
+          opacity: 1,
+          permanent: true,
+          className: "nearby-tooltip"
+        });
+        marker.addTo(nearbyHighlightLayer);
+        marker.openTooltip();
+      });
+    }
+
+    function clearNearbyPlaces() {
+      if (!nearbyHighlightLayer) return;
+      nearbyHighlightLayer.clearLayers();
     }
 
     function showRoutes(home) {
