@@ -133,6 +133,12 @@
       background: var(--surface-soft);
     }
 
+    .icon-button.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
     .workspace {
       display: grid;
       grid-template-columns: 430px minmax(0, 1fr);
@@ -165,12 +171,6 @@
       background: #fafcfc;
     }
 
-    .property-filters {
-      padding-top: 8px;
-      padding-bottom: 8px;
-      background: #ffffff;
-    }
-
     .sort-button {
       flex: 1;
       min-width: 0;
@@ -182,12 +182,6 @@
     .sort-button.active {
       background: var(--accent);
       border-color: var(--accent);
-      color: #ffffff;
-    }
-
-    .filter-button.active {
-      background: #172124;
-      border-color: #172124;
       color: #ffffff;
     }
 
@@ -683,6 +677,56 @@
       background: rgba(23, 33, 36, 0.34);
     }
 
+    .filter-dialog {
+      width: min(420px, calc(100vw - 28px));
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0;
+      box-shadow: 0 24px 70px rgba(24, 33, 36, 0.24);
+    }
+
+    .filter-dialog::backdrop {
+      background: rgba(23, 33, 36, 0.34);
+    }
+
+    .filter-options {
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+      max-height: min(520px, calc(100vh - 128px));
+      overflow: auto;
+    }
+
+    .filter-option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+      padding: 8px 10px;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: none;
+      cursor: pointer;
+    }
+
+    .filter-option input {
+      width: auto;
+      min-height: auto;
+      margin: 0;
+      accent-color: var(--accent);
+    }
+
+    .filter-option-count {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
     .compare-head {
       display: flex;
       justify-content: space-between;
@@ -951,10 +995,9 @@
           <button class="sort-button" type="button" data-sort="delta">Diferença</button>
           <button class="sort-button" type="button" data-sort="targetDistanceKm">Distância</button>
           <button class="sort-button" type="button" data-sort="area">m²</button>
-        </div>
-        <div class="filters property-filters" id="propertyFilters">
-          <button class="sort-button filter-button" type="button" data-filter="hideFurnished">Ocultar mobiliados</button>
-          <button class="sort-button filter-button" type="button" data-filter="hideNoPets">Ocultar sem pet</button>
+          <button id="openFilters" class="icon-button" type="button" title="Filtros" aria-label="Filtros">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18"/><path d="M7 12h10"/><path d="M10 19h4"/></svg>
+          </button>
         </div>
         <div id="cards" class="rank-list"></div>
         <div id="compareBar" class="compare-bar">
@@ -996,6 +1039,17 @@
         <button id="closeCompare" class="icon-button" type="button" title="Fechar">×</button>
       </div>
       <div id="compareGrid" class="compare-grid"></div>
+    </dialog>
+
+    <dialog id="filtersDialog" class="filter-dialog">
+      <div class="compare-head">
+        <strong>Filtros</strong>
+        <div class="drawer-head-actions">
+          <button id="clearFilters" class="ghost" type="button">Limpar</button>
+          <button id="closeFilters" class="icon-button" type="button" title="Fechar">×</button>
+        </div>
+      </div>
+      <div id="filterOptions" class="filter-options"></div>
     </dialog>
 
   </main>
@@ -3646,10 +3700,26 @@
     let routeLayerDrivingReturn = null;
     let routeCache = {};
     let sortBy = "score";
-    let hideFurnished = false;
-    let hideNoPets = false;
+    let activeFilters = new Set();
     let detailTab = "summary";
     let selectedCompareIds = [];
+
+    const FILTER_DEFINITIONS = [
+      { id: "acceptsPets", label: "Aceita pet", matches: (home) => home.acceptsPets === true },
+      { id: "furnished", label: "Mobiliado", matches: (home) => home.furnished === true },
+      { id: "parking", label: "Com vaga", matches: (home) => clean(home.parking) > 0 },
+      { id: "balcony", label: "Sacada/varanda", matches: (home) => home.features?.balcony === true },
+      { id: "gourmetBalcony", label: "Varanda gourmet", matches: (home) => home.features?.gourmetBalcony === true },
+      { id: "airConditioning", label: "Ar condicionado", matches: (home) => home.features?.airConditioning === true },
+      { id: "pool", label: "Piscina", matches: (home) => home.features?.pool === true || home.features?.privatePool === true },
+      { id: "gym", label: "Academia", matches: (home) => home.features?.gym === true },
+      { id: "partyRoom", label: "Salão de festas", matches: (home) => home.features?.partyRoom === true },
+      { id: "grill", label: "Churrasqueira", matches: (home) => home.features?.grill === true },
+      { id: "playground", label: "Playground", matches: (home) => home.features?.playground === true },
+      { id: "doorman24h", label: "Portaria 24h", matches: (home) => home.features?.doorman24h === true },
+      { id: "kitchenCabinets", label: "Armários na cozinha", matches: (home) => home.features?.kitchenCabinets === true },
+      { id: "bedroomCabinets", label: "Armários no quarto", matches: (home) => home.features?.bedroomCabinets === true }
+    ];
 
     const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
     const number = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 1 });
@@ -3714,9 +3784,9 @@
 
     function filteredHomes() {
       return state.homes.filter((home) => {
-        if (hideFurnished && home.furnished === true) return false;
-        if (hideNoPets && home.acceptsPets === false) return false;
-        return true;
+        return FILTER_DEFINITIONS.every((filter) => {
+          return !activeFilters.has(filter.id) || filter.matches(home);
+        });
       });
     }
 
@@ -3767,7 +3837,7 @@
       renderCards(homes);
       renderMap(homes);
       renderSortControls();
-      renderPropertyFilters();
+      renderFilterButton();
       renderCompareBar();
     }
 
@@ -3777,9 +3847,32 @@
       });
     }
 
-    function renderPropertyFilters() {
-      document.querySelector("[data-filter='hideFurnished']").classList.toggle("active", hideFurnished);
-      document.querySelector("[data-filter='hideNoPets']").classList.toggle("active", hideNoPets);
+    function renderFilterButton() {
+      const button = document.getElementById("openFilters");
+      button.classList.toggle("active", activeFilters.size > 0);
+      button.title = activeFilters.size ? `${activeFilters.size} filtro(s) ativo(s)` : "Filtros";
+    }
+
+    function renderFilterOptions() {
+      const container = document.getElementById("filterOptions");
+      container.innerHTML = FILTER_DEFINITIONS.map((filter) => {
+        const count = state.homes.filter(filter.matches).length;
+        const checked = activeFilters.has(filter.id) ? "checked" : "";
+        return `
+          <label class="filter-option">
+            <span>${escapeHtml(filter.label)}</span>
+            <span style="display:flex;align-items:center;gap:10px;">
+              <span class="filter-option-count">${count}</span>
+              <input type="checkbox" data-filter-id="${escapeAttr(filter.id)}" ${checked}>
+            </span>
+          </label>
+        `;
+      }).join("");
+    }
+
+    function openFiltersDialog() {
+      renderFilterOptions();
+      document.getElementById("filtersDialog").showModal();
     }
 
     function renderCards(homes) {
@@ -4359,16 +4452,28 @@
     document.getElementById("compareDialog").addEventListener("click", (event) => {
       if (event.target.id === "compareDialog") event.target.close();
     });
+    document.getElementById("openFilters").addEventListener("click", openFiltersDialog);
+    document.getElementById("closeFilters").addEventListener("click", () => document.getElementById("filtersDialog").close());
+    document.getElementById("clearFilters").addEventListener("click", () => {
+      activeFilters = new Set();
+      renderFilterOptions();
+      render();
+    });
+    document.getElementById("filtersDialog").addEventListener("click", (event) => {
+      if (event.target.id === "filtersDialog") event.target.close();
+    });
+    document.getElementById("filterOptions").addEventListener("change", (event) => {
+      const id = event.target.dataset.filterId;
+      if (!id) return;
+      if (event.target.checked) activeFilters.add(id);
+      else activeFilters.delete(id);
+      renderFilterButton();
+      render();
+      renderFilterOptions();
+    });
     document.querySelectorAll("[data-sort]").forEach((button) => {
       button.addEventListener("click", () => {
         sortBy = button.dataset.sort;
-        render();
-      });
-    });
-    document.querySelectorAll("[data-filter]").forEach((button) => {
-      button.addEventListener("click", () => {
-        if (button.dataset.filter === "hideFurnished") hideFurnished = !hideFurnished;
-        if (button.dataset.filter === "hideNoPets") hideNoPets = !hideNoPets;
         render();
       });
     });
