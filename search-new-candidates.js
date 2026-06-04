@@ -4,9 +4,9 @@ const path = require("path");
 // ── Configuração ──────────────────────────────────────────────────────────────
 
 const TARGET = {
-  label: "Av. Brig. Faria Lima, 3732 - Itaim Bibi",
-  lat: -23.5889959,
-  lng: -46.6821196
+  label: "Meta - Av. Paulista, 91 - Bela Vista",
+  lat: -23.561817,
+  lng: -46.6559323
 };
 
 // Critérios de filtragem
@@ -15,14 +15,30 @@ const CRITERIA = {
   maxRent: 9000,        // aluguel máximo R$
   maxTotalCost: 9000,   // aluguel + condomínio + iptu
   minArea: 50,          // m² mínimo
-  maxDistanceKm: 3.0,   // distância máxima do target
-  allowedNeighborhoods: ["itaim bibi", "vila olímpia", "vila olimpia"] // bairros aceitos
+  maxDistanceKm: 4.5,   // distância máxima do escritório da Meta na Paulista
+  allowedNeighborhoods: [
+    "itaim bibi",
+    "vila olímpia",
+    "vila olimpia",
+    "jardim europa",
+    "jardim paulista",
+    "jardim américa",
+    "jardim america",
+    "jardins",
+    "cerqueira césar",
+    "cerqueira cesar"
+  ] // bairros aceitos
 };
 
 // Bairros alvo no QuintoAndar (slug da URL)
 const SEARCH_CONFIGS = [
-  { neighborhood: "Itaim Bibi",   slug: "itaim-bibi"   },
-  { neighborhood: "Vila Olímpia", slug: "vila-olimpia"  },
+  { neighborhood: "Itaim Bibi", slug: "itaim-bibi" },
+  { neighborhood: "Vila Olímpia", slug: "vila-olimpia" },
+  { neighborhood: "Jardim Europa", slug: "jardim-europa" },
+  { neighborhood: "Jardim Paulista", slug: "jardim-paulista" },
+  { neighborhood: "Jardim América", slug: "jardim-america" },
+  { neighborhood: "Cerqueira César", slug: "cerqueira-cesar" },
+  { neighborhood: "Jardins", slug: "jardins" },
 ];
 
 // Cabeçalhos para evitar bloqueio básico
@@ -185,7 +201,7 @@ async function saveCache(checkedIds) {
   console.log(`💾 Cache atualizado: ${merged.length} IDs registrados`);
 }
 
-// Viewport cobrindo Itaim Bibi + Vila Olímpia com margem
+// Viewports cobrindo Itaim Bibi, Vila Olímpia, Jardim Europa e Jardins com margem
 // (Lat sul é menor numericamente que lat norte em coordenadas negativas no hemisfério sul)
 const VIEWPORTS = [
   {
@@ -197,6 +213,16 @@ const VIEWPORTS = [
     // Itaim Bibi (sul) + Vila Olímpia
     label: "Itaim Bibi sul / Vila Olímpia",
     north: -23.595, south: -23.635, east: -46.655, west: -46.715
+  },
+  {
+    // Paulista + Jardins
+    label: "Paulista / Jardins",
+    north: -23.545, south: -23.590, east: -46.640, west: -46.690
+  },
+  {
+    // Jardim Europa + Jardim América
+    label: "Jardim Europa / Jardim América",
+    north: -23.560, south: -23.595, east: -46.665, west: -46.715
   }
 ];
 

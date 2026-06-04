@@ -1,8 +1,8 @@
 {
   "target": {
-    "label": "Av. Brig. Faria Lima, 3732 - Itaim Bibi",
-    "lat": -23.5889959,
-    "lng": -46.6821196
+    "label": "Meta - Av. Paulista, 91 - Bela Vista",
+    "lat": -23.561817,
+    "lng": -46.6559323
   },
   "homes": [
     {
@@ -21,7 +21,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.88,
+      "targetDistanceKm": 3.16,
       "lat": -23.5823555,
       "lng": -46.6773602,
       "photos": [
@@ -126,7 +126,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.28,
+      "targetDistanceKm": 2.79,
       "lat": -23.5820406,
       "lng": -46.6720599,
       "photos": [
@@ -231,7 +231,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.19,
+      "targetDistanceKm": 2.87,
       "lat": -23.5822539,
       "lng": -46.6730806,
       "photos": [
@@ -336,7 +336,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.36,
+      "targetDistanceKm": 2.67,
       "lat": -23.5796417,
       "lng": -46.6735166,
       "photos": [
@@ -441,7 +441,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.65,
+      "targetDistanceKm": 4.67,
       "lat": -23.5939916,
       "lng": -46.685402,
       "photos": [
@@ -546,7 +546,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.69,
+      "targetDistanceKm": 4.72,
       "lat": -23.5940331,
       "lng": -46.6860323,
       "photos": [
@@ -651,7 +651,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.02,
+      "targetDistanceKm": 3.02,
       "lat": -23.5813409,
       "lng": -46.676597,
       "photos": [
@@ -756,7 +756,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.67,
+      "targetDistanceKm": 4.17,
       "lat": -23.5856276,
       "lng": -46.6875212,
       "photos": [
@@ -861,7 +861,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.99,
+      "targetDistanceKm": 3.88,
       "lat": -23.592835,
       "lng": -46.673338,
       "photos": [
@@ -966,7 +966,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.99,
+      "targetDistanceKm": 3.88,
       "lat": -23.5928354,
       "lng": -46.6733469,
       "photos": [
@@ -1071,7 +1071,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.93,
+      "targetDistanceKm": 3.39,
       "lat": -23.5878826,
       "lng": -46.6730942,
       "photos": [
@@ -1176,7 +1176,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.75,
+      "targetDistanceKm": 3.29,
       "lat": -23.5844032,
       "lng": -46.6767209,
       "photos": [
@@ -1281,7 +1281,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.99,
+      "targetDistanceKm": 3.93,
       "lat": -23.5932206,
       "lng": -46.6735515,
       "photos": [
@@ -1386,7 +1386,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.14,
+      "targetDistanceKm": 2.9,
       "lat": -23.5808607,
       "lng": -46.6753321,
       "photos": [
@@ -1491,7 +1491,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.07,
+      "targetDistanceKm": 3,
       "lat": -23.5805121,
       "lng": -46.6772098,
       "photos": [
@@ -1597,7 +1597,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.54,
+      "targetDistanceKm": 3.52,
       "lat": -23.5845102,
       "lng": -46.6799888,
       "photos": [
@@ -1703,7 +1703,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.31,
+      "targetDistanceKm": 2.76,
       "lat": -23.5818252,
       "lng": -46.6719734,
       "photos": [
@@ -1809,7 +1809,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.03,
+      "targetDistanceKm": 4.75,
       "lat": -23.5981213,
       "lng": -46.68046,
       "photos": [
@@ -1915,7 +1915,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.92,
+      "targetDistanceKm": 4.39,
       "lat": -23.5960514,
       "lng": -46.6773867,
       "photos": [
@@ -2021,7 +2021,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.89,
+      "targetDistanceKm": 4.53,
       "lat": -23.5965258,
       "lng": -46.6791548,
       "photos": [
@@ -2127,7 +2127,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.23,
+      "targetDistanceKm": 2.86,
       "lat": -23.582907,
       "lng": -46.6720799,
       "photos": [
@@ -2233,7 +2233,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.1,
+      "targetDistanceKm": 4.9,
       "lat": -23.5989035,
       "lng": -46.6818128,
       "photos": [
@@ -2339,7 +2339,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.08,
+      "targetDistanceKm": 4.84,
       "lat": -23.5986942,
       "lng": -46.681154,
       "photos": [
@@ -2445,7 +2445,7 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.9,
+      "targetDistanceKm": 4.75,
       "lat": -23.5970854,
       "lng": -46.6822105,
       "photos": [
@@ -2548,5 +2548,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-04T20:55:01.440Z"
+  "updated_at": "2026-06-04T21:31:29.187Z"
 }
