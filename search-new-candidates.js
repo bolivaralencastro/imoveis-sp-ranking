@@ -13,7 +13,7 @@ const TARGET = {
 const CRITERIA = {
   minBedrooms: 2,
   maxRent: 9000,        // aluguel máximo R$
-  maxTotalCost: 12000,  // aluguel + condomínio + iptu
+  maxTotalCost: 9000,   // aluguel + condomínio + iptu
   minArea: 50,          // m² mínimo
   maxDistanceKm: 3.0,   // distância máxima do target
   allowedNeighborhoods: ["itaim bibi", "vila olímpia", "vila olimpia"] // bairros aceitos
