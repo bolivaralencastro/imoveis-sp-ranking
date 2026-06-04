@@ -777,6 +777,38 @@
       font-weight: 750;
     }
 
+    .street-view {
+      border-bottom: 1px solid var(--line);
+      background: var(--surface-soft);
+    }
+
+    .street-view iframe {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      display: block;
+      border: 0;
+      background: var(--surface-soft);
+    }
+
+    .street-view-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 8px 12px;
+      border-top: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .street-view-link:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
     .hint {
       margin: 10px 0 0;
       color: var(--muted);
@@ -3096,6 +3128,7 @@
       photoIndexes[selected.id] = photoIndex;
       panel.innerHTML = `
         ${renderPhotoSlider(selected, photoIndex)}
+        ${renderStreetView(selected)}
         <div class="detail-list">
           ${detailRow("Nota", Math.round(selected.score))}
           <div class="detail-row"><span>Total</span><strong>${escapeHtml(money.format(selected.totalCost))}<small class="cost-delta ${deltaClass(selected)}">${escapeHtml(deltaLabel(selected))}</small></strong></div>
@@ -3127,6 +3160,31 @@
       const rowClass = className === "notes" ? "notes" : "";
       const valueClass = className !== "notes" ? className : "";
       return `<div class="detail-row ${rowClass}"><span>${escapeHtml(label)}</span><strong class="${escapeAttr(valueClass)}">${escapeHtml(value)}</strong></div>`;
+    }
+
+    function renderStreetView(home) {
+      if (!home.lat || !home.lng) return "";
+      const lat = Number(home.lat);
+      const lng = Number(home.lng);
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return "";
+      const coords = `${lat},${lng}`;
+      const embedUrl = `https://maps.google.com/?q=${encodeURIComponent(coords)}&z=17&output=embed`;
+      const mapsUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${encodeURIComponent(coords)}`;
+      return `
+        <div class="street-view">
+          <iframe
+            title="Mapa do entorno de ${escapeAttr(home.title)}"
+            src="${escapeAttr(embedUrl)}"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+          <a class="street-view-link" href="${escapeAttr(mapsUrl)}" target="_blank" rel="noreferrer">
+            <span>Abrir Google Street View</span>
+            <span>↗</span>
+          </a>
+        </div>
+      `;
     }
 
     function renderPhotoSlider(home, photoIndex) {
