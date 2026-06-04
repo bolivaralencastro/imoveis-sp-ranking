@@ -143,6 +143,8 @@
 
     .panel {
       position: relative;
+      display: flex;
+      flex-direction: column;
       background: var(--surface);
       border: 0;
       border-right: 1px solid var(--line);
@@ -163,6 +165,12 @@
       background: #fafcfc;
     }
 
+    .property-filters {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      background: #ffffff;
+    }
+
     .sort-button {
       flex: 1;
       min-width: 0;
@@ -174,6 +182,12 @@
     .sort-button.active {
       background: var(--accent);
       border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .filter-button.active {
+      background: #172124;
+      border-color: #172124;
       color: #ffffff;
     }
 
@@ -189,7 +203,8 @@
     .rank-list {
       display: grid;
       gap: 8px;
-      height: calc(100vh - 84px);
+      flex: 1;
+      min-height: 0;
       overflow: auto;
       padding: 12px;
     }
@@ -884,19 +899,11 @@
         order: -1;
       }
 
-      .rank-list {
-        height: calc(52vh - 63px);
-      }
-
     }
 
     @media (max-width: 560px) {
       .card-facts {
         grid-template-columns: 1fr;
-      }
-
-      .rank-list {
-        height: calc(52vh - 112px);
       }
     }
   </style>
@@ -911,6 +918,10 @@
           <button class="sort-button" type="button" data-sort="delta">Diferença</button>
           <button class="sort-button" type="button" data-sort="targetDistanceKm">Distância</button>
           <button class="sort-button" type="button" data-sort="area">m²</button>
+        </div>
+        <div class="filters property-filters" id="propertyFilters">
+          <button class="sort-button filter-button" type="button" data-filter="hideFurnished">Ocultar mobiliados</button>
+          <button class="sort-button filter-button" type="button" data-filter="hideNoPets">Ocultar sem pet</button>
         </div>
         <div id="cards" class="rank-list"></div>
         <div id="compareBar" class="compare-bar">
@@ -3122,6 +3133,8 @@
     let routeLayerDrivingReturn = null;
     let routeCache = {};
     let sortBy = "score";
+    let hideFurnished = false;
+    let hideNoPets = false;
     let selectedCompareIds = [];
 
     const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
@@ -3185,14 +3198,23 @@
       return Math.max(0, Math.min(10, clean(value))) / 10;
     }
 
+    function filteredHomes() {
+      return state.homes.filter((home) => {
+        if (hideFurnished && home.furnished === true) return false;
+        if (hideNoPets && home.acceptsPets === false) return false;
+        return true;
+      });
+    }
+
     function rankedHomes() {
-      const totals = state.homes.map(totalCost).filter(Boolean);
-      const values = state.homes.map(valuePerSqm).filter(Boolean);
-      const distances = state.homes.map((home) => clean(home.targetDistanceKm)).filter(Boolean);
-      const maxArea = Math.max(0, ...state.homes.map((home) => clean(home.area)));
-      const maxBedrooms = Math.max(0, ...state.homes.map((home) => clean(home.bedrooms)));
-      const maxBathrooms = Math.max(0, ...state.homes.map((home) => clean(home.bathrooms)));
-      const maxParking = Math.max(0, ...state.homes.map((home) => clean(home.parking)));
+      const homes = filteredHomes();
+      const totals = homes.map(totalCost).filter(Boolean);
+      const values = homes.map(valuePerSqm).filter(Boolean);
+      const distances = homes.map((home) => clean(home.targetDistanceKm)).filter(Boolean);
+      const maxArea = Math.max(0, ...homes.map((home) => clean(home.area)));
+      const maxBedrooms = Math.max(0, ...homes.map((home) => clean(home.bedrooms)));
+      const maxBathrooms = Math.max(0, ...homes.map((home) => clean(home.bathrooms)));
+      const maxParking = Math.max(0, ...homes.map((home) => clean(home.parking)));
       const minTotal = totals.length ? Math.min(...totals) : 0;
       const maxTotal = totals.length ? Math.max(...totals) : 0;
       const minValue = values.length ? Math.min(...values) : 0;
@@ -3200,7 +3222,7 @@
       const minDistance = distances.length ? Math.min(...distances) : 0;
       const maxDistance = distances.length ? Math.max(...distances) : 0;
 
-      return state.homes.map((home) => {
+      return homes.map((home) => {
         const factors = {
           cost: normalizeLower(totalCost(home), minTotal, maxTotal),
           valuePerSqm: normalizeLower(valuePerSqm(home), minValue, maxValue),
@@ -3227,10 +3249,11 @@
 
     function render() {
       const homes = rankedHomes();
-      if (!homes.some((home) => home.id === selectedId)) selectedId = homes[0]?.id || state.homes[0]?.id || null;
+      if (!homes.some((home) => home.id === selectedId)) selectedId = homes[0]?.id || null;
       renderCards(homes);
       renderMap(homes);
       renderSortControls();
+      renderPropertyFilters();
       renderCompareBar();
     }
 
@@ -3238,6 +3261,11 @@
       document.querySelectorAll("[data-sort]").forEach((button) => {
         button.classList.toggle("active", button.dataset.sort === sortBy);
       });
+    }
+
+    function renderPropertyFilters() {
+      document.querySelector("[data-filter='hideFurnished']").classList.toggle("active", hideFurnished);
+      document.querySelector("[data-filter='hideNoPets']").classList.toggle("active", hideNoPets);
     }
 
     function renderCards(homes) {
@@ -3719,6 +3747,13 @@
     document.querySelectorAll("[data-sort]").forEach((button) => {
       button.addEventListener("click", () => {
         sortBy = button.dataset.sort;
+        render();
+      });
+    });
+    document.querySelectorAll("[data-filter]").forEach((button) => {
+      button.addEventListener("click", () => {
+        if (button.dataset.filter === "hideFurnished") hideFurnished = !hideFurnished;
+        if (button.dataset.filter === "hideNoPets") hideNoPets = !hideNoPets;
         render();
       });
     });
