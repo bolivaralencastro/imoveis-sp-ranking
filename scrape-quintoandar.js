@@ -100,6 +100,8 @@ function extractHome(data, fallbackUrl) {
     bedrooms: numberFrom(pickFirst(home, ["bedrooms", "rooms"])),
     bathrooms: numberFrom(pickFirst(home, ["bathrooms"])),
     parking: numberFrom(pickFirst(home, ["parkingSpaces", "parking", "garageSpaces"])),
+    acceptsPets: pickFirst(home, ["acceptsPets", "acceptPets", "petsAllowed", "allowsPets"]) ?? null,
+    furnished: pickFirst(home, ["hasFurniture", "isFurnished", "furnished", "hasFurnitures"]) ?? null,
     transit: 5,
     safety: 5,
     condition: 5,
