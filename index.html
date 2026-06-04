@@ -783,7 +783,8 @@
       font-size: 12px;
     }
 
-    .market-pin {
+    .market-pin,
+    .gym-pin {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -797,7 +798,13 @@
       line-height: 1;
     }
 
-    #toggleMarkets {
+    .gym-pin {
+      border-color: #0891b2;
+      box-shadow: 0 4px 14px rgba(8, 145, 178, 0.35);
+    }
+
+    #toggleMarkets,
+    #toggleGyms {
       background: rgba(255, 255, 255, 0.94);
       box-shadow: var(--shadow);
       border-radius: 999px;
@@ -810,6 +817,12 @@
     #toggleMarkets.active {
       background: #7c3aed;
       border-color: #7c3aed;
+      color: #ffffff;
+    }
+
+    #toggleGyms.active {
+      background: #0891b2;
+      border-color: #0891b2;
       color: #ffffff;
     }
 
@@ -879,6 +892,9 @@
         <div class="map-toolbar">
           <button id="toggleMarkets" class="icon-button" type="button" title="Exibir/esconder mercados">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </button>
+          <button id="toggleGyms" class="icon-button" type="button" title="Exibir/esconder academias">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg>
           </button>
           <span id="mapCount" class="map-pill">0</span>
         </div>
@@ -2568,6 +2584,16 @@
     { name: "Supermercado Ferraz", label: "Supermercado", lat: -23.5850061, lng: -46.6853364 }
     ];
 
+    const GYMS_DATA = [
+    { name: "4fit Academia", label: "Academia", lat: -23.5845362, lng: -46.6813322 },
+    { name: "Aura Pilates", label: "Pilates", lat: -23.6010771, lng: -46.6695581 },
+    { name: "B-Active", label: "Academia", lat: -23.6061481, lng: -46.6743375 },
+    { name: "Espaço Flamenco Priscila Grassi", label: "Dança", lat: -23.6002741, lng: -46.6781431 },
+    { name: "Sett Academia", label: "Academia", lat: -23.5891107, lng: -46.678887 },
+    { name: "Smart Fit", label: "Academia", lat: -23.5858372, lng: -46.6792118 },
+    { name: "Smart Fit", label: "Academia", lat: -23.5925015, lng: -46.6840884 }
+    ];
+
     function haversineKm(lat1, lng1, lat2, lng2) {
       const R = 6371;
       const dLat = (lat2 - lat1) * Math.PI / 180;
@@ -2586,13 +2612,25 @@
       return best;
     }
 
+    function nearestGym(home) {
+      if (!home.lat || !home.lng) return null;
+      let best = null;
+      for (const gym of GYMS_DATA) {
+        const dist = haversineKm(home.lat, home.lng, gym.lat, gym.lng);
+        if (!best || dist < best.dist) best = { name: gym.name, dist };
+      }
+      return best;
+    }
+
     let state = loadState();
     let selectedId = state.homes[0]?.id || null;
     let map;
     let markerLayer;
     let markersById = {};
     let marketLayer = null;
+    let gymLayer = null;
     let marketsVisible = false;
+    let gymsVisible = false;
     let photoIndexes = {};
     let routeLayerDriving = null;
     let routeLayerWalking = null;
@@ -2827,6 +2865,7 @@
       }).addTo(map);
       markerLayer = L.layerGroup().addTo(map);
       marketLayer = L.layerGroup();
+      gymLayer = L.layerGroup();
     }
 
     function renderMarkets() {
@@ -2861,6 +2900,42 @@
         renderMarkets();
       } else {
         map.removeLayer(marketLayer);
+        btn.classList.remove("active");
+      }
+    }
+
+    function renderGyms() {
+      gymLayer.clearLayers();
+      GYMS_DATA.forEach(gym => {
+        const marker = L.marker([gym.lat, gym.lng], { icon: gymIcon() });
+        marker.bindTooltip(`<strong>${escapeHtml(gym.name)}</strong><br><span style="color:#888;font-size:11px">${gym.label}</span>`, {
+          direction: "top",
+          offset: [0, -12],
+          opacity: 1
+        });
+        gymLayer.addLayer(marker);
+      });
+    }
+
+    function gymIcon() {
+      return L.divIcon({
+        className: "",
+        html: `<span class="gym-pin"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg></span>`,
+        iconSize: [30, 30],
+        iconAnchor: [15, 15]
+      });
+    }
+
+    function toggleGyms() {
+      if (!map) return;
+      gymsVisible = !gymsVisible;
+      const btn = document.getElementById("toggleGyms");
+      if (gymsVisible) {
+        gymLayer.addTo(map);
+        btn.classList.add("active");
+        renderGyms();
+      } else {
+        map.removeLayer(gymLayer);
         btn.classList.remove("active");
       }
     }
@@ -3046,6 +3121,7 @@
           ${detailRow("Distância até meta", `${number.format(selected.targetDistanceKm)} km`)}
           ${(() => { if (!selected.lat || !selected.lng) return ""; const d = haversineKm(selected.lat, selected.lng, PLACES.pracaDoPovo.lat, PLACES.pracaDoPovo.lng); return detailRow("Praça do Povo", `${number.format(d)} km`); })()}
           ${(() => { const m = nearestMarket(selected); return m ? detailRow("Mercado mais próx.", `${m.name} · ${number.format(m.dist)} km`) : ""; })()}
+          ${(() => { const gym = nearestGym(selected); return gym ? detailRow("Academia mais próx.", `${gym.name} · ${number.format(gym.dist)} km`) : ""; })()}
           ${detailRow("Bairro", selected.neighborhood)}
           ${detailRow("Área", `${number.format(selected.area)} m²`)}
           ${detailRow("Quartos", selected.bedrooms)}
@@ -3111,6 +3187,7 @@
     }
 
     document.getElementById("toggleMarkets").addEventListener("click", toggleMarkets);
+    document.getElementById("toggleGyms").addEventListener("click", toggleGyms);
     document.getElementById("closeDrawer").addEventListener("click", closeDrawer);
     document.getElementById("drawerBackdrop").addEventListener("click", closeDrawer);
     document.getElementById("openCompare").addEventListener("click", openCompareDialog);
