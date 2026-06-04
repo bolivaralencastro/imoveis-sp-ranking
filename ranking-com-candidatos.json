@@ -1002,89 +1002,6 @@
       "notes": "Pesquisa web: Rua Urussuí."
     },
     {
-      "id": "894867826",
-      "title": "2 quartos - Itaim Bibi",
-      "neighborhood": "Itaim Bibi",
-      "url": "https://www.quintoandar.com.br/imovel/894867826/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 9500,
-      "condo": 1357,
-      "iptu": 215,
-      "area": 90,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 2,
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.46,
-      "lat": -23.5867955,
-      "lng": -46.6783338,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-706.9866476783127IMG9773.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-18.783799915053635IMG9771.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-220.82337095616012IMG9775.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-706.0293305002177IMG9774.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-726.1789760202117IMG9781.jpg",
-          "subtitle": "Sala de TV",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-945.5858696261422IMG9782.jpg",
-          "subtitle": "Sala de TV",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-130.0443690670814IMG9784.jpg",
-          "subtitle": "Sala de TV",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-927.3116567932816IMG9786.jpg",
-          "subtitle": "Sala de TV",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-505.0014852585789IMG9776.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-975.7579838086937IMG9777.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-256.8852627466578IMG9778.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894867826-552.5566210437247IMG9779.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        }
-      ],
-      "notes": "Pesquisa web: Rua Iaiá."
-    },
-    {
       "id": "895375893",
       "title": "2 quartos - Vila Olímpia",
       "neighborhood": "Vila Olímpia",
@@ -1332,90 +1249,6 @@
         }
       ],
       "notes": "Pesquisa web: Rua Bandeira Paulista."
-    },
-    {
-      "id": "895421200",
-      "title": "QuintoAndar 895421200",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Pedroso Alvarenga",
-      "url": "https://www.quintoandar.com.br/imovel/895421200/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 12000,
-      "condo": 1800,
-      "iptu": 209,
-      "area": 105,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 0,
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.37,
-      "lat": -23.5800311,
-      "lng": -46.6729367,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-834.9996896617031IMG0195.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-869.9750839213896IMG0189.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-488.65318583449437IMG0191.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-92.52619493173509IMG0194.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-587.3258809484288IMG0196.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-927.8798641549855IMG0200.jpg",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-106.98259099711072IMG0201.jpg",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-66.35997893835699IMG02021.jpg",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-224.68718652331754IMG020211.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-242.25302052931187IMG020212.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-441.3465194405384IMG020213.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895421200-941.2204708487623IMG020214.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        }
-      ],
-      "notes": "Apartamento no Itaim Bibi, 2 quartos, aceita pets, para alugar."
     }
   ],
   "weights": {
@@ -1431,5 +1264,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-04T01:20:33.536Z"
+  "updated_at": "2026-06-04T01:46:55.025Z"
 }
