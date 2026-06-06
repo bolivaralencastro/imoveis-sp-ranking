@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-05T19:52:45.972Z",
+  "scraped_at": "2026-06-06T02:48:53.145Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -14,9 +14,116 @@
       "jardins"
     ]
   },
-  "total_candidates_checked": 119,
-  "total_passed": 0,
+  "total_candidates_checked": 120,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "892821309",
+      "title": "QuintoAndar 892821309",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/892821309/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4500,
+      "condo": 1300,
+      "iptu": 47,
+      "area": 68,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.1,
+      "lat": -23.5989043,
+      "lng": -46.6818154,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-989.6918975853458IMG9690.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-110.43905197299408IMG9691.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-182.4938225261985IMG9692.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-529.079842240313IMG9693.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-567.7012310768705IMG9694.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-179.8474556718368IMG9695.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-851.5175356189167IMG9696.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-730.784227998038IMG9697.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-635.6216093330493IMG9698.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-589.3622319594152IMG9699.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-882.5770096455723IMG9700.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892821309-87.1844797843857IMG9701.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento na Vila Olímpia: 2 quartos, aceita animais."
+    }
+  ],
   "failed_ids": []
 }
