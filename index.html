@@ -6106,6 +6106,9 @@
     let selectedCompareIds = [];
 
     const FILTER_DEFINITIONS = [
+      { id: "hasVisit", label: "Com agendamento", matches: (home) => Boolean(home.visit?.status) },
+      { id: "visitConfirmed", label: "Visita confirmada", group: "visitStatus", matches: (home) => home.visit?.status === "confirmed" },
+      { id: "visitPending", label: "Aguardando confirmação", group: "visitStatus", matches: (home) => home.visit?.status === "pending" },
       { id: "acceptsPets", label: "Aceita pet", matches: (home) => home.acceptsPets === true },
       { id: "furnished", label: "Mobiliado", matches: (home) => home.furnished === true },
       { id: "parking", label: "Com vaga", matches: (home) => clean(home.parking) > 0 },
@@ -6203,10 +6206,18 @@
     }
 
     function filteredHomes() {
+      const activeVisitStatusFilters = FILTER_DEFINITIONS.filter((filter) => {
+        return filter.group === "visitStatus" && activeFilters.has(filter.id);
+      });
+
       return state.homes.filter((home) => {
         return FILTER_DEFINITIONS.every((filter) => {
+          if (filter.group === "visitStatus") return true;
           return !activeFilters.has(filter.id) || filter.matches(home);
-        });
+        }) && (
+          activeVisitStatusFilters.length === 0
+          || activeVisitStatusFilters.some((filter) => filter.matches(home))
+        );
       });
     }
 
