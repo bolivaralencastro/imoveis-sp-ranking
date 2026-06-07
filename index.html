@@ -1407,11 +1407,11 @@
                       "source": "gmail-gws",
                       "emailMessageId": "19e9f853d6687cc8",
                       "emailSubject": "Eba, sua visita foi confirmada!",
-                      "confirmedAt": "2026-06-07T00:39:29.000Z",
                       "scheduledAt": "2026-06-09T16:45:00.000Z",
                       "address": "Rua Tabapuã, 240, Itaim Bibi - São Paulo, SP",
                       "calendarEventId": "l3njjmc5qa1q2o85f6b78o4ulc",
-                      "calendarHtmlLink": "https://www.google.com/calendar/event?eid=bDNuamptYzVxYTFxMm84NWY2Yjc4bzR1bGMgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg"
+                      "calendarHtmlLink": "https://www.google.com/calendar/event?eid=bDNuamptYzVxYTFxMm84NWY2Yjc4bzR1bGMgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg",
+                      "confirmedAt": "2026-06-07T00:39:29.000Z"
                 }
           },
           {
@@ -1622,6 +1622,17 @@
                       "sauna": false,
                       "doorman24h": true,
                       "accessibleParking": false
+                },
+                "visit": {
+                      "status": "pending",
+                      "source": "gmail-gws",
+                      "emailMessageId": "19e9f3b51ea79e3f",
+                      "emailSubject": "Sua visita foi solicitada",
+                      "scheduledAt": "2026-06-09T15:00:00.000Z",
+                      "address": "Rua do Rocio, 159, Vila Olímpia - São Paulo, SP",
+                      "calendarEventId": "8rkc435mbe4lc25lkb30emmtj8",
+                      "calendarHtmlLink": "https://www.google.com/calendar/event?eid=OHJrYzQzNW1iZTRsYzI1bGtiMzBlbW10ajggYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg",
+                      "requestedAt": "2026-06-06T23:18:43.000Z"
                 }
           },
           {
@@ -1733,11 +1744,11 @@
                       "source": "gmail-gws",
                       "emailMessageId": "19e9f3da9f93d554",
                       "emailSubject": "Eba, sua visita foi confirmada!",
-                      "confirmedAt": "2026-06-06T23:21:17.000Z",
                       "scheduledAt": "2026-06-09T15:45:00.000Z",
                       "address": "Rua do Rocio, 52, Vila Olímpia - São Paulo, SP",
                       "calendarEventId": "hgnucst4knud9v3ia2783ri5k4",
-                      "calendarHtmlLink": "https://www.google.com/calendar/event?eid=aGdudWNzdDRrbnVkOXYzaWEyNzgzcmk1azQgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg"
+                      "calendarHtmlLink": "https://www.google.com/calendar/event?eid=aGdudWNzdDRrbnVkOXYzaWEyNzgzcmk1azQgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg",
+                      "confirmedAt": "2026-06-06T23:21:17.000Z"
                 }
           },
           {
@@ -5909,10 +5920,12 @@
     }
 
     function confirmedVisitLabel(home) {
-      if (home?.visit?.status !== "confirmed") return "Não agendada";
+      const status = home?.visit?.status;
+      if (!status) return "Não agendada";
       const scheduledAt = home.visit.scheduledAt ? new Date(home.visit.scheduledAt) : null;
-      if (!scheduledAt || Number.isNaN(scheduledAt.getTime())) return "Confirmada";
-      return `Confirmada · ${scheduledAt.toLocaleString("pt-BR", {
+      const label = status === "pending" ? "Aguardando confirmação" : "Confirmada";
+      if (!scheduledAt || Number.isNaN(scheduledAt.getTime())) return label;
+      return `${label} · ${scheduledAt.toLocaleString("pt-BR", {
         day: "2-digit",
         month: "2-digit",
         hour: "2-digit",

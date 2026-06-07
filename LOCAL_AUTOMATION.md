@@ -1,4 +1,4 @@
-# Automação local de visitas confirmadas
+# Automação local de visitas do QuintoAndar
 
 Esta automação cruza e-mails do Gmail com os imóveis do ranking, cria eventos no Google Calendar e pode publicar a atualização no GitHub.
 
@@ -6,9 +6,9 @@ Ela roda **somente nesta máquina**, usando o Google Workspace CLI local (`gws`)
 
 ## O que ela faz
 
-1. Busca no Gmail e-mails de `nao-responda@quintoandar.com.br` com assunto `Eba, sua visita foi confirmada!`.
+1. Busca no Gmail e-mails de `nao-responda@quintoandar.com.br` sobre visitas confirmadas ou solicitadas.
 2. Extrai o ID do imóvel e a data/horário da visita.
-3. Atualiza `ranking-com-candidatos.json` e o `seedHomes` do `index.html` com `visit.status = "confirmed"`.
+3. Atualiza `ranking-com-candidatos.json` e o `seedHomes` do `index.html` com `visit.status = "confirmed"` ou `"pending"`.
 4. Cria um evento no Google Calendar com propriedade privada `quintoAndarHomeId`, evitando duplicatas.
 
 ## Configuração OAuth via GWS
@@ -37,7 +37,7 @@ node sync-confirmed-visits.js --dry-run
 node sync-confirmed-visits.js
 ```
 
-Para atualizar o GitHub automaticamente após marcar visitas confirmadas:
+Para atualizar o GitHub automaticamente após marcar visitas:
 
 ```bash
 node sync-confirmed-visits.js --push

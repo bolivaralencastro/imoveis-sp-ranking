@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * Automação local de visitas confirmadas via Google Workspace CLI (`gws`).
+ * Automação local de visitas do QuintoAndar via Google Workspace CLI (`gws`).
  *
  * Fluxo:
- * - Busca no Gmail e-mails "Eba, sua visita foi confirmada!".
+ * - Busca no Gmail e-mails de visita do QuintoAndar.
  * - Extrai imóvel/data/endereço do e-mail.
- * - Marca `visit.status = "confirmed"` no ranking e no seedHomes.
+ * - Marca `visit.status = "confirmed"` ou `"pending"` no ranking e no seedHomes.
  * - Cria evento no Google Calendar via `gws`.
  * - Opcionalmente commita e faz push das mudanças para o GitHub.
  *
@@ -20,7 +20,7 @@ const ROOT = __dirname;
 const RANKING_FILE = path.join(ROOT, "ranking-com-candidatos.json");
 const INDEX_FILE = path.join(ROOT, "index.html");
 
-const GMAIL_QUERY = 'from:nao-responda@quintoandar.com.br subject:"Eba, sua visita foi confirmada!" newer_than:180d -in:trash -in:spam';
+const GMAIL_QUERY = 'from:nao-responda@quintoandar.com.br ("Eba, sua visita foi confirmada!" OR "Sua visita foi solicitada" OR "Aguardando confirmação") newer_than:180d -in:trash -in:spam';
 const CALENDAR_ID = process.env.GOOGLE_CALENDAR_ID || "primary";
 const EVENT_DURATION_MINUTES = Number(process.env.VISIT_EVENT_DURATION_MINUTES || 45);
 
@@ -177,7 +177,22 @@ function extractVisitDateTime(text, emailDate) {
   return null;
 }
 
-function listConfirmedVisitMessages() {
+function extractVisitStatus(subject, text) {
+  const normalized = normalizeText(`${subject} ${text}`);
+  if (normalized.includes("eba, sua visita foi confirmada") || normalized.includes("o proprietario confirmou a visita")) {
+    return "confirmed";
+  }
+  if (normalized.includes("sua visita foi solicitada") || normalized.includes("aguardando confirmacao")) {
+    return "pending";
+  }
+  return "";
+}
+
+function statusPriority(status) {
+  return status === "confirmed" ? 2 : status === "pending" ? 1 : 0;
+}
+
+function listVisitMessages() {
   const result = runGws([
     "gmail", "users", "messages", "list",
     "--params", JSON.stringify({ userId: "me", q: GMAIL_QUERY, maxResults: 100 })
@@ -205,13 +220,19 @@ function findExistingCalendarEvent(homeId) {
   return (result.items || []).find((event) => event.status !== "cancelled") || null;
 }
 
-function eventPayload(home, start, message, address) {
+function visitStatusLabel(status) {
+  return status === "pending" ? "Aguardando confirmação" : "Visita confirmada";
+}
+
+function eventPayload(home, start, message, address, status) {
   const end = new Date(start.getTime() + EVENT_DURATION_MINUTES * 60_000);
   const total = (home.rent || 0) + (home.condo || 0) + (home.iptu || 0);
+  const statusLabel = visitStatusLabel(status);
   return {
-    summary: `Visita QuintoAndar - ${home.neighborhood || home.title || home.id}`,
+    summary: `${statusLabel} QuintoAndar - ${home.neighborhood || home.title || home.id}`,
     location: address || [home.street, home.neighborhood, "São Paulo"].filter(Boolean).join(", "),
     description: [
+      `Status: ${statusLabel}`,
       `Imóvel QuintoAndar: ${home.id}`,
       home.url ? `Anúncio: ${home.url}` : "",
       `Bairro: ${home.neighborhood || ""}`,
@@ -231,17 +252,18 @@ function eventPayload(home, start, message, address) {
     extendedProperties: {
       private: {
         quintoAndarHomeId: String(home.id),
+        visitStatus: status,
         source: "imoveis-sp-ranking"
       }
     }
   };
 }
 
-function createCalendarEvent(home, start, message, address) {
+function createCalendarEvent(home, start, message, address, status) {
   const existing = findExistingCalendarEvent(String(home.id));
   if (existing) return existing;
 
-  const payload = eventPayload(home, start, message, address);
+  const payload = eventPayload(home, start, message, address, status);
   if (dryRun) return { id: "dry-run", htmlLink: "", ...payload };
 
   return runGws([
@@ -274,7 +296,7 @@ function gitHasChanges() {
 function commitAndPush(processedCount) {
   if (!shouldPush || dryRun || !gitHasChanges()) return false;
   run("git", ["add", "ranking-com-candidatos.json", "index.html"], { stdio: "inherit" });
-  run("git", ["commit", "-m", `Sync confirmed QuintoAndar visits (${processedCount})`], { stdio: "inherit" });
+  run("git", ["commit", "-m", `Sync QuintoAndar visits (${processedCount})`], { stdio: "inherit" });
   run("git", ["push"], { stdio: "inherit", timeout: 120000 });
   return true;
 }
@@ -284,10 +306,10 @@ async function main() {
   const homes = ranking.homes || [];
   const homesById = new Map(homes.map((home) => [String(home.id), home]));
 
-  const messageRefs = listConfirmedVisitMessages();
-  console.log(`Emails de visita confirmada encontrados: ${messageRefs.length}`);
+  const messageRefs = listVisitMessages();
+  console.log(`Emails de visita encontrados: ${messageRefs.length}`);
 
-  const processed = [];
+  const candidatesByHomeId = new Map();
   const skipped = [];
   let changed = false;
 
@@ -301,31 +323,51 @@ async function main() {
     const home = homesById.get(String(homeId));
     const scheduledAt = extractVisitDateTime(text, emailDate);
     const address = extractAddress(text);
+    const status = extractVisitStatus(subject, text);
 
-    if (!homeId || !home || !scheduledAt) {
+    if (!homeId || !home || !scheduledAt || !status) {
       skipped.push({
         messageId: message.id,
         subject,
         from,
         homeId,
+        status,
         address,
-        reason: !homeId ? "sem_id" : !home ? "fora_do_ranking" : "sem_data"
+        reason: !homeId ? "sem_id" : !home ? "fora_do_ranking" : !scheduledAt ? "sem_data" : "sem_status"
       });
       continue;
     }
 
-    const event = createCalendarEvent(home, scheduledAt, message, address);
+    const current = candidatesByHomeId.get(String(homeId));
+    const candidate = { home, message, subject, emailDate, scheduledAt, address, status };
+    if (!current || statusPriority(status) > statusPriority(current.status) || (
+      statusPriority(status) === statusPriority(current.status)
+      && new Date(emailDate || 0).getTime() > new Date(current.emailDate || 0).getTime()
+    )) {
+      candidatesByHomeId.set(String(homeId), candidate);
+    }
+  }
+
+  const processed = [];
+
+  for (const candidate of candidatesByHomeId.values()) {
+    const { home, message, subject, emailDate, scheduledAt, address, status } = candidate;
+    const event = createCalendarEvent(home, scheduledAt, message, address, status);
     const nextVisit = {
-      status: "confirmed",
+      status,
       source: "gmail-gws",
       emailMessageId: message.id,
       emailSubject: subject,
-      confirmedAt: emailDate ? new Date(emailDate).toISOString() : new Date().toISOString(),
       scheduledAt: scheduledAt.toISOString(),
       address,
       calendarEventId: event.id,
       calendarHtmlLink: event.htmlLink || home.visit?.calendarHtmlLink || ""
     };
+    if (status === "confirmed") {
+      nextVisit.confirmedAt = emailDate ? new Date(emailDate).toISOString() : new Date().toISOString();
+    } else {
+      nextVisit.requestedAt = emailDate ? new Date(emailDate).toISOString() : new Date().toISOString();
+    }
 
     if (JSON.stringify(home.visit || null) !== JSON.stringify(nextVisit)) {
       home.visit = nextVisit;
@@ -335,6 +377,7 @@ async function main() {
     processed.push({
       id: home.id,
       title: home.title,
+      status: home.visit.status,
       scheduledAt: home.visit.scheduledAt,
       address,
       calendarEventId: home.visit.calendarEventId
