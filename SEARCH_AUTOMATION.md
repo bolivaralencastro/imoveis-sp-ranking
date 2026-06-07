@@ -21,3 +21,20 @@ Além de Itaim Bibi, Vila Olímpia, Jardim Europa e Jardins, a busca agora inclu
 - Jardins / Jardim Europa - ruas preferidas
 
 Para adicionar novas ruas, edite `CRITERIA.preferredStreets` em `search-new-candidates.js`.
+
+## Busca independente por ruas
+
+`search-street-candidates.js` roda uma busca separada usando páginas do QuintoAndar por nome de rua, por exemplo:
+
+```text
+https://www.quintoandar.com.br/alugar/imovel/rua-coronel-artur-de-paula-ferreira-vila-nova-conceicao-sao-paulo-sp-brasil/
+```
+
+Essa busca não depende dos bairros da busca principal. Ela coleta IDs das páginas de cada rua, abre cada anúncio e só aprova imóveis cuja rua real extraída do anúncio bate exatamente com a lista de ruas definida em `STREET_SEARCHES`.
+
+Ela grava:
+
+- `street-candidates.json`: resultado completo da rodada, incluindo aprovados, rejeitados e falhas.
+- `new-candidates.json`: apenas os aprovados, pronto para `node merge-candidates.js`.
+
+Para evitar imóveis em trechos longos fora das capturas, o script rejeita explicitamente Avenida Santo Amaro no Brooklin.

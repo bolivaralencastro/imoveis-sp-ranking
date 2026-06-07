@@ -8,6 +8,245 @@
     "minArea": 50,
     "maxDistanceKm": 4.5
   },
+  "streets": [
+    "Rua Coronel Artur de Paula Ferreira",
+    "Rua Santa Justina",
+    "Rua Bueno Brandão",
+    "Rua Balthazar da Veiga",
+    "Rua Diogo Jácome",
+    "Rua Afonso Braz",
+    "Rua Lourenço Castanho",
+    "Rua João Lourenço",
+    "Rua Inhambu",
+    "Rua Natividade",
+    "Rua Monte Aprazível",
+    "Rua Marcos Lopes",
+    "Rua Quatá",
+    "Rua Clodomiro Amazonas",
+    "Rua Professor Filadelfo Azevedo",
+    "Rua Bastos Pereira",
+    "Avenida Santo Amaro",
+    "Avenida República do Líbano",
+    "Rua Groenlândia",
+    "Rua Veneza",
+    "Rua General Mena Barreto",
+    "Rua Antonio Bento",
+    "Rua Maestro Chiaffarelli",
+    "Rua Maestro Elias Lobo",
+    "Avenida Brasil",
+    "Rua Gironda",
+    "Rua Primavera",
+    "Rua Ouro Branco",
+    "Rua Oliveira Dias",
+    "Alameda Joaquim Eugênio de Lima",
+    "Rua Estados Unidos",
+    "Rua Canadá",
+    "Rua Cuba"
+  ],
+  "street_results": [
+    {
+      "street": "Rua Coronel Artur de Paula Ferreira",
+      "ids": 12,
+      "newIds": 11,
+      "status": 200
+    },
+    {
+      "street": "Rua Santa Justina",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Bueno Brandão",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Balthazar da Veiga",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Diogo Jácome",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Afonso Braz",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Lourenço Castanho",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua João Lourenço",
+      "ids": 12,
+      "newIds": 11,
+      "status": 200
+    },
+    {
+      "street": "Rua Inhambu",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Natividade",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Monte Aprazível",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Marcos Lopes",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Quatá",
+      "ids": 12,
+      "newIds": 11,
+      "status": 200
+    },
+    {
+      "street": "Rua Clodomiro Amazonas",
+      "ids": 12,
+      "newIds": 11,
+      "status": 200
+    },
+    {
+      "street": "Rua Professor Filadelfo Azevedo",
+      "ids": 12,
+      "newIds": 11,
+      "status": 200
+    },
+    {
+      "street": "Rua Bastos Pereira",
+      "ids": 12,
+      "newIds": 11,
+      "status": 200
+    },
+    {
+      "street": "Avenida Santo Amaro",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Avenida República do Líbano",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Groenlândia",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Veneza",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua General Mena Barreto",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Antonio Bento",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Maestro Chiaffarelli",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Maestro Elias Lobo",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Avenida Brasil",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Gironda",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Primavera",
+      "ids": 0,
+      "newIds": 0,
+      "status": 200
+    },
+    {
+      "street": "Rua Ouro Branco",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Oliveira Dias",
+      "ids": 12,
+      "newIds": 9,
+      "status": 200
+    },
+    {
+      "street": "Alameda Joaquim Eugênio de Lima",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Estados Unidos",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Canadá",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    },
+    {
+      "street": "Rua Cuba",
+      "ids": 12,
+      "newIds": 12,
+      "status": 200
+    }
+  ],
+  "total_candidates_checked": 281,
+  "total_passed": 14,
+  "total_rejected": 267,
+  "total_failed": 0,
   "homes": [
     {
       "id": "895292090",
@@ -1521,5 +1760,1610 @@
       "preferredStreet": true,
       "preferredStreetName": "Alameda Joaquim Eugênio de Lima"
     }
-  ]
+  ],
+  "rejected": [
+    {
+      "id": "895190002",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895437939",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "894810927",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895239877",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894845519",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895468302",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895383462",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895202617",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894752529",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895391036",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895163237",
+      "sourceStreet": "Rua Coronel Artur de Paula Ferreira",
+      "actualStreet": "Rua Coronel Artur de Paula Ferreira",
+      "reason": "quartos"
+    },
+    {
+      "id": "895449909",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "895267061",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "total"
+    },
+    {
+      "id": "894181387",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "893286441",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895186090",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "893272981",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "895364258",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "895381891",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "893286444",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "893028916",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "quartos"
+    },
+    {
+      "id": "895446633",
+      "sourceStreet": "Rua Santa Justina",
+      "actualStreet": "Rua Santa Justina",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895432360",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Bueno Brandão",
+      "reason": "aluguel"
+    },
+    {
+      "id": "893521221",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Bueno Brandão",
+      "reason": "quartos"
+    },
+    {
+      "id": "895173433",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Bueno Brandão",
+      "reason": "quartos"
+    },
+    {
+      "id": "894646594",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Bueno Brandão",
+      "reason": "total"
+    },
+    {
+      "id": "892883246",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Bueno Brandão",
+      "reason": "total"
+    },
+    {
+      "id": "894881167",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895244439",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Doutor Guilherme Bannitz",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893496115",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Doutor Sodré",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894969313",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Doutor Guilherme Bannitz",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895378252",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "area"
+    },
+    {
+      "id": "893786597",
+      "sourceStreet": "Rua Bueno Brandão",
+      "actualStreet": "Rua Domingos Fernandes",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895333291",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895032536",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "aluguel"
+    },
+    {
+      "id": "894197782",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "aluguel"
+    },
+    {
+      "id": "893973363",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "quartos"
+    },
+    {
+      "id": "895413346",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895418971",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "quartos"
+    },
+    {
+      "id": "893681689",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "aluguel"
+    },
+    {
+      "id": "894502068",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "quartos"
+    },
+    {
+      "id": "893111398",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "quartos"
+    },
+    {
+      "id": "894344248",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "quartos"
+    },
+    {
+      "id": "894856127",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Balthazar da Veiga",
+      "reason": "total"
+    },
+    {
+      "id": "895386110",
+      "sourceStreet": "Rua Balthazar da Veiga",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895067492",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895386060",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895127897",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895082704",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895403457",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895435585",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895311297",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895280345",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895457248",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "895397004",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "894491136",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "total"
+    },
+    {
+      "id": "895067533",
+      "sourceStreet": "Rua Diogo Jácome",
+      "actualStreet": "Rua Diogo Jácome",
+      "reason": "quartos"
+    },
+    {
+      "id": "894248822",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895134205",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "894738022",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895386583",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895284299",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "894738003",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895311826",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "894147158",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895248854",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "894344975",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "893620820",
+      "sourceStreet": "Rua Afonso Braz",
+      "actualStreet": "Rua Afonso Braz",
+      "reason": "quartos"
+    },
+    {
+      "id": "895476695",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Pacheco de Miranda",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895044994",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Doutor Esdras Pacheco Ferreira",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895044787",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Avenida Antônio Joaquim de Moura Andrade",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895456635",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Henrique Martins",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895488227",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Henrique Martins",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894181595",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Teviot",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893204796",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Manuel Mendes Fernandes",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895112591",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895364439",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Professor Filadelfo Azevedo",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895342098",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895330623",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Professor Filadelfo Azevedo",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895340506",
+      "sourceStreet": "Rua Lourenço Castanho",
+      "actualStreet": "Rua Professor Filadelfo Azevedo",
+      "reason": "aluguel"
+    },
+    {
+      "id": "892805644",
+      "sourceStreet": "Rua João Lourenço",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893692073",
+      "sourceStreet": "Rua João Lourenço",
+      "actualStreet": "Rua Doutor Eduardo de Souza Aranha",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893233624",
+      "sourceStreet": "Rua João Lourenço",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893344674",
+      "sourceStreet": "Rua João Lourenço",
+      "actualStreet": "Rua Doutor Eduardo de Souza Aranha",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894569367",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894340995",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "Rua Inhambú",
+      "reason": "quartos"
+    },
+    {
+      "id": "895221190",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894391603",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893245298",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "Rua Inhambu",
+      "reason": "quartos"
+    },
+    {
+      "id": "895402047",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "Av. Agami 174 - Indianópolis São Paulo - Sp 04522-000 Brasil",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893934610",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "Rua Stela Marina",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895397517",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "Rua Iraúna",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894241866",
+      "sourceStreet": "Rua Inhambu",
+      "actualStreet": "Rua Cabo Verde",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893742474",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895342227",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895261604",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895360654",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895254578",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895067481",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895291097",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895467552",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Rua Doutor Fadlo Haidar",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895480456",
+      "sourceStreet": "Rua Natividade",
+      "actualStreet": "Rua Fiandeiras",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895350100",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Monte Aprazível",
+      "reason": "quartos"
+    },
+    {
+      "id": "895026436",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895305158",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Monte Aprazível",
+      "reason": "quartos"
+    },
+    {
+      "id": "895115620",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Monte Aprazível",
+      "reason": "quartos"
+    },
+    {
+      "id": "895410471",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Monte Aprazível",
+      "reason": "quartos"
+    },
+    {
+      "id": "895026431",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Monte Aprazível",
+      "reason": "quartos"
+    },
+    {
+      "id": "893813142",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Monte Aprazível",
+      "reason": "quartos"
+    },
+    {
+      "id": "894147560",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "893964592",
+      "sourceStreet": "Rua Monte Aprazível",
+      "actualStreet": "Rua Gararu",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894422957",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "895284298",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895477214",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895039798",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "895191669",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "894984290",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894740421",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "895216873",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895067819",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "893093463",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "895330378",
+      "sourceStreet": "Rua Marcos Lopes",
+      "actualStreet": "Rua Marcos Lopes",
+      "reason": "quartos"
+    },
+    {
+      "id": "895434134",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "Rua Quatá",
+      "reason": "quartos"
+    },
+    {
+      "id": "893205372",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "Rua Quatá",
+      "reason": "quartos"
+    },
+    {
+      "id": "895489704",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895412128",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "Rua Quatá",
+      "reason": "quartos"
+    },
+    {
+      "id": "895384175",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895476726",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894931492",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895348326",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "Rua Quatá",
+      "reason": "quartos"
+    },
+    {
+      "id": "895139224",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894229205",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "Rua Quatá",
+      "reason": "quartos"
+    },
+    {
+      "id": "895488613",
+      "sourceStreet": "Rua Quatá",
+      "actualStreet": "Rua Quatá",
+      "reason": "quartos"
+    },
+    {
+      "id": "895443815",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "892794838",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "895234378",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "893554370",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895234227",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "895234226",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "894672956",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "total"
+    },
+    {
+      "id": "895233938",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "895411682",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "895234380",
+      "sourceStreet": "Rua Clodomiro Amazonas",
+      "actualStreet": "Rua Clodomiro Amazonas",
+      "reason": "quartos"
+    },
+    {
+      "id": "893613875",
+      "sourceStreet": "Rua Professor Filadelfo Azevedo",
+      "actualStreet": "Rua Doutor Eduardo de Souza Aranha",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895411312",
+      "sourceStreet": "Rua Professor Filadelfo Azevedo",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895354268",
+      "sourceStreet": "Rua Bastos Pereira",
+      "actualStreet": "Rua Doutor Eduardo de Souza Aranha",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894751757",
+      "sourceStreet": "Rua Bastos Pereira",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895379060",
+      "sourceStreet": "Rua Bastos Pereira",
+      "actualStreet": "Rua Doutor Eduardo de Souza Aranha",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892835869",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "893388693",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "894640552",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "895336368",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "quartos"
+    },
+    {
+      "id": "893476893",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895292404",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895245765",
+      "sourceStreet": "Avenida Santo Amaro",
+      "actualStreet": "Avenida Santo Amaro",
+      "reason": "distancia"
+    },
+    {
+      "id": "895475377",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Rua Ministro Gabriel de Rezende Passos",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895299244",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Ibirapuera",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895170700",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Agami",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895444166",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Indianópolis",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895032236",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Agami",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895276800",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Agami",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894701486",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Indianópolis",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895453013",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Açocê",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895477469",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Alameda dos Arapanés",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895246912",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Agami",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895382684",
+      "sourceStreet": "Avenida República do Líbano",
+      "actualStreet": "Avenida Agami",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894163166",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Avenida São Gabriel",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895413326",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Suzano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892880249",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Avenida Nove de Julho",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894072404",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Suzano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893671397",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Romilda Margarida Gabriel",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892877400",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Avenida Nove de Julho",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895258405",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Maestro Elias Lobo",
+      "reason": "quartos"
+    },
+    {
+      "id": "894968575",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Bucareste",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892919526",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Maestro Elias Lobo",
+      "reason": "quartos"
+    },
+    {
+      "id": "893774262",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Rua Maestro Elias Lobo",
+      "reason": "quartos"
+    },
+    {
+      "id": "893028217",
+      "sourceStreet": "Rua Groenlândia",
+      "actualStreet": "Avenida São Gabriel",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892823999",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Alameda Campinas",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893694950",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Alameda Campinas",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895411030",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Rua Caconde",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894403774",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Rua Marechal Bitencourt",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894898899",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Rua Caconde",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895240507",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Rua Maestro Chiaffarelli",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895453475",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Alameda Campinas",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893405074",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Rua Guarará",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892922387",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893577308",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Alameda Campinas",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893126983",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Alameda Campinas 1446",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895097402",
+      "sourceStreet": "Rua Veneza",
+      "actualStreet": "Alameda Campinas",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894390795",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895292722",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Primavera",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895483396",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Brasília",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894093842",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895320593",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895262154",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894201457",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893932213",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894623974",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894334268",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894847702",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Tabapuã",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893999797",
+      "sourceStreet": "Rua General Mena Barreto",
+      "actualStreet": "Rua Joaquim Floriano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895337702",
+      "sourceStreet": "Rua Antonio Bento",
+      "actualStreet": "Rua Suzano",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895219023",
+      "sourceStreet": "Rua Antonio Bento",
+      "actualStreet": "Rua Maestro Elias Lobo",
+      "reason": "quartos"
+    },
+    {
+      "id": "895343125",
+      "sourceStreet": "Rua Antonio Bento",
+      "actualStreet": "Avenida Nove de Julho",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894454966",
+      "sourceStreet": "Rua Antonio Bento",
+      "actualStreet": "Avenida Nove de Julho",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895109131",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "total"
+    },
+    {
+      "id": "894506624",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "quartos"
+    },
+    {
+      "id": "895352090",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "aluguel"
+    },
+    {
+      "id": "893347139",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "quartos"
+    },
+    {
+      "id": "893037631",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "quartos"
+    },
+    {
+      "id": "894957308",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "quartos"
+    },
+    {
+      "id": "895252747",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "quartos"
+    },
+    {
+      "id": "892830608",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "aluguel"
+    },
+    {
+      "id": "893153753",
+      "sourceStreet": "Rua Maestro Chiaffarelli",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895227841",
+      "sourceStreet": "Rua Maestro Elias Lobo",
+      "actualStreet": "Rua Urimonduba",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895080690",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895242521",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893739815",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Lisboa",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895242574",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895242510",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895242588",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895242578",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895143374",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Francisco Leitão",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895242582",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Eugênio Leite",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893156543",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892899499",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Lisboa",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893144047",
+      "sourceStreet": "Avenida Brasil",
+      "actualStreet": "Rua Francisco Leitão",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894642094",
+      "sourceStreet": "Rua Gironda",
+      "actualStreet": "Rua Jesuíno Arruda",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895470956",
+      "sourceStreet": "Rua Gironda",
+      "actualStreet": "Rua Pedroso Alvarenga",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895318768",
+      "sourceStreet": "Rua Gironda",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894418217",
+      "sourceStreet": "Rua Gironda",
+      "actualStreet": "Rua Pedroso Alvarenga",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895302123",
+      "sourceStreet": "Rua Gironda",
+      "actualStreet": "Rua Itacema",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894943403",
+      "sourceStreet": "Rua Ouro Branco",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "total"
+    },
+    {
+      "id": "893680322",
+      "sourceStreet": "Rua Ouro Branco",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895418326",
+      "sourceStreet": "Rua Oliveira Dias",
+      "actualStreet": "Rua Tabapuã",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895336180",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895367587",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895395940",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895410922",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895474538",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "total"
+    },
+    {
+      "id": "895476890",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895457170",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895205804",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Alameda Joaquim Eugênio de Lima",
+      "reason": "quartos"
+    },
+    {
+      "id": "894391964",
+      "sourceStreet": "Alameda Joaquim Eugênio de Lima",
+      "actualStreet": "Al. Joaquim Eugenio de Lima",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894737019",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "892785737",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua Oscar Freire",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893434651",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua João Moura",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895373297",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895059273",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua da Consolação",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895425709",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua Guarará",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895211248",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua Guarará",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895183225",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua Oscar Freire",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893444938",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua Salto",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895342845",
+      "sourceStreet": "Rua Estados Unidos",
+      "actualStreet": "Rua Guarará",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895342931",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "R. Oscar Freire 1758 - Cerqueira César São Paulo - Sp 05409-011 Brasil",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893269951",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Rua Presidente Prudente",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895172111",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Rua Presidente Prudente",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894740845",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "quartos"
+    },
+    {
+      "id": "893818384",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Alameda Casa Branca",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893405442",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895013048",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Rua Ouro Branco",
+      "reason": "aluguel"
+    },
+    {
+      "id": "895274935",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Rua Presidente Prudente",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894182372",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Alameda Casa Branca",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "894731786",
+      "sourceStreet": "Rua Canadá",
+      "actualStreet": "Alameda Casa Branca",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "895408557",
+      "sourceStreet": "Rua Cuba",
+      "actualStreet": "Rua Urimonduba",
+      "reason": "fora_das_ruas"
+    },
+    {
+      "id": "893743803",
+      "street": "Avenida Santo Amaro",
+      "neighborhood": "Brooklin",
+      "reason": "trecho_fora_das_capturas"
+    },
+    {
+      "id": "895444081",
+      "street": "Avenida Santo Amaro",
+      "neighborhood": "Brooklin",
+      "reason": "trecho_fora_das_capturas"
+    }
+  ],
+  "failed": []
 }
