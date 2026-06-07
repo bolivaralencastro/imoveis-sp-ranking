@@ -35,7 +35,6 @@ const CRITERIA = {
     "Rua Afonso Braz",
     "Rua Lourenço Castanho",
     "Rua João Lourenço",
-    "Rua Teixeira da Silva",
     "Rua Inhambu",
     "Rua Natividade",
     "Rua Monte Aprazível",
@@ -497,12 +496,10 @@ function meetssCriteria(home) {
   if (totalCost > CRITERIA.maxTotalCost) return false;
   if (home.area > 0 && home.area < CRITERIA.minArea) return false;
   if (home.targetDistanceKm > 0 && home.targetDistanceKm > CRITERIA.maxDistanceKm) return false;
-  const matchedPreferredStreet = preferredStreetMatch(home);
-
-  // Bairro obrigatório, exceto quando o imóvel está em uma rua-alvo.
+  // Bairro obrigatório. Rua-alvo marca prioridade, mas não autoriza bairro fora da região selecionada.
   const nb = normalizeText(home.neighborhood || "");
   const allowed = CRITERIA.allowedNeighborhoods.map(normalizeText);
-  if (home.neighborhood && !allowed.some(a => nb.includes(a)) && !matchedPreferredStreet) return false;
+  if (home.neighborhood && !allowed.some(a => nb.includes(a))) return false;
   return true;
 }
 

@@ -4910,114 +4910,6 @@
       "notes": "Apartamento para alugar na Vila Nova Conceição com 2 quartos.",
       "preferredStreet": false,
       "preferredStreetName": ""
-    },
-    {
-      "id": "894669488",
-      "title": "QuintoAndar 894669488",
-      "neighborhood": "Paraíso",
-      "street": "Rua Teixeira da Silva",
-      "url": "https://www.quintoandar.com.br/imovel/894669488/alugar/apartamento-3-quartos-paraiso-sao-paulo",
-      "rent": 5690,
-      "condo": 2677,
-      "iptu": 538,
-      "area": 140,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": true,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 4.04,
-      "lat": -23.5707823,
-      "lng": -46.6477685,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-286.55284915715407MG6412.jpg",
-          "subtitle": "Sala de Estar e Jantar",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-258.43953455806434MG6414.jpg",
-          "subtitle": "Sala de Estar e Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-61.69066882518881MG6415.jpg",
-          "subtitle": "Sala de Estar e Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-523.1135509314119MG6416.jpg",
-          "subtitle": "Sala de Estar e Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-956.2758390368926MG6417.jpg",
-          "subtitle": "Vista da Sala de Estar e Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-146.6830104336816MG6418.jpg",
-          "subtitle": "Vista da Sala de Estar e Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-534.7381547294727MG6458.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-284.68776188703373MG6420.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-276.3483200987947MG6422.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-156.71547331199076MG6423.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-434.0617179126909MG6424.jpg",
-          "subtitle": "Vista do Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original894669488-339.0670186776801MG6425.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        }
-      ],
-      "notes": "Este espaçoso apartamento está localizado no charmoso bairro do Paraíso, oferecendo uma excelente oportunidade para quem busca conforto e conveniência. Com três quartos e três banheiros, este imóvel é ideal para famílias que valorizam espaço e praticidades urbanas. A localização estratégica proporciona fácil acesso a diversas facilidades e pontos de interesse da cidade. Nas proximidades, encontram-se duas estações de metrô: Brigadeiro e Vergueiro, que garantem mobilidades rápidas e eficientes para diversas partes de São Paulo. Além disso, para os amantes de esportes e eventos, o Estádio Ícaro de Castro Melo está a poucos minutos de distância, oferecendo diversas atividades e eventos esportivos. Para quem aprecia compras e lazer, o Boulevard Monti Mare e o Shopping Veneza estão convenientemente localizados nas redondezas, proporcionando uma ampla gama de lojas, restaurantes e opções de entretenimento. Este apartamento no Paraíso é uma excelente escolha para quem busca um estilo de vida urbano, com todas as comodidades e facilidades ao alcance. Não perca a oportunidade de conhecer este imóvel único e desfrutar de tudo o que o bairro tem a oferecer.",
-      "preferredStreet": true,
-      "preferredStreetName": "Rua Teixeira da Silva"
     }
   ],
   "weights": {
@@ -5033,5 +4925,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-07T10:21:45.863Z"
+  "updated_at": "2026-06-07T10:29:03.755Z"
 }
