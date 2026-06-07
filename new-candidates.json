@@ -1,41 +1,93 @@
 {
-  "target": {
-    "label": "Meta - Av. Brig. Faria Lima, 3732 - Itaim Bibi",
-    "lat": -23.5889959,
-    "lng": -46.6821196
+  "scraped_at": "2026-06-07T10:21:38.402Z",
+  "criteria": {
+    "minBedrooms": 2,
+    "maxRent": 9000,
+    "maxTotalCost": 9000,
+    "minArea": 50,
+    "maxDistanceKm": 4.5,
+    "allowedNeighborhoods": [
+      "itaim bibi",
+      "vila olímpia",
+      "vila olimpia",
+      "vila nova conceição",
+      "vila nova conceicao",
+      "jardim europa",
+      "jardins"
+    ],
+    "preferredStreets": [
+      "Rua Coronel Artur de Paula Ferreira",
+      "Rua Santa Justina",
+      "Rua Bueno Brandão",
+      "Rua Balthazar da Veiga",
+      "Rua Diogo Jácome",
+      "Rua Afonso Braz",
+      "Rua Lourenço Castanho",
+      "Rua João Lourenço",
+      "Rua Teixeira da Silva",
+      "Rua Inhambu",
+      "Rua Natividade",
+      "Rua Monte Aprazível",
+      "Rua Marcos Lopes",
+      "Rua Quatá",
+      "Rua Clodomiro Amazonas",
+      "Rua Professor Filadelfo Azevedo",
+      "Rua Bastos Pereira",
+      "Avenida Santo Amaro",
+      "Avenida República do Líbano",
+      "Rua Groenlândia",
+      "Rua Veneza",
+      "Rua General Mena Barreto",
+      "Rua Antonio Bento",
+      "Rua Maestro Chiaffarelli",
+      "Rua Maestro Elias Lobo",
+      "Avenida Brasil",
+      "Rua Gironda",
+      "Rua Primavera",
+      "Rua Ouro Branco",
+      "Rua Oliveira Dias",
+      "Alameda Joaquim Eugênio de Lima",
+      "Rua Estados Unidos",
+      "Rua Canadá",
+      "Rua Cuba"
+    ]
   },
+  "total_candidates_checked": 120,
+  "total_passed": 2,
+  "total_failed": 0,
   "homes": [
     {
-      "id": "895330374",
-      "title": "QuintoAndar 895330374",
+      "id": "893261121",
+      "title": "QuintoAndar 893261121",
       "neighborhood": "Vila Nova Conceição",
-      "url": "https://www.quintoandar.com.br/imovel/895330374/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
-      "rent": 5200,
-      "condo": 1780,
-      "iptu": 569,
-      "area": 60,
+      "street": "Rua Comendador Miguel Calfat",
+      "url": "https://www.quintoandar.com.br/imovel/893261121/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4930,
+      "condo": 1106,
+      "iptu": 221,
+      "area": 50,
       "bedrooms": 2,
       "bathrooms": 1,
       "parking": 1,
       "acceptsPets": true,
-      "furnished": true,
+      "furnished": false,
       "features": {
         "balcony": true,
-        "gourmetBalcony": true,
-        "privatePool": true,
-        "airConditioning": true,
-        "gasShower": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
         "box": true,
         "bedroomCabinets": true,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": true,
-        "gym": true,
-        "partyRoom": true,
+        "gym": false,
+        "partyRoom": false,
         "gameRoom": false,
-        "grill": false,
+        "grill": true,
         "playground": false,
-        "sauna": true,
+        "sauna": false,
         "doorman24h": true,
         "accessibleParking": false
       },
@@ -43,73 +95,183 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.49,
-      "lat": -23.5961798,
-      "lng": -46.6697419,
+      "targetDistanceKm": 0.85,
+      "lat": -23.5926129,
+      "lng": -46.6747502,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-605.1213924650108c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-2e28252d-50ba-4ae2-8386-dc598f787b4f.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-634.6429895943669IMG8966.jpg",
+          "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-17.664280264238386c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-9422757f-a4cf-494a-8e90-d46e33e3a8e4.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-525.0735677842898IMG8964.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-896.2062829505837c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-be8a2636-4c3e-45d4-aa3a-a901e68de358.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-670.0577267855739IMG8962.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-841.794617591233c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-5a963a81-3a43-4e13-9364-81944a67f370.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-545.3966835032297IMG9001.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-382.22992267372325c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-d6917ae5-b44e-4f11-9aad-c66d46582cd1.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-492.66610282220455IMG8960.jpg",
+          "subtitle": "Varanda Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-578.9664151904434c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-54a89316-52cd-4494-8e6a-8ca2a8de8979.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-430.4360042128058IMG8959.jpg",
+          "subtitle": "Varanda Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-964.7485072452006c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-07ae1950-189e-4743-a0fa-7da28a1cc8d8.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-7.463706067484033IMG8958.jpg",
+          "subtitle": "Vista Varanda Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-448.2699141791533c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-b5975c40-1d68-464b-bb02-0f48e6838261.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-971.5619497817783IMG8967.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-301.4469497641334c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-2f9a9f8a-a237-4ba6-8e36-a4624b359c2a.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-850.2881053900659IMG8968.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-929.038206291574c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-f1d939cb-2855-45c6-9792-d723c40d55cd.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-293.5140280532984IMG8970.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-400.3069340153228c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-2899aa4a-5eff-433f-b223-c014d2a9d5a6.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-296.1808267814482IMG8971.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895330374-39.80707640305114c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-fea3f184-ee16-457a-a2a3-339d0c8b8025.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893261121-385.3853887469904IMG8972.jpg",
+          "subtitle": "Vista Quarto 1",
           "cover": false
         }
       ],
-      "notes": ""
+      "notes": "Apartamento para alugar na Vila Nova Conceição com 2 quartos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "894669488",
+      "title": "QuintoAndar 894669488",
+      "neighborhood": "Paraíso",
+      "street": "Rua Teixeira da Silva",
+      "url": "https://www.quintoandar.com.br/imovel/894669488/alugar/apartamento-3-quartos-paraiso-sao-paulo",
+      "rent": 5690,
+      "condo": 2677,
+      "iptu": 538,
+      "area": 140,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 4.04,
+      "lat": -23.5707823,
+      "lng": -46.6477685,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-286.55284915715407MG6412.jpg",
+          "subtitle": "Sala de Estar e Jantar",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-258.43953455806434MG6414.jpg",
+          "subtitle": "Sala de Estar e Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-61.69066882518881MG6415.jpg",
+          "subtitle": "Sala de Estar e Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-523.1135509314119MG6416.jpg",
+          "subtitle": "Sala de Estar e Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-956.2758390368926MG6417.jpg",
+          "subtitle": "Vista da Sala de Estar e Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-146.6830104336816MG6418.jpg",
+          "subtitle": "Vista da Sala de Estar e Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-534.7381547294727MG6458.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-284.68776188703373MG6420.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-276.3483200987947MG6422.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-156.71547331199076MG6423.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-434.0617179126909MG6424.jpg",
+          "subtitle": "Vista do Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894669488-339.0670186776801MG6425.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Este espaçoso apartamento está localizado no charmoso bairro do Paraíso, oferecendo uma excelente oportunidade para quem busca conforto e conveniência. Com três quartos e três banheiros, este imóvel é ideal para famílias que valorizam espaço e praticidades urbanas. A localização estratégica proporciona fácil acesso a diversas facilidades e pontos de interesse da cidade. Nas proximidades, encontram-se duas estações de metrô: Brigadeiro e Vergueiro, que garantem mobilidades rápidas e eficientes para diversas partes de São Paulo. Além disso, para os amantes de esportes e eventos, o Estádio Ícaro de Castro Melo está a poucos minutos de distância, oferecendo diversas atividades e eventos esportivos. Para quem aprecia compras e lazer, o Boulevard Monti Mare e o Shopping Veneza estão convenientemente localizados nas redondezas, proporcionando uma ampla gama de lojas, restaurantes e opções de entretenimento. Este apartamento no Paraíso é uma excelente escolha para quem busca um estilo de vida urbano, com todas as comodidades e facilidades ao alcance. Não perca a oportunidade de conhecer este imóvel único e desfrutar de tudo o que o bairro tem a oferecer.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Teixeira da Silva"
     }
   ],
-  "updated_at": "2026-06-07T10:06:30.169Z"
+  "failed_ids": []
 }
