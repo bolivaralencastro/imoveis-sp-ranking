@@ -1015,6 +1015,9 @@
           <button class="sort-button" type="button" data-sort="delta">Diferença</button>
           <button class="sort-button" type="button" data-sort="targetDistanceKm">Distância</button>
           <button class="sort-button" type="button" data-sort="area">m²</button>
+          <button id="toggleScheduled" class="icon-button" type="button" title="Mostrar apenas imóveis com agendamento" aria-label="Mostrar apenas imóveis com agendamento">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-5"/></svg>
+          </button>
           <button id="openFilters" class="icon-button" type="button" title="Filtros" aria-label="Filtros">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18"/><path d="M7 12h10"/><path d="M10 19h4"/></svg>
           </button>
@@ -7900,8 +7903,14 @@
 
     function renderFilterButton() {
       const button = document.getElementById("openFilters");
+      const scheduledButton = document.getElementById("toggleScheduled");
+      const scheduledCount = state.homes.filter((home) => Boolean(home.visit?.status)).length;
       button.classList.toggle("active", activeFilters.size > 0);
       button.title = activeFilters.size ? `${activeFilters.size} filtro(s) ativo(s)` : "Filtros";
+      scheduledButton.classList.toggle("active", activeFilters.has("hasVisit"));
+      scheduledButton.title = activeFilters.has("hasVisit")
+        ? `Mostrando ${scheduledCount} imóvel(is) com agendamento`
+        : `Mostrar apenas imóveis com agendamento (${scheduledCount})`;
     }
 
     function renderFilterOptions() {
@@ -8551,6 +8560,11 @@
     document.getElementById("closeCompare").addEventListener("click", () => document.getElementById("compareDialog").close());
     document.getElementById("compareDialog").addEventListener("click", (event) => {
       if (event.target.id === "compareDialog") event.target.close();
+    });
+    document.getElementById("toggleScheduled").addEventListener("click", () => {
+      if (activeFilters.has("hasVisit")) activeFilters.delete("hasVisit");
+      else activeFilters.add("hasVisit");
+      render();
     });
     document.getElementById("openFilters").addEventListener("click", openFiltersDialog);
     document.getElementById("closeFilters").addEventListener("click", () => document.getElementById("filtersDialog").close());
