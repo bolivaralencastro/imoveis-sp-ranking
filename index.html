@@ -5886,6 +5886,18 @@
       return id ? `https://www.quintoandar.com.br/imovel/${encodeURIComponent(id)}/agendar` : "";
     }
 
+    function confirmedVisitLabel(home) {
+      if (home?.visit?.status !== "confirmed") return "Não agendada";
+      const scheduledAt = home.visit.scheduledAt ? new Date(home.visit.scheduledAt) : null;
+      if (!scheduledAt || Number.isNaN(scheduledAt.getTime())) return "Confirmada";
+      return `Confirmada · ${scheduledAt.toLocaleString("pt-BR", {
+        day: "2-digit",
+        month: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit"
+      })}`;
+    }
+
     function clean(value) {
       const parsed = Number(value);
       return Number.isFinite(parsed) ? parsed : 0;
@@ -6476,6 +6488,7 @@
 
       if (detailTab === "decision") {
         return detailList([
+          detailRow("Visita", confirmedVisitLabel(selected)),
           detailRow("Aceita pet", booleanLabel(selected.acceptsPets)),
           detailRow("Mobiliado", booleanLabel(selected.furnished)),
           detailRow("Vagas", selected.parking),
@@ -6524,6 +6537,7 @@
           ${renderStreetView(selected)}
           ${detailList([
             detailRow("Distância até Meta Faria Lima", `${number.format(selected.targetDistanceKm)} km`),
+            detailRow("Visita", confirmedVisitLabel(selected)),
             pracaDoPovoDistance !== null ? detailRow("Praça do Povo", `${number.format(pracaDoPovoDistance)} km`) : "",
             market ? detailRow("Mercado mais próx.", `${market.name} · ${number.format(market.dist)} km`) : "",
             gym ? detailRow("Academia mais próx.", `${gym.name} · ${number.format(gym.dist)} km`) : "",
@@ -6544,6 +6558,7 @@
       }
 
       return detailList([
+        detailRow("Visita", confirmedVisitLabel(selected)),
         detailRow("Nota", Math.round(selected.score)),
         `<div class="detail-row"><span>Total</span><strong>${escapeHtml(money.format(selected.totalCost))}<small class="cost-delta ${deltaClass(selected)}">${escapeHtml(deltaLabel(selected))}</small></strong></div>`,
         detailRow("R$/m²", money.format(currentValuePerSqm)),
