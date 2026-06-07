@@ -318,6 +318,17 @@
         "sauna": false,
         "doorman24h": true,
         "accessibleParking": true
+      },
+      "visit": {
+        "status": "confirmed",
+        "source": "gmail-gws",
+        "emailMessageId": "19e9f853d6687cc8",
+        "emailSubject": "Eba, sua visita foi confirmada!",
+        "confirmedAt": "2026-06-07T00:39:29.000Z",
+        "scheduledAt": "2026-06-09T16:45:00.000Z",
+        "address": "Rua Tabapuã, 240, Itaim Bibi - São Paulo, SP",
+        "calendarEventId": "l3njjmc5qa1q2o85f6b78o4ulc",
+        "calendarHtmlLink": "https://www.google.com/calendar/event?eid=bDNuamptYzVxYTFxMm84NWY2Yjc4bzR1bGMgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg"
       }
     },
     {
@@ -633,6 +644,17 @@
         "sauna": false,
         "doorman24h": true,
         "accessibleParking": false
+      },
+      "visit": {
+        "status": "confirmed",
+        "source": "gmail-gws",
+        "emailMessageId": "19e9f3da9f93d554",
+        "emailSubject": "Eba, sua visita foi confirmada!",
+        "confirmedAt": "2026-06-06T23:21:17.000Z",
+        "scheduledAt": "2026-06-09T15:45:00.000Z",
+        "address": "Rua do Rocio, 52, Vila Olímpia - São Paulo, SP",
+        "calendarEventId": "hgnucst4knud9v3ia2783ri5k4",
+        "calendarHtmlLink": "https://www.google.com/calendar/event?eid=aGdudWNzdDRrbnVkOXYzaWEyNzgzcmk1azQgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg"
       }
     },
     {
@@ -4668,5 +4690,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-07T03:31:31.943Z"
+  "updated_at": "2026-06-07T09:56:08.491Z"
 }

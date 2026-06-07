@@ -1,3 +1,4 @@
 .google-oauth-client.json
 .google-token.json
 .google-token.*
+sync-confirmed-visits.log
