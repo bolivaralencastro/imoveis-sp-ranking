@@ -20,15 +20,57 @@ const CRITERIA = {
     "itaim bibi",
     "vila olímpia",
     "vila olimpia",
+    "vila nova conceição",
+    "vila nova conceicao",
     "jardim europa",
     "jardins"
-  ] // bairros aceitos
+  ], // bairros aceitos
+  preferredStreets: [
+    // Vila Nova Conceição / Moema norte
+    "Rua Coronel Artur de Paula Ferreira",
+    "Rua Santa Justina",
+    "Rua Bueno Brandão",
+    "Rua Balthazar da Veiga",
+    "Rua Diogo Jácome",
+    "Rua Afonso Braz",
+    "Rua Lourenço Castanho",
+    "Rua João Lourenço",
+    "Rua Teixeira da Silva",
+    "Rua Inhambu",
+    "Rua Natividade",
+    "Rua Monte Aprazível",
+    "Rua Marcos Lopes",
+    "Rua Quatá",
+    "Rua Clodomiro Amazonas",
+    "Rua Professor Filadelfo Azevedo",
+    "Rua Bastos Pereira",
+    "Avenida Santo Amaro",
+    "Avenida República do Líbano",
+
+    // Jardins / Jardim Europa
+    "Rua Groenlândia",
+    "Rua Veneza",
+    "Rua General Mena Barreto",
+    "Rua Antonio Bento",
+    "Rua Maestro Chiaffarelli",
+    "Rua Maestro Elias Lobo",
+    "Avenida Brasil",
+    "Rua Gironda",
+    "Rua Primavera",
+    "Rua Ouro Branco",
+    "Rua Oliveira Dias",
+    "Alameda Joaquim Eugênio de Lima",
+    "Rua Estados Unidos",
+    "Rua Canadá",
+    "Rua Cuba"
+  ]
 };
 
 // Bairros alvo no QuintoAndar (slug da URL)
 const SEARCH_CONFIGS = [
   { neighborhood: "Itaim Bibi", slug: "itaim-bibi" },
   { neighborhood: "Vila Olímpia", slug: "vila-olimpia" },
+  { neighborhood: "Vila Nova Conceição", slug: "vila-nova-conceicao" },
   { neighborhood: "Jardim Europa", slug: "jardim-europa" },
   { neighborhood: "Jardins", slug: "jardins" },
 ];
@@ -58,6 +100,25 @@ function numberFrom(value) {
     .replace(",", ".");
   const parsed = Number(normalized);
   return Number.isFinite(parsed) ? parsed : 0;
+}
+
+function normalizeText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function preferredStreetMatch(home) {
+  const text = normalizeText([
+    home.street,
+    home.address,
+    home.title,
+    home.url
+  ].filter(Boolean).join(" "));
+
+  if (!text) return "";
+  return CRITERIA.preferredStreets.find((street) => text.includes(normalizeText(street))) || "";
 }
 
 function findObjects(value, predicate, output = []) {
@@ -215,6 +276,16 @@ const VIEWPORTS = [
     // Jardim Europa
     label: "Jardim Europa",
     north: -23.560, south: -23.595, east: -46.665, west: -46.715
+  },
+  {
+    // Região das ruas marcadas na Vila Nova Conceição / Moema norte
+    label: "Vila Nova Conceição / Moema norte",
+    north: -23.588, south: -23.616, east: -46.660, west: -46.685
+  },
+  {
+    // Região das ruas marcadas entre Jardins e Jardim Europa
+    label: "Jardins / Jardim Europa - ruas preferidas",
+    north: -23.560, south: -23.585, east: -46.655, west: -46.690
   }
 ];
 
@@ -337,8 +408,8 @@ function extractFromNextData(data, fallbackUrl, fallbackId) {
     || "";
   const description = home.generatedDescription?.shortRentDescription || home.generatedDescription?.longDescription || "";
   const address = home.address || {};
-  const lat = numberFrom(markers.lat || home.lat);
-  const lng = numberFrom(markers.lng || home.lng);
+  const lat = numberFrom(markers.lat || home.lat || address.lat);
+  const lng = numberFrom(markers.lng || home.lng || address.lng);
   const targetDistKm = lat && lng ? distanceKm(TARGET, { lat, lng }) : 0;
   const photos = Array.isArray(home.photos)
     ? home.photos.slice(0, 12).map((photo) => ({
@@ -348,7 +419,7 @@ function extractFromNextData(data, fallbackUrl, fallbackId) {
     }))
     : [];
 
-  return {
+  const extractedHome = {
     id: String(pickFirst(home, ["id", "houseId"]) || data?.query?.houseId || fallbackId),
     title: title.replace(" - QuintoAndar", "").trim() || `QuintoAndar ${fallbackId}`,
     neighborhood: pickFirst(address, ["neighborhood", "regionName", "cityNeighborhood"]) || "",
@@ -373,6 +444,12 @@ function extractFromNextData(data, fallbackUrl, fallbackId) {
     lng,
     photos,
     notes: description
+  };
+  const preferredStreet = preferredStreetMatch(extractedHome);
+  return {
+    ...extractedHome,
+    preferredStreet: Boolean(preferredStreet),
+    preferredStreetName: preferredStreet
   };
 }
 
@@ -420,10 +497,12 @@ function meetssCriteria(home) {
   if (totalCost > CRITERIA.maxTotalCost) return false;
   if (home.area > 0 && home.area < CRITERIA.minArea) return false;
   if (home.targetDistanceKm > 0 && home.targetDistanceKm > CRITERIA.maxDistanceKm) return false;
-  // Bairro obrigatório
-  const nb = (home.neighborhood || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  const allowed = CRITERIA.allowedNeighborhoods.map(n => n.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
-  if (home.neighborhood && !allowed.some(a => nb.includes(a))) return false;
+  const matchedPreferredStreet = preferredStreetMatch(home);
+
+  // Bairro obrigatório, exceto quando o imóvel está em uma rua-alvo.
+  const nb = normalizeText(home.neighborhood || "");
+  const allowed = CRITERIA.allowedNeighborhoods.map(normalizeText);
+  if (home.neighborhood && !allowed.some(a => nb.includes(a)) && !matchedPreferredStreet) return false;
   return true;
 }
 
@@ -529,9 +608,10 @@ async function main() {
       }
 
       const passes = meetssCriteria(home);
+      const streetLabel = home.preferredStreetName ? ` | rua-alvo: ${home.preferredStreetName}` : "";
       process.stdout.write(
         passes
-          ? `✓ ${home.neighborhood} | R$${home.rent.toLocaleString("pt-BR")} | ${home.area}m² | ${home.bedrooms}q | ${home.targetDistanceKm}km\n`
+          ? `✓ ${home.neighborhood} | R$${home.rent.toLocaleString("pt-BR")} | ${home.area}m² | ${home.bedrooms}q | ${home.targetDistanceKm}km${streetLabel}\n`
           : `⊘ filtrado (rent=${home.rent}, area=${home.area}, beds=${home.bedrooms}, dist=${home.targetDistanceKm}km)\n`
       );
       if (passes) scrapedHomes.push(home);
@@ -575,7 +655,8 @@ async function main() {
       total: h.rent + h.condo + h.iptu,
       area: h.area,
       quartos: h.bedrooms,
-      km: h.targetDistanceKm
+      km: h.targetDistanceKm,
+      ruaAlvo: h.preferredStreetName || ""
     })));
   }
 }
