@@ -1046,6 +1046,9 @@
       <div class="drawer-head">
         <h2 id="detailTitle">Detalhes do imóvel</h2>
         <div class="drawer-head-actions">
+          <a id="drawerScheduleLink" class="icon-button" target="_blank" rel="noreferrer" title="Agendar visita no QuintoAndar" style="display:none;" aria-label="Agendar visita no QuintoAndar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>
+          </a>
           <a id="drawerExternalLink" class="icon-button" target="_blank" rel="noreferrer" title="Abrir anúncio no QuintoAndar" style="display:none;" aria-label="Abrir anúncio no QuintoAndar"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
           <button id="closeDrawer" class="icon-button" type="button" title="Fechar">×</button>
         </div>
@@ -5878,6 +5881,11 @@
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     }
 
+    function scheduleUrl(home) {
+      const id = String(home?.id || "").trim();
+      return id ? `https://www.quintoandar.com.br/imovel/${encodeURIComponent(id)}/agendar` : "";
+    }
+
     function clean(value) {
       const parsed = Number(value);
       return Number.isFinite(parsed) ? parsed : 0;
@@ -6403,6 +6411,8 @@
       document.getElementById("detailDrawer").classList.remove("open");
       const extLink = document.getElementById("drawerExternalLink");
       if (extLink) extLink.style.display = "none";
+      const scheduleLink = document.getElementById("drawerScheduleLink");
+      if (scheduleLink) scheduleLink.style.display = "none";
     }
 
     function renderDetail(selected) {
@@ -6425,6 +6435,9 @@
       `;
       const extLink = document.getElementById("drawerExternalLink");
       if (extLink) { extLink.href = selected.url || "#"; extLink.style.display = selected.url ? "" : "none"; }
+      const scheduleLink = document.getElementById("drawerScheduleLink");
+      const visitUrl = scheduleUrl(selected);
+      if (scheduleLink) { scheduleLink.href = visitUrl || "#"; scheduleLink.style.display = visitUrl ? "" : "none"; }
       const previous = panel.querySelector("[data-photo-action='prev']");
       const next = panel.querySelector("[data-photo-action='next']");
       if (previous) previous.addEventListener("click", () => changePhoto(selected, -1));
