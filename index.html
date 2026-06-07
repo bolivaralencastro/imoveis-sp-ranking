@@ -165,7 +165,8 @@
 
     .filters {
       display: flex;
-      gap: 8px;
+      align-items: center;
+      gap: 4px;
       padding: 12px;
       border-bottom: 1px solid var(--line);
       background: #fafcfc;
@@ -174,9 +175,17 @@
     .sort-button {
       flex: 1;
       min-width: 0;
+      height: 32px;
+      min-height: 32px;
+      padding: 0 8px;
       background: #ffffff;
       color: var(--muted);
       font-size: 10px;
+      line-height: 1;
+    }
+
+    .filters .icon-button {
+      flex: 0 0 32px;
     }
 
     .sort-button.active {
