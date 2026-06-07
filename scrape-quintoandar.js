@@ -13,7 +13,8 @@ const URLS = [
   "https://quintoandar.com.br/imovel/895411473/?utm_campaign=rental&utm_source=shared&utm_medium=copy_share",
   "https://quintoandar.com.br/imovel/894458391/?utm_campaign=rental&utm_source=shared&utm_medium=copy_share",
   "https://quintoandar.com.br/imovel/895379553/?utm_campaign=rental&utm_source=shared&utm_medium=copy_share",
-  "https://quintoandar.com.br/imovel/893343044/?utm_campaign=rental&utm_source=shared&utm_medium=copy_share"
+  "https://quintoandar.com.br/imovel/893343044/?utm_campaign=rental&utm_source=shared&utm_medium=copy_share",
+  "https://quintoandar.com.br/imovel/895330374/?utm_campaign=rental&utm_source=shared&utm_medium=copy_share"
 ];
 
 function numberFrom(value) {

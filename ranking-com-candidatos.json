@@ -4686,6 +4686,122 @@
         }
       ],
       "notes": ""
+    },
+    {
+      "id": "895330374",
+      "title": "QuintoAndar 895330374",
+      "neighborhood": "Vila Nova Conceição",
+      "url": "https://www.quintoandar.com.br/imovel/895330374/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo?utm_campaign=rental&utm_medium=copy_share&utm_source=shared",
+      "rent": 5200,
+      "condo": 1780,
+      "iptu": 569,
+      "area": 60,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": true,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.49,
+      "lat": -23.5961798,
+      "lng": -46.6697419,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-605.1213924650108c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-2e28252d-50ba-4ae2-8386-dc598f787b4f.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-17.664280264238386c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-9422757f-a4cf-494a-8e90-d46e33e3a8e4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-896.2062829505837c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-be8a2636-4c3e-45d4-aa3a-a901e68de358.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-841.794617591233c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-5a963a81-3a43-4e13-9364-81944a67f370.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-382.22992267372325c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-d6917ae5-b44e-4f11-9aad-c66d46582cd1.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-578.9664151904434c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-54a89316-52cd-4494-8e6a-8ca2a8de8979.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-964.7485072452006c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-07ae1950-189e-4743-a0fa-7da28a1cc8d8.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-448.2699141791533c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-b5975c40-1d68-464b-bb02-0f48e6838261.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-301.4469497641334c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-2f9a9f8a-a237-4ba6-8e36-a4624b359c2a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-929.038206291574c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-f1d939cb-2855-45c6-9792-d723c40d55cd.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-400.3069340153228c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-2899aa4a-5eff-433f-b223-c014d2a9d5a6.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895330374-39.80707640305114c09c4b56-5c63-495c-ba84-fd0f19a28053-LEAD3P-fea3f184-ee16-457a-a2a3-339d0c8b8025.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "visit": {
+        "status": "confirmed",
+        "source": "gmail-gws",
+        "emailMessageId": "19e9f66df829f344",
+        "emailSubject": "Eba, sua visita foi confirmada!",
+        "scheduledAt": "2026-06-09T14:00:00.000Z",
+        "address": "Rua Coronel Artur de Paula Ferreira, 95, Vila Nova Conceição - São Paulo, SP",
+        "calendarEventId": "6hqphilaadcl3kkfbhbh917aps",
+        "calendarHtmlLink": "https://www.google.com/calendar/event?eid=NmhxcGhpbGFhZGNsM2trZmJoYmg5MTdhcHMgYm9saXZhckBhbGVuY2FzdHJvLmNvbS5icg",
+        "confirmedAt": "2026-06-07T00:06:19.000Z"
+      }
     }
   ],
   "weights": {
@@ -4701,5 +4817,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-07T10:03:09.131Z"
+  "updated_at": "2026-06-07T10:06:51.299Z"
 }
