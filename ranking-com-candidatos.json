@@ -7718,6 +7718,330 @@
       "notes": "Apartamento para alugar, 2 quartos, piscina, aceita pets, mobiliado.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895314177",
+      "title": "QuintoAndar 895314177",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Helion Póvoa",
+      "url": "https://www.quintoandar.com.br/imovel/895314177/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5950,
+      "condo": 1900,
+      "iptu": 277,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.26,
+      "lat": -23.5986166,
+      "lng": -46.675588,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-983.1118725079382IMG6255HDR.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-571.4605269407111IMG6260HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-570.6478338590512IMG6262.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-681.4442072021253IMG6263.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-323.0009837288638IMG6264.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-658.6299688482602IMG6265.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-188.1439709345447IMG6266.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-656.4188684653678IMG6267.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-251.66972130343223IMG6268.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-493.98735688783455IMG6269.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-575.9421396515198IMG6270HDR.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895314177-806.8744931064766IMG6274HDR.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado para aluguel com 2 quartos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "892916477",
+      "title": "QuintoAndar 892916477",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Avenida Santo Amaro",
+      "url": "https://www.quintoandar.com.br/imovel/892916477/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4200,
+      "condo": 1015,
+      "iptu": 5,
+      "area": 80,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.02,
+      "lat": -23.5913335,
+      "lng": -46.6724202,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-690.9864099516695DSC0237.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-944.6862251445979DSC0238.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-115.90196751343818DSC0243.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-103.3349203346211DSC0239.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-380.5013057202802DSC0242.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-503.36508232431834DSC0240.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-542.3074750137586DSC0246.jpg",
+          "subtitle": "Vista Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-272.47741935126703DSC0250.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-970.7336770661344DSC0249.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-87.1064482349796DSC0248.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-921.1809643001302DSC0247.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892916477-50.29984788599096DSC0251.jpg",
+          "subtitle": "Vista Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para alugar na Vila Nova Conceição com 2 quartos.",
+      "preferredStreet": true,
+      "preferredStreetName": "Avenida Santo Amaro"
+    },
+    {
+      "id": "895102962",
+      "title": "QuintoAndar 895102962",
+      "neighborhood": "Vila Olímpia",
+      "street": "Avenida Doutor Cardoso de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/895102962/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5100,
+      "condo": 1400,
+      "iptu": 144,
+      "area": 66,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.63,
+      "lat": -23.6024942,
+      "lng": -46.6758488,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-235.9891361939011720250923183940.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-673.776221276833920250923184057.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-926.456465129387920250923184129.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-51.15640335349369420250923184112.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-591.151270232854420250923183923.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-779.584418644380220250923184209.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-519.486516303704520250923184329.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-645.435212525565120250923184352.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-880.327488367618820250923184343.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-924.885539717241320250923184228.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-831.886102499121820250923184257.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895102962-536.513982773168620250923184239.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        }
+      ],
+      "notes": "Localizado na Vila Olímpia, São Paulo, este apartamento combina conforto e conveniência. Com 2 quartos, sendo 1 suíte, e 2 banheiros, é ideal para quem busca praticidades modernas. O imóvel conta com uma varanda, proporcionando um espaço agradável para relaxar ou socializar. Além disso, está totalmente mobiliado, pronto para morar. A região oferece diversas opções de lazer e serviços, como o Parque Praça Pereira Coutinho, perfeito para momentos ao ar livre, e dois shoppings próximos: Shopping Ibirapuera e Shopping Vila Olímpia, ideais para compras e entretenimento. Este apartamento é uma excelente escolha para quem deseja viver em uma área vibrante e bem localizada de São Paulo.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -7733,5 +8057,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-08T15:46:40.571Z"
+  "updated_at": "2026-06-08T20:14:04.835Z"
 }
