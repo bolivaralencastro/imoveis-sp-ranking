@@ -11282,6 +11282,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "892839069",
+      "title": "QuintoAndar 892839069",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Doutor Sodré",
+      "url": "https://www.quintoandar.com.br/imovel/892839069/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4900,
+      "condo": 1600,
+      "iptu": 240,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": true,
+        "privatePool": true,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.95,
+      "lat": -23.5915703,
+      "lng": -46.6732124,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-508.28026495723856IMG0091.jpg",
+          "subtitle": "Cozinha",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-634.7319237573587IMG0111.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-68.07499852335685IMG0112.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-753.5392659244811IMG0113.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-839.0030479861219IMG0114.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-85.09435652308139IMG0115.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-302.80068879342656IMG0116.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-62.17363834116241IMG0109.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-504.0291645318622IMG0097.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-222.56269201908285IMG0098.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-387.0289382547477IMG0099.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892839069-361.93685162753786IMG0100.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado para alugar com 2 quartos, churrasqueira e pets permitidos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -11297,5 +11405,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-11T19:04:01.646Z"
+  "updated_at": "2026-06-12T00:53:45.809Z"
 }
