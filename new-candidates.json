@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-12T07:42:20.312Z",
+  "scraped_at": "2026-06-12T13:13:50.152Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -52,33 +52,33 @@
     ]
   },
   "total_candidates_checked": 120,
-  "total_passed": 2,
+  "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895334383",
-      "title": "QuintoAndar 895334383",
+      "id": "893067710",
+      "title": "QuintoAndar 893067710",
       "neighborhood": "Vila Olímpia",
-      "street": "Rua Baluarte",
-      "url": "https://www.quintoandar.com.br/imovel/895334383/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 7400,
-      "condo": 1130,
-      "iptu": 250,
-      "area": 72,
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/893067710/alugar/casa-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6000,
+      "condo": 0,
+      "iptu": 334,
+      "area": 110,
       "bedrooms": 2,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": true,
+      "bathrooms": 2,
+      "parking": 0,
+      "acceptsPets": false,
+      "furnished": false,
       "features": {
         "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
         "gasShower": false,
-        "box": false,
+        "box": true,
         "bedroomCabinets": true,
-        "bathroomCabinets": false,
+        "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
         "gym": false,
@@ -87,187 +87,79 @@
         "grill": false,
         "playground": false,
         "sauna": false,
-        "doorman24h": true,
+        "doorman24h": false,
         "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.61,
-      "lat": -23.6022869,
-      "lng": -46.6759003,
+      "targetDistanceKm": 0.9,
+      "lat": -23.5970978,
+      "lng": -46.682533,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-432.1791218688921image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-672.4330913568825WhatsAppImage20200508at00.18.422.jpg",
+          "subtitle": "Sala ",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-148.32186484006195image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-499.3593077054386WhatsAppImage20200508at00.18.421.jpg",
+          "subtitle": "Sala ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-327.54058537134813image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-344.0836658650457WhatsAppImage20200508at00.18.381.jpg",
+          "subtitle": "Sala ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-928.1117093815168image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-345.3642979492533WhatsAppImage20200508at00.18.412.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-62.312119260623966image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-124.56586583091034WhatsAppImage20200508at00.18.37.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-131.93733578904775image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-77.22877495989322WhatsAppImage20200508at00.18.371.jpg",
+          "subtitle": "Quarto 2",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-860.1745295433952image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-489.0308888453678WhatsAppImage20200508at00.18.41.jpg",
+          "subtitle": "Quarto 2",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-284.61990078142173image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-242.6697095708803WhatsAppImage20200508at00.18.411.jpg",
+          "subtitle": "Entrada quartos ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-650.7573056808795image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-930.2124280192276WhatsAppImage20200508at00.18.38.jpg",
+          "subtitle": "Cozinha ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-60.407281141479196image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-364.83123628448067WhatsAppImage20200508at00.18.42.jpg",
+          "subtitle": "Cozinha ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-505.778830235546image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-913.4988629392182WhatsAppImage20200508at00.18.382.jpg",
+          "subtitle": "Área de Serviço",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895334383-773.7636417907029image.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/893067710-480.7799063596746WhatsAppImage20200508at00.18.403.jpg",
+          "subtitle": "Área de Serviço",
           "cover": false
         }
       ],
       "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    },
-    {
-      "id": "894072482",
-      "title": "QuintoAndar 894072482",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Doutor Ivo Define Frasca",
-      "url": "https://www.quintoandar.com.br/imovel/894072482/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 5550,
-      "condo": 800,
-      "iptu": 158,
-      "area": 59,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": false,
-      "furnished": true,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": true,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": true,
-        "playground": true,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.98,
-      "lat": -23.5939413,
-      "lng": -46.6741852,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-645.7745704518305QuintoAndarRuaDoutorIvoDefineFrasca74Apto144002.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-746.781969167378QuintoAndarRuaDoutorIvoDefineFrasca74Apto144001.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-446.5183013406793QuintoAndarRuaDoutorIvoDefineFrasca74Apto144003.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-383.4880654318736QuintoAndarRuaDoutorIvoDefineFrasca74Apto144004.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-441.60491034705916QuintoAndarRuaDoutorIvoDefineFrasca74Apto144005.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-667.030628406037QuintoAndarRuaDoutorIvoDefineFrasca74Apto144006.jpg",
-          "subtitle": "Sacada",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-870.56923816478QuintoAndarRuaDoutorIvoDefineFrasca74Apto144007.jpg",
-          "subtitle": "Vista da Sacada",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-778.8306715346397QuintoAndarRuaDoutorIvoDefineFrasca74Apto144008.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-88.97826079447668QuintoAndarRuaDoutorIvoDefineFrasca74Apto144009.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-524.3338040894931QuintoAndarRuaDoutorIvoDefineFrasca74Apto144010.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-159.37377870021706QuintoAndarRuaDoutorIvoDefineFrasca74Apto144011.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894072482-69.55032178407316QuintoAndarRuaDoutorIvoDefineFrasca74Apto144012.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        }
-      ],
-      "notes": "Apartamento mobiliado para alugar com 2 quartos, varanda, academia e piscina no condomínio.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
