@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-13T18:34:29.299Z",
+  "scraped_at": "2026-06-14T00:51:52.654Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -56,29 +56,137 @@
   "total_failed": 0,
   "homes": [
     {
-      "id": "894721101",
-      "title": "QuintoAndar 894721101",
-      "neighborhood": "Vila Nova Conceição",
-      "street": "Rua Clodomiro Amazonas",
-      "url": "https://www.quintoandar.com.br/imovel/894721101/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 5325,
-      "condo": 885,
-      "iptu": 25,
-      "area": 85,
+      "id": "894817787",
+      "title": "QuintoAndar 894817787",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Aleixo Garcia",
+      "url": "https://www.quintoandar.com.br/imovel/894817787/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 7200,
+      "condo": 1324,
+      "iptu": 84,
+      "area": 57,
       "bedrooms": 2,
       "bathrooms": 2,
       "parking": 1,
       "acceptsPets": false,
-      "furnished": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.96,
+      "lat": -23.5963063,
+      "lng": -46.677184,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-113.1778736283544IMG0191HDR.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-745.0203132757539IMG0194.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-189.99980614504608IMG0195.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-821.7198920236987IMG0196HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-26.302818999084042IMG0198HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-618.1216092153838IMG0200.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-651.9196198676839IMG0201.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-873.5803648922745IMG0202HDR.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-524.9112187109938IMG0204.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-45.94945062935707IMG0205HDR.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-131.04814057400262IMG0240.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-769.312129473738IMG0209.jpg",
+          "subtitle": "Entrada",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "893094943",
+      "title": "QuintoAndar 893094943",
+      "neighborhood": "Jardim Europa",
+      "street": "Rua Peruíbe",
+      "url": "https://www.quintoandar.com.br/imovel/893094943/alugar/apartamento-3-quartos-jardim-europa-sao-paulo",
+      "rent": 6300,
+      "condo": 453,
+      "iptu": 14,
+      "area": 90,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": true,
       "features": {
         "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
         "gasShower": false,
-        "box": false,
+        "box": true,
         "bedroomCabinets": true,
-        "bathroomCabinets": false,
+        "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
         "gym": false,
@@ -87,187 +195,79 @@
         "grill": false,
         "playground": false,
         "sauna": false,
-        "doorman24h": true,
+        "doorman24h": false,
         "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.47,
-      "lat": -23.5907805,
-      "lng": -46.6779282,
+      "targetDistanceKm": 0.88,
+      "lat": -23.5812032,
+      "lng": -46.6837849,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-805.9816477539662IMG3176.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-709.24484611026921Sala2.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-712.2494374663853IMG3177.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-173.49484564761621Sala1.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-657.8599933653595IMG3178.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-712.9402480368261Sala3.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-244.12753245140317IMG3179.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-904.26308023572861Sala4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-273.55503183153121Sala5.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-805.5300158450127IMG3180.jpg",
-          "subtitle": "Vista",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-18.1963504501834171Sala6.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-135.98617128335277IMG3190.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-309.0906365183571Sala7.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-365.8176868724975IMG3192.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-887.2096770289341Sala8.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-311.02988387432396IMG3193.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-360.381622463770041Sala9.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-541.2594542379546IMG3194.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-211.697020050083181Sala10.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-995.4674010450163IMG3195.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-191.204149024503661Sala11.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-291.28736656306233IMG3182.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894721101-190.17688189821945IMG3183.jpg",
-          "subtitle": "Quarto 2",
+          "url": "https://www.quintoandar.com.br/img/med/893094943-97.167121522361171Sala12.jpg",
+          "subtitle": "Sala",
           "cover": false
         }
       ],
-      "notes": "Apartamento para alugar na Vila Nova Conceição com 2 quartos. Oportunidade de aluguel imperdível!",
-      "preferredStreet": true,
-      "preferredStreetName": "Rua Clodomiro Amazonas"
-    },
-    {
-      "id": "895474011",
-      "title": "QuintoAndar 895474011",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Arminda",
-      "url": "https://www.quintoandar.com.br/imovel/895474011/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 5000,
-      "condo": 1230,
-      "iptu": 132,
-      "area": 65,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.98,
-      "lat": -23.5930959,
-      "lng": -46.6735576,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-701.4576179613473IMG9034.jpeg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-357.9051482762203IMG9035.jpeg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-453.1913324542325IMG9036.jpeg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-933.8202760209226IMG9037.jpeg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-190.8352631129131IMG9038.jpeg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-377.93002107691007IMG9039.jpeg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-621.7687513059108IMG9041.jpeg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-090-166.73875040552977IMG9040.jpeg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-443.1259661241126IMG9043.jpeg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-716.2557334640226IMG9042.jpeg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-730.986200609979IMG9045.jpeg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895474011-722.3909946554461IMG9044.jpeg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "",
+      "notes": "Apartamento mobiliado, 3 quartos, no Jardim Europa, disponível para alugar.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }

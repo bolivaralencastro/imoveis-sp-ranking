@@ -13118,6 +13118,222 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "894817787",
+      "title": "QuintoAndar 894817787",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Aleixo Garcia",
+      "url": "https://www.quintoandar.com.br/imovel/894817787/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 7200,
+      "condo": 1324,
+      "iptu": 84,
+      "area": 57,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.96,
+      "lat": -23.5963063,
+      "lng": -46.677184,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-113.1778736283544IMG0191HDR.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-745.0203132757539IMG0194.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-189.99980614504608IMG0195.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-821.7198920236987IMG0196HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-26.302818999084042IMG0198HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-618.1216092153838IMG0200.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-651.9196198676839IMG0201.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-873.5803648922745IMG0202HDR.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-524.9112187109938IMG0204.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-45.94945062935707IMG0205HDR.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-131.04814057400262IMG0240.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894817787-769.312129473738IMG0209.jpg",
+          "subtitle": "Entrada",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "893094943",
+      "title": "QuintoAndar 893094943",
+      "neighborhood": "Jardim Europa",
+      "street": "Rua Peruíbe",
+      "url": "https://www.quintoandar.com.br/imovel/893094943/alugar/apartamento-3-quartos-jardim-europa-sao-paulo",
+      "rent": 6300,
+      "condo": 453,
+      "iptu": 14,
+      "area": 90,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.88,
+      "lat": -23.5812032,
+      "lng": -46.6837849,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-709.24484611026921Sala2.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-173.49484564761621Sala1.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-712.9402480368261Sala3.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-904.26308023572861Sala4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-273.55503183153121Sala5.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-18.1963504501834171Sala6.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-309.0906365183571Sala7.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-887.2096770289341Sala8.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-360.381622463770041Sala9.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-211.697020050083181Sala10.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-191.204149024503661Sala11.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893094943-97.167121522361171Sala12.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado, 3 quartos, no Jardim Europa, disponível para alugar.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -13133,5 +13349,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-13T18:34:29.350Z"
+  "updated_at": "2026-06-14T00:51:52.716Z"
 }
