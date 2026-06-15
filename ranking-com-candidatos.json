@@ -15165,6 +15165,222 @@
       "notes": "Apartamento para alugar: 2 quartos, varanda, closet, aceita pets, mobiliado.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893107751",
+      "title": "QuintoAndar 893107751",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua João Cachoeira",
+      "url": "https://www.quintoandar.com.br/imovel/893107751/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4000,
+      "condo": 1973,
+      "iptu": 424,
+      "area": 52,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.76,
+      "lat": -23.582889,
+      "lng": -46.6786843,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-268.5776151031599IMG2374.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-140.51467739638747IMG2373.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-667.0377946732168IMG2375.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-784.710224503171IMG2376.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-312.81346948046075IMG2377.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-19.822626089943785IMG2378.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-430.0754285455738IMG2379.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-816.2112164142733IMG2380.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-341.62645278892535IMG2381.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-395.03748267822226IMG2382.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-768.5420543763244IMG2383.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893107751-271.5112631856863IMG2384.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        }
+      ],
+      "notes": "Alugue apartamento mobiliado com 2 quartos, sendo 1 suíte, piscina e churrasqueira. O aluguel é sua chance de conforto.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "893356956",
+      "title": "QuintoAndar 893356956",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Professor Atílio Innocenti",
+      "url": "https://www.quintoandar.com.br/imovel/893356956/alugar/casa-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4490,
+      "condo": 0,
+      "iptu": 501,
+      "area": 134,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.32,
+      "lat": -23.5912391,
+      "lng": -46.680141,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-102.98033246212901IMG8486.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-894.7620760112131IMG8487.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-645.8391110748358IMG8488.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-373.6317189805525IMG8489.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-308.6669249697342IMG8490.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-323.27338311633815IMG8492.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-440.549299492625IMG8493.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-581.9639400504516IMG8494.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-574.6097493177795IMG8495.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-988.2541753368322IMG8496.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-437.99738161273285IMG8497.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893356956-118.52185442729623IMG8498.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Casa para alugar na Vila Nova Conceição, 2 quartos, aceita pets.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -15180,5 +15396,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-15T08:04:32.483Z"
+  "updated_at": "2026-06-15T14:12:52.447Z"
 }
