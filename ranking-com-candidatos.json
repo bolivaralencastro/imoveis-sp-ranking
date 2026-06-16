@@ -16677,6 +16677,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895250936",
+      "title": "QuintoAndar 895250936",
+      "neighborhood": "Vila Olímpia",
+      "street": "Av. Dr. Cardoso de Melo 123 - Vila Olímpia São Paulo - Sp 04548-000 Brasil",
+      "url": "https://www.quintoandar.com.br/imovel/895250936/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5100,
+      "condo": 1565,
+      "iptu": 397,
+      "area": 105,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.14,
+      "lat": -23.599194,
+      "lng": -46.6831685,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-42.95345299274344MG8192.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-811.8680551864041MG8193.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-188.0620300143836MG8194.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-619.8792609831582MG8195.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-807.4188244236366MG8196.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-525.6282188932755MG8197.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-409.8025205382927MG8198.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-889.3511429365421MG8199.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-681.6755493563015MG8200.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-184.03241741547583MG8201.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-661.2568026817712MG8202.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895250936-141.89064447874256MG8203.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento na Vila Olímpia com 3 quartos e piscina no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -16692,5 +16800,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-16T08:03:01.811Z"
+  "updated_at": "2026-06-16T13:51:15.810Z"
 }
