@@ -17757,6 +17757,222 @@
       "notes": "Apartamento para alugar com 2 quartos, pode ter animais de estimação.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895514536",
+      "title": "QuintoAndar 895514536",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/895514536/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4450,
+      "condo": 1274,
+      "iptu": 376,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.64,
+      "lat": -23.5930599,
+      "lng": -46.6776263,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-84.9671524170752IMG5893.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-323.5108781955557IMG5897.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-574.7598597243912IMG5898.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-565.2996841740643IMG5899.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-37.463152812943214IMG5900.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-344.22436535317235IMG5901.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-820.3442818021003IMG5902.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-781.6369019953584IMG5903.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-624.3724337751854IMG5904.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-442.987497375423IMG5905.jpg",
+          "subtitle": " Banheiro da Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-338.90120967703416IMG5906.jpg",
+          "subtitle": " Banheiro da Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895514536-700.9708690729697IMG5907.jpg",
+          "subtitle": " Banheiro da Suíte ",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para alugar com 2 quartos.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
+    },
+    {
+      "id": "893322842",
+      "title": "QuintoAndar 893322842",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Iguatemi",
+      "url": "https://www.quintoandar.com.br/imovel/893322842/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6999,
+      "condo": 1375,
+      "iptu": 304,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.37,
+      "lat": -23.5857014,
+      "lng": -46.6813552,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-198.37790386693288IMGM4694.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-801.3175647200907IMGM4695.jpg",
+          "subtitle": "Entrada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-801.707391707354IMGM4686.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-717.7430038849645IMGM4693.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-58.645417395905454IMGM4689.jpg",
+          "subtitle": "Vista Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-908.341977742039IMGM4690.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-908.1344455069473IMGM4688.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-893.1194556866961IMGM4692.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-394.269210416723IMGM4697.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-373.1360069061254IMGM4698.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-479.9839527277749IMGM4699.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893322842-694.1990226451733IMGM46100.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento no Itaim Bibi com 2 quartos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -17772,5 +17988,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-17T00:53:07.789Z"
+  "updated_at": "2026-06-17T07:56:14.241Z"
 }
