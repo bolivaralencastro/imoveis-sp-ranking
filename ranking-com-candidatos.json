@@ -19377,6 +19377,114 @@
       "notes": "Alugar apartamento na Vila Olímpia com 3 quartos, ideal para animais de estimação.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893351972",
+      "title": "QuintoAndar 893351972",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Doutor Sodré",
+      "url": "https://www.quintoandar.com.br/imovel/893351972/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 5200,
+      "condo": 1172,
+      "iptu": 200,
+      "area": 73,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.95,
+      "lat": -23.5915703,
+      "lng": -46.6732142,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-610.1564895088613S1A1842.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-709.99434623719223S1A1843.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-317.47868100081193S1A1844.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-173.839655047956063S1A1845.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-607.12203793372943S1A1855.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-670.51659891911583S1A1854.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-19.3321889873886443S1A1856.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-901.03968438670433S1A1857.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-854.60779728456923S1A1858.jpg",
+          "subtitle": "Closet/Escritório da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-597.02393679838383S1A1859.jpg",
+          "subtitle": "Closet/Escritório da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-263.493487465017443S1A1861.jpg",
+          "subtitle": "Banheiro Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893351972-299.867145191859663S1A1862.jpg",
+          "subtitle": "Banheiro Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -19392,5 +19500,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-18T07:45:33.589Z"
+  "updated_at": "2026-06-18T13:15:17.639Z"
 }
