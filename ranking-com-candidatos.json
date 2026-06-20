@@ -21060,6 +21060,222 @@
       "notes": "Apartamento para alugar na Vila Olímpia, 2 quartos e aceita animais de estimação.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895521531",
+      "title": "QuintoAndar 895521531",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Viradouro",
+      "url": "https://www.quintoandar.com.br/imovel/895521531/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6000,
+      "condo": 1500,
+      "iptu": 21,
+      "area": 80,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.39,
+      "lat": -23.5856317,
+      "lng": -46.680984,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-682.029209560948920260620104718.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-354.862777039281820260620104728.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-750.094063779295920260620104817.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-903.452889103550220260620104828.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-679.64329937868320260620104842.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-345.349106921078320260620104802.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-809.3201737917820260620103808.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-809.448902944027620260620103843.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-198.3840389813751420260620103819.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-0.04315304534141528620260620103853.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-99.5588024094461420260620104018.jpg",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895521531-672.921364574409220260620104028.jpg",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com 2 quartos no Itaim Bibi para alugar.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "893472762",
+      "title": "QuintoAndar 893472762",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Itacema",
+      "url": "https://www.quintoandar.com.br/imovel/893472762/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5710,
+      "condo": 1393,
+      "iptu": 192,
+      "area": 100,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.29,
+      "lat": -23.5796476,
+      "lng": -46.6745936,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-187.86537730426411IMG0095.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-46.53262601551334IMG0096.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-884.2914072640211IMG0097.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-553.8643104963256IMG0098.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-751.0989524098603IMG0099.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-809.6257258183325IMG0100.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-383.5121166270429IMG0101.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-420.61129806778354IMG0102.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-633.7679240465233IMG0103.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-548.5542192636648IMG0104.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-625.5577550737443IMG0105.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893472762-31.40671352306612IMG0106.jpg",
+          "subtitle": "Banheiro Suite",
+          "cover": false
+        }
+      ],
+      "notes": "Este espaçoso apartamento oferece um ambiente acolhedor e funcional, ideal para famílias ou profissionais que buscam conforto e praticidades urbanas. Com 100 metros quadrados de área útil, o imóvel dispõe de três amplos quartos, proporcionando espaço suficiente para acomodação confortável e privacidade. Além disso, conta com dois banheiros modernos, garantindo conveniência para os moradores e visitantes. A presença de uma vaga de estacionamento é um diferencial que oferece segurança e praticidades adicionais. Outro ponto positivo é a permissão para animais de estimação, tornando-o uma opção perfeita para quem possui pets. Localizado em uma área de fácil acesso, o apartamento é uma excelente escolha para quem deseja viver em um local que combina tranquilidades e facilidades urbanas. A infraestrutura do imóvel atende às necessidades do dia a dia, proporcionando um ambiente equilibrado entre lazer e funcionalidades. Este apartamento é uma oportunidade única para quem busca um lar confortável e bem localizado, com todas as comodidades necessárias para uma vida prática e agradável.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -21075,5 +21291,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-20T12:41:19.404Z"
+  "updated_at": "2026-06-20T18:34:12.732Z"
 }
