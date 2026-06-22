@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-22T13:58:50.686Z",
+  "scraped_at": "2026-06-22T19:11:32.191Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,120 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 95,
-  "total_passed": 0,
-  "total_failed": 0,
-  "homes": [],
-  "failed_ids": []
+  "total_candidates_checked": 102,
+  "total_passed": 1,
+  "total_failed": 1,
+  "homes": [
+    {
+      "id": "892940307",
+      "title": "QuintoAndar 892940307",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/892940307/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4000,
+      "condo": 1729,
+      "iptu": 499,
+      "area": 55,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.42,
+      "lat": -23.601702,
+      "lng": -46.6812371,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-439.010023034202IMG5829.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-818.5878561837349IMG5830.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-262.2821292906928IMG5831.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-210.06008895726947IMG5832.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-652.1493487996569IMG5833.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-53.55591025005213IMG5834.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-878.7667286969553IMG5835.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-897.7780283299551IMG5836.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-585.721346806841IMG5837.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-811.5096562457113IMG5838.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-617.463940073411IMG5839.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892940307-50.87649812693718IMG5840.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento mobiliado com 2 quartos e varanda.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": [
+    "895453129"
+  ]
 }
