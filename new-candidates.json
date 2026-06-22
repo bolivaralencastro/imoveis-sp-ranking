@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-21T18:37:57.479Z",
+  "scraped_at": "2026-06-22T00:51:32.046Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 91,
-  "total_passed": 0,
-  "total_failed": 1,
-  "homes": [],
-  "failed_ids": [
-    "895350556"
-  ]
+  "total_candidates_checked": 86,
+  "total_passed": 1,
+  "total_failed": 0,
+  "homes": [
+    {
+      "id": "893270805",
+      "title": "QuintoAndar 893270805",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Silva Correia",
+      "url": "https://www.quintoandar.com.br/imovel/893270805/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 5060,
+      "condo": 1034,
+      "iptu": 296,
+      "area": 88,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.76,
+      "lat": -23.5947371,
+      "lng": -46.6781421,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-492.36640986423475IMG9878.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-257.9680012035579IMG9879.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-566.9636700569104IMG9881.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-636.7350999642382IMG9882.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-574.3634117351799IMG9883.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-719.7705305413982IMG9884.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-667.8275580510738IMG9885.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-8.210060544119768IMG9886.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-559.0118211867706IMG9887.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-561.1678988957167IMG9888.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-540.8881763868392IMG9889.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893270805-172.91669862156388IMG9890.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": []
 }
