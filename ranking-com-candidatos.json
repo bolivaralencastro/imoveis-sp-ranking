@@ -22675,6 +22675,330 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895409263",
+      "title": "QuintoAndar 895409263",
+      "neighborhood": "Vila Olímpia",
+      "street": "R. Coliseu 32 - Vila Olímpia São Paulo - Sp 04551-050 Brasil",
+      "url": "https://www.quintoandar.com.br/imovel/895409263/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3300,
+      "condo": 300,
+      "iptu": 0,
+      "area": 50,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.94,
+      "lat": -23.5936943,
+      "lng": -46.6897868,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-209.93466892488354RuaColiseu32Torre1AP1031.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-351.66332615522566RuaColiseu32Torre1AP1032.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-208.86928465711608RuaColiseu32Torre1AP1033.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-247.21958210339756RuaColiseu32Torre1AP1034.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-715.4111247883378RuaColiseu32Torre1AP1035.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-747.1033679449147RuaColiseu32Torre1AP1036.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-893.318070552977RuaColiseu32Torre1AP1037.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-126.56344345675797RuaColiseu32Torre1AP1038.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-541.6596245115229RuaColiseu32Torre1AP1039.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-888.5171533308111RuaColiseu32Torre1AP10310.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-444.1550302897822RuaColiseu32Torre1AP10311.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895409263-14.12914719563707RuaColiseu32Torre1AP10312.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel com 2 quartos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "892778056",
+      "title": "QuintoAndar 892778056",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Baluarte",
+      "url": "https://www.quintoandar.com.br/imovel/892778056/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5400,
+      "condo": 1420,
+      "iptu": 495,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.58,
+      "lat": -23.602101,
+      "lng": -46.676085,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-629.3701584182403IMG16901.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-35.374310836552404IMG16893.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-589.2542571208144IMG16912.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-614.8561820085353IMG16921.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-123.84583291244444IMG1693.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-146.2509655248273IMG16951.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-149.98967730343747IMG16961.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-365.6809518101647IMG16972.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-851.9183649899699IMG16981.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-829.3248613153846IMG1700.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-162.18887298497663IMG17021.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892778056-560.632714524359IMG17042.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "893190418",
+      "title": "QuintoAndar 893190418",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/893190418/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4150,
+      "condo": 1665,
+      "iptu": 374,
+      "area": 52,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.25,
+      "lat": -23.6001741,
+      "lng": -46.6830067,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-635.670552499104120260606114325.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-963.072245669738720260606114306.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-702.233482624599320260606113830.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-464.361980170720720260606113920.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-104.8901890614503120260606113937.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-917.140403918337520260606113901.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-746.445403244168320260606113843.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-674.835888083022520260606113954.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-636.82281972658220260606114001.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-803.472887022142220260606114154.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-737.806391466806120260606114142.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893190418-867.595797290905120260606114135.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com 2 quartos e varanda gourmet para aluguel.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -22690,5 +23014,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-23T18:46:38.837Z"
+  "updated_at": "2026-06-24T00:42:17.894Z"
 }
