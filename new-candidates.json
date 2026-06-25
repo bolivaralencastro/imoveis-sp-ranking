@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-25T12:52:25.465Z",
+  "scraped_at": "2026-06-25T18:48:21.162Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,117 +51,117 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 63,
+  "total_candidates_checked": 64,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "894092999",
-      "title": "QuintoAndar 894092999",
+      "id": "894932216",
+      "title": "QuintoAndar 894932216",
       "neighborhood": "Vila Olímpia",
-      "street": "Rua Casa do Ator",
-      "url": "https://www.quintoandar.com.br/imovel/894092999/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 6200,
-      "condo": 1000,
-      "iptu": 17,
-      "area": 72,
+      "street": "Avenida Santo Amaro",
+      "url": "https://www.quintoandar.com.br/imovel/894932216/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 2500,
+      "condo": 906,
+      "iptu": 0,
+      "area": 64,
       "bedrooms": 2,
       "bathrooms": 1,
       "parking": 0,
       "acceptsPets": true,
-      "furnished": true,
+      "furnished": false,
       "features": {
         "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
-        "gasShower": true,
+        "gasShower": false,
         "box": true,
-        "bedroomCabinets": true,
+        "bedroomCabinets": false,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
-        "gym": true,
-        "partyRoom": true,
+        "gym": false,
+        "partyRoom": false,
         "gameRoom": false,
-        "grill": true,
+        "grill": false,
         "playground": false,
         "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
+        "doorman24h": false,
+        "accessibleParking": true
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.98,
-      "lat": -23.5977808,
-      "lng": -46.6814783,
+      "targetDistanceKm": 1.76,
+      "lat": -23.603313,
+      "lng": -46.6747639,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-696.1793497723164IMG4280.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-932.1530930389358IMG9358.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-178.903652353397IMG4281.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-26.22865033576316IMG9357.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-462.04053505238363IMG4282.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-779.9478320326672IMG9359.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-765.8602618106739IMG4284.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-748.90476166031IMG9360.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-89.83777422528493IMG4285.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-471.7259813735779IMG9361.jpg",
+          "subtitle": "Vista",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-674.3547525831636IMG4286.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-322.4799895590651IMG9362.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-378.7264067445949IMG4287.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-427.78631038590544IMG4288.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-998.1043621466267IMG4265.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-335.8307314131184IMG9363.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-995.192028777119IMG4266.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-635.7163794715613IMG9364.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-965.3052381434884IMG4267.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-664.444948025116IMG9365.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/894092999-152.78327285294102IMG4268.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-642.9967622164695IMG9366.jpg",
           "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-482.0373354170365IMG9367.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894932216-519.9352851700193IMG9368.jpg",
+          "subtitle": "Quarto 2",
           "cover": false
         }
       ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
+      "notes": "Localizado na vibrante cidade de São Paulo, o apartamento na Vila Olímpia oferece uma excelente opção de moradia. Com dois quartos, é ideal para quem busca conforto e praticidades urbanas. A Vila Olímpia é um bairro conhecido por sua infraestrutura moderna e localização estratégica, proporcionando fácil acesso a diversas comodidades. Nos arredores, você encontrará o Shopping Ibirapuera, um dos principais centros de compras da região, perfeito para momentos de lazer e compras. Além disso, o Shopping Vila Olímpia oferece uma variedade de lojas e opções gastronômicas, garantindo entretenimento para todos os gostos. Para quem aprecia a natureza, a Praça Pereira Coutinho é um refúgio verde no meio da cidade, ideal para caminhadas ou momentos de relaxamento. Este apartamento na Vila Olímpia combina o melhor da vida urbana com a tranquilização de um bairro bem planejado, tornando-se uma escolha atraente para quem deseja viver em São Paulo.",
+      "preferredStreet": true,
+      "preferredStreetName": "Avenida Santo Amaro"
     }
   ],
   "failed_ids": []
