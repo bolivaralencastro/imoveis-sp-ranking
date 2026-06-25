@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-24T18:40:16.409Z",
+  "scraped_at": "2026-06-25T00:45:52.491Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 73,
-  "total_passed": 0,
-  "total_failed": 1,
-  "homes": [],
-  "failed_ids": [
-    "895522584"
-  ]
+  "total_candidates_checked": 69,
+  "total_passed": 1,
+  "total_failed": 0,
+  "homes": [
+    {
+      "id": "895526911",
+      "title": "QuintoAndar 895526911",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Fiandeiras",
+      "url": "https://www.quintoandar.com.br/imovel/895526911/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6500,
+      "condo": 1500,
+      "iptu": 154,
+      "area": 62,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.15,
+      "lat": -23.5968155,
+      "lng": -46.6747839,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-981.7755812818957IMG610372.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-232.28975082226745IMG610473.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-151.32686196281986IMG610774.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-389.33059073207664IMG610875.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-308.37563588380965IMG611378.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-881.122444344278IMG611277.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-337.74925447312063IMG611277.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-315.3079165893541IMG611176.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-837.4236313715218IMG611579.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-132.20598322811605IMG611378.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-512.4910091869517IMG611781.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895526911-655.1398911385268IMG611882.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para alugar no Itaim Bibi, 2 quartos, mobiliado, piscina no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": []
 }
