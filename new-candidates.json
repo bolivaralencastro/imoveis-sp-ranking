@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-26T12:47:16.290Z",
+  "scraped_at": "2026-06-26T18:40:06.772Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,226 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 65,
-  "total_passed": 0,
+  "total_candidates_checked": 73,
+  "total_passed": 2,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "893097303",
+      "title": "QuintoAndar 893097303",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/893097303/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4270,
+      "condo": 1213,
+      "iptu": 27,
+      "area": 74,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.86,
+      "lat": -23.5949737,
+      "lng": -46.6767912,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-135.64469548535007IMG3453.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-22.767552164477124IMG3454.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-70.36918373207568IMG3455.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-248.85054864675382IMG3456.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-71.52778589253661IMG3457.jpg",
+          "subtitle": "Primeiro dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-451.10577323121925IMG3458.jpg",
+          "subtitle": "Primeiro dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-973.9949132545893IMG3459.jpg",
+          "subtitle": "Primeiro dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-533.0964505936407IMG3460.jpg",
+          "subtitle": "Segundo dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-401.74872927599733IMG3461.jpg",
+          "subtitle": "Segundo dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-128.32347787893883IMG3462.jpg",
+          "subtitle": "Segundo dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-14.608005561407733IMG3463.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893097303-874.3205424851845IMG3464.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
+    },
+    {
+      "id": "895478497",
+      "title": "QuintoAndar 895478497",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/895478497/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3415,
+      "condo": 1300,
+      "iptu": 234,
+      "area": 68,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 3,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.09,
+      "lat": -23.5987828,
+      "lng": -46.6820231,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-353.67873427498887895478497_3.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-640.8355634067311895478497_4.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-879.346346039874895478497_6.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-414.24184275640863895478497_2.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-732.1882156532283895478497_16.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-660.8431500093833895478497_0.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-899.5882347208934895478497_1.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-556.9373890339182895478497_7.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-528.4042932598094895478497_10.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-549.0114100368512895478497_11.jpg",
+          "subtitle": "Quarto 3",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-985.6153126729304895478497_8.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895478497-804.512775900976895478497_9.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Este encantador apartamento mobiliado oferece um espaço confortável e prático com 68 metros quadrados. Composto por dois quartos e um banheiro, é ideal para quem busca um lar aconchegante e funcional. A localização é um dos pontos fortes deste imóvel, situado próximo a diversas comodidades que enriquecem a qualidade de vida dos moradores. A poucos passos, você encontrará o Parque do Povo e a Praça Pereira Coutinho, perfeitos para momentos de lazer ao ar livre e atividades físicas. Além disso, o Shopping Vila Olímpia está nas proximidades, oferecendo uma ampla gama de lojas, restaurantes e entretenimento para todas as idades. Este apartamento é uma excelente escolha para quem valoriza a praticabilidade de um imóvel mobiliado, a conveniência de ter tudo por perto e a tranquilização de viver em uma área bem servida por serviços e opções de lazer.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
