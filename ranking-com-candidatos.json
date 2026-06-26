@@ -23971,6 +23971,222 @@
       "notes": "Localizado na vibrante cidade de São Paulo, o apartamento na Vila Olímpia oferece uma excelente opção de moradia. Com dois quartos, é ideal para quem busca conforto e praticidades urbanas. A Vila Olímpia é um bairro conhecido por sua infraestrutura moderna e localização estratégica, proporcionando fácil acesso a diversas comodidades. Nos arredores, você encontrará o Shopping Ibirapuera, um dos principais centros de compras da região, perfeito para momentos de lazer e compras. Além disso, o Shopping Vila Olímpia oferece uma variedade de lojas e opções gastronômicas, garantindo entretenimento para todos os gostos. Para quem aprecia a natureza, a Praça Pereira Coutinho é um refúgio verde no meio da cidade, ideal para caminhadas ou momentos de relaxamento. Este apartamento na Vila Olímpia combina o melhor da vida urbana com a tranquilização de um bairro bem planejado, tornando-se uma escolha atraente para quem deseja viver em São Paulo.",
       "preferredStreet": true,
       "preferredStreetName": "Avenida Santo Amaro"
+    },
+    {
+      "id": "892779633",
+      "title": "QuintoAndar 892779633",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Arminda",
+      "url": "https://www.quintoandar.com.br/imovel/892779633/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4200,
+      "condo": 694,
+      "iptu": 244,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.94,
+      "lat": -23.593195,
+      "lng": -46.674091,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-282.2514195928204IMG3126.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-47.4133498551188IMG3132.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-440.8721728424665IMG3133.jpg",
+          "subtitle": "Vista quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-91.81756675947406IMG3134.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-80.78877676629004IMG3135.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-46.055106590026654IMG3136.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-120.82735675854539IMG3137.jpg",
+          "subtitle": "Vista quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-447.1310219362164IMG3138.jpg",
+          "subtitle": "Banheiro ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-669.5804300500785IMG3139.jpg",
+          "subtitle": "Banheiro ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-725.1755710977424IMG3140.jpg",
+          "subtitle": "Cozinha ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-703.4816397934503IMG3141.jpg",
+          "subtitle": "Cozinha ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892779633-341.78439302663253IMG3142.jpg",
+          "subtitle": "Cozinha ",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "894573291",
+      "title": "QuintoAndar 894573291",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Balthazar da Veiga",
+      "url": "https://www.quintoandar.com.br/imovel/894573291/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4090,
+      "condo": 2375,
+      "iptu": 335,
+      "area": 61,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.4,
+      "lat": -23.5942894,
+      "lng": -46.6696017,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-141.62107742055275IMG9174.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-636.4101331933906IMG9175.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-785.5583980496344IMG9176.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-380.66064344010385IMG9177.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-763.7735306474052IMG9178.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-379.7301577953456IMG9179.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-854.7788703307215IMG9180.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-628.7453561735367IMG9181.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-182.79871299905392IMG9182.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-109.23359111358543IMG9183.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-567.9360830381908IMG9184.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894573291-431.6566619040618IMG9185.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento mobiliado na Vila Nova Conceição com 2 quartos.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Balthazar da Veiga"
     }
   ],
   "weights": {
@@ -23986,5 +24202,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-25T18:48:21.218Z"
+  "updated_at": "2026-06-26T00:47:17.024Z"
 }
