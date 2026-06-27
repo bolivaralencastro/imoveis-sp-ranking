@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-27T00:45:21.042Z",
+  "scraped_at": "2026-06-27T07:08:06.433Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 74,
-  "total_passed": 1,
+  "total_candidates_checked": 62,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "895546982",
-      "title": "QuintoAndar 895546982",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Doutor Renato Paes de Barros",
-      "url": "https://www.quintoandar.com.br/imovel/895546982/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 6000,
-      "condo": 1303,
-      "iptu": 179,
-      "area": 60,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": true,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.08,
-      "lat": -23.5830338,
-      "lng": -46.6737404,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-740.1582824164686IMG7990.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-634.9898050608097IMG7991.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-152.84408576937724IMG7992.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-755.3190525722047IMG7994.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-793.2954886824887IMG7995.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-736.948573178487IMG7996.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-0.31915689729922203IMG7997.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-442.2384195107691IMG7998.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-602.9058483202094IMG7999.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-259.3639564063508IMG8000.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-49.11879453231216IMG8001.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895546982-450.52266368853935IMG8002.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        }
-      ],
-      "notes": "Apartamento mobiliado com 2 quartos e varanda para alugar.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
