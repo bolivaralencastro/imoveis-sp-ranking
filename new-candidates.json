@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-28T12:31:50.760Z",
+  "scraped_at": "2026-06-28T18:28:26.804Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 61,
-  "total_passed": 0,
+  "total_candidates_checked": 64,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "894218211",
+      "title": "QuintoAndar 894218211",
+      "neighborhood": "Vila Olímpia",
+      "street": "Avenida Doutor Cardoso de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/894218211/alugar/casa-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6244,
+      "condo": 0,
+      "iptu": 151,
+      "area": 120,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.42,
+      "lat": -23.6013402,
+      "lng": -46.6784057,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-324.03163302133873IMG6319.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-115.48336292309446IMG6321.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-906.3385030474852IMG6322.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-614.6422013903756IMG6323.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-797.5014022148721IMG6324.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-90.95539519290196IMG6325.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-273.1068191251644IMG6326.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-894.6569461800071IMG6327.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-501.69510346370606IMG6328.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-699.9028473291525IMG6342.jpg",
+          "subtitle": "Escada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-722.9304996231033IMG6347.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894218211-899.50670651988IMG6348.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
