@@ -24835,6 +24835,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895529651",
+      "title": "QuintoAndar 895529651",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua do Rocio",
+      "url": "https://www.quintoandar.com.br/imovel/895529651/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5500,
+      "condo": 900,
+      "iptu": 400,
+      "area": 85,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.65,
+      "lat": -23.5939916,
+      "lng": -46.685402,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-903.76771632553415412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-fe091678-3509-4fa1-b92b-d6ab3e20e706.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-979.9405522305995412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-a024f1e9-3649-480d-b2c6-81134b03d94e.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-170.14203194982185412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-165fd534-3c74-4220-80ac-132d83e6e0b2.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-661.74994598521875412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-de4b0a84-359b-4857-8331-533412c1b22a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-999.54306340619095412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-d8c2011d-3d9c-492e-b407-7606b75df79b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-16.557878981040225412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-8b181bcc-4aad-4970-9414-bef21c823de5.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-113.41434372509555412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-0cc2de37-0270-490f-9f50-3d3d82cacea6.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-883.33993447639935412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-ba2debcc-c1da-4952-91c8-1498b362a210.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-976.39139504997875412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-9e809ae8-740f-47a2-991c-8d98a10998a4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-556.81899747286995412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-1930bf34-b853-46ae-853b-7c669b37dfd3.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-929.63798100146275412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-fffe9c23-6a06-4dc5-8a4f-492a593a66a3.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895529651-924.15520338094465412e000-f571-4a8c-8582-f056aae0b2cf-LEAD3P-e4114c6f-625c-4051-adf8-4522043c15fd.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -24850,5 +24958,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-06-29T13:32:09.515Z"
+  "updated_at": "2026-06-30T00:45:32.905Z"
 }
