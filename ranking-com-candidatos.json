@@ -25915,6 +25915,222 @@
       "notes": "Casa para aluguel: 4 quartos, 1 suíte, closet e quintal.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895125915",
+      "title": "QuintoAndar 895125915",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Baluarte",
+      "url": "https://www.quintoandar.com.br/imovel/895125915/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 4500,
+      "condo": 1485,
+      "iptu": 109,
+      "area": 94,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.33,
+      "lat": -23.5987847,
+      "lng": -46.6745811,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-170.4744342584798520250930110434.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-734.463864166033820250930110459.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-596.967249805832720250930110447.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-986.041675199803920250930110401.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-89.8406276817335120250930110415.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-309.846013876923720250930110422.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-232.3958497892504320250930110515.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-930.987776407510520250930110524.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-980.455330411503520250930111021.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-190.0920162139425720250930111738.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-737.666707128182520250930110551.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895125915-928.754176772606220250930110601.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Localizado no charmoso bairro do Itaim Bibi, em São Paulo, este apartamento é uma excelente escolha para quem busca conforto e praticidades urbanas. Com três quartos espaçosos e três banheiros, o imóvel oferece o espaço ideal para famílias ou pessoas que apreciam ambientes amplos. A possibilidade de ter animais de estimação é um diferencial que certamente agradará aos amantes dos pets. \n\nA região é rica em comodidades e serviços que tornam o dia a dia mais prático e agradável. Nas proximidades, você encontrará o Hospital Sancta Maggiore, garantindo fácil acesso a serviços de saúde de qualidade. Para momentos de lazer e contato com a natureza, a Praça Pereira Coutinho e o Parque do Povo são ótimas opções de parques nas redondezas. \n\nAlém disso, o Shopping Vila Olímpia está a poucos minutos de distância, oferecendo uma variedade de lojas, restaurantes e entretenimento para todas as idades. Este apartamento no Itaim Bibi combina o melhor da vida urbana com o conforto de um lar acolhedor, sendo uma oportunidade imperdível para quem deseja viver em uma das áreas mais desejadas de São Paulo.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "892806810",
+      "title": "QuintoAndar 892806810",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/892806810/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5200,
+      "condo": 1189,
+      "iptu": 0,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.33,
+      "lat": -23.6004112,
+      "lng": -46.6782368,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-284.587812269516MG5484.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-496.92531798140936MG5485.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-784.6085412533067MG5486.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-728.0914622013245MG5483.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-398.16143568403373MG5480.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-508.9521517215896MG5481.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-153.265211674414MG5482.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-509.1039514770552MG5475.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-327.441353985378MG5476.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-628.4068983936538MG5479.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-189.21247864347802MG5468.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892806810-450.69104564662746MG5469.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento mobiliado na Vila Olímpia com 2 quartos e varanda.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -25930,5 +26146,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-01T07:33:33.512Z"
+  "updated_at": "2026-07-01T13:00:46.285Z"
 }
