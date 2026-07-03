@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-03T00:38:08.178Z",
+  "scraped_at": "2026-07-03T07:08:05.950Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 54,
-  "total_passed": 0,
+  "total_candidates_checked": 35,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895561374",
+      "title": "QuintoAndar 895561374",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Doutor Fadlo Haidar",
+      "url": "https://www.quintoandar.com.br/imovel/895561374/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5600,
+      "condo": 1463,
+      "iptu": 224,
+      "area": 90,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.07,
+      "lat": -23.5964037,
+      "lng": -46.6753861,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-284.8994612404114IMG8805.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-631.6260730999609IMG8806.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-297.8481802565216IMG8807.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-115.90431637080567IMG8808.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-742.1563248137835IMG8809.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-316.52982499651097IMG8811.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-707.8900304047556IMG8812.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-316.6632195561233IMG8813.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-893.2239925163292IMG8814.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-148.0314080696371IMG8815.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-252.24959461739726IMG8816.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895561374-63.88222161142154IMG8817.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento na Vila Olímpia com 3 quartos, 1 suíte, varanda e academia no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
