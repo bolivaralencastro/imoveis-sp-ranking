@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-04T18:24:02.591Z",
+  "scraped_at": "2026-07-05T00:38:14.811Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,31 +51,31 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 49,
+  "total_candidates_checked": 45,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895574821",
-      "title": "QuintoAndar 895574821",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Gomes de Carvalho",
-      "url": "https://www.quintoandar.com.br/imovel/895574821/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 4200,
-      "condo": 1200,
-      "iptu": 157,
-      "area": 81,
+      "id": "895568675",
+      "title": "QuintoAndar 895568675",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/895568675/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 5465,
+      "condo": 1000,
+      "iptu": 167,
+      "area": 72,
       "bedrooms": 2,
       "bathrooms": 2,
       "parking": 1,
       "acceptsPets": true,
-      "furnished": false,
+      "furnished": true,
       "features": {
         "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
-        "gasShower": false,
+        "gasShower": true,
         "box": true,
         "bedroomCabinets": true,
         "bathroomCabinets": true,
@@ -88,80 +88,80 @@
         "playground": false,
         "sauna": false,
         "doorman24h": true,
-        "accessibleParking": false
+        "accessibleParking": true
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.14,
-      "lat": -23.5991629,
-      "lng": -46.6810982,
+      "targetDistanceKm": 0.61,
+      "lat": -23.5926483,
+      "lng": -46.6776414,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-791.6941503014485IMG9019.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-1.2450930579328556IMG4951.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-986.0504969841985IMG9021.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-794.8604153222084IMG4953.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-333.3894887196892IMG9023.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-658.8091120841891IMG4958.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-54.48071367426677IMG9024.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-616.2102147231492IMG4952.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-432.8016364061413IMG9025.jpg",
-          "subtitle": "Vista",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-278.97941742033436IMG4954.jpg",
+          "subtitle": "Vista da Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-928.6615572876415IMG9026.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-80.57917475362963IMG4955.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-53.147218939908036IMG4956.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-980.0356381088015IMG4957.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-238.062609332627IMG4960.jpg",
           "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-699.4398182619167IMG9028.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-701.5124118534075IMG4961.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-121.23675022442958IMG9027.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-108.67744626263287IMG4962.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-690.0238636053629IMG9031.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-667.377334028973IMG9032.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-853.6514700154839IMG9033.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895574821-139.2062045851604IMG9034.jpg",
-          "subtitle": "Quarto 2",
+          "url": "https://www.quintoandar.com.br/img/med/original895568675-948.5075904563669IMG4964.jpg",
+          "subtitle": "Quarto",
           "cover": false
         }
       ],
-      "notes": "Alugar apartamento na Vila Olímpia com 2 quartos.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
+      "notes": "Apartamento para alugar: 2 quartos, 1 suíte, mobiliado, aceita pets.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
     }
   ],
   "failed_ids": []
