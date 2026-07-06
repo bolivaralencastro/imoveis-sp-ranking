@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-06T00:38:19.478Z",
+  "scraped_at": "2026-07-06T07:34:34.411Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,117 +51,117 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 43,
+  "total_candidates_checked": 32,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895565218",
-      "title": "QuintoAndar 895565218",
+      "id": "893250910",
+      "title": "QuintoAndar 893250910",
       "neighborhood": "Vila Nova Conceição",
-      "street": "Rua Professor Filadelfo Azevedo",
-      "url": "https://www.quintoandar.com.br/imovel/895565218/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 5700,
-      "condo": 2350,
-      "iptu": 300,
-      "area": 70,
+      "street": "Avenida Santo Amaro",
+      "url": "https://www.quintoandar.com.br/imovel/893250910/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 3190,
+      "condo": 495,
+      "iptu": 0,
+      "area": 58,
       "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": false,
+      "furnished": true,
       "features": {
-        "balcony": true,
+        "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
         "gasShower": false,
         "box": true,
-        "bedroomCabinets": true,
+        "bedroomCabinets": false,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
         "gym": false,
-        "partyRoom": true,
+        "partyRoom": false,
         "gameRoom": false,
         "grill": false,
         "playground": false,
         "sauna": false,
         "doorman24h": true,
-        "accessibleParking": true
+        "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.2,
-      "lat": -23.5883764,
-      "lng": -46.6703235,
+      "targetDistanceKm": 1.52,
+      "lat": -23.6002684,
+      "lng": -46.6735972,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-435.7572237150815IMG4037.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-279.088449624370075509101.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-544.0445839125546IMG4038.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-142.83010773402975509102.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-544.9800270921186IMG4041.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-29.6872259913057985509103.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-722.0153771218539IMG4043.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-529.90705110644775509104.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-552.5773010506003IMG4044.jpg",
-          "subtitle": "Sacada",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-913.56109301746915509106.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-230.81882710650325IMG4048.jpg",
-          "subtitle": "Sacada",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-278.743298031182465509105.jpg",
+          "subtitle": "Vista da Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-160.20679136382986IMG4050.jpg",
-          "subtitle": "Sacada",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-483.0707437030953355091027.jpg",
+          "subtitle": "Vista da Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-151.6096022787895IMG4052.jpg",
-          "subtitle": "Banheiro",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-434.31856752403115509107.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-511.3191737929996IMG4053.jpg",
-          "subtitle": "Banheiro",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-364.70721717829985509108.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-758.6498063244491IMG4055.jpg",
-          "subtitle": "Banheiro",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-354.78688176394565509109.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-720.6375661545932IMG4056.jpg",
-          "subtitle": "Banheiro",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-8.15908873250748155091010.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895565218-884.137687025191IMG4057.jpg",
-          "subtitle": "Banheiro",
+          "url": "https://www.quintoandar.com.br/img/med/893250910-809.278792962524355091011.jpg",
+          "subtitle": "Quarto1",
           "cover": false
         }
       ],
-      "notes": "Aluguel de apartamento com 2 quartos e varanda.",
+      "notes": "",
       "preferredStreet": true,
-      "preferredStreetName": "Rua Professor Filadelfo Azevedo"
+      "preferredStreetName": "Avenida Santo Amaro"
     }
   ],
   "failed_ids": []
