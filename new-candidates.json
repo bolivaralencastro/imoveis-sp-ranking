@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-05T18:25:14.834Z",
+  "scraped_at": "2026-07-06T00:38:19.478Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -53,118 +53,116 @@
   },
   "total_candidates_checked": 43,
   "total_passed": 1,
-  "total_failed": 1,
+  "total_failed": 0,
   "homes": [
     {
-      "id": "892924858",
-      "title": "QuintoAndar 892924858",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Pais de Araújo",
-      "url": "https://www.quintoandar.com.br/imovel/892924858/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 4436,
-      "condo": 880,
-      "iptu": 167,
-      "area": 64,
+      "id": "895565218",
+      "title": "QuintoAndar 895565218",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Professor Filadelfo Azevedo",
+      "url": "https://www.quintoandar.com.br/imovel/895565218/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 5700,
+      "condo": 2350,
+      "iptu": 300,
+      "area": 70,
       "bedrooms": 2,
-      "bathrooms": 1,
+      "bathrooms": 2,
       "parking": 1,
       "acceptsPets": true,
       "furnished": false,
       "features": {
-        "balcony": false,
+        "balcony": true,
         "gourmetBalcony": false,
         "privatePool": false,
-        "airConditioning": true,
+        "airConditioning": false,
         "gasShower": false,
         "box": true,
         "bedroomCabinets": true,
-        "bathroomCabinets": false,
+        "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
         "gym": false,
-        "partyRoom": false,
+        "partyRoom": true,
         "gameRoom": false,
         "grill": false,
         "playground": false,
         "sauna": false,
         "doorman24h": true,
-        "accessibleParking": false
+        "accessibleParking": true
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.61,
-      "lat": -23.5836299,
-      "lng": -46.6810695,
+      "targetDistanceKm": 1.2,
+      "lat": -23.5883764,
+      "lng": -46.6703235,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-633.2679706724234FOTO11.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-435.7572237150815IMG4037.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-514.5744736484497FOTO24.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-544.0445839125546IMG4038.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-982.8332388762474FOTO04.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-544.9800270921186IMG4041.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-222.84700895526444FOTO13.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-722.0153771218539IMG4043.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-244.55441400400358FOTO12.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-552.5773010506003IMG4044.jpg",
+          "subtitle": "Sacada",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-202.8759852113492FOTO14.jpg",
-          "subtitle": "Detalhe Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-230.81882710650325IMG4048.jpg",
+          "subtitle": "Sacada",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-405.248748911832FOTO23.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-160.20679136382986IMG4050.jpg",
+          "subtitle": "Sacada",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-245.37556008531635FOTO09.jpg",
-          "subtitle": "Detalhe cozinha",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-151.6096022787895IMG4052.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-940.6337256356849FOTO01.jpg",
-          "subtitle": "Quarto",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-511.3191737929996IMG4053.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-183.69964784173774FOTO02.jpg",
-          "subtitle": "Quarto",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-758.6498063244491IMG4055.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-512.8180253169286FOTO05edit.jpg",
-          "subtitle": "Quarto",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-720.6375661545932IMG4056.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/892924858-780.2369021726231FOTO19.jpg",
-          "subtitle": "Cozinha",
+          "url": "https://www.quintoandar.com.br/img/med/original895565218-884.137687025191IMG4057.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         }
       ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
+      "notes": "Aluguel de apartamento com 2 quartos e varanda.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Professor Filadelfo Azevedo"
     }
   ],
-  "failed_ids": [
-    "893310208"
-  ]
+  "failed_ids": []
 }
