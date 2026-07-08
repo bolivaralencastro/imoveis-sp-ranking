@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-08T06:51:59.185Z",
+  "scraped_at": "2026-07-08T12:35:16.591Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,25 +51,25 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 29,
+  "total_candidates_checked": 13,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895580456",
-      "title": "QuintoAndar 895580456",
-      "neighborhood": "Vila Nova Conceição",
-      "street": "Rua José Gonçalves Pereira",
-      "url": "https://www.quintoandar.com.br/imovel/895580456/alugar/casa-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 4990,
-      "condo": 50,
-      "iptu": 375,
-      "area": 100,
-      "bedrooms": 2,
+      "id": "894648596",
+      "title": "QuintoAndar 894648596",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/894648596/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 4500,
+      "condo": 1450,
+      "iptu": 389,
+      "area": 106,
+      "bedrooms": 3,
       "bathrooms": 2,
       "parking": 1,
-      "acceptsPets": false,
-      "furnished": false,
+      "acceptsPets": true,
+      "furnished": true,
       "features": {
         "balcony": false,
         "gourmetBalcony": false,
@@ -77,89 +77,89 @@
         "airConditioning": false,
         "gasShower": false,
         "box": true,
-        "bedroomCabinets": false,
-        "bathroomCabinets": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
-        "gym": false,
-        "partyRoom": false,
+        "gym": true,
+        "partyRoom": true,
         "gameRoom": false,
-        "grill": false,
-        "playground": false,
+        "grill": true,
+        "playground": true,
         "sauna": false,
-        "doorman24h": false,
+        "doorman24h": true,
         "accessibleParking": true
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.69,
-      "lat": -23.5942993,
-      "lng": -46.6786184,
+      "targetDistanceKm": 1.39,
+      "lat": -23.6015161,
+      "lng": -46.681595,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-105.29873252311262IMG3045.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-434.12410407042137IMG1181.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-824.9965912776843IMG3047.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-436.7411581697018IMG1179.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-472.18173320347734IMG3048.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-656.7143968046993IMG1180.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-498.6278002947264IMG3049.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-463.81119885247614IMG1182.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-402.0552916519512IMG3051.JPG",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-506.49163047166854IMG1183.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-301.2569071183917IMG3052.JPG",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-395.6793086585494IMG1184.jpg",
+          "subtitle": "Vista",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-224.08184050450143IMG3053.JPG",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-644.2752555893475IMG1185.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-955.6465993675872IMG3054.JPG",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-92.82765586143371IMG1186.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-868.0033021294985IMG3057.JPG",
-          "subtitle": "Quarto 2 - Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-664.854188569969IMG1187.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-783.6788720552363IMG3058.JPG",
-          "subtitle": "Quarto 2 - Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-108.07475056784477IMG1188.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-106.14052974469091IMG3059.JPG",
-          "subtitle": "Quarto 2 - Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-222.8211960100206IMG1189.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895580456-713.1964353760909IMG3060.JPG",
-          "subtitle": "Quarto 2 - Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/894648596-573.8591831609759IMG1191.jpg",
+          "subtitle": "Banheiro da Suíte ",
           "cover": false
         }
       ],
-      "notes": "Alugar casa em condomínio com 2 quartos.",
+      "notes": "Apartamento mobiliado com 3 quartos para alugar. Animais permitidos.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
