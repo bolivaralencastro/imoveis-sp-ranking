@@ -28399,6 +28399,114 @@
       "notes": "Alugue apartamento com 2 quartos, suíte, varanda, closet, piscina e pet-friendly. Totalmente mobiliado. Confira!",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895563727",
+      "title": "QuintoAndar 895563727",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Avenida Santo Amaro",
+      "url": "https://www.quintoandar.com.br/imovel/895563727/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6000,
+      "condo": 822,
+      "iptu": 124,
+      "area": 75,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.52,
+      "lat": -23.600299,
+      "lng": -46.6737854,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-226.42463243828314202607061549380.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-902.64633330441120260706155033.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-104.330024697102520260706155047.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-144.1509586629068520260706155129.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-147.882885193288320260706155111.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-491.0589078280208420260706155119.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-57.1599018921594720260706160049.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-373.280699045143720260706160057.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-958.216266325727920260706160112.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-425.253273989827920260706160012.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-430.1267789315249420260706160023.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895563727-70.0399425502158420260706160032.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento na Vila Nova Conceição com 2 quartos e aceita animais.",
+      "preferredStreet": true,
+      "preferredStreetName": "Avenida Santo Amaro"
     }
   ],
   "weights": {
@@ -28414,5 +28522,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-07T12:49:53.492Z"
+  "updated_at": "2026-07-08T00:33:21.121Z"
 }
