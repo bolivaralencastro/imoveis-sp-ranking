@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-08T18:32:56.949Z",
+  "scraped_at": "2026-07-09T00:35:31.563Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 56,
-  "total_passed": 0,
+  "total_candidates_checked": 32,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895575422",
+      "title": "QuintoAndar 895575422",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Guilherme Barbosa de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/895575422/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5000,
+      "condo": 1317,
+      "iptu": 35,
+      "area": 98,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 2.2,
+      "lat": -23.604533,
+      "lng": -46.6954561,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-785.2376440781003Fabio.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-826.2301212955553Fabio3.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-153.44579042483585Fabio6.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-312.46582597284043Fabio2.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-421.5234284389855Fabio10.JPG",
+          "subtitle": "Quarto Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-53.90079436156303Fabio7.JPG",
+          "subtitle": "Quarto Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-652.5273143346046Fabio9.JPG",
+          "subtitle": "Quarto Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-306.1265019172098Fabio8.JPG",
+          "subtitle": "Quarto Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-492.80703314277287Fabio14.JPG",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-665.3957960406461Fabio11.JPG",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-120.43671996529982Fabio12.JPG",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895575422-7.790247012059215Fabio13.JPG",
+          "subtitle": "Banheiro da Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel: 3 quartos, 1 suíte.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
