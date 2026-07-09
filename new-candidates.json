@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-09T00:35:31.563Z",
+  "scraped_at": "2026-07-09T07:18:22.158Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,22 +51,22 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 32,
+  "total_candidates_checked": 16,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895575422",
-      "title": "QuintoAndar 895575422",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Guilherme Barbosa de Melo",
-      "url": "https://www.quintoandar.com.br/imovel/895575422/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 5000,
-      "condo": 1317,
-      "iptu": 35,
-      "area": 98,
-      "bedrooms": 3,
-      "bathrooms": 3,
+      "id": "895565075",
+      "title": "QuintoAndar 895565075",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/895565075/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 3500,
+      "condo": 1250,
+      "iptu": 220,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 2,
       "parking": 1,
       "acceptsPets": true,
       "furnished": false,
@@ -81,9 +81,9 @@
         "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": true,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
         "grill": false,
         "playground": true,
         "sauna": false,
@@ -94,74 +94,74 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 2.2,
-      "lat": -23.604533,
-      "lng": -46.6954561,
+      "targetDistanceKm": 0.64,
+      "lat": -23.5930599,
+      "lng": -46.6776263,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-785.2376440781003Fabio.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-249.79599994075562IMG4733.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-826.2301212955553Fabio3.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-344.21001101304694IMG4729.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-153.44579042483585Fabio6.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-348.30206034809044IMG4735.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-312.46582597284043Fabio2.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-795.3511973731258IMG4737.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-421.5234284389855Fabio10.JPG",
-          "subtitle": "Quarto Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-890.4817146710992IMG4738.jpg",
+          "subtitle": "Vista da Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-53.90079436156303Fabio7.JPG",
-          "subtitle": "Quarto Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-149.31737525233447IMG4740.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-652.5273143346046Fabio9.JPG",
-          "subtitle": "Quarto Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-737.3584867111282IMG4741.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-306.1265019172098Fabio8.JPG",
-          "subtitle": "Quarto Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-36.886064362297354IMG4742.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-492.80703314277287Fabio14.JPG",
-          "subtitle": "Banheiro da Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-480.9304375625233IMG4743.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-665.3957960406461Fabio11.JPG",
-          "subtitle": "Banheiro da Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-875.2921116095283IMG4744.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-120.43671996529982Fabio12.JPG",
-          "subtitle": "Banheiro da Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-796.5537077162596IMG4745.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895575422-7.790247012059215Fabio13.JPG",
-          "subtitle": "Banheiro da Suíte",
+          "url": "https://www.quintoandar.com.br/img/med/original895565075-800.8422048287047IMG4746.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         }
       ],
-      "notes": "Apartamento para aluguel: 3 quartos, 1 suíte.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
+      "notes": "Aluguel de apartamento na Vila Nova Conceição com 2 quartos, 1 suíte.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
     }
   ],
   "failed_ids": []
