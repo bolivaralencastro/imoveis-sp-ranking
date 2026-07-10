@@ -29479,6 +29479,207 @@
       "notes": "Aluguel de apartamento mobiliado na Vila Olímpia, 2 quartos, aceita pets.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895554797",
+      "title": "QuintoAndar 895554797",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/895554797/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 3200,
+      "condo": 848,
+      "iptu": 55,
+      "area": 85,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.84,
+      "lat": -23.5949358,
+      "lng": -46.6769764,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-900.0617161304066ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-7e9cd8d1-06e7-409a-87aa-70ce29c0df9c.jpg",
+          "subtitle": "Foto 01",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-6.992123979636111ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-bb16f18e-d4a8-49e7-88cb-7d533ba331a0.jpg",
+          "subtitle": "Foto 08",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-507.4531192385821ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-e03be020-67b4-404b-8410-fdc05d1a43c5.jpg",
+          "subtitle": "Foto 03",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-501.11912718847697ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-8818964f-b167-4a21-bac0-5668e8d83794.jpg",
+          "subtitle": "Foto 06",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-298.14650168790104ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-d9df01e5-c604-430c-aec2-d59aafae1473.jpg",
+          "subtitle": "Foto 09",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-397.44350920298234ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-9dcac699-2e3d-4b21-ae81-c7349d1c0591.jpg",
+          "subtitle": "Foto 02",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-761.489115452659ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-869350e7-a420-4d5c-9735-5e622b535897.jpg",
+          "subtitle": "Foto 04",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-29.620076219696422ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-17840e46-7303-4784-b1ef-b74bfa12185b.jpg",
+          "subtitle": "Foto 07",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895554797-260.2044609253262ed73edd3-622d-4c58-b0a2-52c9554bcc33-LEAD3P-1d466ba2-cf46-4697-9384-8d52fb54a35b.jpg",
+          "subtitle": "Foto 05",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
+    },
+    {
+      "id": "893650655",
+      "title": "QuintoAndar 893650655",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Professor Vahia de Abreu",
+      "url": "https://www.quintoandar.com.br/imovel/893650655/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3740,
+      "condo": 1100,
+      "iptu": 100,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": true,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.7,
+      "lat": -23.6033664,
+      "lng": -46.6763897,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-868.025794379829295065501.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-128.9629812951798295065502.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-992.527846793611895065503.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-228.2806392142504795065504.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-32.2937544179742295065505.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-795.946416234306295065506.jpg",
+          "subtitle": "vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-825.011496554256295065507.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-25.8950774924235995065508.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-62.68150536020933695065509.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-587.523391773394795065510.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-896.33286536399295065511.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893650655-586.5993672523595065512.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Localizado na vibrante cidade de São Paulo, este apartamento oferece uma experiência de moradia única. Com dois quartos bem distribuídos, é ideal para famílias ou para quem busca um espaço confortável e funcional. O apartamento conta com uma vaga de estacionamento, garantindo praticidades adicionais para quem possui veículo. Um dos grandes atrativos deste imóvel é a churrasqueira no condomínio, perfeita para reunir amigos e familiares em momentos de lazer e descontração. \n\nA localização é um dos pontos fortes, com diversas opções de lazer e conveniência nas proximidades. A poucos minutos, você encontrará o Inspe, uma renomada instituição de ensino superior, ideal para estudantes e profissionais que buscam aprimoramento acadêmico. Para quem aprecia a natureza, a Praça Pereira Coutinho oferece um espaço verde para caminhadas e atividades ao ar livre. \n\nOs amantes de compras e entretenimento têm à disposição dois grandes centros comerciais: o Shopping Ibirapuera e o Shopping Vila Olímpia, que oferecem uma vasta gama de lojas, restaurantes e opções de lazer para todas as idades. \n\nEste apartamento é uma excelente oportunidade para quem deseja viver em São Paulo, com conforto, praticidades e uma localização estratégica que proporciona fácil acesso a tudo que a cidade tem a oferecer.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -29494,5 +29695,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-10T12:46:32.896Z"
+  "updated_at": "2026-07-10T18:32:58.237Z"
 }
