@@ -31084,6 +31084,114 @@
       "notes": "Apartamento mobiliado com 2 quartos na Vila Olímpia para alugar.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893601212",
+      "title": "QuintoAndar 893601212",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/893601212/alugar/casa-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3800,
+      "condo": 0,
+      "iptu": 584,
+      "area": 65,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.1,
+      "lat": -23.5988874,
+      "lng": -46.6829569,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-145.770064531378862Q12.jpg",
+          "subtitle": "Corredor",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-43.29026850248031Sala1.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-656.95203868946411Sala2.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-148.824099572259061Sala3.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-577.92087606073461Sala4.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-356.281977147454031Sala5.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-559.64898540915411Sala6.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-914.30553811902172Q11.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-206.675252475058932Q13.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-237.594009964631082Q14.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-71.146728055358382Q15.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893601212-861.82199345052412Q16.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Casa para alugar na Vila Olímpia com 2 quartos, ideal para quem tem animais de estimação.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -31099,5 +31207,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-15T02:01:05.195Z"
+  "updated_at": "2026-07-15T19:05:38.699Z"
 }
