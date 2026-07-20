@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-20T13:57:38.365Z",
+  "scraped_at": "2026-07-20T19:41:20.333Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,226 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 29,
-  "total_passed": 0,
+  "total_candidates_checked": 58,
+  "total_passed": 2,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "894613854",
+      "title": "QuintoAndar 894613854",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/894613854/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3280,
+      "condo": 800,
+      "iptu": 67,
+      "area": 75,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.27,
+      "lat": -23.5996531,
+      "lng": -46.677529,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-711.7865005002434CA1.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-648.1589476196549CA2.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-9.345496467997204CA3.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-442.40948101171773CA4.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-346.9333313788563CA5.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-360.4923575801886CA6.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-494.22261528242063CA7.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-97.33642705285517CA8.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-995.3484866864361CA9.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-779.4532751530925CA10.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-888.0647656379098CA11.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894613854-418.6925631547349CA12.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895552164",
+      "title": "QuintoAndar 895552164",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/895552164/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4000,
+      "condo": 968,
+      "iptu": 268,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.08,
+      "lat": -23.5987346,
+      "lng": -46.6819259,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-771.8826842060857959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-a0c6fb5c-1cdd-4a1c-a636-c327ec05238f.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-925.4794707771523959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-def3f269-adba-4c75-a079-b0b8e901ea0c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-670.8434084751106959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-4c4af339-46ca-4da6-b6d8-5b01564fb8b4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-376.91365754604254959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-6ee1a148-ad9b-41ea-b7ce-b9ba8fb66c58.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-307.66680428435245959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-84070225-8fe6-4fef-b8ba-44e649e1fcb0.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-470.26368679609959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-db90e9c2-67ce-42b3-990c-273053dd26f0.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-987.2926577406337959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-266f8df4-1822-4281-b98e-ff46ddba883b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-160.58647629372948959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-8f6693bc-f74c-4e91-bce9-b520cfb2068a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-750.7001744374688959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-fb976399-4f32-46ab-9520-45a72111b1b1.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-540.7132808312343959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-ac8aafd6-84c4-4cb3-a856-3b3d961c30c7.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-623.777255940957959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-0c5f7aec-6782-41fc-a0ba-2c27519c4653.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895552164-61.95454897234987959c30be-4b8c-4894-8342-357415ca5856-LEAD3P-e5d47eb1-c428-4df9-b976-45ba4a6fc28e.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
