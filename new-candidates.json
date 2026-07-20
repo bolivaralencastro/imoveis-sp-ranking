@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-19T19:00:14.898Z",
+  "scraped_at": "2026-07-20T02:34:12.860Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 19,
-  "total_passed": 1,
+  "total_candidates_checked": 14,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "893617583",
-      "title": "QuintoAndar 893617583",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Doutor Fadlo Haidar",
-      "url": "https://www.quintoandar.com.br/imovel/893617583/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
-      "rent": 6460,
-      "condo": 1306,
-      "iptu": 252,
-      "area": 94,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": true,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.03,
-      "lat": -23.595676,
-      "lng": -46.6751565,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-849.2941200546949imgnz1100131.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-473.08874431236393imgnz1100130.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-858.3841852692767imgnz1100132.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-785.7348420542835imgnz1100134.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-907.2506902849262imgnz1100135.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-205.699522918541imgnz1100136.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-622.5732303287701imgnz1100137.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-525.1526342418557imgnz1100138.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-734.0728571828103imgnz1100139.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-803.1502008985957imgnz1100141.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-856.8014291728036imgnz1100142.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893617583-939.7502422484296imgnz1100143.jpg",
-          "subtitle": "Banheiro Suíte",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
