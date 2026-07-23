@@ -33734,6 +33734,310 @@
       "notes": "Apartamento para alugar no Itaim Bibi com 2 quartos e piscina no condomínio.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895586586",
+      "title": "QuintoAndar 895586586",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/895586586/alugar/apartamento-3-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4600,
+      "condo": 2100,
+      "iptu": 175,
+      "area": 83,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.84,
+      "lat": -23.5949358,
+      "lng": -46.6769764,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-369.08436045453664a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-7df00c6f-ecb5-40e3-b40c-00f7788f24a3.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-280.7704925122515a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-913fffc3-24df-4ef5-886b-537e74d30bc4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-931.5030938250143a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-28e68fda-38ea-42a2-9dbb-405b7c6d2b00.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-808.1320797162374a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-46e662bf-b4fb-4887-8e2a-67c7ed5d6171.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-410.9966270972355a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-5539aaef-f287-45cc-98a2-c490086cf66a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-655.1094512049468a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-733929a0-fb8b-4732-b44a-0370f2024256.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-559.9136822414997a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-65fb753f-72f0-405f-bac2-ecf90f0150ad.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-437.77813835462933a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-c8998cca-80ad-4646-af35-790d73771253.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-779.4086117402684a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-91f72067-b3ba-4601-80b6-f521d0de0f8e.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895586586-347.2639216312844a9fc4843-ba81-49d6-9543-f57fc9d67944-LEAD3P-5626187b-1f34-4b77-8b6d-f80e06785aaa.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
+    },
+    {
+      "id": "895582031",
+      "title": "QuintoAndar 895582031",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/895582031/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4500,
+      "condo": 1176,
+      "iptu": 163,
+      "area": 63,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.97,
+      "lat": -23.5977404,
+      "lng": -46.6819714,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-91.12274546796118513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-b01c667f-b856-4290-a898-8c5a25427632.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-402.0349407460387513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-ed7240ab-5900-4d11-8daf-cceae9b1fd3b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-332.9257577706628513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-8133cda9-fa4b-4ca4-8cc9-4d65697e90ca.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-812.5963072693603513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-87f2365c-292b-407e-a7d4-06c9db49469d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-534.3817446092258513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-dd71bb95-a44c-47d3-8b2c-8fd7559d3f74.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-630.1765437225974513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-fccab694-8301-4c3b-bc8c-9e2e2aa831a4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-5.455817239148675513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-2424b562-e2dd-4643-a273-b3e23261aec5.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-654.9526202468647513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-3f1ee836-8153-4af1-bde1-ef6e5603b2e8.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-713.7503447716864513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-3a46326d-f1bd-4c49-ad8e-513bf300b432.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895582031-696.2874211431144513cd979-7808-4959-a22c-aca6405fec35-LEAD3P-77a425a9-eae7-46ec-a574-7f50d076fb91.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895608074",
+      "title": "QuintoAndar 895608074",
+      "neighborhood": "Jardim Europa",
+      "street": "Rua Doutor Mário Ferraz",
+      "url": "https://www.quintoandar.com.br/imovel/895608074/alugar/apartamento-2-quartos-jardim-europa-sao-paulo",
+      "rent": 6500,
+      "condo": 1745,
+      "iptu": 22,
+      "area": 85,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.94,
+      "lat": -23.5817799,
+      "lng": -46.6869435,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-735.2526217014316DSCF2105copy.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-242.64336466483684DSCF2106copy.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-178.83774813361143DSCF2107copy.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-160.41813863146348DSCF2108copy.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-122.0298496352702DSCF2109copy.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-532.1406331721412DSCF2110copy.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-112.62353735571384DSCF2111copy.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-454.78406098253157DSCF2112copy.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-261.8747879608465DSCF2113copy.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-737.3234081931786DSCF2114copy.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-954.637774610018DSCF2115copy.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895608074-92.3882271218045DSCF2116copy.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento com 2 quartos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -33749,5 +34053,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-22T19:09:06.824Z"
+  "updated_at": "2026-07-23T02:24:40.069Z"
 }
