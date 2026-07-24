@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-24T13:27:22.385Z",
+  "scraped_at": "2026-07-24T19:20:25.421Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,120 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 17,
-  "total_passed": 0,
-  "total_failed": 0,
-  "homes": [],
-  "failed_ids": []
+  "total_candidates_checked": 47,
+  "total_passed": 1,
+  "total_failed": 1,
+  "homes": [
+    {
+      "id": "893245153",
+      "title": "QuintoAndar 893245153",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/893245153/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4750,
+      "condo": 968,
+      "iptu": 199,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.82,
+      "lat": -23.6045938,
+      "lng": -46.6766455,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-607.1383707345225IMG6244.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-391.870173983071IMG6242.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-551.1453823278235IMG6243.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-656.6711877892009IMG6246.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-832.0816844679466IMG6247.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-299.3867352317586IMG6248.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-410.1090482700006IMG6249.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-255.8607729179385IMG6251.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-261.4767537383017IMG6252.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-186.46639254816554IMG6253.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-104.27532111363169IMG6257.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893245153-345.1872990218474IMG6258.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Este espaçoso apartamento de 70 metros quadrados está localizado no coração da Vila Olímpia, um dos bairros mais desejados de São Paulo. Com dois quartos confortáveis, esta propriedade é ideal para quem busca um lar aconchegante e funcional. Além disso, o apartamento permite a presença de animais de estimação, tornando-se uma opção perfeita para famílias que não abrem mão da companhia de seus pets.\n\nA localização privilegiada oferece fácil acesso a diversas comodidades e atrações da região. A poucos passos, você encontrará o renomado Inspe, uma das principais instituições de ensino superior da cidade. Para momentos de lazer ao ar livre, a Praça Pereira Coutinho é uma excelente escolha, oferecendo um espaço verde para relaxar e desfrutar de atividades ao ar livre.\n\nPara os amantes de compras, o apartamento está estrategicamente posicionado entre dois dos maiores shoppings da cidade: o Shopping Ibirapuera e o Shopping Vila Olímpia. Ambos oferecem uma ampla variedade de lojas, restaurantes e opções de entretenimento, garantindo que você tenha tudo o que precisa a poucos minutos de casa.\n\nEste apartamento na Vila Olímpia é a escolha ideal para quem busca conforto, praticidades e uma localização central, com acesso a tudo o que a região tem a oferecer.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": [
+    "894944193"
+  ]
 }
