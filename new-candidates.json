@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-23T19:10:17.909Z",
+  "scraped_at": "2026-07-24T02:15:29.747Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,226 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 48,
-  "total_passed": 0,
+  "total_candidates_checked": 64,
+  "total_passed": 2,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895613805",
+      "title": "QuintoAndar 895613805",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Doutor Renato Paes de Barros",
+      "url": "https://www.quintoandar.com.br/imovel/895613805/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 4000,
+      "condo": 1300,
+      "iptu": 200,
+      "area": 60,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.08,
+      "lat": -23.5830338,
+      "lng": -46.6737404,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-746.1418830830291753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-c0461706-46e0-4151-827c-03269f002124.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-821.5593229543431753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-4aebee81-e93d-4cf1-bb25-913e1f265167.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-963.8683701896227753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-7a429c73-6a52-428b-9623-03efa955d3b4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-224.2516292824822753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-e6df4cd8-5629-4e3b-ae9f-3aba9d96f9cc.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-33.262722366146576753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-6f899f2c-9791-4556-8669-b782e97877e5.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-540.8686377120376753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-f9cd9d92-f43f-4e2f-9034-158ab5db6609.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-788.3810811947833753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-a82a5890-77e8-49f8-878c-f16658b1389c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-531.5004862124741753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-6ddb199e-c8b8-4089-a93d-3fcf42be6500.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-665.7936512552304753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-0127f204-7c2a-4c41-8529-b6d5dd1eba44.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-146.0624186628371753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-ac2e7d60-ebb3-4b4c-9efa-38d79f05a1a8.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-540.8265624604519753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-d2eb7006-a568-421f-89f9-216a2cca99a3.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895613805-710.0169131513619753b4ac3-194c-4afc-bd23-e38723e975ff-LEAD3P-c8c97160-e4d2-44be-ae5e-82933decba0c.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895528653",
+      "title": "QuintoAndar 895528653",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Professor Vahia de Abreu",
+      "url": "https://www.quintoandar.com.br/imovel/895528653/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 6200,
+      "condo": 1577,
+      "iptu": 178,
+      "area": 84,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.61,
+      "lat": -23.6028466,
+      "lng": -46.6773696,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-526.6965103613652IMG6853.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-274.1232544164199IMG6854.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-515.5556215757047IMG6856.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-169.5555029258815IMG6858.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-365.1529270080893IMG6868.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-682.1813924883602IMG6869.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-516.2263854241523IMG6870.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-549.6287927746805IMG6871.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-560.9845273513681IMG6872.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-536.2783571089723IMG6873.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-347.24754426028323IMG6874.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895528653-184.46906920361195IMG6875.jpg",
+          "subtitle": "Banheiro da Suíte 1",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento é uma excelente escolha para quem busca conforto e praticidades em um imóvel bem localizado. Com três quartos, ele oferece espaço suficiente para famílias ou para quem deseja um escritório em casa. A localização é um dos grandes destaques, pois está próximo a importantes pontos de interesse, como a Praça Pereira Coutinho, um parque perfeito para momentos de lazer e atividades ao ar livre. Além disso, a proximidades de dois grandes centros de compras, o Shopping Vila Olímpia e o Shopping Ibirapuera, garantem fácil acesso a uma ampla variedade de lojas, serviços e opções de entretenimento. Este apartamento é ideal para quem valoriza a conveniência de ter tudo por perto, sem abrir mão do conforto e da tranquilidades que um bom lar pode oferecer.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
