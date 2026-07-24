@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-24T08:19:42.147Z",
+  "scraped_at": "2026-07-24T13:27:22.385Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 15,
-  "total_passed": 1,
+  "total_candidates_checked": 17,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "895608017",
-      "title": "QuintoAndar 895608017",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Alvorada",
-      "url": "https://www.quintoandar.com.br/imovel/895608017/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 4800,
-      "condo": 1400,
-      "iptu": 380,
-      "area": 98,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": true,
-        "grill": false,
-        "playground": true,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.36,
-      "lat": -23.6012701,
-      "lng": -46.6821776,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-253.86691020697404IMG6353.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-13.598546115836996IMG6354.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-400.673537544748IMG6355.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-190.84967560593068IMG6356.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-204.73472839401785IMG6357.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-402.56084732960215IMG6359.jpg",
-          "subtitle": "Banheiro",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-846.3861469496632IMG6360.jpg",
-          "subtitle": "Banheiro",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-766.5373021060714IMG6361.jpg",
-          "subtitle": "Banheiro",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-318.2451774555383IMG6362.jpg",
-          "subtitle": "Banheiro",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-608.5777405726361IMG6369.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-711.6106251197167IMG6370.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895608017-267.43259495168735IMG6371.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "Apartamento 3 quartos no Itaim Bibi para alugar, com academia e pets permitidos.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
