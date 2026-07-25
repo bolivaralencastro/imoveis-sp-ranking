@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-25T02:14:19.860Z",
+  "scraped_at": "2026-07-25T08:01:07.751Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,11 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 73,
-  "total_passed": 1,
-  "total_failed": 0,
-  "homes": [
-    {
-      "id": "893514835",
-      "title": "QuintoAndar 893514835",
-      "neighborhood": "Vila Olímpia",
-      "street": "Avenida Doutor Cardoso de Melo",
-      "url": "https://www.quintoandar.com.br/imovel/893514835/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
-      "rent": 4798,
-      "condo": 1363,
-      "iptu": 319,
-      "area": 76,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": true,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.71,
-      "lat": -23.6031039,
-      "lng": -46.6753257,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-412.21107031216565IMG8079.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-620.9522738575837IMG8080.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-469.41239260876245IMG8081.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-928.9274078538373IMG8082.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-337.55264272458254IMG8083.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-819.5458321822094IMG8084.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-509.5500731126119IMG8085.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-565.9043452758151IMG8086.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-46.65652322417735IMG8087.jpg",
-          "subtitle": "Suite",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-357.3385510681858IMG8088.jpg",
-          "subtitle": "Suite",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-655.3827926237116IMG8089.jpg",
-          "subtitle": "Suite",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893514835-636.7063557668911IMG8092.jpg",
-          "subtitle": "Suite",
-          "cover": false
-        }
-      ],
-      "notes": "Alugue um apartamento na Vila Olímpia com varanda, churrasqueira e 3 quartos, sendo 1 suíte.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
-  "failed_ids": []
+  "total_candidates_checked": 19,
+  "total_passed": 0,
+  "total_failed": 1,
+  "homes": [],
+  "failed_ids": [
+    "895615069"
+  ]
 }
