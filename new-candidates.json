@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-26T02:24:50.762Z",
+  "scraped_at": "2026-07-26T08:20:03.334Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 55,
-  "total_passed": 1,
+  "total_candidates_checked": 2,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "894390291",
-      "title": "QuintoAndar 894390291",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua das Fiandeiras",
-      "url": "https://www.quintoandar.com.br/imovel/894390291/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 5600,
-      "condo": 482,
-      "iptu": 213,
-      "area": 53,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": false,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.89,
-      "lat": -23.5965258,
-      "lng": -46.6791548,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-801.0271085871508IMG7084.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-234.37843124818792IMG7083.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-920.6715957676181IMG7085.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-682.6560209259704IMG7086.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-90.74547396604704IMG7087.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-329.24807737991443IMG7089.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-696.7479912604067IMG7091.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-594.7599900384382IMG7092.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-565.8078452983335IMG7094.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-746.1377839404257IMG7096.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-878.0610200134881IMG7097.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894390291-629.6467754372159IMG7098.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
