@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-27T19:21:52.625Z",
+  "scraped_at": "2026-07-28T02:08:03.049Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,226 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 48,
-  "total_passed": 0,
+  "total_candidates_checked": 56,
+  "total_passed": 2,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "894943968",
+      "title": "QuintoAndar 894943968",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Doutor Eduardo de Souza Aranha",
+      "url": "https://www.quintoandar.com.br/imovel/894943968/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4000,
+      "condo": 2577,
+      "iptu": 50,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.93,
+      "lat": -23.5881229,
+      "lng": -46.6730384,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-159.8168019184485IMG8974.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-210.62449237789892IMG8975.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-959.7581333314231IMG8976.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-91.00554660216676IMG8977.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894943968-605.5409648646526IMG8978.jpg",
+          "subtitle": "Sala de TV",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894943968-588.9650436541317IMG8979.jpg",
+          "subtitle": "Sala de TV",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-715.2263461481932IMG8980.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-566.2826495464028IMG8981.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-546.5555036156044IMG8982.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894943968-59.44021088641427IMG8983.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894943968-307.20395827187986IMG8992.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894943968-440.7029157537723IMG8991.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "893064276",
+      "title": "QuintoAndar 893064276",
+      "neighborhood": "Vila Olímpia",
+      "street": "Avenida Doutor Cardoso de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/893064276/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4080,
+      "condo": 1577,
+      "iptu": 268,
+      "area": 80,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.63,
+      "lat": -23.6025066,
+      "lng": -46.6758222,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-409.1523787016502IMG20200508WA0096.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-530.5054458439922IMG20200508WA0097.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-140.61166278073011IMG20200508WA0099.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-530.774805584429IMG20200508WA0101.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-426.5934537978092IMG20200508WA0104.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-2.909481926885782IMG20200508WA0102.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-989.2531354678293IMG20200508WA0092.jpg",
+          "subtitle": "Banheiro da suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-207.4871954717068IMG20200508WA0105.jpg",
+          "subtitle": "Banheiro da suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-712.5631293700216IMG20200508WA0100.jpg",
+          "subtitle": "Segundo dormitório",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-946.2111404374485IMG20200508WA0108.jpg",
+          "subtitle": "Segundo banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-906.672416156992IMG20200508WA0093.jpg",
+          "subtitle": "Banheiro de serviço",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893064276-763.1244289215066IMG20200508WA0098.jpg",
+          "subtitle": "Área de serviço",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
