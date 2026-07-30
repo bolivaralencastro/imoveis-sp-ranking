@@ -35834,6 +35834,114 @@
       "notes": "Alugar apartamento mobiliado na Vila Olímpia, 2 quartos, aceita pets.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895226959",
+      "title": "QuintoAndar 895226959",
+      "neighborhood": "Vila Olímpia",
+      "street": "Avenida Doutor Cardoso de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/895226959/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5500,
+      "condo": 1478,
+      "iptu": 243,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.63,
+      "lat": -23.6024979,
+      "lng": -46.675841,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-574.8914560526835image.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-848.0697448317117image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-692.3673067862849image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-751.487962606699image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-860.2347450627009image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-230.33300234544453image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-448.929543754042image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-165.1001184260674image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-229.78733889365554image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-737.7134824705474image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-194.1356876093697image.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895226959-539.3782964679571image.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -35849,5 +35957,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-29T14:00:31.352Z"
+  "updated_at": "2026-07-30T02:00:16.935Z"
 }
