@@ -36050,6 +36050,222 @@
       "notes": "Localizado no coração da Vila Olímpia, este apartamento oferece uma excelente oportunidade para quem busca conforto e praticidades urbanas. Com 65 metros quadrados, o imóvel é ideal para quem deseja um espaço bem distribuído, contando com dois quartos que proporcionam conforto e privacidade. Além disso, o apartamento já vem mobiliado, facilitando a mudança e adaptação ao novo lar. Outro destaque é a possibilidade de ter animais de estimação, uma vantagem para quem possui pets e busca um ambiente acolhedor para eles. O imóvel também conta com uma vaga de estacionamento, garantindo a comodidades de ter um espaço seguro para o seu veículo. A Vila Olímpia é conhecida por sua infraestrutura completa, com fácil acesso a restaurantes, lojas, e opções de lazer, tornando este apartamento uma escolha prática e conveniente para quem deseja viver em uma das regiões mais dinâmicas da cidade.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895624353",
+      "title": "QuintoAndar 895624353",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua do Rocio",
+      "url": "https://www.quintoandar.com.br/imovel/895624353/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 6000,
+      "condo": 1018,
+      "iptu": 248,
+      "area": 76,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.65,
+      "lat": -23.5939916,
+      "lng": -46.685402,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-13.978239130580828IMG1341.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-872.2074588173181IMG1336.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-310.01862874042473IMG1338.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-733.2131833797436IMG1342.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-155.0691895226407IMG1343.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-131.6770287168878IMG1344.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-523.9863407016459IMG1345.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-159.52873065283757IMG1346.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-339.42721182101263IMG1349.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-940.2780970518127IMG1350.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-102.5808710834235IMG1351.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895624353-835.9532982151771IMG1352.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento com 3 quartos, varanda, ideal para aluguel.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895626968",
+      "title": "QuintoAndar 895626968",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Visconde da Luz",
+      "url": "https://www.quintoandar.com.br/imovel/895626968/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 7500,
+      "condo": 1194,
+      "iptu": 267,
+      "area": 67,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.83,
+      "lat": -23.5938784,
+      "lng": -46.6759213,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-242.2664932335169IMG1426.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-82.06491118979442IMG1419.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-896.9797282168765IMG1422.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-467.99581608227936IMG1424.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-317.9626883124006IMG1427.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-58.5772649020796IMG1428.jpg",
+          "subtitle": "Varanda ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-187.69667406631152IMG1429.jpg",
+          "subtitle": "Varanda ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-268.0936347519055IMG1430.jpg",
+          "subtitle": "Varanda ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-549.4802846945665IMG1431.jpg",
+          "subtitle": "Varanda ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-38.310426422937915IMG1432.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-312.39740259721015IMG1433.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895626968-127.66160530430825IMG1434.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel: 2 quartos, 1 suíte, mobiliado.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -36065,5 +36281,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-07-30T19:20:30.210Z"
+  "updated_at": "2026-07-31T02:25:59.512Z"
 }
