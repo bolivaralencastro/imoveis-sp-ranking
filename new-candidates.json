@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-01T08:13:07.810Z",
+  "scraped_at": "2026-08-01T13:08:55.971Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,120 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 8,
-  "total_passed": 0,
-  "total_failed": 0,
-  "homes": [],
-  "failed_ids": []
+  "total_candidates_checked": 15,
+  "total_passed": 1,
+  "total_failed": 1,
+  "homes": [
+    {
+      "id": "894653900",
+      "title": "QuintoAndar 894653900",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Tabapuã",
+      "url": "https://www.quintoandar.com.br/imovel/894653900/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5400,
+      "condo": 1781,
+      "iptu": 550,
+      "area": 135,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.99,
+      "lat": -23.5828236,
+      "lng": -46.6751143,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-138.88660347935212IMG5494.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-77.10650937053897IMG5489.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-660.9862613018714IMG5490.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-224.0357376528097IMG5491.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-123.66297890543765IMG5493.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-638.0648891457321IMG5495.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-815.1692218688996IMG5496.JPG",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-580.7828437340298IMG5497.JPG",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-994.9623092141862IMG5499.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-214.54892880891663IMG5500.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-633.315792082262IMG5502.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894653900-730.0442313352308IMG5504.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento mobiliado está localizado no prestigiado bairro do Itaim Bibi, oferecendo uma vida urbana sofisticada e prática. Com três quartos e uma vaga de estacionamento, este imóvel é ideal para famílias ou profissionais que buscam conforto e conveniência. O apartamento permite animais de estimação, tornando-o uma escolha perfeita para quem tem pets. Além disso, a localização é um dos grandes atrativos, com proximidades a importantes pontos de interesse. O Hospital Sancta Maggiore garante assistência médica de qualidade nas redondezas. Para quem busca educação ou práticas de bem-estar, o DeRose Method Itaim é uma excelente opção. Os amantes da natureza e atividades ao ar livre poderão desfrutar de momentos de lazer em três parques próximos: Praça Pereira Coutinho, Praça Adolfo Bloch e o famoso Parque do Povo. Estes espaços verdes oferecem uma variedade de atividades recreativas e são perfeitos para caminhadas, piqueniques e relaxamento. O Itaim Bibi é conhecido por sua infraestrutura completa, com restaurantes, lojas e serviços variados, proporcionando uma experiência de vida urbana sem igual. Este apartamento não é apenas uma residência, mas um estilo de vida que combina o melhor da cidade com o conforto e tranquilidades de um lar bem localizado.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": [
+    "893887140"
+  ]
 }
