@@ -37717,6 +37717,114 @@
       "notes": "Apartamento para alugar com 2 quartos e academia no condomínio.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895609309",
+      "title": "QuintoAndar 895609309",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Joaquim Floriano",
+      "url": "https://www.quintoandar.com.br/imovel/895609309/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 5250,
+      "condo": 1363,
+      "iptu": 409,
+      "area": 102,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.4,
+      "lat": -23.5859542,
+      "lng": -46.6800653,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-957.6854311097732b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-c8879b66-aec5-419e-8c51-637dd86b422c.jpg",
+          "subtitle": "Foto 03",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-291.08370715403885b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-37ff1b47-6649-4097-b94c-d03c3fad6192.jpg",
+          "subtitle": "Foto 04",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-484.3066613396063b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-2a4f5b89-a3dd-43fd-b331-dc74e415388d.jpg",
+          "subtitle": "Foto 09",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-176.76107871744685b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-2e03c74d-75d9-4d2a-a8d3-43c29ea1d5a2.jpg",
+          "subtitle": "Foto 10",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-109.59567859928221b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-6710190c-b124-45d1-92ef-3f81a762f252.jpg",
+          "subtitle": "Foto 14",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-136.07125067306558b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-0cbdb7af-64cd-42b9-a5ec-af7bc3c8e9b8.jpg",
+          "subtitle": "Foto 05",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-772.7567249688968b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-c3e63547-2263-4cd8-bca8-06e822e5af09.jpg",
+          "subtitle": "Foto 07",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-40.300039664284526b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-8acdf623-6f2c-4b39-8c58-05da39265e80.jpg",
+          "subtitle": "Foto 08",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-901.9052964424667b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-62c40f03-8186-4b7e-93d2-584414f7aa7e.jpg",
+          "subtitle": "Foto 06",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-677.683666382706b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-c0bb8406-4de9-4554-bc62-72ec74b4cedf.jpg",
+          "subtitle": "Foto 12",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-855.0534709441866b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-02f3d914-76ca-4e45-8266-38f4dd86abd7.jpg",
+          "subtitle": "Foto 15",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895609309-365.36026260533885b9a40d2a-14f1-4f26-896f-6c3f705de051-LEAD3P-3c12afee-040d-4b40-8141-3d7ce9744739.jpg",
+          "subtitle": "Foto 11",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -37732,5 +37840,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-01T19:03:12.363Z"
+  "updated_at": "2026-08-03T14:30:22.234Z"
 }
