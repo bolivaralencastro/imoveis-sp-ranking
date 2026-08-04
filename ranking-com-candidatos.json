@@ -38149,6 +38149,114 @@
       "notes": "Esta espaçosa casa de 170 metros quadrados está localizada em São Paulo, oferecendo um ambiente confortável e acolhedor. Com um total de 4 quartos, a casa é ideal para famílias que buscam espaço e conforto. Um dos destaques desta propriedade é o quintal, perfeito para momentos de lazer ao ar livre ou para quem gosta de jardinagem. Além das características internas, a localização é um grande atrativo. Situada próxima à estação Campo Belo, a mobilização pela cidade é facilitada, permitindo um fácil acesso ao transporte público. Para aqueles que buscam desenvolvimento pessoal ou acadêmico, a proximidades com o DeRose Method Brooklin oferece uma excelente oportunidade. Esta casa em São Paulo combina conforto, conveniência e uma localização estratégica, tornando-se uma opção atraente para quem deseja viver em uma das cidades mais dinâmicas do Brasil.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895604424",
+      "title": "QuintoAndar 895604424",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/895604424/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 4500,
+      "condo": 1500,
+      "iptu": 450,
+      "area": 110,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.36,
+      "lat": -23.6012701,
+      "lng": -46.6821776,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-794.8074486043632IMG9678.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-721.0504176447547IMG9681.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-630.1494661761792IMG9679.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-89.90766611718814IMG9723.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-463.0270346325713IMG9680.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-528.178640016988IMG9682.jpg",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-265.10324226512085IMG9683.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-725.3473155792378IMG9693.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-211.908801597814IMG9711.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-466.6318582037793IMG9712.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-345.7634810629313IMG9710.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895604424-654.1623967482894IMG9708.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -38164,5 +38272,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-03T19:26:41.360Z"
+  "updated_at": "2026-08-04T02:07:02.506Z"
 }
