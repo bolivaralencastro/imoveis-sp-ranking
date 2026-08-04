@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-04T02:07:02.441Z",
+  "scraped_at": "2026-08-04T08:29:55.830Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,22 +51,22 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 68,
+  "total_candidates_checked": 10,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895604424",
-      "title": "QuintoAndar 895604424",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Alvorada",
-      "url": "https://www.quintoandar.com.br/imovel/895604424/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 4500,
-      "condo": 1500,
-      "iptu": 450,
-      "area": 110,
+      "id": "895626351",
+      "title": "QuintoAndar 895626351",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Helena",
+      "url": "https://www.quintoandar.com.br/imovel/895626351/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5500,
+      "condo": 1472,
+      "iptu": 167,
+      "area": 79,
       "bedrooms": 3,
-      "bathrooms": 3,
+      "bathrooms": 1,
       "parking": 1,
       "acceptsPets": true,
       "furnished": false,
@@ -83,83 +83,83 @@
         "pool": false,
         "gym": true,
         "partyRoom": true,
-        "gameRoom": true,
+        "gameRoom": false,
         "grill": false,
         "playground": true,
         "sauna": false,
         "doorman24h": true,
-        "accessibleParking": true
+        "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.36,
-      "lat": -23.6012701,
-      "lng": -46.6821776,
+      "targetDistanceKm": 0.52,
+      "lat": -23.5927038,
+      "lng": -46.6851648,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-794.8074486043632IMG9678.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-955.9090643910898IMG1807.jpg",
+          "subtitle": "",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-721.0504176447547IMG9681.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-490.37048828432086IMG1772.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-630.1494661761792IMG9679.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-669.273436262924IMG1773.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-89.90766611718814IMG9723.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-981.4447601251674IMG1774.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-463.0270346325713IMG9680.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-522.1438807144287IMG1775.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-528.178640016988IMG9682.jpg",
-          "subtitle": "Vista da Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-282.577016489058IMG1776.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-265.10324226512085IMG9683.jpg",
-          "subtitle": "Corredor",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-538.0281482705186IMG1777.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-725.3473155792378IMG9693.jpg",
-          "subtitle": "Corredor",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-800.565372487256IMG1779.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-211.908801597814IMG9711.jpg",
-          "subtitle": "Cozinha",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-876.13511609199IMG1780.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-466.6318582037793IMG9712.jpg",
-          "subtitle": "Cozinha",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-264.4654229682229IMG1781.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-345.7634810629313IMG9710.jpg",
-          "subtitle": "Cozinha",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-171.64927443602474IMG1782.jpg",
+          "subtitle": "",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895604424-654.1623967482894IMG9708.jpg",
-          "subtitle": "Cozinha",
+          "url": "https://www.quintoandar.com.br/img/med/original895626351-495.0561116260205IMG1783.jpg",
+          "subtitle": "",
           "cover": false
         }
       ],
-      "notes": "",
+      "notes": "Alugar apartamento com 3 quartos, aceita pets.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
