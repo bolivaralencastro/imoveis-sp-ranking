@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-06T08:27:36.118Z",
+  "scraped_at": "2026-08-06T13:55:09.209Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 9,
-  "total_passed": 0,
-  "total_failed": 1,
-  "homes": [],
-  "failed_ids": [
-    "895639697"
-  ]
+  "total_candidates_checked": 19,
+  "total_passed": 1,
+  "total_failed": 0,
+  "homes": [
+    {
+      "id": "893029443",
+      "title": "QuintoAndar 893029443",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Helena",
+      "url": "https://www.quintoandar.com.br/imovel/893029443/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6000,
+      "condo": 1050,
+      "iptu": 163,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.47,
+      "lat": -23.5925421,
+      "lng": -46.6847032,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-942.6809885051397IMG4691.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-75.41678881940395IMG4692.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-862.9129481582213IMG4693.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-372.86574564465633IMG4694.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-395.1119843487949IMG4695.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-189.0835523488734IMG4696.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-199.91380067760323IMG4697.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-419.1895119450997IMG4698.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-582.3526512727489IMG4699.JPG",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-135.4311063732716IMG4700.JPG",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-208.2514468097918IMG4701.JPG",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original893029443-661.8573909198333IMG4703.JPG",
+          "subtitle": "Banheiro",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com 2 quartos para aluguel.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": []
 }
