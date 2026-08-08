@@ -40093,6 +40093,94 @@
       "notes": "Alugar apartamento na Vila Olímpia: 2 quartos, 1 suíte.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895649093",
+      "title": "QuintoAndar 895649093",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Antônio Cardoso",
+      "url": "https://www.quintoandar.com.br/imovel/895649093/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3500,
+      "condo": 6,
+      "iptu": 4,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.43,
+      "lat": -23.6011418,
+      "lng": -46.6775346,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-353.8078757233265f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-975dc34d-f584-40b5-a4ce-4251e6a1bf1d.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-752.0401885693216f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-4930fb27-bd50-446f-86a2-3f96b6965f47.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-710.9529293159147f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-71dc7182-796a-4a4d-9e8f-0f18094b11ce.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-941.5010607564374f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-efbc4362-d9cf-4d61-adfe-36a23692bd2b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-222.118962049772f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-d165d587-60a6-442e-93b8-77deab5282c2.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-696.3220046938534f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-ce6cdd3f-e9ec-4524-b7f6-a0b80b1b09be.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-149.00681722640607f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-a44a775e-d7a1-4622-9133-8dd063594d60.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895649093-878.517796012141f2bafc5c-59af-4003-af4c-bfc4ef67fe4d-LEAD3P-95219c7d-4bdb-4b1f-aa95-7c43ef34625e.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -40108,5 +40196,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-08T01:16:15.411Z"
+  "updated_at": "2026-08-08T18:31:51.942Z"
 }
