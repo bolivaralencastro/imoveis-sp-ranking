@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-10T18:51:58.493Z",
+  "scraped_at": "2026-08-11T01:20:56.746Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,36 +51,36 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 38,
+  "total_candidates_checked": 76,
   "total_passed": 1,
-  "total_failed": 0,
+  "total_failed": 1,
   "homes": [
     {
-      "id": "895115370",
-      "title": "QuintoAndar 895115370",
+      "id": "895647463",
+      "title": "QuintoAndar 895647463",
       "neighborhood": "Itaim Bibi",
-      "street": "Rua Viradouro",
-      "url": "https://www.quintoandar.com.br/imovel/895115370/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 5100,
-      "condo": 1266,
-      "iptu": 38,
-      "area": 95,
+      "street": "Rua Urimonduba",
+      "url": "https://www.quintoandar.com.br/imovel/895647463/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5500,
+      "condo": 1162,
+      "iptu": 230,
+      "area": 87,
       "bedrooms": 3,
-      "bathrooms": 2,
+      "bathrooms": 1,
       "parking": 1,
       "acceptsPets": true,
       "furnished": false,
       "features": {
-        "balcony": true,
+        "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
-        "gasShower": false,
+        "gasShower": true,
         "box": true,
         "bedroomCabinets": true,
         "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
+        "kitchenCabinets": false,
+        "pool": false,
         "gym": false,
         "partyRoom": true,
         "gameRoom": false,
@@ -94,75 +94,77 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.41,
-      "lat": -23.5855661,
-      "lng": -46.6807205,
+      "targetDistanceKm": 1.54,
+      "lat": -23.5779924,
+      "lng": -46.6729809,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-206.664410864106520250923150159.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-685.2777796256912IMG1859.jpeg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-399.6778274778647520250923150214.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-508.8991217280413IMG1860.jpeg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-878.709352899047420250923150229.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-984.380033589061IMG1861.jpeg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-485.954514152503720250923150251.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-770.1056316258807IMG1862.jpeg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-371.6801270907701620250923150302.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-480.60374882984104IMG1864.jpeg",
+          "subtitle": "Vista",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-134.6152211979881820250923150359.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-090-108.59227846090968IMG1865.jpeg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-872.625426729280320250923150340.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-599.5260761457891IMG1867.jpeg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-431.02605694078820250923150350.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-853.9523270966848IMG1866.jpeg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-23.93691199171954420250923150328.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-347.79088751024267IMG1870.jpeg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-24.72095699923693220250923150418.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-487.79345285763634IMG1869.jpeg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-209.636827683745620250923150426.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-475.3742300220698IMG1868.jpeg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895115370-513.041916040454720250923150443.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/original895647463-883.7152478168226IMG1872.jpeg",
+          "subtitle": "Banheiro",
           "cover": false
         }
       ],
-      "notes": "Apartamento para alugar com 3 quartos, varanda e permite animais de estimação. Ideal para quem busca conforto.",
+      "notes": "Alugar apartamento no Itaim Bibi com 3 quartos.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
   ],
-  "failed_ids": []
+  "failed_ids": [
+    "894844774"
+  ]
 }
