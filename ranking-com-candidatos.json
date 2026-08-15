@@ -41585,6 +41585,114 @@
       "notes": "Aluguel: Apartamento mobiliado com varanda na Vila Olímpia, 2 quartos.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895270803",
+      "title": "QuintoAndar 895270803",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Doutor Guilherme Bannitz",
+      "url": "https://www.quintoandar.com.br/imovel/895270803/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 7000,
+      "condo": 938,
+      "iptu": 268,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.96,
+      "lat": -23.5892819,
+      "lng": -46.6727373,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-753.7827445861526IMG4283.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-840.4150867202217IMG4284.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-465.56680829530075IMG4285.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-919.346145324879IMG4286.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-477.6254165230672IMG4288.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-704.2007737065877IMG4264.JPG",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-137.57901004441743IMG4265.JPG",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-551.6534935681974IMG4266.JPG",
+          "subtitle": "Quarto 1 - Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-609.5279410569698IMG4267.JPG",
+          "subtitle": "Quarto 1 - Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-474.40589908743846IMG4268.JPG",
+          "subtitle": "Quarto 1 - Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-756.9875495506703IMG4269.JPG",
+          "subtitle": "Quarto 1 - Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895270803-100.0988130849303IMG4270.JPG",
+          "subtitle": "Banheiro da Suíte 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado para alugar no Itaim Bibi, 2 quartos, aceita animais.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -41600,5 +41708,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-15T01:00:05.691Z"
+  "updated_at": "2026-08-15T18:22:04.099Z"
 }
