@@ -43087,6 +43087,978 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895633374",
+      "title": "QuintoAndar 895633374",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Silva Correia",
+      "url": "https://www.quintoandar.com.br/imovel/895633374/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6500,
+      "condo": 900,
+      "iptu": 18,
+      "area": 64,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.74,
+      "lat": -23.5942766,
+      "lng": -46.6776563,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-872.268679417575192995624-fcdd-4026-856f-f49da034d98f-LEAD3P-811b1fc8-163c-453c-abe3-c50d7bfb0648.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-557.926040841742792995624-fcdd-4026-856f-f49da034d98f-LEAD3P-b56b7a78-2831-4b7f-ab22-cf966b48ff1c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-743.587138128978592995624-fcdd-4026-856f-f49da034d98f-LEAD3P-9e8a2dda-d8f4-437f-ba98-3e469c65251b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-590.685636237866492995624-fcdd-4026-856f-f49da034d98f-LEAD3P-9708bf08-c165-42f5-80ec-1ae00eb289a9.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-826.58661135302892995624-fcdd-4026-856f-f49da034d98f-LEAD3P-324f70c5-74a0-4bd6-8ab1-fab3f592b711.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-395.3650101908864492995624-fcdd-4026-856f-f49da034d98f-LEAD3P-bc0a6d0f-6e40-48b3-829a-8954437a4a23.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-445.105229376826692995624-fcdd-4026-856f-f49da034d98f-LEAD3P-435a02c7-61e9-4100-91fe-00f1ca6b159e.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-997.637968952281892995624-fcdd-4026-856f-f49da034d98f-LEAD3P-6a9fd042-10e9-46f5-9d3f-35ebf1200fd4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-571.591351096291892995624-fcdd-4026-856f-f49da034d98f-LEAD3P-80010e8a-4602-4a2e-97d5-028a2d363ccb.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-484.947436340020792995624-fcdd-4026-856f-f49da034d98f-LEAD3P-5dc4654e-88e0-4806-a530-b904294d607b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-27.6414974442902392995624-fcdd-4026-856f-f49da034d98f-LEAD3P-3600bc55-73c2-4741-aa64-f71be7444360.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633374-174.7378414737572792995624-fcdd-4026-856f-f49da034d98f-LEAD3P-e0557fb0-cca5-4b7a-9db5-9a7782fa66c3.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895634211",
+      "title": "QuintoAndar 895634211",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Comendador Miguel Calfat",
+      "url": "https://www.quintoandar.com.br/imovel/895634211/alugar/apartamento-3-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 5500,
+      "condo": 1006,
+      "iptu": 36,
+      "area": 78,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.92,
+      "lat": -23.5928536,
+      "lng": -46.674173,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-194.331082802936257c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-d8c75c6b-62a9-431f-9e18-2592d83c82a4.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-664.930945771856557c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-f4a3246c-85d8-408a-8cd5-daf3f3da7959.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-638.733933962161457c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-f20777e2-46b9-4e3e-9984-a6f2da3ade7a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-87.1473152040349557c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-634794d9-48fe-4649-a862-d84e6b58a2a7.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-827.118185640156957c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-b9b026d9-98de-4a7f-8938-36dfd16d9511.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-903.525579788288257c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-a1529d57-4eb9-4a06-85c3-b861ebe833b2.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-336.8860243943554557c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-d5c7f3f7-70d6-47a0-8c34-dc1846137905.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-706.091173920037257c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-8cae392a-a1d7-411b-983c-c36c4edc914c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-675.28634123303257c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-cee359fe-e297-4ef5-aa71-dce1c51b2bcd.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-299.32020557828957c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-41903e05-e08a-4e45-a476-19ee2b6ed479.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-429.1323215803696557c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-b566f39e-39ef-406a-9a38-94830d18f2ba.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634211-626.110378385287257c1e42b-29d4-481b-85e8-e17258281e40-LEAD3P-28eec39b-21b6-4abc-a082-9f04d5c8e524.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895634201",
+      "title": "QuintoAndar 895634201",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Dona Luísa Júlia",
+      "url": "https://www.quintoandar.com.br/imovel/895634201/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 7000,
+      "condo": 1800,
+      "iptu": 54,
+      "area": 120,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.93,
+      "lat": -23.5857207,
+      "lng": -46.6737444,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-560.874423572940853443523-745d-43d1-9001-6fcdb213c304-LEAD3P-45670f10-43ce-4cbe-8078-b91515967ae0.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-480.5571439322128553443523-745d-43d1-9001-6fcdb213c304-LEAD3P-63140c6b-7e07-4317-8e53-23da92473ea1.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-368.4567806109280453443523-745d-43d1-9001-6fcdb213c304-LEAD3P-b72041fe-9598-4e49-9c39-d96acb764c15.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-524.975630456164653443523-745d-43d1-9001-6fcdb213c304-LEAD3P-cee586c8-b7c0-446c-a1ec-f06421e4e9cb.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-600.752708489937353443523-745d-43d1-9001-6fcdb213c304-LEAD3P-b47a91e6-6f9a-4d19-bb05-6a004d5f8d33.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-715.966566848670553443523-745d-43d1-9001-6fcdb213c304-LEAD3P-0bc85102-d60d-49a3-b807-33e4654e0fdd.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-652.234376246408653443523-745d-43d1-9001-6fcdb213c304-LEAD3P-8821e17c-de77-4b29-ba9c-0cad724b8dd9.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-964.223001324158253443523-745d-43d1-9001-6fcdb213c304-LEAD3P-0e0c8534-24f4-4b99-a1d8-0a46267665ff.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-732.59564543382153443523-745d-43d1-9001-6fcdb213c304-LEAD3P-00793f00-d5a8-4d53-ba96-5c943345bf8f.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-632.701041990136353443523-745d-43d1-9001-6fcdb213c304-LEAD3P-da145904-aeaf-43ed-8a06-d4a708bae422.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-351.44904903396153443523-745d-43d1-9001-6fcdb213c304-LEAD3P-4e25d78d-7fcf-4b9b-b6c1-c99f407a50fb.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634201-873.137532417047453443523-745d-43d1-9001-6fcdb213c304-LEAD3P-2ab5dce5-f7d8-44bd-ab99-3e415bf340c0.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895633791",
+      "title": "QuintoAndar 895633791",
+      "neighborhood": "Itaim Bibi",
+      "street": "Avenida Doutor Cardoso de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/895633791/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6500,
+      "condo": 1251,
+      "iptu": 47,
+      "area": 85,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.09,
+      "lat": -23.5986749,
+      "lng": -46.683606,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-213.78901865294574ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-0087b5fa-be9c-4251-933b-d5bfd422bd99.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-126.52879093263924ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-14a6470f-206f-40b4-b126-935ca35bb6da.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-656.4202086402247ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-bc7deab1-d09b-49fc-ac51-ed2537dee1fa.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-937.0262602416839ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-75e3641b-b4c5-4664-87c8-0747e03f98cd.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-739.5176075492245ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-1e57e9e1-6847-4b34-824d-f18ea79db81d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-717.7329153869158ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-3998b7c6-f624-4c7a-abd1-8dded699a289.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-85.06076380376915ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-007eece1-856f-43f2-9f0e-3fbd03da41b4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-87.60287231071906ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-d6c905f0-a67a-48a8-a247-6d4809b0a15d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-502.5983218919932ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-2ac5aa38-526b-43bb-86ee-06d3a678262c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-186.38279510200707ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-750da9e6-e3bc-44fa-a84d-f0ce2e522379.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-230.89342627408126ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-288e4abd-72cf-4728-87b3-b42bd6650fc4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633791-203.61938723953233ae7c9c06-c3e5-47ad-b4bd-4005547cc9d3-LEAD3P-252eab4d-24da-4e9e-ad30-4840f182678e.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895633499",
+      "title": "QuintoAndar 895633499",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua João Lourenço",
+      "url": "https://www.quintoandar.com.br/imovel/895633499/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 5000,
+      "condo": 1200,
+      "iptu": 31,
+      "area": 85,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.08,
+      "lat": -23.5893888,
+      "lng": -46.6715295,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-525.8648500195891f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-aef69f3d-e750-4c93-b7f1-5773e64e0a5c.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-473.75788206043177f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-5b1a3eb4-81ed-4ac0-9bb5-c6c9fee94de2.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-87.02538101605862f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-3d18e9d6-816f-4d9f-b402-cd9417a9e7e7.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-313.7534834076707f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-4eb86e56-ede3-4b57-b71b-94c496bbd0aa.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-164.74740429432754f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-70186ca5-7835-410e-bb50-829bca9ed1b3.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-232.1083028664337f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-47bf51c5-e6f7-494c-88ba-1eb219fe0b5d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-717.2818309429258f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-87694e66-fc64-44fe-b1fb-5655311e9728.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-423.6367896253628f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-78360e1d-1dfa-4eaa-94aa-05891d746bed.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-474.92606521270454f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-3245ed19-c0aa-4308-841d-b56397cc47b9.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-894.775185827062f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-f37577bf-1022-42f6-908c-41ae6adb1878.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-335.803666852156f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-69f97046-dc08-4b26-a2c3-7972e2c83973.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633499-237.715934441739f11e24eb-3ee8-4260-ad78-4f34012b90b0-LEAD3P-0e13366b-34e8-4a34-94e8-444d01a7fbbc.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua João Lourenço"
+    },
+    {
+      "id": "895634018",
+      "title": "QuintoAndar 895634018",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Pedroso Alvarenga",
+      "url": "https://www.quintoandar.com.br/imovel/895634018/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 7500,
+      "condo": 1176,
+      "iptu": 30,
+      "area": 130,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.28,
+      "lat": -23.5806043,
+      "lng": -46.6735445,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-20.59038897395404b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-06fd0b2b-f8c5-4773-b6ba-4c2b3ab71d14.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-207.24880993346784b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-9af1350a-68a0-4535-92b1-03cfc0b79cf1.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-739.0064152627867b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-bff8794e-f559-4676-89e5-760bc4caa089.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-230.97712766360712b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-d70f42ff-b680-4cbe-bbf7-650219cd205a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-633.3035887284623b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-097bf93a-1bc9-428d-9980-1358fb0811ba.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-690.7687663639726b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-d3bcbc31-d8f9-45c9-86f9-fa509a1dec6f.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-758.9158954928358b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-05a71cd7-c38a-4256-b361-4c396d4736d4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-880.7155261263496b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-1a22be9f-e5bf-41b8-8954-2ca10eb46486.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-966.4584360332701b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-174a94bb-c873-49fa-b2db-87221d4f099a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-172.04306228144094b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-8993f1c7-6a88-43e5-a878-6a70fc2c24f5.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-589.7809786270534b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-b49f919a-39e6-447c-aedf-a142d4b82fae.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634018-286.36698742765265b5939ae5-d591-4c57-af9d-5d2c6bff2fb7-LEAD3P-67105c24-be0b-428a-b494-c8aee6beb275.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895634154",
+      "title": "QuintoAndar 895634154",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Helena",
+      "url": "https://www.quintoandar.com.br/imovel/895634154/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6900,
+      "condo": 1470,
+      "iptu": 43,
+      "area": 95,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": true,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.53,
+      "lat": -23.5927276,
+      "lng": -46.6854114,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-220.4491618799822875758fd-96e2-418b-aec0-45696a322170-LEAD3P-7485c874-3708-44cb-8389-93d60202f689.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-625.744838026496875758fd-96e2-418b-aec0-45696a322170-LEAD3P-f97145a3-3169-42f2-bdce-87a6d3da77ee.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-741.2733871180093875758fd-96e2-418b-aec0-45696a322170-LEAD3P-6347f3c5-3856-45eb-9616-a8ab15ca6e38.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-571.5896206083269875758fd-96e2-418b-aec0-45696a322170-LEAD3P-a0409eeb-d4cd-4546-835f-3ab67de0e06f.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-76.99211067964995875758fd-96e2-418b-aec0-45696a322170-LEAD3P-6bbe86e5-5f9e-4e8d-ab52-5624087c445f.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-274.59798873238907875758fd-96e2-418b-aec0-45696a322170-LEAD3P-47a5b771-d27d-4987-a4f7-b18eb2232c81.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-334.73451521786745875758fd-96e2-418b-aec0-45696a322170-LEAD3P-fc4d40aa-11ea-4e7a-a51b-aea6558d2646.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-296.1106263858989875758fd-96e2-418b-aec0-45696a322170-LEAD3P-a0c23d07-77e4-4bea-a4bb-dd92bd998d29.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-146.24572740279473875758fd-96e2-418b-aec0-45696a322170-LEAD3P-7ec26ff5-7b13-4504-b0ab-e90c0322b277.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-781.5268418826452875758fd-96e2-418b-aec0-45696a322170-LEAD3P-8364de78-2a90-48aa-bc0e-dbbff3fbcb80.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-498.93365760840146875758fd-96e2-418b-aec0-45696a322170-LEAD3P-69cd194a-9684-406d-9d3b-77687878a74f.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634154-811.0153435537937875758fd-96e2-418b-aec0-45696a322170-LEAD3P-7c0d51f8-95de-4a4e-8451-94c61d161b17.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895634053",
+      "title": "QuintoAndar 895634053",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/895634053/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4200,
+      "condo": 1650,
+      "iptu": 5,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.25,
+      "lat": -23.5995624,
+      "lng": -46.6779644,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-749.52340371840974c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-59070b98-cedf-4532-b0aa-fbf81bd19695.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-422.18859536941284c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-9d8d353e-8d83-4a03-947d-544e03757247.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-660.90984593848444c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-a07b1e9e-d510-485c-a8e0-f52bcd1a6cc7.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-405.278865539371344c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-9ef97fc7-af4a-4132-9539-36deadf65d2b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-6.69444060653467954c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-37055cfe-faf3-4031-a7f7-b784fe32a9a0.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-267.601157844857144c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-066f2b22-404c-418d-bc41-96902869b0d4.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-393.40833501972134c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-ad92d902-c6b5-4074-88b1-86e4561b6e80.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-510.39497132611494c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-7b534c29-3b9b-47e2-8605-e39ffeb368d8.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-711.44000113396934c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-34b52bb2-f59a-4295-925c-1dbd07e3d559.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-389.43703254853994c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-6d2fbdc4-92d4-4527-8e7a-deb0d5f97964.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-857.70880154597994c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-ca0656a3-592c-4309-aab9-b2e0a817e495.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895634053-695.22517941522784c38b2bf-a62f-4524-8f5e-4fdf27c7ce90-LEAD3P-86a964d5-3ad0-4ec8-80e3-db613b281d71.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895633459",
+      "title": "QuintoAndar 895633459",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Pedroso Alvarenga",
+      "url": "https://www.quintoandar.com.br/imovel/895633459/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 7500,
+      "condo": 1376,
+      "iptu": 30,
+      "area": 130,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.28,
+      "lat": -23.5807025,
+      "lng": -46.6733864,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-676.48372418653355f01c060-2fef-491b-806a-f196db744a39-LEAD3P-7e16990f-81df-4bb2-8fe0-82e3914a9905.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-231.852822249975055f01c060-2fef-491b-806a-f196db744a39-LEAD3P-b445fc5b-ba25-49a6-9c2c-f44ace2a9d8b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-77.891213133788775f01c060-2fef-491b-806a-f196db744a39-LEAD3P-3b235cde-2c0a-431e-b8c8-3c344981f79c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-133.876346044956145f01c060-2fef-491b-806a-f196db744a39-LEAD3P-8d8b875b-1e12-4cac-ae19-f0fcce5a0c71.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-943.11349651119955f01c060-2fef-491b-806a-f196db744a39-LEAD3P-6f7fe3a4-1dc3-4529-b44c-8e336371668a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-623.98495284041385f01c060-2fef-491b-806a-f196db744a39-LEAD3P-83e9cec8-f01e-47da-8ba5-ed76b3317f99.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-198.492415976639025f01c060-2fef-491b-806a-f196db744a39-LEAD3P-6e8ae995-de66-4d3a-a264-85fe5d01ba56.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-999.1293975387355f01c060-2fef-491b-806a-f196db744a39-LEAD3P-0758d164-e315-41ce-af4a-b898518bf586.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-602.39496831549125f01c060-2fef-491b-806a-f196db744a39-LEAD3P-9ef62e65-2d47-49df-9073-c4a0ed6dfaaa.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-615.5457205077045f01c060-2fef-491b-806a-f196db744a39-LEAD3P-89608e0d-c7a5-4512-9da2-172885acb2fd.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-175.537349247622445f01c060-2fef-491b-806a-f196db744a39-LEAD3P-e94bf0a2-f9fc-45ac-be96-672285e11a1d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895633459-677.17176483211075f01c060-2fef-491b-806a-f196db744a39-LEAD3P-a05a7e01-6ca5-4af8-804d-a7c517f82735.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -43102,5 +44074,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-19T18:29:05.310Z"
+  "updated_at": "2026-08-20T01:01:07.333Z"
 }
