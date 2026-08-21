@@ -46759,6 +46759,438 @@
       "notes": "",
       "preferredStreet": true,
       "preferredStreetName": "Rua Clodomiro Amazonas"
+    },
+    {
+      "id": "895671014",
+      "title": "QuintoAndar 895671014",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/895671014/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5500,
+      "condo": 1215,
+      "iptu": 180,
+      "area": 60,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.97,
+      "lat": -23.5977404,
+      "lng": -46.6819714,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-341.2922246876478IMG1828.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-414.61200835678716IMG1829.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-412.67561897990646IMG1830.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-530.749381050888IMG1831.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-829.3090272284006IMG1832.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-157.9970645449701IMG1833.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-841.8295181493386IMG1837.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-748.9610520902278IMG1838.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-217.86780355517266IMG1839.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-287.55487662779876IMG1840.jpg",
+          "subtitle": "Sala de Jantar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-711.3953768970842IMG1834.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895671014-955.9758508527794IMG1835.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com 2 quartos para aluguel, aceita animais de estimação.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895459172",
+      "title": "QuintoAndar 895459172",
+      "neighborhood": "Jardins",
+      "street": "Alameda Joaquim Eugênio de Lima",
+      "url": "https://www.quintoandar.com.br/imovel/895459172/alugar/apartamento-2-quartos-jardins-sao-paulo",
+      "rent": 4700,
+      "condo": 2058,
+      "iptu": 795,
+      "area": 86,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 3.52,
+      "lat": -23.5701449,
+      "lng": -46.6544186,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-29.41361306384116DSCF0337copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-234.92921188937464DSCF0338copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-354.84989896840636DSCF0339copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-418.8093150283463DSCF0340copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-548.3638624696301DSCF0341copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-651.1365826034025DSCF0342copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-919.503547373627DSCF0343copy.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-0.41963825727742154DSCF0344copy.jpg",
+          "subtitle": "Sala/Cozinha - Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-659.5703186340048DSCF0345copy.jpg",
+          "subtitle": "Sala/Cozinha - Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-25.660488837652153DSCF0346copy.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-952.9765511174329DSCF0347copy.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895459172-834.301711858105DSCF0348copy.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "Localizado no prestigiado bairro dos Jardins, em São Paulo, este apartamento oferece um espaço de 86 metros quadrados, perfeito para quem busca conforto e praticidades urbanas. Com dois dormitórios, incluindo um closet, e dois banheiros, o imóvel é ideal para famílias ou casais que valorizam o espaço e a organização. A propriedade também conta com duas vagas de estacionamento, um diferencial importante na região. Os moradores podem desfrutar de uma piscina no condomínio, proporcionando momentos de lazer e relaxamento sem sair de casa. Além disso, a localização é privilegiada, com fácil acesso a importantes pontos de interesse. A estação Brigadeiro e a estação Trianon - Masp estão nas proximidades, facilitando o deslocamento pela cidade. Para os amantes de compras e entretenimento, o Top Center Shopping e o Shopping Veneza são opções convenientes e próximas. Para os entusiastas de esportes, o Estádio Ícaro de Castro Melo está a uma curta distância, oferecendo diversas atividades esportivas. Este apartamento no Jardins combina a tranquilamente de um bairro residencial com a conveniência de estar próximo a uma variedade de serviços e opções de lazer, tornando-o uma excelente escolha para quem deseja viver em São Paulo.",
+      "preferredStreet": true,
+      "preferredStreetName": "Alameda Joaquim Eugênio de Lima"
+    },
+    {
+      "id": "895669773",
+      "title": "QuintoAndar 895669773",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/895669773/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3500,
+      "condo": 1769,
+      "iptu": 399,
+      "area": 52,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.22,
+      "lat": -23.599895,
+      "lng": -46.6833332,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-248.68769240274912IMG1292117.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-300.10964481938373IMG1295119.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-947.1615621409809IMG1294118.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-339.63467112978964IMG1296120.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-38.2173179837616IMG1297121.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-290.82085957196057IMG1298122.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-120.35926773190286IMG1300124.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-321.22718552612685IMG1302125.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-765.9300768892163IMG1299123.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-995.8302952496443IMG1303126.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-375.56515605262786IMG1304127.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895669773-132.88628862252781IMG1307130.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento mobiliado na Vila Olímpia, 2 quartos, piscina no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "894185534",
+      "title": "QuintoAndar 894185534",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Cabo Verde",
+      "url": "https://www.quintoandar.com.br/imovel/894185534/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5900,
+      "condo": 905,
+      "iptu": 204,
+      "area": 110,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.97,
+      "lat": -23.605909,
+      "lng": -46.6764926,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-639.69999693880861Sala3.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-376.86389059374371Sala1.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-527.51567152135611Sala2.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-991.6812751402171Sala4.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-603.40398614241491Sala5.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-389.0044497814561Sala6.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-700.56786488707981Sala7.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-388.451112523127561Sala8.jpg",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-489.00518354189032Cor1.jpg",
+          "subtitle": "Corredor para os quartos",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-839.41836889770132Cor2.jpg",
+          "subtitle": "Corredor para os quartos",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-956.36455640566362Q11.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894185534-975.09279086370472Q12.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -46774,5 +47206,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-21T01:04:17.028Z"
+  "updated_at": "2026-08-21T06:40:30.929Z"
 }
