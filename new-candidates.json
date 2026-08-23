@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-23T06:32:57.292Z",
+  "scraped_at": "2026-08-23T12:30:16.604Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 3,
-  "total_passed": 0,
+  "total_candidates_checked": 5,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "892804241",
+      "title": "QuintoAndar 892804241",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/892804241/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4250,
+      "condo": 0,
+      "iptu": 0,
+      "area": 66,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.33,
+      "lat": -23.6004112,
+      "lng": -46.6782368,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-254.361471218040321Sala1.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-401.32720681084181Sala2.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-703.40704165610591Sala3.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-756.3318020749491Sala4.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-230.0893931865372Corredor1.jpg",
+          "subtitle": "Corredor para os quartos",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-94.242767900303832Corredor2.jpg",
+          "subtitle": "Corredor para os quartos",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-429.68653479457022Quarto11.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-312.88811018863682Quarto12.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-941.67430561528832Quarto13.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-84.195262850242812Quarto14.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-979.43113306602872Quarto15.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892804241-142.27825881507852Quarto16.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com 2 quartos para aluguel. Aceitam animais de estimação. Ideal para quem busca praticidades.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
