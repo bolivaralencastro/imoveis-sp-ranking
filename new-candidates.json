@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-24T01:01:12.983Z",
+  "scraped_at": "2026-08-24T06:47:39.637Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 36,
-  "total_passed": 1,
+  "total_candidates_checked": 6,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "893743497",
-      "title": "QuintoAndar 893743497",
-      "neighborhood": "Vila Nova Conceição",
-      "street": "Rua Comendador Miguel Calfat",
-      "url": "https://www.quintoandar.com.br/imovel/893743497/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 4200,
-      "condo": 1352,
-      "iptu": 300,
-      "area": 54,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": true,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": true,
-        "privatePool": true,
-        "airConditioning": false,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": true,
-        "playground": true,
-        "sauna": true,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.9,
-      "lat": -23.5930046,
-      "lng": -46.6743993,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-413.413846042568IMG3817.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-229.56465150268468IMG3818.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-596.4079765525191IMG3819.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-147.31715316381522IMG3820.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-494.64887061761897IMG3821.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-933.4473907108147IMG3822.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-249.5696429453188IMG3823.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-205.52476064542546IMG3824.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-860.3529673082558IMG3825.jpg",
-          "subtitle": "Corredor",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-584.0038154713334IMG3826.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-163.70476590770645IMG3827.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893743497-109.36014755143175IMG3828.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "Localizado na charmosa Vila Nova Conceição, em São Paulo, este apartamento de 54 m² oferece conforto e praticidades. Com 2 quartos, o imóvel é ideal para quem busca um espaço funcional e bem planejado. O apartamento já vem mobiliado, garantindo maior comodismo para quem deseja se mudar sem preocupações. Além disso, conta com uma vaga de garagem, proporcionando mais conveniência no dia a dia. Um dos destaques é a varanda gourmet, perfeita para momentos de lazer e refeições ao ar livre. A localização é privilegiada, com proximidades a importantes áreas verdes, como a Praça Pereira Coutinho, o Parque do Povo e o icônico Parque Ibirapuera, ideais para atividades ao ar livre e lazer em família. Este imóvel é uma excelente oportunidade para quem busca qualidade de vida em uma das regiões mais valorizadas de São Paulo.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
