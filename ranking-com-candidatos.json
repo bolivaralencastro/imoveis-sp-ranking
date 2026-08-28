@@ -49625,6 +49625,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895685312",
+      "title": "QuintoAndar 895685312",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Guaraiúva",
+      "url": "https://www.quintoandar.com.br/imovel/895685312/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5900,
+      "condo": 1753,
+      "iptu": 495,
+      "area": 79,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 2,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 2.46,
+      "lat": -23.6102495,
+      "lng": -46.68865,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-525.217886402801920260827122055.jpg",
+          "subtitle": "Sacada",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-321.1652011810952620260827122114.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-769.528097265633820260827122119.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-738.067367152294220260827121953.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-129.2949246967747320260827122031.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-65.0301831665140920260827122046.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-145.990273886878720260827122051.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-726.635391010546320260827122107.jpg",
+          "subtitle": "Vista Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-350.2041451966926520260827121852.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-217.8356536729665420260827121917.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-257.780560686628120260827121924.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895685312-865.400764560909620260827121844.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel com 3 quartos e piscina no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -49640,5 +49748,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-08-27T21:43:30.512Z"
+  "updated_at": "2026-08-28T08:45:49.220Z"
 }
