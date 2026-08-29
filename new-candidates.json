@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-29T12:11:05.248Z",
+  "scraped_at": "2026-08-29T20:21:21.214Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,115 +51,115 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 8,
+  "total_candidates_checked": 50,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895082577",
-      "title": "QuintoAndar 895082577",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Pedroso Alvarenga",
-      "url": "https://www.quintoandar.com.br/imovel/895082577/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 7430,
-      "condo": 1000,
-      "iptu": 237,
-      "area": 140,
+      "id": "893893958",
+      "title": "QuintoAndar 893893958",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Fiandeiras",
+      "url": "https://www.quintoandar.com.br/imovel/893893958/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4000,
+      "condo": 480,
+      "iptu": 20,
+      "area": 60,
       "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
+      "bathrooms": 1,
+      "parking": 0,
       "acceptsPets": true,
       "furnished": false,
       "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
+        "balcony": false,
+        "gourmetBalcony": true,
+        "privatePool": true,
         "airConditioning": false,
-        "gasShower": true,
+        "gasShower": false,
         "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
         "kitchenCabinets": true,
-        "pool": true,
+        "pool": false,
         "gym": false,
-        "partyRoom": true,
+        "partyRoom": false,
         "gameRoom": false,
         "grill": false,
         "playground": false,
         "sauna": false,
         "doorman24h": true,
-        "accessibleParking": true
+        "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.47,
-      "lat": -23.5801521,
-      "lng": -46.6713399,
+      "targetDistanceKm": 0.77,
+      "lat": -23.5957625,
+      "lng": -46.6806356,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-668.1277910346095IMG0078.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-522.805482437529801Sala.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-877.2619903852617IMG0079.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-801.14450403727502Sala.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-783.3493522148636IMG0080.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-938.197821140087403Sala.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-83.1582099931304IMG0081.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-985.518864160241304Sala.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-81.73747938787824IMG0082.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-350.778866149009105Sala.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-671.2379401108313IMG0083.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-224.77364970476188IMG0086.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-693.2003674127711IMG0087.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-246.80387644394818IMG0084.jpg",
-          "subtitle": "Varanda da Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-160.04100744618975IMG0085.jpg",
-          "subtitle": "Varanda da Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-166.7028617496451IMG0088.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-579.584381616364606Quarto1.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895082577-983.3100359157838IMG0089.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893893958-232.4239476220244607Quarto1.jpg",
           "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893958-846.726892898569908Quarto1.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893958-572.088453977341609Quarto1.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893958-62.0536429690918810Quarto2.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893958-513.381378157426611Quarto2.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893893958-370.265264882641312Quarto2.jpg",
+          "subtitle": "Quarto 2",
           "cover": false
         }
       ],
-      "notes": "Apartamento com 2 quartos disponível para alugar. Ideal para quem busca conforto e praticidades.",
+      "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
