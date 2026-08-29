@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-28T21:43:04.942Z",
+  "scraped_at": "2026-08-29T05:23:11.961Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,11 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 65,
-  "total_passed": 1,
-  "total_failed": 0,
-  "homes": [
-    {
-      "id": "895694037",
-      "title": "QuintoAndar 895694037",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua do Rocio",
-      "url": "https://www.quintoandar.com.br/imovel/895694037/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 4300,
-      "condo": 620,
-      "iptu": 130,
-      "area": 70,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": true,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": true,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": true,
-        "grill": false,
-        "playground": true,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.58,
-      "lat": -23.5938183,
-      "lng": -46.6843423,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-17.0516397595527079b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-99fb255c-6752-41fd-90a5-551ec32d32d4.jpg",
-          "subtitle": "",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-526.29061534701189b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-d4fbee14-46b0-436e-8867-84bbb0ef691f.jpeg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-428.02240756577679b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-367c0c64-438b-4ab8-aff2-1f8f92b28dfb.jpeg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-466.05633921584779b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-5683ae62-89cf-482f-9ebe-8f8517025297.jpg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-904.98424483611689b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-8e99f97c-71f5-4891-af83-51c26531199c.jpg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-844.64365267665239b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-e073fea3-cc9c-4e63-a474-5e648ea3809f.jpg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-598.91413996819189b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-5a63e4cb-44ac-4864-86b0-330aebf4b34f.jpg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-23.083387372805919b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-a17bc929-5a7f-4a0d-b21e-b0dac10a1a2f.jpeg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-781.53870491342339b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-01c0ba01-7727-4acc-a9c8-c3203e4a329f.jpg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-751.55729848885049b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-55b4d1a9-3e20-42f5-9fec-5d648aeb59f6.jpeg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-675.48808971180619b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-655aa6fa-c467-4cfc-8ff5-7cba487aae3e.jpg",
-          "subtitle": "",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895694037-143.033885752440149b258927-7cce-46b1-8330-f8db7a773b1b-LEAD3P-f31e6d37-300a-4783-80b7-bea00c747e87.jpeg",
-          "subtitle": "",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
-  "failed_ids": []
+  "total_candidates_checked": 56,
+  "total_passed": 0,
+  "total_failed": 1,
+  "homes": [],
+  "failed_ids": [
+    "895682045"
+  ]
 }
