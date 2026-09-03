@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-03T15:42:29.323Z",
+  "scraped_at": "2026-09-03T20:27:15.344Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,120 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 28,
-  "total_passed": 1,
-  "total_failed": 1,
-  "homes": [
-    {
-      "id": "893441816",
-      "title": "QuintoAndar 893441816",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Alvorada",
-      "url": "https://www.quintoandar.com.br/imovel/893441816/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 4909,
-      "condo": 1000,
-      "iptu": 250,
-      "area": 60,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": true,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": true,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": true,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.92,
-      "lat": -23.6052998,
-      "lng": -46.6760229,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-382.52617833219257418161.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-901.62115455937017418162.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-475.31782163874457418163.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-459.935156304996047418164.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-12.063214144384167418165.jpg",
-          "subtitle": "Sacada",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-606.19637416679437418166.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-81.35592843161017418167.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-49.134321012318967418168.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-801.60805633031847418169.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-280.8651181954957774181610.jpg",
-          "subtitle": "Quarto",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-94.7968801635227374181611.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893441816-254.93424985265974181612.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
-  "failed_ids": [
-    "892801639"
-  ]
+  "total_candidates_checked": 57,
+  "total_passed": 0,
+  "total_failed": 0,
+  "homes": [],
+  "failed_ids": []
 }
