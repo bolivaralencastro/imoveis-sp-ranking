@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-18T02:55:03.843Z",
+  "scraped_at": "2026-09-18T10:27:34.071Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,42 +51,42 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 37,
+  "total_candidates_checked": 7,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "893795885",
-      "title": "QuintoAndar 893795885",
+      "id": "893269528",
+      "title": "QuintoAndar 893269528",
       "neighborhood": "Vila Nova Conceição",
-      "street": "Rua Doutor Sodré",
-      "url": "https://www.quintoandar.com.br/imovel/893795885/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 4917,
-      "condo": 1030,
-      "iptu": 347,
-      "area": 70,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
+      "street": "Rua Visconde da Luz",
+      "url": "https://www.quintoandar.com.br/imovel/893269528/alugar/apartamento-3-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4000,
+      "condo": 1401,
+      "iptu": 368,
+      "area": 79,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 2,
       "acceptsPets": true,
-      "furnished": false,
+      "furnished": true,
       "features": {
         "balcony": true,
-        "gourmetBalcony": true,
-        "privatePool": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
         "airConditioning": false,
         "gasShower": true,
         "box": true,
         "bedroomCabinets": true,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
-        "pool": true,
-        "gym": true,
+        "pool": false,
+        "gym": false,
         "partyRoom": true,
         "gameRoom": false,
         "grill": false,
-        "playground": true,
-        "sauna": true,
+        "playground": false,
+        "sauna": false,
         "doorman24h": true,
         "accessibleParking": true
       },
@@ -94,68 +94,68 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.82,
-      "lat": -23.5919649,
-      "lng": -46.6747971,
+      "targetDistanceKm": 0.88,
+      "lat": -23.5943939,
+      "lng": -46.6757769,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-500.220509610724IMG1521.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-772.0039269210508IMG3448.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-999.3650844585551IMG1519.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-957.4535735882133IMG3447.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-834.451869425497IMG1522.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-814.7578658712857IMG3451.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-970.5701360133824IMG1523.jpg",
-          "subtitle": "Detalhe Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-190.2863946294049IMG1524.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-76.24606274472845IMG3452.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-914.7186043195717IMG1525.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-536.0723607868953IMG3454.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-986.2999326027527IMG1533.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-89.63532376842387IMG3455.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-505.5855935437922IMG1528.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-926.8296610810143IMG3506.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-927.0494345574867IMG1529.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-618.2726570265836IMG3464.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-156.2801301676121IMG1530.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-652.215618509713IMG3456.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-241.15351482735736IMG1531.jpg",
-          "subtitle": "Vista",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-956.38929493456IMG3458.jpg",
+          "subtitle": "Varanda da Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893795885-420.1415079432131IMG1532.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893269528-377.1301938267021IMG3459.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893269528-302.13231359652957IMG3460.jpg",
+          "subtitle": "Varanda da Sala",
           "cover": false
         }
       ],
