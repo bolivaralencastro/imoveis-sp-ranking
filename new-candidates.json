@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-19T02:53:23.773Z",
+  "scraped_at": "2026-09-19T10:12:26.943Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 52,
-  "total_passed": 1,
+  "total_candidates_checked": 3,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "892999400",
-      "title": "QuintoAndar 892999400",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Bandeira Paulista",
-      "url": "https://www.quintoandar.com.br/imovel/892999400/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 4220,
-      "condo": 2000,
-      "iptu": 167,
-      "area": 94,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.11,
-      "lat": -23.580337,
-      "lng": -46.6767187,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-614.7301686720672IMG4461.jpg",
-          "subtitle": "Sala ",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-225.07209681624263IMG4462.jpg",
-          "subtitle": "Sala ",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-362.4991815651153IMG4463.jpg",
-          "subtitle": "Vista sala ",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-248.1963188979742IMG4464.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-381.581403355423IMG4465.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-871.2705645336717IMG4466.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-564.7741547994885IMG4467.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-189.15210202267085IMG4468.jpg",
-          "subtitle": "Vista quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-649.4180580696448IMG4469.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-463.19525685898486IMG4470.jpg",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-246.82185862265527IMG4471.jpg",
-          "subtitle": "Banheiro ",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892999400-719.8382206084366IMG4472.jpg",
-          "subtitle": "Banheiro ",
-          "cover": false
-        }
-      ],
-      "notes": "Este apartamento localizado em São Paulo oferece uma excelente oportunidade para quem busca conforto e praticidades urbanas. Com três quartos espaçosos, é ideal para famílias ou para quem deseja um espaço extra para escritório ou hóspedes. Além disso, o imóvel possui dois banheiros, proporcionando comodidades adicionais para os moradores. A localização é um dos grandes atrativos deste apartamento, pois está situado em uma área com fácil acesso a diversos pontos de interesse. Nas proximidades, encontra-se o renomado Hospital do Coração, garantindo assistência médica de qualidade a poucos minutos de distância. Para os interessados em atividades culturais e educacionais, o DeRose Method Itaim, uma instituição reconhecida, também está nas redondezas. A combinação de um espaço bem planejado com a conveniência de estar próximo a importantes estabelecimentos faz deste apartamento uma escolha excepcional para quem deseja viver em São Paulo.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
