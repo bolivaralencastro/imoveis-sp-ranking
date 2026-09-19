@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-19T15:15:30.029Z",
+  "scraped_at": "2026-09-19T19:58:12.465Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 25,
-  "total_passed": 0,
+  "total_candidates_checked": 22,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "893319205",
+      "title": "QuintoAndar 893319205",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Visconde da Luz",
+      "url": "https://www.quintoandar.com.br/imovel/893319205/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4200,
+      "condo": 1133,
+      "iptu": 444,
+      "area": 78,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.88,
+      "lat": -23.5943939,
+      "lng": -46.6757769,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-380.60913579469326RuaViscondedaLuz101131.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-769.5345960972644RuaViscondedaLuz101132.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-477.8440387088869RuaViscondedaLuz101133.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-808.160865492905RuaViscondedaLuz101134.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-132.16849725094727RuaViscondedaLuz101135.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-67.7526143561158RuaViscondedaLuz101136.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-965.779836025731RuaViscondedaLuz101137.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-485.36249082224947RuaViscondedaLuz101138.jpg",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-885.7099442445809RuaViscondedaLuz101139.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-507.5500911308617RuaViscondedaLuz1011310.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-997.3014535509042RuaViscondedaLuz1011311.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893319205-881.1252014325391RuaViscondedaLuz1011312.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
