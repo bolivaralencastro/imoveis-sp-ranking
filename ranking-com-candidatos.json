@@ -56349,6 +56349,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895551030",
+      "title": "QuintoAndar 895551030",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Comendador Miguel Calfat",
+      "url": "https://www.quintoandar.com.br/imovel/895551030/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6300,
+      "condo": 1083,
+      "iptu": 215,
+      "area": 62,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": true,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.97,
+      "lat": -23.5926112,
+      "lng": -46.6734896,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-786.5895091058638234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-5f81531d-b40a-4b7f-86b9-a7f84dcadd80.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-428.00696870584045234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-e967919b-acb4-4c93-ad03-a213e9505c47.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-207.51368328129072234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-7f86dbe9-11ae-4fd0-8824-145c37e458e0.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-378.32871658923597234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-ae894bd7-478c-49de-ab68-55ef75423d73.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-261.0410660523873234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-34092f35-1b87-4adc-9198-5d3abdf90486.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-323.61617192957715234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-4faa3ea9-ebe7-41c6-a794-69af7e38f35d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-915.7137576076783234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-93768c88-c3e7-4262-8d46-67f3f7daeef0.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-738.8977978719043234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-5dccb1cd-046d-4eab-8ec3-86fd9ecb3fe6.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-898.8441980466213234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-e0955835-864d-464c-bece-60b5c0ac3b7e.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-782.1258555315707234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-f4ac8139-8b76-451d-a54e-258b9ec1518b.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-548.1633113271083234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-780fa1fd-ce89-48f4-9cfa-ec77d3e79d5d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895551030-855.9936401057843234be0ca-d598-4f65-b024-1e2d01ef2792-LEAD3P-e352b8e5-8047-46fd-8de3-457661e53923.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -56364,5 +56472,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-09-19T19:58:12.541Z"
+  "updated_at": "2026-09-20T15:20:26.869Z"
 }
