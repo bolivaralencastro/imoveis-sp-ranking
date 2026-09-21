@@ -56962,6 +56962,222 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895689135",
+      "title": "QuintoAndar 895689135",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Doutor Ivo Define Frasca",
+      "url": "https://www.quintoandar.com.br/imovel/895689135/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5513,
+      "condo": 1200,
+      "iptu": 333,
+      "area": 55,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.98,
+      "lat": -23.5939244,
+      "lng": -46.6741455,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-881.2704653006957IMG4561.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-953.2979890808832IMG4562.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-77.01409401452996IMG4563.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-157.39608930035965IMG4564.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-79.60102534618218IMG4565.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-331.28064417675586IMG4566.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-467.90761971658725IMG4567.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-249.52594790831319IMG4568.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-841.204520529988IMG4569.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-276.2209863318833IMG4570.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-208.5534194267853IMG4571.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895689135-815.1817396038724IMG4572.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel com 2 quartos, varanda, academia e piscina no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895738992",
+      "title": "QuintoAndar 895738992",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Júlio Diniz",
+      "url": "https://www.quintoandar.com.br/imovel/895738992/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5000,
+      "condo": 1390,
+      "iptu": 54,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.12,
+      "lat": -23.5988529,
+      "lng": -46.6845951,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-301.34186569189336IMG0579.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-637.3613844752296IMG0578.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-365.3040656582132IMG0575.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-356.94540138794673IMG0576.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-726.2262571858057IMG0577.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-79.88342936962223IMG0580.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-802.2930876171629IMG0581.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-983.2392596996734IMG0582.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-873.0000106826077IMG0583.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-531.8649988104808IMG0584.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-888.9951462609553IMG0585.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895738992-235.6719967440488IMG0586.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento mobiliado, 2 quartos, piscina no condomínio, aceita pets.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -56977,5 +57193,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-09-20T20:14:59.239Z"
+  "updated_at": "2026-09-21T03:01:34.404Z"
 }
