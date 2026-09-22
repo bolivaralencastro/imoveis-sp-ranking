@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-22T03:01:49.246Z",
+  "scraped_at": "2026-09-22T10:51:02.111Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 38,
-  "total_passed": 1,
+  "total_candidates_checked": 2,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "895739173",
-      "title": "QuintoAndar 895739173",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Manuel Guedes 475 - Itaim Bibi São Paulo - Sp Brasil",
-      "url": "https://www.quintoandar.com.br/imovel/895739173/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 6610,
-      "condo": 1800,
-      "iptu": 284,
-      "area": 95,
-      "bedrooms": 3,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": true,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.61,
-      "lat": -23.5846193,
-      "lng": -46.6785875,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-136.1405162196644IMG4319.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-868.3401318377464IMG4314.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-987.9006868535432IMG4315.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-555.1855727948808IMG4316.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-530.6212405020256IMG4317.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-791.985803419343IMG4318.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-102.62283511355996IMG4320.jpg",
-          "subtitle": "Corredor",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-421.2762316725246IMG4321.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-85.48043304882513IMG4322.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-86.20984231350293IMG4323.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-233.0896328925549IMG4325.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895739173-809.3276567678331IMG4326.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "Apartamento para alugar com 3 quartos e academia no condomínio.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
