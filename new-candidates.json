@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-21T21:38:29.857Z",
+  "scraped_at": "2026-09-22T03:01:49.246Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,27 +51,27 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 33,
-  "total_passed": 2,
+  "total_candidates_checked": 38,
+  "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895735171",
-      "title": "QuintoAndar 895735171",
-      "neighborhood": "Vila Nova Conceição",
-      "street": "Rua Visconde da Luz",
-      "url": "https://www.quintoandar.com.br/imovel/895735171/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 4500,
-      "condo": 2052,
-      "iptu": 534,
-      "area": 80,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 2,
+      "id": "895739173",
+      "title": "QuintoAndar 895739173",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Manuel Guedes 475 - Itaim Bibi São Paulo - Sp Brasil",
+      "url": "https://www.quintoandar.com.br/imovel/895739173/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 6610,
+      "condo": 1800,
+      "iptu": 284,
+      "area": 95,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 1,
       "acceptsPets": true,
       "furnished": false,
       "features": {
-        "balcony": true,
+        "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
         "airConditioning": false,
@@ -81,116 +81,8 @@
         "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
-        "gym": false,
+        "gym": true,
         "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.86,
-      "lat": -23.5942212,
-      "lng": -46.6758561,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-0.7580842736611971000183960.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-180.55511299819251000183964.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-156.42988850928121000183966.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-659.38688346013771000183994.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-758.68447076806221000183969.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-299.30106579692961000183971.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-894.70154832340111000183973.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-315.073305100508551000183972.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-679.55941625209081000183968.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-803.41113105195761000183976.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-198.815540567789721000183981.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895735171-748.78775150863361000183984.jpg",
-          "subtitle": "Varanda",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    },
-    {
-      "id": "895435873",
-      "title": "QuintoAndar 895435873",
-      "neighborhood": "Vila Olímpia",
-      "street": "R. Gomes de Carvalho 1200 - Vila Olímpia São Paulo - Sp 04547-004 Brasil",
-      "url": "https://www.quintoandar.com.br/imovel/895435873/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 4120,
-      "condo": 1400,
-      "iptu": 30,
-      "area": 60,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": true,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": false,
         "gameRoom": false,
         "grill": false,
         "playground": false,
@@ -202,72 +94,72 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.95,
-      "lat": -23.5971945,
-      "lng": -46.6845882,
+      "targetDistanceKm": 0.61,
+      "lat": -23.5846193,
+      "lng": -46.6785875,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-359.96933770801076IMG9754.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-136.1405162196644IMG4319.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-356.99517567952455IMG9752.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-868.3401318377464IMG4314.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-698.5006139883645IMG9751.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-987.9006868535432IMG4315.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-435.5986335826162IMG9749.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-555.1855727948808IMG4316.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-340.68162052296344IMG9763.JPG",
-          "subtitle": "Lavabo",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-530.6212405020256IMG4317.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-107.58583953570356IMG9765.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-791.985803419343IMG4318.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-102.62283511355996IMG4320.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-421.2762316725246IMG4321.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-397.567723706315IMG9766.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-85.48043304882513IMG4322.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-484.99524693897575IMG9772.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-86.20984231350293IMG4323.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-839.8226988493205IMG9773.JPG",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-233.0896328925549IMG4325.jpg",
           "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-951.2102042924548IMG9779.JPG",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-739.7544021026171IMG9781.JPG",
-          "subtitle": "Quarto 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895435873-530.4803922588533IMG9783.JPG",
-          "subtitle": "Quarto 2",
+          "url": "https://www.quintoandar.com.br/img/med/original895739173-809.3276567678331IMG4326.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         }
       ],
-      "notes": "Este apartamento está localizado em São Paulo, oferecendo um espaço de 60 metros quadrados. Com dois quartos, é uma excelente escolha para quem busca conforto e praticidades urbanas. A localização é privilegiada, com diversas opções de lazer e conveniência nas proximidades. Para os amantes da natureza, há várias áreas verdes próximas, como o Parque do Povo, a Praça Pereira Coutinho e a Reserva Ecológica do Morumbi, perfeitas para caminhadas ao ar livre e momentos de relaxamento. Além disso, a região é bem servida por instituições educacionais, como o DeRose Method Vila Olímpia, que oferece uma variedade de cursos e atividades. Este imóvel é ideal para quem deseja viver em um ambiente tranquilo, mas com fácil acesso às comodidades de uma grande cidade.",
+      "notes": "Apartamento para alugar com 3 quartos e academia no condomínio.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
