@@ -58366,6 +58366,222 @@
       "notes": "",
       "preferredStreet": true,
       "preferredStreetName": "Avenida Santo Amaro"
+    },
+    {
+      "id": "892787650",
+      "title": "QuintoAndar 892787650",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Fiandeiras",
+      "url": "https://www.quintoandar.com.br/imovel/892787650/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 2899,
+      "condo": 495,
+      "iptu": 0,
+      "area": 50,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": false,
+        "bathroomCabinets": true,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.77,
+      "lat": -23.5957678,
+      "lng": -46.6806393,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-957.560445668082726082016DSC0002.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-550.960957128103126082016DSC0003.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-17.2576434954788726082016DSC0005.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-549.905938520062526082016DSC0004.jpg",
+          "subtitle": "Sala/Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-194.118214011690526082016DSC0006.jpg",
+          "subtitle": "Quarto 01",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-900.796721598106226082016DSC0007.jpg",
+          "subtitle": "Quarto 01",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-57.6826579100093726082016DSC0008.jpg",
+          "subtitle": "Detalhe Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-24.70360391938331226082016DSC0009.jpg",
+          "subtitle": "Quarto 02",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-257.2425480193336426082016DSC0010.jpg",
+          "subtitle": "Quarto 02",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-224.8305068874110226082016DSC0011.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-490.073382351348726082016DSC0012.jpg",
+          "subtitle": "Cozinha/Areá de serviço",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892787650-829.9830971912326082016DSC0014.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "892791061",
+      "title": "QuintoAndar 892791061",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/892791061/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5900,
+      "condo": 1110,
+      "iptu": 1000,
+      "area": 67,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": true,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1,
+      "lat": -23.5978852,
+      "lng": -46.6833862,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-509.0563916159329703112016DSC0077.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-619.8087553636203112016DSC0079.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-216.647715864553803112016DSC0069.jpg",
+          "subtitle": "Quarto ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-794.794353262273803112016DSC0070.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-415.886166339912403112016DSC0071.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-152.1732965011807203112016DSC0072.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-788.604389209743303112016DSC0073.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-804.0363575918803112016DSC0074.jpg",
+          "subtitle": "Detalhe Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-42.6303904476016403112016DSC0075.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-264.6152353844650503112016DSC0076.jpg",
+          "subtitle": "Detalhe Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-845.632413034289803112016DSC0078.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892791061-285.761984430347503112016DSC0080.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento mobiliado oferece uma excelente oportunidade para quem busca conforto e praticidades. Com 67 metros quadrados, o imóvel dispõe de dois quartos, sendo um deles uma suíte, ideal para acomodar sua família com privacidade e conforto. Além disso, a presença de uma varanda proporciona um espaço extra para momentos de relaxamento ao ar livre. O condomínio é completo, incluindo piscina e academia, perfeitos para quem deseja manter uma rotina de exercícios e lazer sem sair de casa. Para quem possui animais de estimação, a boa notícia é que eles são bem-vindos. O apartamento conta ainda com uma vaga de estacionamento, garantindo segurança e comodidades para o seu veículo. A localização é outro ponto forte, com proximidades como o Hospital do Coração, um importante centro de saúde na região. Este imóvel é uma excelente escolha para quem busca um lar bem equipado e próximo a serviços essenciais.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -58381,5 +58597,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-09-23T03:02:34.343Z"
+  "updated_at": "2026-09-23T21:01:29.133Z"
 }
