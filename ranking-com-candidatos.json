@@ -58582,6 +58582,114 @@
       "notes": "Este apartamento mobiliado oferece uma excelente oportunidade para quem busca conforto e praticidades. Com 67 metros quadrados, o imóvel dispõe de dois quartos, sendo um deles uma suíte, ideal para acomodar sua família com privacidade e conforto. Além disso, a presença de uma varanda proporciona um espaço extra para momentos de relaxamento ao ar livre. O condomínio é completo, incluindo piscina e academia, perfeitos para quem deseja manter uma rotina de exercícios e lazer sem sair de casa. Para quem possui animais de estimação, a boa notícia é que eles são bem-vindos. O apartamento conta ainda com uma vaga de estacionamento, garantindo segurança e comodidades para o seu veículo. A localização é outro ponto forte, com proximidades como o Hospital do Coração, um importante centro de saúde na região. Este imóvel é uma excelente escolha para quem busca um lar bem equipado e próximo a serviços essenciais.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893417125",
+      "title": "QuintoAndar 893417125",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/893417125/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4800,
+      "condo": 1076,
+      "iptu": 134,
+      "area": 55,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.94,
+      "lat": -23.5974042,
+      "lng": -46.6817124,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-809.6417621295136717125.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-275.17277712530227171252.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-770.71303776743667171253.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-446.712619439942447171254.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-732.25780369420857171255.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-660.44596563565977171256.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-62.085054767712317171257.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-621.64143791803467171258.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-404.3490530031126671712524.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-378.9037521422792571712525.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-712.119349763522571712526.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893417125-891.210335302079871712527.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -58597,5 +58705,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-09-23T21:01:29.133Z"
+  "updated_at": "2026-09-24T16:24:21.862Z"
 }
