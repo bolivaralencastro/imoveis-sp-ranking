@@ -58788,6 +58788,114 @@
       "notes": "",
       "preferredStreet": true,
       "preferredStreetName": "Rua João Lourenço"
+    },
+    {
+      "id": "893132331",
+      "title": "QuintoAndar 893132331",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/893132331/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5400,
+      "condo": 1298,
+      "iptu": 152,
+      "area": 56,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.1,
+      "lat": -23.598803,
+      "lng": -46.6831915,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-112.09084895420062IMG6380.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-72.26891556990067IMG6381.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-4.886024585854742IMG6382.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-37.68630424978014IMG6383.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-226.73285635629958IMG6385.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-304.3314708772399IMG6384.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-236.92810979429768IMG6386.jpg",
+          "subtitle": "Suite 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-420.13956957525266IMG6387.jpg",
+          "subtitle": "Suite 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-463.20410897962574IMG6389.jpg",
+          "subtitle": "Banheiro Suite 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-99.35115189037447IMG6391.jpg",
+          "subtitle": "Banheiro Suite 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-323.0880185826962IMG6393.jpg",
+          "subtitle": "Suite 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893132331-555.7259685192423IMG6394.jpg",
+          "subtitle": "Suite 2",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento localizado na Vila Olímpia é uma excelente escolha para quem busca conforto e comodidades modernas. Com dois dormitórios, ambos suítes, oferece privacidade e conveniência para seus moradores. O condomínio é bem equipado, contando com churrasqueira, piscina e academia, proporcionando lazer e bem-estar sem sair de casa. Além disso, é um ambiente pet-friendly, ideal para quem possui animais de estimação. A localização é privilegiada, com proximidades de áreas verdes como o Parque do Povo e a Praça Pereira Coutinho, perfeitos para momentos de relaxamento ao ar livre. Para quem gosta de fazer compras ou desfrutar de opções de entretenimento, o Shopping Vila Olímpia está a poucos minutos de distância. Este imóvel é uma oportunidade única para quem deseja morar em um dos bairros mais desejados de São Paulo, combinando praticidades urbanas com a tranquilização de áreas verdes próximas.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -58803,5 +58911,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-09-25T16:25:30.427Z"
+  "updated_at": "2026-09-25T21:03:42.710Z"
 }
