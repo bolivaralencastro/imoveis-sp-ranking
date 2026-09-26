@@ -58896,6 +58896,330 @@
       "notes": "Este apartamento localizado na Vila Olímpia é uma excelente escolha para quem busca conforto e comodidades modernas. Com dois dormitórios, ambos suítes, oferece privacidade e conveniência para seus moradores. O condomínio é bem equipado, contando com churrasqueira, piscina e academia, proporcionando lazer e bem-estar sem sair de casa. Além disso, é um ambiente pet-friendly, ideal para quem possui animais de estimação. A localização é privilegiada, com proximidades de áreas verdes como o Parque do Povo e a Praça Pereira Coutinho, perfeitos para momentos de relaxamento ao ar livre. Para quem gosta de fazer compras ou desfrutar de opções de entretenimento, o Shopping Vila Olímpia está a poucos minutos de distância. Este imóvel é uma oportunidade única para quem deseja morar em um dos bairros mais desejados de São Paulo, combinando praticidades urbanas com a tranquilização de áreas verdes próximas.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "894629556",
+      "title": "QuintoAndar 894629556",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/894629556/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5060,
+      "condo": 1227,
+      "iptu": 61,
+      "area": 67,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.98,
+      "lat": -23.5977808,
+      "lng": -46.6814783,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-430.50320455892046IMG6829.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-559.3760274052046IMG6830.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-475.0336807938337IMG68331.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-630.3810735352104IMG6831.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-433.7235544035748IMG6832.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-921.1698502500918IMG68332.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-249.58171522543148IMG68333.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-240.34465563800322IMG68334.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-579.8012749578344IMG6834.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-205.07419636781754IMG6835.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-606.0465517386192IMG6836.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894629556-504.5237181093982IMG6837.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "894816879",
+      "title": "QuintoAndar 894816879",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/894816879/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6069,
+      "condo": 1600,
+      "iptu": 387,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.98,
+      "lat": -23.5961199,
+      "lng": -46.6764626,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-971.7888707515251IMG8640.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-734.012652581671IMG8641.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-689.7066061643353IMG8642.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-139.64956482058076IMG8644.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-35.582791502693944IMG8645.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-694.0618173799938IMG8646.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-537.5690291076387IMG8648.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-56.74740335330664IMG8658.jpg",
+          "subtitle": "lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-924.1700263595166IMG8657.jpg",
+          "subtitle": "lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-828.8996161240199IMG8656.jpg",
+          "subtitle": "lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-6.561384949665627IMG8649.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894816879-485.73063854753985IMG8651.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
+    },
+    {
+      "id": "895745417",
+      "title": "QuintoAndar 895745417",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Visconde da Luz",
+      "url": "https://www.quintoandar.com.br/imovel/895745417/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6000,
+      "condo": 1130,
+      "iptu": 350,
+      "area": 77,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.86,
+      "lat": -23.5942212,
+      "lng": -46.6758561,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-36.50787270584566IMG5050.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-781.4112959795366IMG5051.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-270.93682824064047IMG5052.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-215.13255491022355IMG5053.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-581.4905387600617IMG5058.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-270.32881181452063IMG5054.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-754.5927092440634IMG5055.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-381.99389491042245IMG5056.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-390.2447050318627IMG5059.jpg",
+          "subtitle": "Entrada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-46.76575129229255IMG5060.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-774.1790220985251IMG5061.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895745417-345.1232370345667IMG5062.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento na Vila Nova Conceição com 2 quartos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -58911,5 +59235,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-09-25T21:03:42.710Z"
+  "updated_at": "2026-09-26T03:13:43.386Z"
 }
