@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-30T03:42:42.848Z",
+  "scraped_at": "2026-09-30T11:50:07.737Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 23,
-  "total_passed": 0,
+  "total_candidates_checked": 15,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "893758355",
+      "title": "QuintoAndar 893758355",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Balthazar da Veiga",
+      "url": "https://www.quintoandar.com.br/imovel/893758355/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4245,
+      "condo": 2305,
+      "iptu": 283,
+      "area": 70,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.4,
+      "lat": -23.5942894,
+      "lng": -46.6696017,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-284.4636548262913IMG6739.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-538.0166640718187IMG6736.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-990.0403483847906IMG6737.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-997.7813941382361IMG6738.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-487.4571799373877IMG6740.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-530.0123025068544IMG6741.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-872.4287810429383IMG6742.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-906.8771461464711IMG6743.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-105.63230841678228IMG6744.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-523.8929694376575IMG6745.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-172.3122432713715IMG6746.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893758355-4.579073054184257IMG6747.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento mobiliado na Vila Nova Conceição, 2 quartos, aceita pets.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Balthazar da Veiga"
+    }
+  ],
   "failed_ids": []
 }
