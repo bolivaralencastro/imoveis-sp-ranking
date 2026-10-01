@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-30T21:49:33.598Z",
+  "scraped_at": "2026-10-01T03:49:24.210Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,25 +51,25 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 44,
+  "total_candidates_checked": 41,
   "total_passed": 1,
   "total_failed": 0,
   "homes": [
     {
-      "id": "895743263",
-      "title": "QuintoAndar 895743263",
-      "neighborhood": "Vila Nova Conceição",
-      "street": "Rua Comendador Miguel Calfat",
-      "url": "https://www.quintoandar.com.br/imovel/895743263/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
-      "rent": 4999,
-      "condo": 1173,
-      "iptu": 226,
-      "area": 50,
-      "bedrooms": 2,
-      "bathrooms": 1,
+      "id": "892992982",
+      "title": "QuintoAndar 892992982",
+      "neighborhood": "Vila Olímpia",
+      "street": "Visconde da Luz",
+      "url": "https://www.quintoandar.com.br/imovel/892992982/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5200,
+      "condo": 770,
+      "iptu": 181,
+      "area": 67,
+      "bedrooms": 3,
+      "bathrooms": 2,
       "parking": 1,
       "acceptsPets": true,
-      "furnished": true,
+      "furnished": false,
       "features": {
         "balcony": true,
         "gourmetBalcony": false,
@@ -80,7 +80,7 @@
         "bedroomCabinets": true,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
-        "pool": true,
+        "pool": false,
         "gym": false,
         "partyRoom": true,
         "gameRoom": false,
@@ -88,78 +88,78 @@
         "playground": false,
         "sauna": false,
         "doorman24h": true,
-        "accessibleParking": true
+        "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 0.85,
-      "lat": -23.5925568,
-      "lng": -46.6747909,
+      "targetDistanceKm": 0.83,
+      "lat": -23.5938495,
+      "lng": -46.6759281,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-340.19176196740364IMG1884.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-860.4291193511548DSC1898copy.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-775.1622926565194IMG1888.jpg",
-          "subtitle": "Sala - cozinha americana",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-216.18203766396772IMG1890.jpg",
-          "subtitle": "Sala - cozinha americana",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-909.9906455756911IMG1891.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-725.3021037223764DSC1900copy.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-848.0463458354633IMG1894.jpg",
-          "subtitle": "Sacada da sala",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-140.34635438352083DSC1901copy.jpg",
+          "subtitle": "Varanda",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-956.1535219474923IMG1900.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-983.1504617767365DSC1902copy.jpg",
+          "subtitle": "Vista",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-978.9983155700733IMG1901.jpg",
-          "subtitle": "Quarto 1 ",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-92.42722314081853DSC1903copy.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-318.1455993502431IMG1902.jpg",
-          "subtitle": "Quarto 1 ",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-502.45132109853483DSC1904copy.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-305.4976080951841IMG1903.jpg",
-          "subtitle": "Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-918.4487308536652DSC1905copy.jpg",
+          "subtitle": "Banheiro",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-442.8241215724512IMG1904.jpg",
-          "subtitle": "Vista Quarto 1",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-26.957417827791264DSC1906copy.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-328.1622456340235IMG1905.jpg",
-          "subtitle": "Quarto 2",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-698.7311233337899DSC1907copy.jpg",
+          "subtitle": "Quarto",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895743263-698.7996902603212IMG1906.jpg",
-          "subtitle": "Quarto 2",
+          "url": "https://www.quintoandar.com.br/img/med/892992982-460.83824880022917DSC1908copy.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892992982-994.3065799031074DSC1909copy.jpg",
+          "subtitle": "Quarto 02",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892992982-793.3161544232896DSC1910copy.jpg",
+          "subtitle": "Quarto 02",
           "cover": false
         }
       ],
-      "notes": "Apartamento mobiliado para aluguel, 2 quartos, varanda e aceita pets.",
+      "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
