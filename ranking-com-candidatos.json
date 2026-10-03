@@ -61920,6 +61920,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895755225",
+      "title": "QuintoAndar 895755225",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Professor Vahia de Abreu",
+      "url": "https://www.quintoandar.com.br/imovel/895755225/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6500,
+      "condo": 945,
+      "iptu": 284,
+      "area": 63,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.74,
+      "lat": -23.6036905,
+      "lng": -46.6762377,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-405.9570396091949IMG1144.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-311.59648526751846IMG1141.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-425.5121093558392IMG1142.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-71.36985607978808IMG1145.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-499.95657586767675IMG1146.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-554.9777094501314IMG1147.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-454.6827444300795IMG1148.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-37.01883056696198IMG1149.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-620.4099953741902IMG1150.jpg",
+          "subtitle": "Suíte  ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-165.91008404930085IMG1151.jpg",
+          "subtitle": "Suíte  ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-104.69864418432317IMG1152.jpg",
+          "subtitle": "Suíte  ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895755225-286.35458611038234IMG1153.jpg",
+          "subtitle": "Suíte  ",
+          "cover": false
+        }
+      ],
+      "notes": "Aluguel de apartamento com 2 quartos, academia e piscina no condomínio. Aceitam-se animais.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -61935,5 +62043,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-02T21:46:35.725Z"
+  "updated_at": "2026-10-03T03:32:45.225Z"
 }
