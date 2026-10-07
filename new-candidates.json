@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-07T03:59:52.556Z",
+  "scraped_at": "2026-10-07T12:32:59.607Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 49,
+  "total_candidates_checked": 14,
   "total_passed": 0,
-  "total_failed": 1,
+  "total_failed": 0,
   "homes": [],
-  "failed_ids": [
-    "895771381"
-  ]
+  "failed_ids": []
 }
