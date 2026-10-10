@@ -64575,6 +64575,222 @@
       "notes": "Apartamento mobiliado com 2 quartos para alugar. Ideal para quem busca conforto e praticidades.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895779915",
+      "title": "QuintoAndar 895779915",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Fidêncio Ramos",
+      "url": "https://www.quintoandar.com.br/imovel/895779915/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4900,
+      "condo": 1600,
+      "iptu": 542,
+      "area": 88,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.64,
+      "lat": -23.5942839,
+      "lng": -46.6845175,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-105.31721772591818IMG2266.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-722.7066498653893IMG2269.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-934.6989193219333IMG2270.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-887.0069022187224IMG2268.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-919.04238325974IMG2271.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-247.19806050598646IMG2272.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-114.02415382615582IMG2273.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-232.0391911005235IMG2274.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-739.1074018377187IMG2275.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-393.26868691995185IMG2276.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-272.7645182545132IMG2277.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895779915-62.233542064717874IMG2278.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel: 2 quartos, academia e piscina. Animais permitidos.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "894746314",
+      "title": "QuintoAndar 894746314",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/894746314/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4178,
+      "condo": 930,
+      "iptu": 0,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.34,
+      "lat": -23.6004946,
+      "lng": -46.6783011,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-710.9153840630606IMG3185.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-988.2382646433919IMG3186.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-409.93913804577863IMG3187.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-696.5214257255029IMG3188.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-921.1229202413195IMG3189.jpg",
+          "subtitle": "Vista da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-29.544351384966916IMG3191.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-57.51999404006314IMG3194.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-0.1661655605150747IMG3195.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-808.8960457627846IMG3197.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-466.5805808583392IMG3198.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-121.4165767278219IMG3200.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894746314-832.8768292190833IMG3202.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado, 2 quartos, perfeito para alugar com conforto e praticidades no dia a dia.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -64590,5 +64806,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-09T22:13:36.176Z"
+  "updated_at": "2026-10-10T04:03:42.580Z"
 }
