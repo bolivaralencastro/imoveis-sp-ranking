@@ -65007,6 +65007,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "894818886",
+      "title": "QuintoAndar 894818886",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Leopoldo Couto Magalhães Júnior",
+      "url": "https://www.quintoandar.com.br/imovel/894818886/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 4999,
+      "condo": 1260,
+      "iptu": 131,
+      "area": 79,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.51,
+      "lat": -23.5874857,
+      "lng": -46.6773471,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-773.5592335460526115A7151.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-843.0097369736892115A7153.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-397.8191223872375115A7154.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-83.7545379974417115A7155.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-409.35113804969524115A7156.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-625.1957109164961115A7157.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-376.7451259120393115A7158.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-907.722569284348115A7159.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-385.08572183208554115A7160.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-523.5323671379629115A7161.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-311.4302125580477115A7162.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894818886-618.3113077850534115A7166.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -65022,5 +65130,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-10T16:52:19.800Z"
+  "updated_at": "2026-10-12T04:01:12.803Z"
 }
