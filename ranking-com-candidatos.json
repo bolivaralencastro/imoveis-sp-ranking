@@ -65439,6 +65439,114 @@
       "notes": "Este encantador apartamento mobiliado está localizado na vibrante cidade de São Paulo, oferecendo uma combinação perfeita de conforto e conveniência. Com uma área de 80 metros quadrados, o imóvel dispõe de três quartos espaçosos, ideais para acomodar sua família com conforto. Além disso, possui dois banheiros bem equipados, garantindo praticidades no dia a dia. O condomínio oferece excelentes instalações, incluindo uma piscina, perfeita para relaxar e aproveitar os dias ensolarados. A localização é um dos grandes destaques deste apartamento, situado próximo a importantes pontos de interesse. O Parque do Povo e a Praça Pereira Coutinho estão a poucos minutos de distância, oferecendo áreas verdes para lazer e atividades ao ar livre. Para os amantes de compras e entretenimento, o Shopping Vila Olímpia está nas proximidades, proporcionando fácil acesso a uma variedade de lojas e opções gastronômicas. Este apartamento é uma excelente escolha para quem busca um lar confortável e bem localizado em São Paulo, com todas as facilidades e atrações que a cidade tem a oferecer. Não perca a oportunidade de conhecer este imóvel único.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "894480914",
+      "title": "QuintoAndar 894480914",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Antônio Felício",
+      "url": "https://www.quintoandar.com.br/imovel/894480914/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 5500,
+      "condo": 2091,
+      "iptu": 405,
+      "area": 120,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.34,
+      "lat": -23.5790637,
+      "lng": -46.6745906,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-265.1495326772685IMG6513.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-358.8330327411463IMG6511.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-152.86592406330624IMG6512.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-953.1339549856431IMG6514.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-930.8117173575633IMG6517.jpg",
+          "subtitle": "Varanda ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-241.8136212464288IMG6519.jpg",
+          "subtitle": "Varanda ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-59.37485947557475IMG6521.jpg",
+          "subtitle": "Vista ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-788.5750824133364IMG6522.jpg",
+          "subtitle": "Vista ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-389.8879909617785IMG6524.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-392.9894572889364IMG6528.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-604.1731397321943IMG6526.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894480914-116.36183224450069IMG6527.jpg",
+          "subtitle": "Suíte ",
+          "cover": false
+        }
+      ],
+      "notes": "Este espaçoso apartamento de 120 metros quadrados está localizado em São Paulo e oferece uma excelente oportunidade para quem busca conforto e praticidades urbanas. Com três quartos bem distribuídos, é ideal para famílias ou pessoas que valorizam espaço extra. A presença de uma varanda proporciona um ambiente agradável para momentos de relaxamento ao ar livre, além de contribuir para a ventilação e iluminação natural do imóvel. O apartamento também conta com uma vaga de estacionamento, garantindo conveniência e segurança para os moradores que possuem veículo próprio. Localizado em uma região privilegiada, o imóvel está próximo a várias áreas verdes, incluindo a Praça Adolfo Bloch, Praça Gastão Vidigal e Praça Pereira Coutinho, todas a uma curta distância, oferecendo opções de lazer ao ar livre e contato com a natureza. Este apartamento é uma excelente escolha para quem deseja morar em uma área central, com fácil acesso a parques e outras comodidades urbanas. Não perca a chance de conhecer este imóvel e tudo o que ele tem a oferecer.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -65454,5 +65562,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-13T13:26:26.610Z"
+  "updated_at": "2026-10-13T22:17:35.793Z"
 }
