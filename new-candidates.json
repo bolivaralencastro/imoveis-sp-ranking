@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-14T11:03:08.254Z",
+  "scraped_at": "2026-10-14T16:25:00.929Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,108 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 4,
-  "total_passed": 0,
+  "total_candidates_checked": 40,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895789456",
+      "title": "QuintoAndar 895789456",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Casa do Ator",
+      "url": "https://www.quintoandar.com.br/imovel/895789456/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6000,
+      "condo": 650,
+      "iptu": 150,
+      "area": 57,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": false,
+        "bathroomCabinets": false,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.97,
+      "lat": -23.5977404,
+      "lng": -46.6819714,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-438.099474587720477ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-b8f1ec61-8c79-4b54-a426-bcb3908d5d4f.jpeg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-820.61516240344627ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-5ac1c765-9b0d-49fb-bb4f-a5b8c492d849.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-418.7015475531867ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-680d937e-dafd-4555-a993-7877c5f276e6.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-804.69084572187587ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-b7ee502b-5c62-439e-bb42-3a29d0154c49.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-243.829144631432347ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-8689c881-1dd4-4db5-9185-487314b32170.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-465.44537136241367ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-f75b0f99-841f-493a-b1af-5ab85ffe035c.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-209.52266277194317ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-396c7bb6-9404-43ca-bc4e-d628ac793db5.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-964.16494180390887ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-07ad44eb-e672-4de3-bb50-7ee560e17fa0.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-981.69123528645717ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-05f6bda7-efc2-45ba-83c7-bbf7d1a77aa8.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895789456-85.985696521163067ec6eb81-8c62-4c7c-bc28-f0aafd6ccb31-LEAD3P-89307f75-6fd8-4046-af8d-472c974ef477.jpeg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
