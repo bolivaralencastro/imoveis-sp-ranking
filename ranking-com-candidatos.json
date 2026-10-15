@@ -65753,6 +65753,109 @@
       "notes": "Apartamento para aluguel com 3 quartos.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893032821",
+      "title": "QuintoAndar 893032821",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/893032821/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3000,
+      "condo": 785,
+      "iptu": 68,
+      "area": 58,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.1,
+      "lat": -23.5989009,
+      "lng": -46.681596,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-543.0708488376264DSC3914copy.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-899.527947585745DSC3909copy.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-597.3060113983089DSC3913copy.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-278.5724153884996DSC3915copy.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-942.6776845516667DSC3917copy.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-391.8204797842661DSC3919copy.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-374.3314331414109DSC3922copy.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-883.1432720583583DSC3923copy.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-870.9638839583911DSC3925copy.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-130.37794905878764DSC3926copy.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893032821-910.6881191593977DSC3930copy.jpg",
+          "subtitle": "Fachada",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -65768,5 +65871,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-15T02:55:55.878Z"
+  "updated_at": "2026-10-15T16:12:39.747Z"
 }
