@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-16T10:34:00.116Z",
+  "scraped_at": "2026-10-16T15:59:32.240Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 5,
-  "total_passed": 0,
+  "total_candidates_checked": 32,
+  "total_passed": 1,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895188645",
+      "title": "QuintoAndar 895188645",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/895188645/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5800,
+      "condo": 1700,
+      "iptu": 383,
+      "area": 76,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": false,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.02,
+      "lat": -23.5981227,
+      "lng": -46.682323,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-627.9508138372363IMG4129.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-462.65206393812855IMG4130.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-546.5562057942062IMG4131.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-850.4109633611993IMG4132.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-617.9543055143353IMG4133.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-571.406661868202IMG4135.JPG",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-329.97375829770147IMG4134.JPG",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-382.24376842285415IMG4147.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-106.80534773508144IMG4149.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-688.202247090924IMG4151.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-606.9195876136342IMG4152.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895188645-433.2891703407382IMG4153.JPG",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento mobiliado possui 76 metros quadrados e é uma excelente opção para quem busca conforto e comodidades. Com três quartos bem distribuídos, oferece espaço suficiente para famílias ou para quem deseja um ambiente de trabalho em casa. Além disso, conta com uma vaga de estacionamento, garantindo praticidades adicionais para o dia a dia. A localização é um dos pontos fortes deste imóvel, estando próximo de importantes áreas de lazer e conveniência. A poucos minutos, encontra-se o Parque do Povo, um local ideal para caminhadas e atividades ao ar livre. Outro parque nas proximidades é a Praça Pereira Coutinho, que oferece um ambiente tranquilo para relaxar. Para quem gosta de fazer compras ou aproveitar uma boa refeição, o Shopping Vila Olímpia está a uma curta distância, oferecendo uma variedade de lojas e opções gastronômicas. Este apartamento é uma oportunidade imperdível para quem busca morar em uma área privilegiada, com fácil acesso a serviços e lazer. A combinação de um espaço bem planejado, localização estratégica e a vantagem de ser mobiliado torna este imóvel uma escolha atraente para diferentes perfis de compradores.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
