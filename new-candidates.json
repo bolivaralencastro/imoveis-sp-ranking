@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-15T20:53:41.231Z",
+  "scraped_at": "2026-10-16T02:54:39.068Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 27,
-  "total_passed": 1,
+  "total_candidates_checked": 48,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "894722308",
-      "title": "QuintoAndar 894722308",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Alcides Lourenço da Rocha",
-      "url": "https://www.quintoandar.com.br/imovel/894722308/alugar/casa-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 4950,
-      "condo": 0,
-      "iptu": 417,
-      "area": 140,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": true,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": false,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": false,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 2.06,
-      "lat": -23.6033236,
-      "lng": -46.6949709,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-795.6476802198431IMG5189.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-114.62769752641388IMG5190.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-725.3823645075927IMG5191.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-423.11498540436145IMG5192.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-403.3431351070451IMG5193.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-112.29701295441107IMG5194.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-507.0274803944855IMG51952.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-140.6496461083635IMG5197.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-392.7769471327541IMG5198.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-757.9074642967716IMG5199.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-602.7618177936223IMG5200.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894722308-183.5500155696893IMG5201.jpg",
-          "subtitle": "Quarto Suíte",
-          "cover": false
-        }
-      ],
-      "notes": "Localizada na vibrante cidade de São Paulo, esta casa oferece uma combinação perfeita de conforto e conveniência. Com dois quartos bem distribuídos, a propriedade é ideal para quem busca um espaço acolhedor e funcional. A casa está completamente mobiliada, garantindo que você possa se mudar sem preocupações adicionais. Além disso, a residência conta com dois banheiros, proporcionando praticidades para o dia a dia. A localização é um dos pontos fortes desta propriedade, com várias opções de lazer e transporte nas proximidades. A poucos minutos, você encontra a Estação Berrini, facilitando o acesso a diversas regiões da cidade. Para os amantes da natureza, a casa está próxima de três parques encantadores: a Reserva Ecológica do Morumbi, o Parque do Povo e o Parque Alfredo Volpi, todos oferecendo ótimas oportunidades para atividades ao ar livre e momentos de relaxamento. Esta casa é uma excelente escolha para quem deseja viver em um ambiente tranquilo, sem abrir mão das facilidades urbanas que São Paulo oferece.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
