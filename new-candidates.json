@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-16T20:28:06.728Z",
+  "scraped_at": "2026-10-17T02:47:19.162Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,309 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 35,
-  "total_passed": 0,
-  "total_failed": 1,
-  "homes": [],
-  "failed_ids": [
-    "893119129"
-  ]
+  "total_candidates_checked": 72,
+  "total_passed": 3,
+  "total_failed": 0,
+  "homes": [
+    {
+      "id": "892906580",
+      "title": "QuintoAndar 892906580",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Comendador Miguel Calfat",
+      "url": "https://www.quintoandar.com.br/imovel/892906580/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4600,
+      "condo": 1100,
+      "iptu": 154,
+      "area": 56,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.85,
+      "lat": -23.592564,
+      "lng": -46.6747967,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-715.2992460254931IMG1232.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-634.018357121905IMG1233.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-908.5135235579113IMG1234.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-370.7487260022596IMG1235.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-389.19316991507026IMG1236.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-80.77683421001491IMG1237.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-607.4397609788482IMG1238.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-503.25531349370567IMG1239.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-801.9349004041607IMG1240.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-14.36870813309743IMG1241.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-831.8287144621189IMG1242.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892906580-48.28118466988207IMG1243.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895384584",
+      "title": "QuintoAndar 895384584",
+      "neighborhood": "Jardins",
+      "street": "Rua França",
+      "url": "https://www.quintoandar.com.br/imovel/895384584/alugar/apartamento-2-quartos-jardins-sao-paulo",
+      "rent": 6771,
+      "condo": 1350,
+      "iptu": 195,
+      "area": 114,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.62,
+      "lat": -23.5760397,
+      "lng": -46.6748352,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-95.97591231824998cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-a36ac7b3-b5b3-40a9-89d7-64e0ee000fb5.jpeg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-339.40618946177926cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-6d22c9cd-b839-4518-baa3-474c8d6b4461.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-947.9946726655712cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-929ae4a4-ff19-4437-9674-8b259e5e231b.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-546.3519056788919cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-bd621d5b-659e-47e7-b55b-d17f378d77af.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-107.17687877908355cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-7ef46d9e-5ad0-498e-9993-4e0797f4b5cf.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-486.8775768072554cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-a91e1ce1-bff4-421f-a220-6627cee34b74.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-694.2333313058567cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-0ca41841-3783-4c96-b225-9a537553dc23.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-942.1048997293484cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-118a4a2a-4c05-4385-95b8-acb2db7ddf44.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-299.3404530663365cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-01c6f6ce-f772-41e1-b782-f05388a8eff6.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-374.30593062860163cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-b9655beb-b72d-4c7d-bb74-580fd2dcffdf.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-508.7378553764388cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-1081068e-63e3-4b10-9eb4-ff4c7b25bfc9.jpeg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895384584-173.27115011348516cfd799e2-1ebb-4910-9946-ab0f1294fa5b-LEAD3P-f149cc1b-aa21-4bd3-9671-e1576ddd3e38.jpeg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895426390",
+      "title": "QuintoAndar 895426390",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Alvorada",
+      "url": "https://www.quintoandar.com.br/imovel/895426390/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4325,
+      "condo": 1149,
+      "iptu": 110,
+      "area": 57,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.11,
+      "lat": -23.598981,
+      "lng": -46.6826568,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-97.4310712816952548aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-57689b40-ba93-4f7f-879f-2083dc19f2cc.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-23.07387566805974248aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-0768177e-46a7-44c0-ab5d-91c50360344d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-927.804560903228548aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-f375943b-1cb5-4972-9882-e1a1b4f2b058.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-475.621311981352548aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-daea602f-1269-4eb1-abe3-7626ad9714a9.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-610.227513987300248aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-a4aeb977-6f98-470c-a37c-f3122678561c.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-691.603025769201648aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-c571c067-ee12-4feb-bb5d-5ac199bfdfbf.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895426390-484.238235005119548aff0d4-c558-4199-afc8-c7447b5755a1-LEAD3P-c8bc1398-c353-49a8-99c5-eb731ea8d946.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "Localizado no coração da Vila Olímpia, este apartamento é uma excelente oportunidade para quem busca conforto e praticidades em um dos bairros mais desejados da cidade. Com 57 metros quadrados, o imóvel é ideal para quem valoriza um espaço bem distribuído e funcional. O apartamento conta com dois quartos, oferecendo espaço suficiente para acomodar uma família ou criar um ambiente de trabalho em casa. Além disso, o fato de ser mobiliado proporciona ainda mais comodidades, permitindo que o novo proprietário se mude sem preocupações adicionais. \n\nO condomínio oferece diversas instalações que garantem momentos de lazer e bem-estar. Entre elas, destacam-se a churrasqueira e a piscina, perfeitas para reunir amigos e familiares em dias ensolarados. A localização privilegiada na Vila Olímpia permite fácil acesso a uma ampla gama de serviços, como restaurantes, lojas, academias e escolas, além de estar próximo a importantes vias de transporte público, facilitando a mobilização pela cidade. \n\nEste apartamento é uma escolha acertada para quem deseja viver em um ambiente moderno e bem equipado, sem abrir mão do conforto e da praticabilidade que um bairro como a Vila Olímpia pode oferecer. Não perca a chance de conhecer este imóvel e descobrir tudo o que ele tem a oferecer.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": []
 }
