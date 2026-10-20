@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-20T16:16:43.769Z",
+  "scraped_at": "2026-10-20T21:12:48.113Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,11 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 35,
-  "total_passed": 1,
-  "total_failed": 0,
-  "homes": [
-    {
-      "id": "894123926",
-      "title": "QuintoAndar 894123926",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Casa do Ator",
-      "url": "https://www.quintoandar.com.br/imovel/894123926/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
-      "rent": 4000,
-      "condo": 1963,
-      "iptu": 352,
-      "area": 100,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": true,
-        "partyRoom": false,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.57,
-      "lat": -23.6011999,
-      "lng": -46.6744136,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-489.42096130509395IMG8469.JPG",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-365.83809918952005IMG8470.JPG",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-829.886212368213IMG8471.JPG",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-723.7687566855636IMG8473.JPG",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-106.6549114619283IMG8474.JPG",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-160.8836391970887IMG8476.JPG",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-725.8501180409521IMG8475.JPG",
-          "subtitle": "VIsta",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-398.0426086167578IMG8501.JPG",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-327.322245132361IMG8502.JPG",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-150.5466619901863IMG8503.JPG",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-874.0753433447504IMG8504.JPG",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/894123926-813.8573805233527IMG8477.JPG",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
-  "failed_ids": []
+  "total_candidates_checked": 45,
+  "total_passed": 0,
+  "total_failed": 1,
+  "homes": [],
+  "failed_ids": [
+    "893161754"
+  ]
 }
