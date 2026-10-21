@@ -67019,6 +67019,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895803403",
+      "title": "QuintoAndar 895803403",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Urimonduba",
+      "url": "https://www.quintoandar.com.br/imovel/895803403/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 4600,
+      "condo": 1200,
+      "iptu": 0,
+      "area": 84,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.54,
+      "lat": -23.5779772,
+      "lng": -46.6729063,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-403.2767214324052IMG0906.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-597.1919905905775IMG0907.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-238.85029641238563IMG0908.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-3.4811240686341005IMG0909.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-270.6773767116308IMG0910.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-824.4660843574762IMG0911.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-100.87015507365071IMG0912.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-386.2148619757608IMG0913.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-851.1015747727732IMG0914.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-429.3268119321199IMG09112.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-339.7395669794252IMG0916.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895803403-901.5687656845411IMG0917.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento de 2 quartos para alugar no Itaim Bibi.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -67034,5 +67142,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-20T16:16:43.853Z"
+  "updated_at": "2026-10-21T03:05:04.390Z"
 }
