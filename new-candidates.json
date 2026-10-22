@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-21T21:11:36.337Z",
+  "scraped_at": "2026-10-22T03:03:01.850Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -52,117 +52,8 @@
     ]
   },
   "total_candidates_checked": 38,
-  "total_passed": 1,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "893319081",
-      "title": "QuintoAndar 893319081",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Rio da Prata",
-      "url": "https://www.quintoandar.com.br/imovel/893319081/alugar/casa-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 4850,
-      "condo": 0,
-      "iptu": 666,
-      "area": 160,
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "parking": 2,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": true,
-        "gasShower": false,
-        "box": false,
-        "bedroomCabinets": true,
-        "bathroomCabinets": false,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": false,
-        "gameRoom": false,
-        "grill": true,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": false,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.55,
-      "lat": -23.600758,
-      "lng": -46.6902897,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-879.1033659866024IMG0005.jpg",
-          "subtitle": " Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-878.8219828363768IMG0001.jpg",
-          "subtitle": "Entrada da Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-229.79435718979101IMG0002.jpg",
-          "subtitle": " Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-930.010787704923IMG0003.jpg",
-          "subtitle": " Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-159.59785397693793IMG0004.jpg",
-          "subtitle": " Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-407.8039032943466IMG0006.jpg",
-          "subtitle": " Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-594.9616781969858IMG0007.jpg",
-          "subtitle": " Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-438.9901481916667IMG0008.jpg",
-          "subtitle": " Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-901.5641888332271IMG0009.jpg",
-          "subtitle": "Lavabo",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-466.13905192204805IMG0010.jpg",
-          "subtitle": "Sala de Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-856.0028438045595IMG0011.jpg",
-          "subtitle": "Sala de Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893319081-938.5135410219051IMG0012.jpg",
-          "subtitle": "Sala de Jantar",
-          "cover": false
-        }
-      ],
-      "notes": "Alugar casa no Itaim Bibi com 3 quartos.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
