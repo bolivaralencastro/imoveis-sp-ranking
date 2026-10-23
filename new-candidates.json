@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-23T16:22:55.114Z",
+  "scraped_at": "2026-10-23T20:56:37.355Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 44,
-  "total_passed": 1,
+  "total_candidates_checked": 39,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "893531270",
-      "title": "QuintoAndar 893531270",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Cabo Verde",
-      "url": "https://www.quintoandar.com.br/imovel/893531270/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
-      "rent": 4740,
-      "condo": 1403,
-      "iptu": 126,
-      "area": 106,
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.79,
-      "lat": -23.60469,
-      "lng": -46.6781357,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-8.897597524203826IMG2097HDR.jpg",
-          "subtitle": "Sala 1",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-613.2173542154148IMG2105.jpg",
-          "subtitle": "Sala 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-40.360545294255814IMG2101HDR.jpg",
-          "subtitle": "Sala 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-879.6306149185416IMG2104.jpg",
-          "subtitle": "Sala 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-408.94689349193203IMG2106HDR.jpg",
-          "subtitle": "Sala 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-944.6397354372506IMG2103.jpg",
-          "subtitle": "Vista da Sala 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-987.6631900948117IMG2100.jpg",
-          "subtitle": "Sala 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-810.9627695174621IMG2108.jpg",
-          "subtitle": "Sala 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-291.0215691079531IMG2109.jpg",
-          "subtitle": "Sala 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-322.8586516881129IMG2110.jpg",
-          "subtitle": "Sala 2",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-780.3398165722109IMG2114.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893531270-96.60823891167558IMG2113.jpg",
-          "subtitle": "Suíte",
-          "cover": false
-        }
-      ],
-      "notes": "Apartamento para aluguel com três quartos, uma suíte e closet.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
