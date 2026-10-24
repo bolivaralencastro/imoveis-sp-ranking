@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-24T15:18:23.995Z",
+  "scraped_at": "2026-10-24T20:07:53.251Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -52,117 +52,8 @@
     ]
   },
   "total_candidates_checked": 28,
-  "total_passed": 1,
+  "total_passed": 0,
   "total_failed": 0,
-  "homes": [
-    {
-      "id": "892783453",
-      "title": "QuintoAndar 892783453",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Joaquim Floriano",
-      "url": "https://www.quintoandar.com.br/imovel/892783453/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 5150,
-      "condo": 539,
-      "iptu": 277,
-      "area": 96,
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "parking": 0,
-      "acceptsPets": false,
-      "furnished": false,
-      "features": {
-        "balcony": true,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": false,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": false,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": false,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.25,
-      "lat": -23.5835951,
-      "lng": -46.6713239,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-224.74888771192292DSC0146.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-524.5840811961853DSC0147.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-228.94029274392147DSC0153.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-938.3061097876462DSC0148.jpg",
-          "subtitle": "Sala de Jantar",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-413.5910997806496DSC0150.jpg",
-          "subtitle": "Sacada",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-438.29561950917764DSC0151.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-256.1610780032101DSC0163.jpg",
-          "subtitle": "Acesso ",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-298.284465268006DSC0154.jpg",
-          "subtitle": "Quarto 01",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-94.89384036825754DSC0155.jpg",
-          "subtitle": "Quarto 01",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-73.07191163109417DSC0156.jpg",
-          "subtitle": "Closet",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-695.2054552194671DSC0157.jpg",
-          "subtitle": "Quarto 02",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/892783453-623.5457703416838DSC0159.jpg",
-          "subtitle": "Quarto 02",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
+  "homes": [],
   "failed_ids": []
 }
