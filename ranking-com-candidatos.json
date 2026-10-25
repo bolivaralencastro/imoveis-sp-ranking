@@ -68639,6 +68639,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895815045",
+      "title": "QuintoAndar 895815045",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Clodomiro Amazonas",
+      "url": "https://www.quintoandar.com.br/imovel/895815045/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4000,
+      "condo": 1100,
+      "iptu": 64,
+      "area": 73,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.84,
+      "lat": -23.5949358,
+      "lng": -46.6769764,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-395.016596509767741000186527.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-174.82219186898421000186532.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-231.5886616393611000186534.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-494.68985103850221000186535.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-137.877077549214081000186541.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-58.388227123165711000186536.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-270.083880948476241000186543.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-925.60566276957541000186505.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-620.37128690356351000186506.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-904.99249727937621000186507.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-314.07292089170891000186508.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895815045-816.27945026671241000186510.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento para aluguel na Vila Nova Conceição com 2 quartos.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Clodomiro Amazonas"
     }
   ],
   "weights": {
@@ -68654,5 +68762,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-24T15:18:24.076Z"
+  "updated_at": "2026-10-25T02:56:40.124Z"
 }
