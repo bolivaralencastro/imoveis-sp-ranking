@@ -68963,6 +68963,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893367474",
+      "title": "QuintoAndar 893367474",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Ponta Delgada",
+      "url": "https://www.quintoandar.com.br/imovel/893367474/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 3950,
+      "condo": 2621,
+      "iptu": 559,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.19,
+      "lat": -23.5995285,
+      "lng": -46.6840965,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-237.853514942114261.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-921.769649971309822.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-334.4246009420945723.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-827.601923594593624.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-50.02639791634988625.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-18.4603220763093226.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-306.0703942451281727.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-274.968817033342228.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-984.786127233113929.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-390.85632496142506210.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-461.5418784138337211.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893367474-329.7683440374829212.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com 2 quartos, academia, piscina e churrasqueira para alugar.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -68978,5 +69086,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-10-26T02:55:08.739Z"
+  "updated_at": "2026-10-26T22:17:59.240Z"
 }
