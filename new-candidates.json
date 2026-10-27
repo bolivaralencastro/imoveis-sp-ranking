@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-27T11:31:25.654Z",
+  "scraped_at": "2026-10-27T17:22:15.578Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,120 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 24,
-  "total_passed": 0,
+  "total_candidates_checked": 44,
+  "total_passed": 1,
   "total_failed": 1,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895751364",
+      "title": "QuintoAndar 895751364",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Iaiá",
+      "url": "https://www.quintoandar.com.br/imovel/895751364/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6360,
+      "condo": 2000,
+      "iptu": 450,
+      "area": 67,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.46,
+      "lat": -23.5869109,
+      "lng": -46.6782672,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-63.98456320866175677A2228.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-766.7150381983068677A2229.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-466.75943034647094677A2227.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-426.70698342128475677A2234.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-390.442903256338677A2235.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-750.8310083776508677A2237.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-583.9210548215251677A2238.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-69.1624868359596677A2233.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-321.9010462776909677A2230.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-314.25156418513325677A2231.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-219.1343984173074677A2232.jpg",
+          "subtitle": "Vista da Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895751364-398.1411502283021677A2236.jpg",
+          "subtitle": "Vista da Varanda",
+          "cover": false
+        }
+      ],
+      "notes": "Localizado em São Paulo, no prestigiado bairro do Itaim Bibi, este apartamento é uma excelente opção para quem busca conforto e praticidades urbanas. Com uma área de 67 metros quadrados, o imóvel oferece um espaço bem distribuído, perfeito para quem valoriza funcionalismo e estilo. O apartamento possui dois quartos, sendo um deles uma suíte, ideal para proporcionar privacidade e conforto. Além disso, o imóvel é totalmente mobiliado, facilitando a mudança e a adaptação ao novo lar. Para aqueles que possuem veículos, há a conveniência de duas vagas de estacionamento, um diferencial importante em uma cidade movimentada como São Paulo. A localização é um dos grandes atrativos deste apartamento, com diversas opções de lazer e serviços nas proximidades. Entre os destaques, estão o Parque do Povo e as praças Pereira Coutinho e Gastão Vidigal, que oferecem áreas verdes para atividades ao ar livre e momentos de relaxamento. Além disso, o renomado DeRose Method Itaim está nas proximidades, proporcionando opções de atividades físicas e bem-estar. Este apartamento no Itaim Bibi é uma oportunidade única para quem deseja viver em uma das regiões mais desejadas de São Paulo, combinando conforto, praticidades e uma localização privilegiada.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": [
-    "895315679"
+    "893075517"
   ]
 }
