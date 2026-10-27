@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-26T22:17:59.159Z",
+  "scraped_at": "2026-10-27T03:29:32.205Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,42 +51,42 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 72,
+  "total_candidates_checked": 38,
   "total_passed": 1,
-  "total_failed": 0,
+  "total_failed": 1,
   "homes": [
     {
-      "id": "893367474",
-      "title": "QuintoAndar 893367474",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Ponta Delgada",
-      "url": "https://www.quintoandar.com.br/imovel/893367474/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
-      "rent": 3950,
-      "condo": 2621,
-      "iptu": 559,
-      "area": 72,
-      "bedrooms": 2,
-      "bathrooms": 1,
+      "id": "893549636",
+      "title": "QuintoAndar 893549636",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Diogo Jácome",
+      "url": "https://www.quintoandar.com.br/imovel/893549636/alugar/apartamento-3-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6789,
+      "condo": 1361,
+      "iptu": 593,
+      "area": 96,
+      "bedrooms": 3,
+      "bathrooms": 3,
       "parking": 1,
-      "acceptsPets": false,
-      "furnished": true,
+      "acceptsPets": true,
+      "furnished": false,
       "features": {
-        "balcony": true,
+        "balcony": false,
         "gourmetBalcony": false,
         "privatePool": false,
-        "airConditioning": true,
+        "airConditioning": false,
         "gasShower": false,
         "box": true,
         "bedroomCabinets": true,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
-        "pool": true,
+        "pool": false,
         "gym": true,
         "partyRoom": true,
         "gameRoom": false,
         "grill": true,
         "playground": true,
-        "sauna": true,
+        "sauna": false,
         "doorman24h": true,
         "accessibleParking": false
       },
@@ -94,75 +94,77 @@
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.19,
-      "lat": -23.5995285,
-      "lng": -46.6840965,
+      "targetDistanceKm": 1.77,
+      "lat": -23.6000691,
+      "lng": -46.6696391,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-237.853514942114261.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-468.33752916605573IMG09791.jpg",
           "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-921.769649971309822.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-360.8279654212321IMG09793.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-334.4246009420945723.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-89.38598816326659IMG09794.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-827.601923594593624.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-743.9797296398785IMG09795.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-50.02639791634988625.jpg",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-284.97601985769603IMG09792.jpg",
           "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-18.4603220763093226.jpg",
-          "subtitle": "Sala",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-502.5009635967201IMG0980.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-306.0703942451281727.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-510.24844300457784IMG0984.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-274.968817033342228.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-442.7388122142135IMG0990.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-984.786127233113929.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-663.4735126160335IMG1003.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-390.85632496142506210.jpg",
-          "subtitle": "Varanda",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-233.24063207827515IMG1010.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-461.5418784138337211.jpg",
-          "subtitle": "Vista",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-46.82415308717314IMG1012.jpg",
+          "subtitle": "Suíte ",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/893367474-329.7683440374829212.jpg",
-          "subtitle": "Vista",
+          "url": "https://www.quintoandar.com.br/img/med/893549636-761.1968765309501IMG1015.jpg",
+          "subtitle": "Vista ",
           "cover": false
         }
       ],
-      "notes": "Apartamento mobiliado com 2 quartos, academia, piscina e churrasqueira para alugar.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
+      "notes": "Apartamento com 3 quartos para aluguel.",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Diogo Jácome"
     }
   ],
-  "failed_ids": []
+  "failed_ids": [
+    "895803857"
+  ]
 }
