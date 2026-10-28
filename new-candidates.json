@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-27T21:46:56.786Z",
+  "scraped_at": "2026-10-28T03:44:59.714Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,121 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 44,
-  "total_passed": 0,
-  "total_failed": 0,
-  "homes": [],
-  "failed_ids": []
+  "total_candidates_checked": 37,
+  "total_passed": 1,
+  "total_failed": 2,
+  "homes": [
+    {
+      "id": "892766907",
+      "title": "QuintoAndar 892766907",
+      "neighborhood": "Vila Olimpia",
+      "street": "Rua Arminda",
+      "url": "https://www.quintoandar.com.br/imovel/892766907/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 6500,
+      "condo": 1200,
+      "iptu": 159,
+      "area": 60,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.94,
+      "lat": -23.593195,
+      "lng": -46.674091,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-430.4582092980891DSC00583.JPG",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-906.5563393661964DSC00601.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-994.7318304591956DSC00595.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-697.3865578497278DSC00598.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-441.91710177680045DSC00598a.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-972.1007443118248DSC00599.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-678.6926188534156DSC00600.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-783.7534723516476DSC00589.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-32.80441903716758DSC00590.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-667.293601128405DSC00592.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-923.9325905722894DSC00582.JPG",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892766907-125.35635709616488DSC00584.JPG",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "Este encantador apartamento está localizado na vibrante cidade de São Paulo, oferecendo uma área de 60 metros quadrados de conforto e praticidades. Com dois quartos bem distribuídos, é ideal para quem busca um espaço aconchegante e funcional. A presença de uma varanda proporciona um ambiente perfeito para relaxar e desfrutar de momentos ao ar livre sem sair de casa. Além disso, o imóvel conta com uma vaga de estacionamento, garantindo conveniência e segurança para o seu veículo. \n\nA localização é um dos grandes atrativos deste apartamento, situado próximo a algumas das áreas verdes mais renomadas da cidade. A poucos minutos de distância, você encontrará a Praça Pereira Coutinho, um lugar perfeito para caminhadas tranquilas e momentos de lazer. O Parque do Povo e o famoso Parque Ibirapuera também estão nas proximidades, oferecendo uma ampla gama de atividades ao ar livre e contato com a natureza. \n\nCom uma combinação de conforto, praticidades e uma localização privilegiada, este apartamento em São Paulo é uma excelente escolha para quem deseja viver em uma das regiões mais desejadas da cidade, cercado por opções de lazer e bem-estar.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": [
+    "894594602",
+    "895776889"
+  ]
 }
