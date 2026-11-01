@@ -70332,6 +70332,114 @@
       "notes": "Apartamento para aluguel com 3 quartos, ideal para quem tem pets. Aproveite essa oportunidade única!",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "892844928",
+      "title": "QuintoAndar 892844928",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Baluarte",
+      "url": "https://www.quintoandar.com.br/imovel/892844928/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 4388,
+      "condo": 1100,
+      "iptu": 364,
+      "area": 110,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.53,
+      "lat": -23.6014563,
+      "lng": -46.6757952,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-955.0993817765055IMG4305.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-511.02785071953963IMG4302.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-443.30787446948716IMG4303.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-106.64087479427842IMG4304.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-762.67328008724IMG4306.jpg",
+          "subtitle": "Vista da sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-348.6557837974428IMG4307.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-213.39299766098563IMG4318.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-355.88034364559775IMG4346.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-88.30468323295338IMG4347.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-658.4101865495431IMG4320.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-686.3217097246817IMG4322.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892844928-53.21616244983052IMG4323.jpg",
+          "subtitle": "Suíte",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -70347,5 +70455,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-01T03:59:29.079Z"
+  "updated_at": "2026-11-01T12:34:56.216Z"
 }
