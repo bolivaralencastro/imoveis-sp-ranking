@@ -71196,6 +71196,114 @@
       "notes": "Apartamento mobiliado com 2 quartos na Vila Olímpia para alugar. Conforto e praticidades na localização ideal.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895835764",
+      "title": "QuintoAndar 895835764",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Brasília",
+      "url": "https://www.quintoandar.com.br/imovel/895835764/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 4700,
+      "condo": 1816,
+      "iptu": 350,
+      "area": 81,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.21,
+      "lat": -23.5833416,
+      "lng": -46.6719771,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-699.8842372818448IMG2316.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-160.4790956739701IMG2317.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-288.3062553054475IMG2318.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-783.7676008606412IMG2319.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-23.925108429418973IMG2320.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-342.4151487132659IMG2321.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-239.49429303978664IMG2322.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-517.2835982140767IMG2323.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-138.9461243210035IMG2324.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-605.7002761406667IMG2325.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-757.5639200792167IMG2326.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895835764-129.76081322637955IMG2327.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento com 3 quartos, varanda e permissão para animais para alugar.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -71211,5 +71319,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-03T22:54:19.581Z"
+  "updated_at": "2026-11-04T04:37:01.846Z"
 }
