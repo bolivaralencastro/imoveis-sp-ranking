@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-06T13:40:11.512Z",
+  "scraped_at": "2026-11-06T22:42:22.268Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,9 +51,226 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 19,
-  "total_passed": 0,
+  "total_candidates_checked": 100,
+  "total_passed": 2,
   "total_failed": 0,
-  "homes": [],
+  "homes": [
+    {
+      "id": "895747559",
+      "title": "QuintoAndar 895747559",
+      "neighborhood": "Itaim Bibi",
+      "street": "Avenida Doutor Cardoso de Melo",
+      "url": "https://www.quintoandar.com.br/imovel/895747559/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6500,
+      "condo": 1090,
+      "iptu": 554,
+      "area": 100,
+      "bedrooms": 2,
+      "bathrooms": 4,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.09,
+      "lat": -23.5986749,
+      "lng": -46.683606,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-553.7770699723633f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-87e8899e-7096-434e-a49c-df1446ff5f61.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-948.2819244164708f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-be6fd56b-2128-4e07-9d97-ec56459336f3.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-435.39358973167333f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-636885c2-b0a7-41c6-bcd4-777a0c45edf9.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-308.749801029484f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-b128deb1-46e0-45f2-a889-e2b743940d2e.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-706.9117618300347f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-37bf40a8-9e8f-4204-94bb-ec048c9b1564.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-102.94615900008841f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-8fe343b6-4a2e-4388-937f-0f5570374b58.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-674.192857248372f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-5d1b251a-e8f6-4c92-9e14-deae1a9aeb6d.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-507.92632094530296f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-488a42c1-c30e-4dc3-ae9b-7f5fac136fdf.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-215.31393271950293f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-6e527729-1cf4-4ba5-9ae0-2039a17c3f5a.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-741.1619809708717f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-4d72d4b8-e201-45b2-8d53-de1927a15f10.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-985.1629086590469f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-f42f9b13-1afb-40c7-9970-b79842bce3c0.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895747559-335.173080977028f650e578-5922-4332-82df-a521ee3b2d00-LEAD3P-d94c1551-58e7-4cff-84b6-7179f8b67557.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "895428514",
+      "title": "QuintoAndar 895428514",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Jesuíno Arruda",
+      "url": "https://www.quintoandar.com.br/imovel/895428514/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 6500,
+      "condo": 1135,
+      "iptu": 140,
+      "area": 98,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": true,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.22,
+      "lat": -23.5814123,
+      "lng": -46.6735254,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-134.91400823425238dc7ddcc6-1fc4-4f53-81b4-7ae3023b2d0f-LEAD3P-07400727-b78d-498c-b63a-a89675383bae.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-577.1574095893155condominium-895428514.jpg",
+          "subtitle": "Hall",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-577.7019522142488condominium-895428514.jpg",
+          "subtitle": "Hall do Prédio",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-979.7140109203613condominium-895428514.jpg",
+          "subtitle": "Quadra Esportiva",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-83.28014344004542condominium-895428514.jpg",
+          "subtitle": "Quadra",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-920.3075114937442condominium-895428514.jpg",
+          "subtitle": "Fachada do Prédio",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-715.163807837179condominium-895428514.jpg",
+          "subtitle": "Hall de Entrada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-917.2358607072772condominium-895428514.jpg",
+          "subtitle": "Hall Social",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-489.31823872836156condominium-895428514.jpg",
+          "subtitle": "Entrada do Prédio",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-233.92431257346104condominium-895428514.jpg",
+          "subtitle": "Salão de Festas",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-459.428852637651condominium-895428514.jpg",
+          "subtitle": "Fachada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895428514-389.1512765044406condominium-895428514.jpg",
+          "subtitle": "Área comum",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento mobiliado em São Paulo oferece uma combinação perfeita de conforto e conveniência. Com um total de três quartos, incluindo uma suíte, o espaço é ideal para famílias ou pessoas que valorizam espaço adicional. A presença de uma varanda proporciona um ambiente agradável para relaxar ao ar livre. Além disso, o condomínio oferece excelentes instalações, como uma academia, permitindo que os moradores mantenham um estilo de vida saudável sem precisar sair de casa. A localização é outro ponto forte, com proximidades de instituições como o DeRose Method Itaim, que é uma faculdade ou universidade, oferecendo oportunidades educacionais e culturais nas redondezas. Este apartamento é uma excelente escolha para quem busca um lar completo em São Paulo, combinando comodidades modernas com uma localização privilegiada.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
   "failed_ids": []
 }
