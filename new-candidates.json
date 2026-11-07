@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-07T12:20:52.279Z",
+  "scraped_at": "2026-11-07T21:24:58.469Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,11 +51,118 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 12,
-  "total_passed": 0,
-  "total_failed": 1,
-  "homes": [],
-  "failed_ids": [
-    "895772628"
-  ]
+  "total_candidates_checked": 54,
+  "total_passed": 1,
+  "total_failed": 0,
+  "homes": [
+    {
+      "id": "895832097",
+      "title": "QuintoAndar 895832097",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua do Rocio",
+      "url": "https://www.quintoandar.com.br/imovel/895832097/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 5290,
+      "condo": 1221,
+      "iptu": 141,
+      "area": 60,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.62,
+      "lat": -23.5938932,
+      "lng": -46.6849789,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-228.70871131658032IMG7721HDR.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-203.2723677920417IMG7724HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-173.61104485381685IMG7727HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-817.8290955264833IMG7730HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-265.32629090086914IMG7733.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-269.0495986936306IMG7734.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-221.00765830158153IMG7735.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-940.8242778134809IMG7737HDR.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-705.8905266482254IMG7741.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-51.14003391364852IMG7743.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-166.17935551120965IMG7742.jpg",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895832097-372.00424110429674IMG7744.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com varanda e 2 quartos para aluguel na Vila Olímpia.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    }
+  ],
+  "failed_ids": []
 }
