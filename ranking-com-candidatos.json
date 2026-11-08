@@ -73140,6 +73140,114 @@
       "notes": "Apartamento mobiliado com varanda e 2 quartos para aluguel na Vila Olímpia.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "894792570",
+      "title": "QuintoAndar 894792570",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua João Cachoeira",
+      "url": "https://www.quintoandar.com.br/imovel/894792570/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 5200,
+      "condo": 2581,
+      "iptu": 538,
+      "area": 52,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.76,
+      "lat": -23.5828978,
+      "lng": -46.678718,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-104.1771073190958115A5298.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-100.77223040233474115A5299.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-33.592811884557314115A5300.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-770.444724987869115A5301.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-705.1808318903787115A5308.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-756.9779277945884115A5297.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-381.04023452009307115A5302.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-644.3636996258917115A5303.jpg",
+          "subtitle": "Cozinha",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-693.853299144486115A5309.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-636.8699619988669115A5310.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-71.80838900427989115A5311.jpg",
+          "subtitle": "Varanda da Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894792570-216.08989377594202115A5313.jpg",
+          "subtitle": "Suíte 1",
+          "cover": false
+        }
+      ],
+      "notes": "Alugar apartamento mobiliado com 2 quartos, varanda e piscina no condomínio.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -73155,5 +73263,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-07T21:24:58.551Z"
+  "updated_at": "2026-11-08T04:03:16.587Z"
 }
