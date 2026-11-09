@@ -73680,6 +73680,114 @@
       "notes": "Apartamento com dois quartos e closet para alugar.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893297212",
+      "title": "QuintoAndar 893297212",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Avenida Santo Amaro",
+      "url": "https://www.quintoandar.com.br/imovel/893297212/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 2087,
+      "condo": 636,
+      "iptu": 0,
+      "area": 59,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 0,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": false,
+        "kitchenCabinets": false,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.59,
+      "lat": -23.6011406,
+      "lng": -46.6739381,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-65.70220242376179IMG9846.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-34.090675654680155IMG9845.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-532.1605394167173IMG9848.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-167.91736348485563IMG9849.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-253.466803457994IMG9853.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-921.3993672467468IMG9851.jpg",
+          "subtitle": "Detalhe Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-949.3030950931353IMG9855.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-919.5917197805209IMG9854.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-528.1396950818245IMG9861.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-582.3459650674012IMG9865.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-366.9956597314842IMG9864.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893297212-383.66647894374915IMG9867.jpg",
+          "subtitle": "Quarto 1 - Armários",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Avenida Santo Amaro"
     }
   ],
   "weights": {
@@ -73695,5 +73803,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-09T04:19:53.925Z"
+  "updated_at": "2026-11-09T14:59:48.547Z"
 }
