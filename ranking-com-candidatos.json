@@ -74436,6 +74436,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893505744",
+      "title": "QuintoAndar 893505744",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Marcos Lopes",
+      "url": "https://www.quintoandar.com.br/imovel/893505744/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 6600,
+      "condo": 1300,
+      "iptu": 97,
+      "area": 85,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.42,
+      "lat": -23.5962642,
+      "lng": -46.6707199,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-11.27328729663002IMG5389.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-688.7964552467399IMG5390.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-352.58213477299904IMG5391.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-238.5623687163013IMG5392.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-3.1940295480885617IMG5393.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-391.5451660175815IMG5396.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-378.3883569818087IMG5416.jpg",
+          "subtitle": "Corredor",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-691.2018853572998IMG5397.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-20.350615130249274IMG5398.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-171.3496167801676IMG5400.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-418.44046642825737IMG5401.jpg",
+          "subtitle": "Suite",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893505744-611.923060193957IMG5403.jpg",
+          "subtitle": "Closet Suite",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Marcos Lopes"
     }
   ],
   "weights": {
@@ -74451,5 +74559,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-10T01:08:47.905Z"
+  "updated_at": "2026-11-11T04:24:36.079Z"
 }
