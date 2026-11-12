@@ -74544,6 +74544,114 @@
       "notes": "",
       "preferredStreet": true,
       "preferredStreetName": "Rua Marcos Lopes"
+    },
+    {
+      "id": "892814042",
+      "title": "QuintoAndar 892814042",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/892814042/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 4637,
+      "condo": 980,
+      "iptu": 260,
+      "area": 80,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": true,
+        "playground": true,
+        "sauna": true,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.02,
+      "lat": -23.5982039,
+      "lng": -46.6822671,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-82.1144783809783MG3228.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-602.3674016672799MG3226.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-110.38626728550605MG3227.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-570.6397152434156MG3229.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-525.575763000157MG3230.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-402.4547533353822MG3223.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-403.28789469173876MG3224.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-955.2750063215207MG3248.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-907.7908416988495MG3249.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-751.9285791739375MG3250.jpg",
+          "subtitle": "Quarto",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-887.3162527446993MG3235.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892814042-67.50693666277974MG3236.jpg",
+          "subtitle": "Banheiro",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -74559,5 +74667,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-11T04:24:36.079Z"
+  "updated_at": "2026-11-12T19:31:33.743Z"
 }
