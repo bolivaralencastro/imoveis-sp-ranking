@@ -75840,6 +75840,114 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "893992978",
+      "title": "QuintoAndar 893992978",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Fiandeiras",
+      "url": "https://www.quintoandar.com.br/imovel/893992978/alugar/apartamento-2-quartos-vila-olimpia-sao-paulo",
+      "rent": 7000,
+      "condo": 1350,
+      "iptu": 267,
+      "area": 80,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 0.72,
+      "lat": -23.5954462,
+      "lng": -46.6820397,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-588.7373260230986IMG3284.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-769.1899507765592IMG3286.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-813.1685774957755IMG3285.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-239.95139386160392IMG3287.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-365.7623114626497IMG3288.JPG",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-365.04799788871725IMG3293.JPG",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-856.4874096539252IMG3294.JPG",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-391.523225115774IMG3295.JPG",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-915.857949325615IMG3296.JPG",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-700.6984004560737IMG3297.JPG",
+          "subtitle": "Suíte",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-782.4096556508621IMG3299.JPG",
+          "subtitle": "Closet",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/893992978-236.2864769627846IMG3298.JPG",
+          "subtitle": "Vista",
+          "cover": false
+        }
+      ],
+      "notes": "Apartamento mobiliado com dois quartos para aluguel.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -75855,5 +75963,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-14T04:42:58.785Z"
+  "updated_at": "2026-11-14T21:57:20.451Z"
 }
