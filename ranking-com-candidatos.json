@@ -76164,6 +76164,330 @@
       "notes": "",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "892884977",
+      "title": "QuintoAndar 892884977",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Rua Marcos Lopes",
+      "url": "https://www.quintoandar.com.br/imovel/892884977/alugar/apartamento-3-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4940,
+      "condo": 930,
+      "iptu": 105,
+      "area": 98,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": false,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.42,
+      "lat": -23.5970299,
+      "lng": -46.6713243,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-816.6937442765458DSC0304.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-21.434351247961004DSC0307.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-865.7061790019515DSC0308.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-806.0719824779987DSC0310.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-65.13766761120421DSC0311.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-805.0209271475469DSC0312.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-1.4542231218901414DSC0313.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-787.2219093336603DSC0314.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-594.7286252199145DSC0315.jpg",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-306.1680334899409DSC0316.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-185.86589422427502DSC0318.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/892884977-487.54882494038264DSC0319.jpg",
+          "subtitle": "Quarto 2",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": true,
+      "preferredStreetName": "Rua Marcos Lopes"
+    },
+    {
+      "id": "894948628",
+      "title": "QuintoAndar 894948628",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Michigan",
+      "url": "https://www.quintoandar.com.br/imovel/894948628/alugar/casa-3-quartos-itaim-bibi-sao-paulo",
+      "rent": 7700,
+      "condo": 0,
+      "iptu": 0,
+      "area": 166,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "parking": 2,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": false,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 2.87,
+      "lat": -23.6144963,
+      "lng": -46.6865725,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-816.2513194327946IMG3709.jpg",
+          "subtitle": "Sala de Estar",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-599.9720766952053IMG3708.jpg",
+          "subtitle": "Sala de Estar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-711.7978398745917IMG3710.jpg",
+          "subtitle": "Sala de Estar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-820.968908394457IMG3711.jpg",
+          "subtitle": "Sala de Estar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-935.7180135539984IMG3712.jpg",
+          "subtitle": "Sala de Estar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-702.528140633527IMG3713.jpg",
+          "subtitle": "Sala de Estar",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-336.1634429052607IMG3714.jpg",
+          "subtitle": "Sala de Tv",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-610.6988826653824IMG3715.jpg",
+          "subtitle": "Sala de Tv",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-225.26956196658966IMG3716.jpg",
+          "subtitle": "Sala de Tv",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-462.415017199149IMG3717.jpg",
+          "subtitle": "Sala de Tv",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-464.1249547302998IMG3718.jpg",
+          "subtitle": "Sala de Tv",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894948628-542.552117654684IMG3719.jpg",
+          "subtitle": "Sala de Tv",
+          "cover": false
+        }
+      ],
+      "notes": "Localizada na vibrante cidade de São Paulo, esta casa oferece um equilíbrio perfeito entre conforto e conveniência. Com um total de três quartos, incluindo uma suíte, esta residência é ideal para famílias que buscam espaço e privacidade. A presença de uma varanda proporciona um espaço adicional para relaxamento e lazer. Para aqueles que possuem veículos, a casa oferece duas vagas de estacionamento, garantindo segurança e praticidades diárias. Além das características internas, a localização é um dos grandes atrativos desta propriedade. Situada próxima à estação Campo Belo, a mobilização pela cidade é facilitada, seja para o trabalho ou lazer. O Terminal E.T. Água Espraiada também está nas proximidades, oferecendo mais opções de transporte público. Para os interessados em atividades culturais e educacionais, o DeRose Method Brooklin está a uma curta distância, proporcionando oportunidades de aprendizado e desenvolvimento pessoal. Esta casa é uma excelente escolha para quem deseja viver em um bairro bem conectado e cheio de facilidades.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
+    },
+    {
+      "id": "894324559",
+      "title": "QuintoAndar 894324559",
+      "neighborhood": "Vila Nova Conceição",
+      "street": "Avenida Santo Amaro",
+      "url": "https://www.quintoandar.com.br/imovel/894324559/alugar/apartamento-2-quartos-vila-nova-conceicao-sao-paulo",
+      "rent": 4650,
+      "condo": 900,
+      "iptu": 112,
+      "area": 65,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": true,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": false,
+        "gasShower": false,
+        "box": false,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": false,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.5,
+      "lat": -23.6000178,
+      "lng": -46.6736659,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-586.3040956199522IMG3770.JPG",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-346.9724217310386IMG3771.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-869.3947187556048IMG3773.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-42.62466782239682IMG3774.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-501.0842210794558IMG3775.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-467.6563201561823IMG3776.JPG",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-158.28778068808424IMG3777.JPG",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-319.5507999958974IMG3778.JPG",
+          "subtitle": "Sacada",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-695.7660932417181IMG3779.JPG",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-192.06331629883144IMG3780.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-342.0077600275647IMG3781.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/894324559-616.5159234459368IMG3782.JPG",
+          "subtitle": "Quarto 1",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento mobiliado está localizado na vibrante cidade de São Paulo, oferecendo uma excelente oportunidade para quem busca conforto e praticidades urbanas. Com 65 metros quadrados de área, o imóvel possui dois quartos bem distribuídos, ideais para acomodar uma família ou servir como um espaço adicional para escritório ou hobbies. O apartamento inclui um banheiro funcional e uma vaga de estacionamento, garantindo comodidades essenciais para o dia a dia. A proximidades de importantes instituições educacionais, como o Inspe, torna a localização ainda mais atrativa, especialmente para estudantes ou profissionais que desejam estar próximos a centros de ensino de renome. Este imóvel é uma escolha perfeita para quem valoriza a conveniência de morar em um apartamento mobiliado, em uma das regiões mais dinâmicas de São Paulo.",
+      "preferredStreet": true,
+      "preferredStreetName": "Avenida Santo Amaro"
     }
   ],
   "weights": {
@@ -76179,5 +76503,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-15T13:21:35.071Z"
+  "updated_at": "2026-11-15T22:26:10.068Z"
 }
