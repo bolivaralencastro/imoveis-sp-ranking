@@ -75948,6 +75948,114 @@
       "notes": "Apartamento mobiliado com dois quartos para aluguel.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "894878227",
+      "title": "QuintoAndar 894878227",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Andréa Paulinetti",
+      "url": "https://www.quintoandar.com.br/imovel/894878227/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 6750,
+      "condo": 935,
+      "iptu": 336,
+      "area": 77,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "parking": 1,
+      "acceptsPets": true,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": true,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": true,
+        "gym": true,
+        "partyRoom": true,
+        "gameRoom": true,
+        "grill": true,
+        "playground": true,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": true
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 4.27,
+      "lat": -23.6265853,
+      "lng": -46.6905963,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-276.16397269947055IMG9747.jpg",
+          "subtitle": "Sala",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-877.3199227581144IMG9750.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-154.9854865215139IMG9746.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-418.90053497895354IMG9748.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-613.5720397394566IMG9749.jpg",
+          "subtitle": "Sala",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-547.0107783765988IMG9755.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-284.92661179954416IMG9752.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-592.7311698151531IMG9753.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-182.92162653027066IMG9754.jpg",
+          "subtitle": "Varanda",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-732.7780889475397IMG9756.jpg",
+          "subtitle": "Vista",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-4.771592884686648IMG9784.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original894878227-539.5780961498943IMG9785.jpg",
+          "subtitle": "Lavabo",
+          "cover": false
+        }
+      ],
+      "notes": "",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -75963,5 +76071,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-14T21:57:20.451Z"
+  "updated_at": "2026-11-15T04:32:30.154Z"
 }
