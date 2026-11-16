@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-16T04:28:39.643Z",
+  "scraped_at": "2026-11-16T14:37:13.500Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,120 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 13,
-  "total_passed": 1,
-  "total_failed": 1,
-  "homes": [
-    {
-      "id": "893734511",
-      "title": "QuintoAndar 893734511",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Tabapuã",
-      "url": "https://www.quintoandar.com.br/imovel/893734511/alugar/apartamento-3-quartos-itaim-bibi-sao-paulo",
-      "rent": 5420,
-      "condo": 1320,
-      "iptu": 338,
-      "area": 111,
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "parking": 1,
-      "acceptsPets": false,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": true,
-        "privatePool": true,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": false,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": true
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 1.21,
-      "lat": -23.582108,
-      "lng": -46.6728704,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-300.6512411535442APC3709.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-567.7529901673689APC3710.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-78.12103604080811APC3711.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-283.47663439352254APC3712.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-205.46192143784126APC3713.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-957.5605018732197APC3714.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-736.8327132388021APC3715.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-910.5123835878808APC3716.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-296.9395454881251APC3717.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-748.7560472181062APC3718.jpg",
-          "subtitle": "Vista",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-233.55820215046253APC3719.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893734511-250.45930768528456APC3720.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
-  "failed_ids": [
-    "894984746"
-  ]
+  "total_candidates_checked": 26,
+  "total_passed": 0,
+  "total_failed": 0,
+  "homes": [],
+  "failed_ids": []
 }
