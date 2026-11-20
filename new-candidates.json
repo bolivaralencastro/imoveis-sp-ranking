@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-20T14:51:23.923Z",
+  "scraped_at": "2026-11-20T23:38:35.681Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,120 +51,9 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 70,
-  "total_passed": 1,
-  "total_failed": 1,
-  "homes": [
-    {
-      "id": "893379593",
-      "title": "QuintoAndar 893379593",
-      "neighborhood": "Itaim Bibi",
-      "street": "Rua Pais de Araújo",
-      "url": "https://www.quintoandar.com.br/imovel/893379593/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
-      "rent": 4210,
-      "condo": 1660,
-      "iptu": 314,
-      "area": 65,
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "parking": 1,
-      "acceptsPets": true,
-      "furnished": false,
-      "features": {
-        "balcony": false,
-        "gourmetBalcony": false,
-        "privatePool": false,
-        "airConditioning": false,
-        "gasShower": true,
-        "box": true,
-        "bedroomCabinets": true,
-        "bathroomCabinets": true,
-        "kitchenCabinets": true,
-        "pool": false,
-        "gym": false,
-        "partyRoom": true,
-        "gameRoom": false,
-        "grill": false,
-        "playground": true,
-        "sauna": false,
-        "doorman24h": true,
-        "accessibleParking": false
-      },
-      "transit": 5,
-      "safety": 5,
-      "condition": 5,
-      "lightNoise": 5,
-      "targetDistanceKm": 0.61,
-      "lat": -23.5836197,
-      "lng": -46.6810482,
-      "photos": [
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-65.2618732293978IMG90572.jpg",
-          "subtitle": "Sala",
-          "cover": true
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-389.17394165954454IMG9060.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-703.5272452639983IMG9055.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-780.5311766849876IMG90661.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-937.9820575185797IMG90662.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-809.5447865906898IMG9070.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-467.461569989133IMG90711.jpg",
-          "subtitle": "Sala",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-230.59821400535995IMG90712.jpg",
-          "subtitle": "Sala/Corredor",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-454.99220492919136IMG9074.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-182.3764623500901IMG9077.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-340.0531078176914IMG9079.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        },
-        {
-          "url": "https://www.quintoandar.com.br/img/med/893379593-374.9013381795249IMG9082.jpg",
-          "subtitle": "Quarto 1",
-          "cover": false
-        }
-      ],
-      "notes": "Alugar apartamento no Itaim Bibi com 2 quartos, permite animais.",
-      "preferredStreet": false,
-      "preferredStreetName": ""
-    }
-  ],
-  "failed_ids": [
-    "895840119"
-  ]
+  "total_candidates_checked": 52,
+  "total_passed": 0,
+  "total_failed": 0,
+  "homes": [],
+  "failed_ids": []
 }
