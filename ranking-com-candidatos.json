@@ -78540,6 +78540,114 @@
       "notes": "Apartamento mobiliado com varanda e dois quartos para aluguel.",
       "preferredStreet": false,
       "preferredStreetName": ""
+    },
+    {
+      "id": "895814551",
+      "title": "QuintoAndar 895814551",
+      "neighborhood": "Vila Olímpia",
+      "street": "Rua Gomes de Carvalho",
+      "url": "https://www.quintoandar.com.br/imovel/895814551/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
+      "rent": 5200,
+      "condo": 776,
+      "iptu": 170,
+      "area": 84,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "acceptsPets": false,
+      "furnished": false,
+      "features": {
+        "balcony": true,
+        "gourmetBalcony": false,
+        "privatePool": false,
+        "airConditioning": true,
+        "gasShower": false,
+        "box": true,
+        "bedroomCabinets": true,
+        "bathroomCabinets": true,
+        "kitchenCabinets": true,
+        "pool": false,
+        "gym": false,
+        "partyRoom": true,
+        "gameRoom": false,
+        "grill": false,
+        "playground": false,
+        "sauna": false,
+        "doorman24h": true,
+        "accessibleParking": false
+      },
+      "transit": 5,
+      "safety": 5,
+      "condition": 5,
+      "lightNoise": 5,
+      "targetDistanceKm": 1.61,
+      "lat": -23.6019365,
+      "lng": -46.6751239,
+      "photos": [
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-663.2411281177198IMG5027.jpg",
+          "subtitle": "",
+          "cover": true
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-156.8734019238307IMG5024.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-210.64305088726996IMG5028.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-257.04644116231077IMG5029.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-252.77824495903434IMG5030.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-126.16662721556438IMG5032.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-426.2051728347255IMG5033.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-125.87641544983907IMG5034.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-604.489903664425IMG5035.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-465.1564801681277IMG5036.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-204.75889361003618IMG5037.jpg",
+          "subtitle": "",
+          "cover": false
+        },
+        {
+          "url": "https://www.quintoandar.com.br/img/med/original895814551-133.33160878499385IMG5038.jpg",
+          "subtitle": "",
+          "cover": false
+        }
+      ],
+      "notes": "Este apartamento tem 84 m², três quartos, uma vaga de estacionamento e varanda. A composição reúne esses atributos em uma descrição residencial concisa, com metragem, dormitórios, estacionamento e área externa apresentados em conjunto. A varanda integra a configuração do imóvel, que também conta com uma vaga e três quartos.\n\nNas proximidades estão a Praça Pereira Coutinho, o Shopping Ibirapuera e o Shopping Vila Olímpia. A praça e os dois centros comerciais formam referências próximas ao apartamento, com opções de parque e compras indicadas por esses locais. A Praça Pereira Coutinho aparece entre os pontos de interesse, acompanhada pelos shoppings Ibirapuera e Vila Olímpia. Assim, a localização inclui três referências nomeadas: um parque e dois empreendimentos comerciais.",
+      "preferredStreet": false,
+      "preferredStreetName": ""
     }
   ],
   "weights": {
@@ -78555,5 +78663,5 @@
     "condition": 5,
     "lightNoise": 2
   },
-  "updated_at": "2026-11-22T23:10:13.286Z"
+  "updated_at": "2026-11-23T17:14:00.142Z"
 }
