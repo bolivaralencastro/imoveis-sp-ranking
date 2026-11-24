@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-23T17:14:00.089Z",
+  "scraped_at": "2026-11-24T03:46:42.493Z",
   "criteria": {
     "minBedrooms": 2,
     "maxRent": 9000,
@@ -51,118 +51,121 @@
       "Rua Cuba"
     ]
   },
-  "total_candidates_checked": 47,
+  "total_candidates_checked": 70,
   "total_passed": 1,
-  "total_failed": 0,
+  "total_failed": 2,
   "homes": [
     {
-      "id": "895814551",
-      "title": "QuintoAndar 895814551",
-      "neighborhood": "Vila Olímpia",
-      "street": "Rua Gomes de Carvalho",
-      "url": "https://www.quintoandar.com.br/imovel/895814551/alugar/apartamento-3-quartos-vila-olimpia-sao-paulo",
-      "rent": 5200,
-      "condo": 776,
-      "iptu": 170,
-      "area": 84,
-      "bedrooms": 3,
-      "bathrooms": 2,
+      "id": "895180500",
+      "title": "QuintoAndar 895180500",
+      "neighborhood": "Itaim Bibi",
+      "street": "Rua Joaquim Floriano",
+      "url": "https://www.quintoandar.com.br/imovel/895180500/alugar/apartamento-2-quartos-itaim-bibi-sao-paulo",
+      "rent": 4500,
+      "condo": 626,
+      "iptu": 267,
+      "area": 93,
+      "bedrooms": 2,
+      "bathrooms": 1,
       "parking": 1,
-      "acceptsPets": false,
+      "acceptsPets": true,
       "furnished": false,
       "features": {
         "balcony": true,
         "gourmetBalcony": false,
         "privatePool": false,
-        "airConditioning": true,
-        "gasShower": false,
+        "airConditioning": false,
+        "gasShower": true,
         "box": true,
         "bedroomCabinets": true,
         "bathroomCabinets": true,
         "kitchenCabinets": true,
         "pool": false,
         "gym": false,
-        "partyRoom": true,
+        "partyRoom": false,
         "gameRoom": false,
         "grill": false,
         "playground": false,
         "sauna": false,
-        "doorman24h": true,
+        "doorman24h": false,
         "accessibleParking": false
       },
       "transit": 5,
       "safety": 5,
       "condition": 5,
       "lightNoise": 5,
-      "targetDistanceKm": 1.61,
-      "lat": -23.6019365,
-      "lng": -46.6751239,
+      "targetDistanceKm": 1.26,
+      "lat": -23.5834596,
+      "lng": -46.6713438,
       "photos": [
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-663.2411281177198IMG5027.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-761.4826325286159IMG2812.jpg",
+          "subtitle": "Sala",
           "cover": true
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-156.8734019238307IMG5024.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-525.3920049886807IMG2813.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-210.64305088726996IMG5028.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-670.0161035505001IMG2811.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-257.04644116231077IMG5029.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-221.74924430682964IMG2814.jpg",
+          "subtitle": "Sala",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-252.77824495903434IMG5030.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-136.92479096963373IMG2815.jpg",
+          "subtitle": "Varanda",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-126.16662721556438IMG5032.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-994.9248096800549IMG2816.jpg",
+          "subtitle": "Varanda",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-426.2051728347255IMG5033.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-243.90519215311159IMG2817.jpg",
+          "subtitle": "Varanda",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-125.87641544983907IMG5034.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-665.3711335528934IMG2819.jpg",
+          "subtitle": "Vista",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-604.489903664425IMG5035.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-562.8368972146278IMG2820.jpg",
+          "subtitle": "Corredor",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-465.1564801681277IMG5036.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-769.9155440545583IMG2821.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-204.75889361003618IMG5037.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-915.0768085875577IMG2822.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         },
         {
-          "url": "https://www.quintoandar.com.br/img/med/original895814551-133.33160878499385IMG5038.jpg",
-          "subtitle": "",
+          "url": "https://www.quintoandar.com.br/img/med/original895180500-501.78111488655406IMG2823.jpg",
+          "subtitle": "Quarto 1",
           "cover": false
         }
       ],
-      "notes": "Este apartamento tem 84 m², três quartos, uma vaga de estacionamento e varanda. A composição reúne esses atributos em uma descrição residencial concisa, com metragem, dormitórios, estacionamento e área externa apresentados em conjunto. A varanda integra a configuração do imóvel, que também conta com uma vaga e três quartos.\n\nNas proximidades estão a Praça Pereira Coutinho, o Shopping Ibirapuera e o Shopping Vila Olímpia. A praça e os dois centros comerciais formam referências próximas ao apartamento, com opções de parque e compras indicadas por esses locais. A Praça Pereira Coutinho aparece entre os pontos de interesse, acompanhada pelos shoppings Ibirapuera e Vila Olímpia. Assim, a localização inclui três referências nomeadas: um parque e dois empreendimentos comerciais.",
+      "notes": "Este espaçoso apartamento de 93 metros quadrados está localizado em São Paulo, oferecendo uma combinação perfeita de conforto e conveniência. Com dois quartos bem distribuídos, é ideal para famílias ou para quem busca um espaço extra. A varanda é um destaque, proporcionando um local agradável para relaxar e desfrutar de momentos ao ar livre. Além disso, o apartamento conta com uma vaga de estacionamento, garantindo praticidades diárias. A localização é um dos seus maiores atrativos, estando próximo a importantes áreas verdes da cidade. A poucos passos, você encontrará a Praça Pereira Coutinho, um local perfeito para caminhadas e lazer ao ar livre. O famoso Parque Ibirapuera, um dos maiores e mais conhecidos parques da cidade, também está nas proximidades, oferecendo uma vasta gama de atividades recreativas e culturais. Outra opção de lazer é a Praça Adolfo Bloch, ideal para momentos tranquilos em meio à natureza. Este apartamento é uma excelente oportunidade para quem deseja viver em uma das regiões mais valorizadas de São Paulo, com fácil acesso a áreas de lazer e comodidades urbanas.",
       "preferredStreet": false,
       "preferredStreetName": ""
     }
   ],
-  "failed_ids": []
+  "failed_ids": [
+    "894231845",
+    "895634380"
+  ]
 }
